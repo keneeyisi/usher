@@ -1,0 +1,65 @@
+=AREA mobile | Mobile and SIM plans | SIM-only plans, phone plans, roaming and abroad, and data and usage. | service
+=GROUP sim | SIM-only
+=GROUP phones | Phone plans
+=GROUP roaming | Roaming and abroad
+=GROUP data | Data and usage
+#sim-plans | SIM-only plans | sim | Monthly plans with no handset, on 1, 12 or 24 month terms. | sim only deal; mobile plan without a phone | A cheap mobile plan, I already own my phone ;; A rolling contract for my SIM only
+- Plan sizes :: From 5GB to unlimited data, with unlimited minutes and texts on all plans.
+- Contract lengths :: Choose a 1-month rolling plan or 12 or 24 months with a lower price.
+- What's included :: 5G where available, UK roaming and a monthly spending cap.
+- Ordering :: Order online; your SIM arrives in 2 working days.
+#sim-esim | eSIM | sim | Activate a plan on a compatible phone using a digital SIM, with no plastic card. | digital SIM; QR code activation | Get my phone connected without waiting for a card in the post ;; Using a QR code to set up my mobile
+- What is an eSIM :: A SIM built into your phone that you activate with a QR code from My Lumenet.
+- Compatible devices :: Most phones released since 2019; see the list of supported models.
+- Switching to eSIM :: Request a replacement in My Lumenet; your number moves after you scan the code.
+- If it will not activate :: Check Wi-Fi, restart the phone and re-scan; contact support if the QR code has been used.
+#sim-keep-number | Keep your number: PAC and STAC codes | sim | How to move your mobile number to or from Lumenet. | PAC code; STAC code; port my number | I want to move my number to another network ;; Keeping my phone number when I join
+- Moving your number to us :: Ask your old provider for a PAC code by text (send PAC to 65075) and give it to us when ordering.
+- Moving your number away :: Text PAC to 65075; we send the code within one minute and it lasts 30 days.
+- Cancelling and codes :: Your account closes when your number leaves; any outstanding charges are billed afterwards.
+- Cancelling a switch :: Contact us before the switch date to stop it.
+#phone-plans | Phone plans with a handset | phones | Monthly plans that include a new phone with a fixed repayment. | contract phone; handset plan; mobile phone deal | A new phone paid for monthly ;; Getting the latest handset with a monthly plan
+- How it works :: You pay a monthly plan charge plus a device payment over 24 or 36 months.
+- Credit check :: A credit check is needed; the device cost is a loan agreement.
+- Choosing your handset :: Compare phones side by side with trade-in values and storage options.
+- Ending early :: Repay the remaining device balance to leave before the end of the term.
+#phone-upgrade | Upgrading your phone | phones | When you can upgrade and how to trade in your old handset. | upgrade early; trade in; new handset | I want a new phone before my contract finishes ;; Whether I can swap my phone after a year
+- When you can upgrade :: Upgrade after 12 months by paying off 50% of the handset balance.
+- Trade-in :: Send your old phone and receive a credit on your bill within 30 days.
+- Keeping your plan :: Your plan and number stay the same; the handset payment changes.
+- Checking your eligibility :: See your date and balance in My Lumenet under My Mobile.
+#phone-protection | Handset protection and repairs | phones | Optional insurance and repair service for broken, lost or stolen phones. | phone insurance; cracked screen; lost phone | I dropped my phone and smashed the screen ;; Protecting my mobile against loss or theft
+- What's covered :: Accidental damage, loss, theft and mechanical breakdown, with an excess per claim.
+- How to claim :: Claim in My Lumenet and send in a damaged phone or collect a replacement from a store.
+- Lost or stolen phones :: Block the SIM at once through the app or helpline; keep the crime reference number.
+- Cost :: Monthly fee depends on the value of the phone; cancel at any time.
+#roam-europe | Using your phone in Europe | roaming | What it costs to use your plan in the EU and nearby countries. | EU roaming; roam like at home; holiday data | Using my phone on holiday in Spain without surprise charges ;; Will my data work in France
+- Roaming allowance :: Up to 25GB per month in EU countries at no extra charge, with a fair use limit above that.
+- Countries included :: The EU, Norway, Iceland and Liechtenstein; other European countries use a daily pass.
+- Data cap :: After the allowance, data is charged at £3 per GB until you reach your spending cap.
+- Before you travel :: Check roaming is switched on in your phone and turn off automatic updates.
+#roam-world | Roaming outside Europe | roaming | Daily passes and rates for the USA, Australia and the rest of the world. | world roaming; day pass; travel pass; abroad data | I'm going to the USA and need to know my phone costs ;; A daily fee to use my usual allowance overseas
+- Travel pass :: A £7 daily pass lets you use your UK allowance in over 80 destinations; it is charged only on days you use it.
+- Standard rates :: Without a pass, data, calls and texts are charged at pay-as-you-go rates for each country.
+- Cruises and aeroplanes :: Charged at special maritime or in-flight rates, which are much higher.
+- Pass not working :: Restart the phone, check roaming is on and contact us if the pass does not activate.
+#roam-spend-cap | Spending caps and bill shock | roaming | How to limit extra charges for roaming and premium services. | spend cap; data limit; stop overspending; bill shock | I got a huge bill after I came back from abroad ;; Setting a limit so my phone cannot run up a big bill
+- Default spend cap :: A £40 monthly cap applies to out-of-bundle charges unless you change it.
+- Changing your cap :: Set or remove a cap in the Lumenet app under Usage and limits.
+- Alerts :: We text you when you reach 80% and 100% of your allowance or cap.
+- Premium rate services :: Calls to premium numbers and subscriptions are barred by default for new accounts.
+#data-allowance | Data allowances and fair use | data | How much data your plan includes and what happens if you use all of it. | data limit; unlimited data; fair usage | I ran out of data and want to know what to do ;; What happens when I use up my monthly allowance
+- Allowance :: Your plan shows the monthly data in GB; unlimited plans have a fair-use limit of 600GB.
+- Running out :: Buy a data boost, upgrade your plan or wait until your allowance resets on your billing date.
+- Speed after fair use :: After a fair-use limit, speeds may be reduced at peak times.
+- Rollover :: Unused data can roll over for a month on selected plans.
+#data-usage | Check your usage | data | Where to see how much data, minutes and texts you have used. | usage check; how much data left; allowance remaining | How much data have I got left this month ;; Seeing what I have used so far
+- In the app :: The Lumenet app shows live data used and remaining; use the home screen widget for a quick view.
+- By text or code :: Text USAGE to 4000 or dial *123# for a summary.
+- Usage history :: View month-by-month use in My Lumenet to choose the right plan size.
+- Alerts :: Set alerts for 50%, 80% and 100% use of your allowance.
+#data-hotspot | Hotspot and data sharing | data | Using your phone as a Wi-Fi hotspot and sharing data between SIMs. | tethering; personal hotspot; share data | Using my phone to give my laptop internet ;; Sharing my data between my phone and tablet
+- Using a hotspot :: Tethering is allowed on all plans; speeds are the same as on your phone.
+- Sharing data between SIMs :: Add up to four SIMs to a shared allowance on a family or business account.
+- Data-only SIMs :: A separate data SIM for tablets or a mobile Wi-Fi device can be added from £5 a month.
+- Limits :: Hotspot use counts towards your data allowance and fair-use limit.

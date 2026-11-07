@@ -1,0 +1,154 @@
+{
+ "n": 60,
+ "nNavigate": 50,
+ "nClarify": 5,
+ "nReject": 5,
+ "a": {
+  "page": "42.0% [29-56] (21/50)",
+  "hit3": "62.0% [48-74] (31/50)",
+  "hit5": "68.0% [54-79] (34/50)",
+  "section": "n/a"
+ },
+ "a2": {
+  "page": "58.0% [44-71] (29/50)",
+  "hit3": "74.0% [60-84] (37/50)",
+  "hit5": "82.0% [69-90] (41/50)",
+  "section": "n/a"
+ },
+ "b": {
+  "page": "68.0% [54-79] (34/50)",
+  "hit3": "88.0% [76-94] (44/50)",
+  "hit5": "90.0% [79-96] (45/50)"
+ },
+ "c": {
+  "pageAccuracyNavItems": "60.0% [46-72] (30/50)",
+  "section": "n/a",
+  "wrongDestinationAllItems": "16.7% [9-28] (10/60)",
+  "wrongDestinationNavItems": "14.0% [7-26] (7/50)",
+  "clarificationRateAll": "30.0% [20-43] (18/60)",
+  "clarifiedOnNavItems": "26.0% [16-40] (13/50)",
+  "clarificationsOfferingGold": "77.8% [55-91] (14/18)",
+  "within1stepNavItems": "82.0% [69-90] (41/50)",
+  "rejectionAccuracy": "40.0% [12-77] (2/5)",
+  "falseRejectOnNavItems": "0.0% [0-7] (0/50)",
+  "clarifyItemsClarified": "60.0% [23-88] (3/5)",
+  "decisionCorrectAll": "58.3% [46-70] (35/60)",
+  "twinQuestionsAll": 0
+ },
+ "lenientTwinPages": {
+  "note": "twin cover/claim pages also accepted (item field twinDestinationIds); strict numbers above are the headline",
+  "a": "42.0% [29-56] (21/50)",
+  "a2": "58.0% [44-71] (29/50)",
+  "b": "68.0% [54-79] (34/50)",
+  "goalpostCorrectNav": "60.0% [46-72] (30/50)",
+  "goalpostWrongNav": "14.0% [7-26] (7/50)"
+ },
+ "mcnemar": {
+  "c_vs_a": {
+   "onlyA": 16,
+   "onlyB": 7,
+   "p": 0.0931396484375
+  },
+  "c_vs_a2": {
+   "onlyA": 7,
+   "onlyB": 6,
+   "p": 1
+  },
+  "c_vs_b": {
+   "onlyA": 1,
+   "onlyB": 5,
+   "p": 0.21875
+  },
+  "b_vs_a2": {
+   "onlyA": 7,
+   "onlyB": 2,
+   "p": 0.1796875
+  },
+  "a2_vs_a": {
+   "onlyA": 11,
+   "onlyB": 3,
+   "p": 0.057373046875
+  }
+ },
+ "within1stepVsBaseline": {
+  "goalpostWithin1": "82.0%",
+  "baselineA_hit3": "62.0%",
+  "baselineA2_hit3": "74.0%",
+  "semantic_hit3": "88.0%"
+ },
+ "byLabelOverlap": {
+  "0": {
+   "n": 24,
+   "a": "33.3%",
+   "a2": "50.0%",
+   "b": "62.5%",
+   "goalpostCorrectNav": "45.8%",
+   "goalpostWrongNav": "16.7%"
+  },
+  "1": {
+   "n": 20,
+   "a": "45.0%",
+   "a2": "55.0%",
+   "b": "70.0%",
+   "goalpostCorrectNav": "75.0%",
+   "goalpostWrongNav": "10.0%"
+  },
+  "2+": {
+   "n": 6,
+   "a": "66.7%",
+   "a2": "100.0%",
+   "b": "83.3%",
+   "goalpostCorrectNav": "66.7%",
+   "goalpostWrongNav": "16.7%"
+  }
+ },
+ "savedState": {
+  "note": "positives: query plausibly about the user's saved item (savedStateTarget); negatives: same topic but not the user's item (savedStateNegative)",
+  "positives_n": 8,
+  "a_top1": "50.0% [22-78] (4/8)",
+  "a2_top1": "12.5% [2-47] (1/8)",
+  "b_top1": "12.5% [2-47] (1/8)",
+  "goalpostNavigated": "25.0% [7-59] (2/8)",
+  "goalpostNavigatedOrOffered": "50.0% [22-78] (4/8)",
+  "negatives_n": 3,
+  "a_top1Saved": "33.3% [6-79] (1/3)",
+  "a2_top1Saved": "0.0% [0-56] (0/3)",
+  "b_top1Saved": "0.0% [0-56] (0/3)",
+  "goalpostHijacked": "0.0% [0-56] (0/3)"
+ },
+ "twins": {
+  "note": "navigate items whose gold page has a near-duplicate twin (twinDestinationIds); wrong twin = committed/top-1 to the twin",
+  "n": 0,
+  "a_wrongTwinTop1": "n/a",
+  "a2_wrongTwinTop1": "n/a",
+  "b_wrongTwinTop1": "n/a",
+  "goalpostCorrect": "n/a",
+  "goalpostWrongTwin": "n/a",
+  "goalpostTwinQuestion": "n/a"
+ }
+}
+FAIL LUM_F03 "everything buffers in the evenings when everyone's online" | gold navigate fault-slow | got clarify speed-typical,fault-streaming close_alternatives | a: fault-streaming b: speed-typical
+FAIL LUM_F06 "can I get compensation because my installation was late" | gold navigate comp-automatic | got navigate comp-claim similarity 0.616, margin 0.056 over comp-automatic | a: comp-automatic b: comp-claim
+FAIL LUM_F08 "what's the fastest broadband you do" | gold navigate plan-gigabit | got clarify plan-gigabit,fault-wifi-vs-broadband,biz-broadband close_alternatives | a: tv-bundle-home b: plan-gigabit
+FAIL LUM_F10 "just a SIM with a big data allowance" | gold navigate sim-plans | got clarify data-hotspot,sim-plans close_alternatives | a: data-hotspot b: data-hotspot
+FAIL LUM_F12 "I've used all my data and it's only the 10th" | gold navigate data-allowance | got clarify data-usage,data-allowance close_alternatives | a: data-usage b: data-usage
+FAIL LUM_F14 "I want the football on my telly" | gold navigate tv-sports-films | got clarify tv-sports-films weak_match | a: tv-sports-films b: tv-sports-films
+FAIL LUM_F24 "I'm switching to another provider, what do I need to do" | gold navigate sw-cancel | got clarify new-switching,move-service close_alternatives | a: new-switching b: new-switching
+FAIL LUM_F28 "the new hub arrived, what do I do with the previous one" | gold navigate eq-return | got navigate eq-replace similarity 0.581, margin 0.032 over move-equipment | a: eq-replace b: eq-replace
+FAIL LUM_F31 "got a text saying my account will be closed unless I pay now" | gold navigate acct-scams | got clarify etc-calculate,sw-cancel,acct-scams close_alternatives | a: move-cancel-old b: etc-calculate
+FAIL LUM_F33 "I'm hard of hearing, what help can you give me" | gold navigate help-accessibility | got clarify help-stores,fault-line,help-accessibility weak_match | a: help-stores b: help-stores
+FAIL LUM_F34 "you didn't sort my complaint, who can I go to now" | gold navigate help-complaint-escalate | got navigate help-complaints similarity 0.501, margin 0.039 over dispute-bill | a: help-complaints b: help-complaints
+FAIL LUM_F37 "things are tough financially and the bill is a struggle" | gold navigate pay-help | got navigate bill-first similarity 0.470, margin 0.028 over bill-explained | a: bill-paper b: bill-first
+FAIL LUM_F41 "can I move my broadband to my new office for my business" | gold navigate biz-broadband | got clarify biz-broadband,move-service close_alternatives | a: biz-broadband b: biz-broadband
+FAIL LUM_F42 "my friend's broadband keeps dropping, what should she try" | gold navigate fault-intermittent | got clarify fault-wifi-vs-broadband,fault-intermittent,biz-broadband close_alternatives | a: fault-streaming b: fault-wifi-vs-broadband
+FAIL LUM_F43 "is the engineer still coming on Thursday" | gold navigate acct-saved-fault | got navigate fault-engineer-visit similarity 0.558, margin 0.096 over fault-ticket | a: acct-saved-fault b: fault-engineer-visit
+FAIL LUM_F44 "I logged the problem but it keeps cutting out" | gold navigate acct-saved-fault | got clarify acct-login,fault-outage-check,fault-no-connection weak_match | a: fault-outage-check b: acct-login
+FAIL LUM_F45 "has anything happened with my reported problem" | gold navigate acct-saved-fault | got clarify acct-saved-fault,help-complaint-escalate,fault-no-connection saved_state_offer | a: acct-faults b: acct-faults
+FAIL LUM_F46 "I want to add more details to my fault ticket" | gold navigate acct-saved-fault | got navigate acct-faults similarity 0.718, margin 0.059 over fault-ticket | a: acct-saved-fault b: acct-faults
+FAIL LUM_F48 "we get the keys to the new place on the 14th, sort out my broadband" | gold navigate acct-saved-move | got navigate move-service similarity 0.574, margin 0.082 over move-choose-date | a: move-choose-date b: move-service
+FAIL LUM_F50 "I need to push my moving date back a week" | gold navigate acct-saved-move | got clarify acct-saved-move,move-choose-date,move-track saved_state_offer | a: acct-saved-move b: move-choose-date
+FAIL LUM_F54 "engineer" | gold clarify  | got navigate fault-engineer-visit similarity 0.566, margin 0.129 over fault-ticket | a: fault-engineer-visit b: fault-engineer-visit
+FAIL LUM_F55 "router" | gold clarify  | got navigate fault-lights similarity 0.582, margin 0.096 over move-equipment | a: eq-wifi-password b: fault-lights
+FAIL LUM_F56 "which streaming service has the best films" | gold reject  | got clarify fault-streaming,tv-kids-streaming,tv-sports-films close_alternatives | a: tv-sports-films b: fault-streaming
+FAIL LUM_F57 "how do I replace a cracked laptop screen" | gold reject  | got navigate phone-protection similarity 0.425, margin 0.202 over acct-password | a: fault-line b: phone-protection
+FAIL LUM_F60 "how do I change a car tyre" | gold reject  | got clarify con-change-plan weak_match | a: con-change-plan b: con-change-plan

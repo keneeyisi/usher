@@ -1,0 +1,86 @@
+=AREA car | Car insurance | Cover for the car you drive: cover levels, add-ons, drivers, no-claims discount and telematics. | service
+=GROUP cover | Cover levels
+=GROUP addons | Add-ons
+=GROUP drivers | Drivers and use
+=GROUP ncd | No-claims discount
+=GROUP telematics | Telematics
+#car-comprehensive | Comprehensive cover | cover | Our highest level of motor cover, protecting your own car as well as other people's property. | fully comp; comprehensive car insurance | Cover that pays to repair or replace my own car if I crash it, as well as the other person's damage ;; The most complete type of car policy, including theft, fire and accidental damage
+- What's covered :: Accidental damage, fire, theft and malicious damage to your vehicle, plus your liability to third parties under the Road Traffic Act.
+- What's not covered :: Wear and tear, mechanical breakdown, unlicensed drivers and any loss caused by driving under the influence of alcohol or drugs.
+- Costs and excess :: You pay the compulsory and any voluntary excess on each claim; the premium depends on your rating factors at quote or renewal.
+- How to claim :: Report the incident through My Insura or our motor claims line; we appoint an approved repairer and agree the repair estimate.
+#car-tpft | Third party, fire and theft | cover | A middle level of cover that insures damage you cause to others plus loss of your car through fire or theft. | TPFT; third party fire theft | A cheaper policy that does not pay to fix my car if I cause a crash but does cover it being stolen or burnt ;; Insurance covering other people's property and my car only if it is stolen or set on fire
+- What's covered :: Liability for injury and damage to others, and loss of or damage to your car caused by fire, theft or attempted theft.
+- What's not covered :: Accidental damage to your own car where you are at fault, and damage from vandalism that is not linked to an attempted theft.
+- Costs and excess :: Premiums are usually lower than comprehensive; excesses apply to fire and theft claims and are shown on your policy schedule.
+- How to claim :: Report theft to the police first and give us the crime reference number before we can open a theft claim.
+#car-third-party | Third party only | cover | The minimum cover required by law, protecting you against claims from other people but not paying for your own car. | TPO; legal minimum cover; minimum car insurance | The bare minimum insurance I need to drive legally, paying only for harm I cause to other people ;; A policy that never pays for my own car, only for the other driver's costs
+- What's covered :: Your legal liability for injury to other people and damage to their vehicles or property, up to the limits in your policy.
+- What's not covered :: Any loss of or damage to your own vehicle, including theft, fire and damage you cause yourself.
+- Costs and excess :: The lowest-priced level of cover, though some drivers find comprehensive is similar in price after rating factors are applied.
+- How to claim :: Tell us promptly about any incident involving another party and do not admit liability or agree a settlement without us.
+#car-excess | Excesses explained | cover | The compulsory and voluntary excess are the amounts you pay towards a claim before we pay the rest. | excess; compulsory excess; voluntary excess; how much I pay towards a claim | The part of any repair bill that comes out of my own pocket when I make a claim ;; What I pay first when something goes wrong, and how choosing a higher amount changes my price
+- What is an excess :: The amount you contribute to a claim; it is made up of a compulsory excess set by us and any voluntary excess you choose.
+- Choosing a voluntary excess :: A higher voluntary excess usually lowers your premium but means paying more if you claim, so pick an amount you could afford.
+- Young and inexperienced driver excess :: An additional compulsory excess may apply where the driver is under 25 or has held a licence for less than a year.
+- When the excess is not charged :: Windscreen repair, and claims where we recover all our costs from the at-fault party, may carry no excess in the end.
+#car-breakdown | Breakdown cover | addons | An optional add-on that sends a patrol or recovery vehicle if your car breaks down or will not start. | roadside assistance;recovery;breakdown add-on | Help if my car stops working on the road, including towing it to a garage ;; Optional extra that gets a mechanic to me when the car will not start ;; My car has stopped working and will not start while I am out
+- What's covered :: Roadside repair, recovery to a local garage or home and onward travel, depending on the level of breakdown cover chosen.
+- Levels of breakdown cover :: Roadside only, national recovery and national recovery with at-home start are offered; each adds distance and call-out benefits.
+- What's not covered :: Repairs after the roadside visit, parts, fuel, and breakdowns within the first 24 hours of the policy starting.
+- How to use your cover :: Call the breakdown line on your card with your policy number and exact location; keep the vehicle somewhere safe while you wait.
+#car-courtesy | Courtesy car | addons | An optional add-on providing a small replacement vehicle while your car is being repaired after a claim. | replacement car; courtesy vehicle; hire car after accident | A loan car while mine is in the garage after a crash ;; Getting around while my car is being fixed following an insured incident
+- What's covered :: A small hatchback for as long as an approved repairer has your car after a valid claim, subject to availability.
+- What's not covered :: Cars lent while a claim is investigated, after theft where the vehicle is a total loss, or for non-approved repairers.
+- Conditions of use :: The courtesy car driver must be named, hold a full licence and meet the hire company's age and deposit requirements.
+- Adding or removing the courtesy car :: Change this cover at any time through My Insura; the premium adjusts from the date of the change.
+#car-legal | Motor legal expenses | addons | An optional add-on helping with legal costs to pursue uninsured losses after an accident that was not your fault. | legal cover; legal protection; uninsured loss recovery | Help paying a solicitor to get back money I lost in a crash that was not my fault ;; Support taking another driver to court or negotiating compensation for my injuries
+- What's covered :: Legal costs of pursuing claims for uninsured losses and personal injury, and defence of certain motoring prosecutions, up to the policy limit.
+- What's not covered :: Disputes with us, claims you cause, and cases our panel solicitors assess as having less than a reasonable chance of success.
+- The legal helpline :: A 24-hour helpline offers initial advice on motor-related legal problems; it gives general information rather than representing you.
+- How to make a legal expenses claim :: Contact us before instructing a solicitor so that our panel can accept the case and agree costs in advance.
+#car-windscreen | Windscreen cover | addons | Cover for repair or replacement of damaged windscreens and windows, which usually carries a reduced excess. | glass cover; windscreen chip; cracked windscreen | A stone chipped my glass, so I want it fixed without losing my discount ;; Fixing or replacing a cracked car window or windscreen
+- What's covered :: Repair or replacement of the windscreen, side and rear windows, including fitting and the cost of replacement seals.
+- Repair or replace :: Chips smaller than a two-pence coin outside the driver's line of sight are normally repaired rather than replaced.
+- Excess and no-claims discount :: A glass claim carries a lower excess and, with comprehensive cover, does not usually affect your no-claims discount.
+- How to claim :: Book through our glass partner using My Insura or the claims line; repair can often happen at home or work.
+#car-named-drivers | Named drivers | drivers | Adding other people to your policy so they can drive your car with your insurance in place. | additional drivers;adding a driver;named driver;add my husband or wife to the insurance;let my partner drive my car | Letting my partner or a friend drive my car legally ;; Putting another person on my policy so they are covered behind the wheel
+- Who can be named :: Any licensed driver aged 17 or over, though their age, history and claims record can change your premium.
+- Adding or removing a named driver :: Use My Insura to add or remove a driver; changes take effect on the date you choose and may adjust your price.
+- Driving other cars :: Some policies include limited third-party cover for named drivers in cars they do not own; check your policy wording.
+- Named driver and no-claims discount :: A named driver does not earn their own no-claims discount unless the policyholder is the main driver, and they should not be misrepresented as the main driver.
+#car-young-drivers | Young and newly qualified drivers | drivers | How cover works for drivers under 25 or who passed their test in the last two years. | learner driver; new driver; under 25 car insurance | Insurance for my teenager who has just passed their driving test ;; Cover options for someone who is learning to drive or only recently qualified
+- Why young drivers pay more :: Insurers rate drivers under 25 and those new to driving as higher risk, which increases premiums and excesses.
+- Learner driver cover :: Short-term cover lets a learner practise in a family car for days or weeks without affecting the main policyholder's no-claims discount.
+- Pass Plus and driver training :: Completing an approved course such as Pass Plus may qualify for a discount on some policies.
+- Ways to reduce the cost :: Choosing a smaller engine, a higher voluntary excess, a telematics policy or being named on a parent's policy can help.
+#car-business-use | Business use and commuting | drivers | What counts as social, commuting or business use of your car and how this affects cover and price. | class 1 business use; commuting cover; driving for work | Using my own car for my job and making sure I am insured for it ;; Whether driving to work or between customers is covered by my normal policy
+- Social, domestic and pleasure :: Covers everyday personal use but not travel to a regular place of work or any use connected with a business.
+- Commuting :: Add commuting if you drive to a fixed workplace; it is a higher class of use, so you will need to tell us.
+- Business use :: Use for visits to clients or carrying tools is business use; carrying goods or passengers for hire needs specialist cover.
+- Telling us about a change :: Tell us as soon as your use changes; failing to do so could lead to a claim being reduced or declined.
+#car-abroad | Driving abroad | drivers | Cover for taking your car to other countries, including green card requirements and breakdown abroad. | green card; european cover; taking my car to europe | Taking my car on a trip to France or Spain and staying insured ;; Whether my UK policy pays out if I have an accident in another country
+- Minimum cover abroad :: Most policies give at least the legal minimum cover in other countries for up to 90 days a year, though not full comprehensive cover.
+- Extending to comprehensive abroad :: Ask us to extend to full cover for a trip; this may be free or charged, depending on destination and length.
+- Documents to carry :: Take your driving licence, vehicle registration document and a green card or insurance certificate where one is requested.
+- If you break down or crash abroad :: Contact us and any breakdown provider quickly; keep receipts and police reports to support your claim.
+#car-ncd | How your no-claims discount works | ncd | The discount you earn for each claim-free year, and what happens to it if you make a claim. | NCD; no claims bonus; no claims discount | Paying less each year because I have not crashed ;; How many years without claiming gets me the biggest saving
+- Earning your discount :: You earn one year for each full year you hold a policy without a claim where we pay out and cannot recover our costs.
+- What happens when you claim :: A claim you are at fault for normally reduces your discount by two years, or sets it back to a lower step.
+- Using a company car or other vehicle :: Time driving another car as a named driver or on a company vehicle may sometimes count, if you hold written proof.
+- Discount if you stop driving :: Your discount is usually valid for two years after a policy ends, so you can restart cover without losing it.
+#car-ncd-proof | Proof of your no-claims discount | ncd | How to get a letter or document showing how many years of claim-free driving you have earned. | NCD proof; no claims letter; no claims certificate | A letter I can show my new insurer to prove I have not made a claim ;; Getting evidence of my years without claiming when I switch companies
+- Where to find your proof :: Download your current proof from the Documents area of My Insura at any time during the policy.
+- Proof after you cancel :: When a policy ends we issue a final proof showing the years earned, normally within five working days.
+- Information on the letter :: It shows the policyholder, the number of years, the dates of cover and whether the discount is protected.
+- If your proof is lost or wrong :: Ask us for a replacement through secure messages; we will reissue the document at no charge.
+#car-ncd-protect | Protected no-claims discount | ncd | An add-on that lets you make a limited number of claims without losing your discount. | protect my no claims; NCD protection; no claims protection | Paying extra so one small accident does not wipe out my safe-driving discount ;; An optional extra to keep my claim-free savings after a claim
+- What protection does :: You can make up to two at-fault claims in three years without your discount step falling, though your premium may still rise.
+- Cost of protection :: Pricing depends on how many years of discount you hold; it is shown separately at quote and renewal.
+- When it does not apply :: Protection may not apply to a claim after a conviction for a serious driving offence or a lapse in cover.
+- Adding or removing protection :: Change this on My Insura; you will be asked to confirm that you have no claims you have not told us about.
+#car-telematics | Black box and app-based insurance | telematics | Insurance where a device or smartphone app measures how you drive and rewards safer habits with a lower price. | telematics; black box insurance; driving score app; pay how you drive | A policy that watches my driving through an app so careful drivers pay less ;; A fitted box in the car that records speed and braking to set my price
+- How telematics works :: A small device or our app records speed, braking, cornering, time of day and mileage, and scores each journey.
+- Your driving score :: Scores are reviewed monthly; a consistently good score earns a premium reduction at renewal.
+- Mileage and night driving :: Policies set a mileage limit, and regular driving between midnight and 5am may reduce your score.
+- Fitting, returning and privacy :: A fitter installs the box free; return it within 30 days if you cancel; data is kept as described in our privacy notice.

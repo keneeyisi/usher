@@ -1,0 +1,4 @@
+3c230c03425a2866e4b57954f3173fc149dba2634e9ee32c681b41d96c7f06fe  source-sans-3-latin-400-italic.woff2
+0f73f35e08cde0a2f10c109c6e01d71459d97e4099ecd9a50f1b6c0209e4de2b  source-sans-3-latin-400-normal.woff2
+14527d193b0e30bc32ef931549a246cdfd286573bb12869b7e052b8101a39d38  source-sans-3-latin-600-normal.woff2
+ae35266f2ab0d5314ff9a04127931eb26c793e4f1269bb240046d4d2db4b7bb1  source-sans-3-latin-700-normal.woff2

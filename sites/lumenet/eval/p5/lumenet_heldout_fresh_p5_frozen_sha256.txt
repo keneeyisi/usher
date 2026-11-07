@@ -1,0 +1,3 @@
+items_sorted_json_sha256 987e325ba1b7c715e6f73eb7e83c53f688ebffd848bf586d01d8910ba95dc1fc
+file_sha256 dad5bea249b83556f18975dfc21cb6c1ef01c43f6dd98661917d50c3865b9da7  lumenet_heldout_fresh_p5_FROZEN.json
+frozen 2026-10-24 before any evaluation run; 60 items

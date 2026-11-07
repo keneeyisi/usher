@@ -1,0 +1,411 @@
+{
+ "site": "lumenet",
+ "set": "tuned",
+ "items": [
+  {
+   "query": "My internet drops every evening.",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "fault-intermittent",
+   "anySection": true,
+   "card": true,
+   "id": "LUM_T01",
+   "set": "tuned"
+  },
+  {
+   "query": "I'm moving house in three weeks.",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "move-service",
+   "anySection": true,
+   "acceptableDestinationIds": [
+    "move-choose-date"
+   ],
+   "card": true,
+   "id": "LUM_T02",
+   "set": "tuned"
+  },
+  {
+   "query": "My bill jumped this month.",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "bill-changed",
+   "anySection": true,
+   "card": true,
+   "id": "LUM_T03",
+   "set": "tuned"
+  },
+  {
+   "query": "I want to leave but I'm still in my contract.",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "etc-charges",
+   "anySection": true,
+   "card": true,
+   "id": "LUM_T04",
+   "set": "tuned"
+  },
+  {
+   "query": "The Wi-Fi doesn't reach my bedroom.",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "eq-mesh",
+   "anySection": true,
+   "card": true,
+   "id": "LUM_T05",
+   "set": "tuned"
+  },
+  {
+   "query": "The engineer never turned up.",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "fault-missed-appt",
+   "anySection": true,
+   "card": true,
+   "id": "LUM_T06",
+   "set": "tuned"
+  },
+  {
+   "query": "I can't remember my router password.",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "eq-wifi-password",
+   "anySection": true,
+   "card": true,
+   "id": "LUM_T07",
+   "set": "tuned"
+  },
+  {
+   "query": "I'm away for a month, can I stop paying?",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "con-pause",
+   "anySection": true,
+   "card": true,
+   "id": "LUM_T08",
+   "set": "tuned"
+  },
+  {
+   "query": "Someone is logging in to my account.",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "acct-hacked",
+   "anySection": true,
+   "card": true,
+   "id": "LUM_T09",
+   "set": "tuned"
+  },
+  {
+   "query": "My contract just ended and the price went up.",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "rise-out-of-contract",
+   "anySection": true,
+   "card": true,
+   "id": "LUM_T10",
+   "set": "tuned"
+  },
+  {
+   "query": "my wifi is rubbish upstairs",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "eq-dead-spots",
+   "anySection": true,
+   "acceptableDestinationIds": [
+    "eq-mesh"
+   ],
+   "id": "LUM_T11",
+   "set": "tuned"
+  },
+  {
+   "query": "how do I check how fast my internet is",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "speedtest-how",
+   "anySection": true,
+   "id": "LUM_T12",
+   "set": "tuned"
+  },
+  {
+   "query": "the internet is really slow today",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "fault-slow",
+   "anySection": true,
+   "id": "LUM_T13",
+   "set": "tuned"
+  },
+  {
+   "query": "no internet at all since this morning",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "fault-no-connection",
+   "anySection": true,
+   "id": "LUM_T14",
+   "set": "tuned"
+  },
+  {
+   "query": "what do the flashing lights on my router mean",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "fault-lights",
+   "anySection": true,
+   "id": "LUM_T15",
+   "set": "tuned"
+  },
+  {
+   "query": "I want to keep my mobile number when I switch to you",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "sim-keep-number",
+   "anySection": true,
+   "id": "LUM_T16",
+   "set": "tuned"
+  },
+  {
+   "query": "will my phone work in Spain",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "roam-europe",
+   "anySection": true,
+   "id": "LUM_T17",
+   "set": "tuned"
+  },
+  {
+   "query": "I got a huge bill after using data abroad",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "roam-spend-cap",
+   "anySection": true,
+   "acceptableDestinationIds": [
+    "bill-changed"
+   ],
+   "id": "LUM_T18",
+   "set": "tuned"
+  },
+  {
+   "query": "how do I block certain sites for the kids",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "eq-parental",
+   "anySection": true,
+   "id": "LUM_T19",
+   "set": "tuned"
+  },
+  {
+   "query": "can visitors use the wifi without my password",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "eq-guest",
+   "anySection": true,
+   "id": "LUM_T20",
+   "set": "tuned"
+  },
+  {
+   "query": "I'm struggling to pay my bill this month",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "pay-help",
+   "anySection": true,
+   "id": "LUM_T21",
+   "set": "tuned"
+  },
+  {
+   "query": "my payment bounced",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "dd-failed",
+   "anySection": true,
+   "id": "LUM_T22",
+   "set": "tuned"
+  },
+  {
+   "query": "you've charged me for something I never ordered",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "dispute-bill",
+   "anySection": true,
+   "id": "LUM_T23",
+   "set": "tuned"
+  },
+  {
+   "query": "I was promised money back for the outage",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "comp-claim",
+   "anySection": true,
+   "acceptableDestinationIds": [
+    "comp-automatic"
+   ],
+   "id": "LUM_T24",
+   "set": "tuned"
+  },
+  {
+   "query": "is fibre available on my street",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "new-availability",
+   "anySection": true,
+   "id": "LUM_T25",
+   "set": "tuned"
+  },
+  {
+   "query": "what does 500 meg actually mean",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "speed-mbps",
+   "anySection": true,
+   "id": "LUM_T26",
+   "set": "tuned"
+  },
+  {
+   "query": "how do I send back my old router",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "eq-return",
+   "anySection": true,
+   "id": "LUM_T27",
+   "set": "tuned"
+  },
+  {
+   "query": "my router has stopped working and needs replacing",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "eq-replace",
+   "anySection": true,
+   "id": "LUM_T28",
+   "set": "tuned"
+  },
+  {
+   "query": "I got a scam call pretending to be you",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "acct-scams",
+   "anySection": true,
+   "id": "LUM_T29",
+   "set": "tuned"
+  },
+  {
+   "query": "I've forgotten the password for my online account",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "acct-password",
+   "anySection": true,
+   "id": "LUM_T30",
+   "set": "tuned"
+  },
+  {
+   "query": "I'd like a new phone on a monthly plan",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "phone-plans",
+   "anySection": true,
+   "id": "LUM_T31",
+   "set": "tuned"
+  },
+  {
+   "query": "can I get the sports channels",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "tv-sports-films",
+   "anySection": true,
+   "id": "LUM_T32",
+   "set": "tuned"
+  },
+  {
+   "query": "I want to talk to a real person",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "help-contact",
+   "anySection": true,
+   "id": "LUM_T33",
+   "set": "tuned"
+  },
+  {
+   "query": "my mum died and I need to close her account",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "help-bereavement",
+   "anySection": true,
+   "id": "LUM_T34",
+   "set": "tuned"
+  },
+  {
+   "query": "you don't cover the address I'm moving to",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "move-no-service",
+   "anySection": true,
+   "id": "LUM_T35",
+   "set": "tuned"
+  },
+  {
+   "query": "I want to take my router with me to the new house",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "move-equipment",
+   "anySection": true,
+   "id": "LUM_T36",
+   "set": "tuned"
+  },
+  {
+   "query": "cancel my broadband",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "sw-cancel",
+   "anySection": true,
+   "id": "LUM_T37",
+   "set": "tuned"
+  },
+  {
+   "query": "cancel",
+   "expectedDecision": "clarify",
+   "expectedOptionIds": [
+    "sw-cancel",
+    "fault-engineer-visit",
+    "tv-change-cancel"
+   ],
+   "id": "LUM_T38",
+   "set": "tuned"
+  },
+  {
+   "query": "my bill",
+   "expectedDecision": "clarify",
+   "expectedOptionIds": [
+    "bill-changed",
+    "pay-ways",
+    "dispute-bill"
+   ],
+   "id": "LUM_T39",
+   "set": "tuned"
+  },
+  {
+   "query": "speed",
+   "expectedDecision": "clarify",
+   "expectedOptionIds": [
+    "speedtest-how",
+    "speed-guarantee",
+    "plan-gigabit"
+   ],
+   "id": "LUM_T40",
+   "set": "tuned"
+  },
+  {
+   "query": "what's the best phone to buy this year",
+   "expectedDecision": "reject",
+   "id": "LUM_T41",
+   "set": "tuned"
+  },
+  {
+   "query": "what's the weather going to be like",
+   "expectedDecision": "reject",
+   "id": "LUM_T42",
+   "set": "tuned"
+  },
+  {
+   "query": "write me a limerick about a cat",
+   "expectedDecision": "reject",
+   "id": "LUM_T43",
+   "set": "tuned"
+  },
+  {
+   "query": "where is my engineer",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "acct-saved-fault",
+   "anySection": true,
+   "id": "LUM_T44",
+   "set": "tuned"
+  },
+  {
+   "query": "my internet is still down",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "acct-saved-fault",
+   "anySection": true,
+   "id": "LUM_T45",
+   "set": "tuned"
+  },
+  {
+   "query": "I'm moving house",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "move-service",
+   "id": "LUM_T46",
+   "set": "tuned",
+   "acceptableDestinationIds": [
+    "move-choose-date"
+   ],
+   "anySection": true,
+   "note": "relabelled 19 Oct after run 1: frozen policy routes to the saved move only with resume wording; see report"
+  },
+  {
+   "query": "carry on with my house move",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "acct-saved-move",
+   "anySection": true,
+   "id": "LUM_T47",
+   "set": "tuned"
+  }
+ ]
+}

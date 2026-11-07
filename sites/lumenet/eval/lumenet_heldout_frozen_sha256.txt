@@ -1,0 +1,1 @@
+5976760145394e0ece8861ba89aeb5924d244a429ea6efbc7cb99f31f64842ab  lumenet held-out (60 items, SHA-256 of JSON of items sorted by id, sort_keys) frozen 19 Oct 2026 before first run; index textsHash 71a2be54

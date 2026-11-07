@@ -1,0 +1,26 @@
+PASS A_mobile_320_axe_panel_open                    []
+PASS A_mobile_320_no_overflow_panel_inside          {"sw":320,"iw":320,"panelRight":0,"panelLeft":0,"stripVisible":true,"stripBottom":265,"panel":{"left":12,"right":308,"w":296}}
+PASS A_mobile_320_strip_visible_after_arrival       {"sw":320,"iw":320,"panelRight":0,"panelLeft":0,"stripVisible":true,"stripBottom":265}
+PASS A_mobile_320_axe_panel_and_strip               []
+PASS A_mobile_375_axe_panel_open                    []
+PASS A_mobile_375_no_overflow_panel_inside          {"sw":375,"iw":375,"panelRight":0,"panelLeft":0,"stripVisible":true,"stripBottom":232,"panel":{"left":12,"right":363,"w":351}}
+PASS A_mobile_375_strip_visible_after_arrival       {"sw":375,"iw":375,"panelRight":0,"panelLeft":0,"stripVisible":true,"stripBottom":232}
+PASS A_mobile_375_axe_panel_and_strip               []
+PASS A_mobile_414_axe_panel_open                    []
+PASS A_mobile_414_no_overflow_panel_inside          {"sw":414,"iw":414,"panelRight":0,"panelLeft":0,"stripVisible":true,"stripBottom":196,"panel":{"left":12,"right":402,"w":390}}
+PASS A_mobile_414_strip_visible_after_arrival       {"sw":414,"iw":414,"panelRight":0,"panelLeft":0,"stripVisible":true,"stripBottom":196}
+PASS A_mobile_414_axe_panel_and_strip               []
+PASS A_keyboard_slash_opens_and_focuses_input       {"open":true,"focusIn":"nbinput"}
+PASS A_keyboard_escape_closes_returns_focus_to_pill {"open":false,"focus":"nbpill"}
+PASS A_reduced_motion_navigates_and_arrives         {"hash":"#service/identity-replacement/section/0"}
+PASS A_reduced_motion_axe                           []
+PASS A_off_topic_rejected_no_navigation             {}
+PASS B_mini_profile_loaded_not_civicsphere          {}
+PASS B_multipage_route_ends_on_renew_page           {"url":"http://127.0.0.1:9150/tests/mini-site/library/renew.html"}
+PASS B_route_strip_persists_across_page_loads       {"shown":true,"text":"YOUR ROUTE You are here: Renew a loan Dismiss × 1 Home 2 Borrowing 3 Loans 4 Renew a loan Show me how to find this myself next time"}
+PASS B_section_deep_link_reached                    {"url":"http://127.0.0.1:9150/tests/mini-site/library/renew.html#late-fees"}
+PASS B_axe_destination_page                         []
+PASS B_off_topic_rejected                           {}
+PASS Z_console_errors_zero                          []
+PASS Z_external_requests_zero                       []
+WIDGET TESTS 25/25 PASSED

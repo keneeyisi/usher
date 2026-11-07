@@ -1,0 +1,300 @@
+[
+ {
+  "id": "S1_no_chat_wording_in_source",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "P1_pill_text_and_icon",
+  "pass": true,
+  "detail": "I’m here because… /"
+ },
+ {
+  "id": "P2_pill_bottom_centre_fixed",
+  "pass": true,
+  "detail": {
+   "text": "I’m here because… /",
+   "cx": 683,
+   "vw": 1366,
+   "fromBottom": 18,
+   "pos": "fixed",
+   "inHeader": false,
+   "searchBottom": 226,
+   "pillTop": 831,
+   "askbtn": false,
+   "headerHasI": false,
+   "label": "nbpanel",
+   "svg": "true"
+  }
+ },
+ {
+  "id": "P3_nothing_beside_search",
+  "pass": true,
+  "detail": {
+   "text": "I’m here because… /",
+   "cx": 683,
+   "vw": 1366,
+   "fromBottom": 18,
+   "pos": "fixed",
+   "inHeader": false,
+   "searchBottom": 226,
+   "pillTop": 831,
+   "askbtn": false,
+   "headerHasI": false,
+   "label": "nbpanel",
+   "svg": "true"
+  }
+ },
+ {
+  "id": "P4_pill_on_every_page",
+  "pass": true,
+  "detail": true
+ },
+ {
+  "id": "K1_slash_opens_dialog",
+  "pass": true,
+  "detail": {
+   "open": true,
+   "role": "dialog",
+   "modal": "true",
+   "focused": "nbinput",
+   "cx": 683,
+   "vw": 1366,
+   "w": 760,
+   "scrim": true,
+   "expanded": "true",
+   "val": "",
+   "labelled": "I’m here because…"
+  }
+ },
+ {
+  "id": "K2_dialog_centred_and_wide",
+  "pass": true,
+  "detail": {
+   "open": true,
+   "role": "dialog",
+   "modal": "true",
+   "focused": "nbinput",
+   "cx": 683,
+   "vw": 1366,
+   "w": 760,
+   "scrim": true,
+   "expanded": "true",
+   "val": "",
+   "labelled": "I’m here because…"
+  }
+ },
+ {
+  "id": "K2b_dialog_label",
+  "pass": true,
+  "detail": "I’m here because…"
+ },
+ {
+  "id": "K3_slash_typed_in_field_not_hijacked",
+  "pass": true,
+  "detail": "a/b"
+ },
+ {
+  "id": "K4_esc_closes_and_restores_focus",
+  "pass": true,
+  "detail": {}
+ },
+ {
+  "id": "K5_slash_ignored_in_site_search",
+  "pass": true,
+  "detail": {}
+ },
+ {
+  "id": "K6_focus_trapped_in_dialog",
+  "pass": true,
+  "detail": [
+   "mic",
+   "nbfind",
+   "vstoggle",
+   "nbclose",
+   "nbinput"
+  ]
+ },
+ {
+  "id": "K7_click_outside_closes",
+  "pass": true,
+  "detail": {}
+ },
+ {
+  "id": "K8_close_button",
+  "pass": true,
+  "detail": {}
+ },
+ {
+  "id": "K9_pill_enter_opens",
+  "pass": true,
+  "detail": {}
+ },
+ {
+  "id": "C1_what_i_understood_card",
+  "pass": true,
+  "detail": {
+   "kicker": "WHAT I UNDERSTOOD",
+   "interp": "It sounds like you've moved house and want to know what a residents' parking permit costs.",
+   "bridge": true,
+   "bubbles": 0,
+   "panelText": "I’m here because…\n×\n\nDescribe your situation. We’ll take you there.\n\n●\nShow my route\nMeaning model ready · all-MiniLM-L6-v2, runs offline in your browser · loaded in 1.0 s\nWHAT I UNDERSTOOD\n\nIt sounds like you've moved house and want to know what a residents' parking permit costs.\n\nYou said “have to pay”: on this page that’s under Permit charges.\nTAKING YOU TO\nResidential Parking · Permit charges\nHome\nTransport & Vehicles\nParking & Road Access\nResidential Parking\nPermit charges\nWHY HERE\n\nClosest match to what you described: “A residents' parking permit so you can park your car on the street near your home”.\n\n“Permit charges” is the part of the page about costs and fees.\n\nTaking you there…\nStop\n\nGoal resolved · 69% confidence\n\nCompare with site search\nEnter to go · Esc to close",
+   "stripShown": false,
+   "decision": "navigate"
+  }
+ },
+ {
+  "id": "C2_no_chat_artifacts",
+  "pass": true,
+  "detail": "I’m here because…\n×\n\nDescribe your situation. We’ll take you there.\n\n●\nShow my route\nMeaning model ready · all-MiniLM-L6"
+ },
+ {
+  "id": "C3_strip_not_yet_shown_before_confirm",
+  "pass": true,
+  "detail": false
+ },
+ {
+  "id": "R1_panel_closes_when_route_starts",
+  "pass": true,
+  "detail": {}
+ },
+ {
+  "id": "R2_strip_numbered_steps_current_marked",
+  "pass": true,
+  "detail": {
+   "items": [
+    "1 Home",
+    "2 Transport & Vehicles",
+    "3 Parking & Road Access",
+    "4 Residential Parking",
+    "5 Permit charges"
+   ],
+   "current": 1,
+   "inputs": 0,
+   "role": "navigation",
+   "label": "Your route",
+   "dismiss": true,
+   "pos": "sticky",
+   "top": 0
+  }
+ },
+ {
+  "id": "R3_strip_has_no_input_and_is_nav",
+  "pass": true,
+  "detail": {
+   "items": [
+    "1 Home",
+    "2 Transport & Vehicles",
+    "3 Parking & Road Access",
+    "4 Residential Parking",
+    "5 Permit charges"
+   ],
+   "current": 1,
+   "inputs": 0,
+   "role": "navigation",
+   "label": "Your route",
+   "dismiss": true,
+   "pos": "sticky",
+   "top": 0
+  }
+ },
+ {
+  "id": "R4_strip_persists_after_arrival",
+  "pass": true,
+  "detail": {
+   "hidden": false,
+   "n": 5,
+   "lastActive": true,
+   "done": 4,
+   "how": true,
+   "situ": true,
+   "hash": "#service/residential-parking/section/2",
+   "traceGone": true
+  }
+ },
+ {
+  "id": "R5_strip_sticky_when_scrolled",
+  "pass": true,
+  "detail": {}
+ },
+ {
+  "id": "AXE route strip arrived",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "R6_dismiss_hides_strip",
+  "pass": true,
+  "detail": {}
+ },
+ {
+  "id": "R7_pill_works_again_after_dismiss",
+  "pass": true,
+  "detail": {}
+ },
+ {
+  "id": "AXE open command line with result",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "Q1_clarify_keeps_dialog_open_one_question",
+  "pass": true,
+  "detail": {
+   "open": true,
+   "opts": 3,
+   "strip": false
+  }
+ },
+ {
+  "id": "Q2_option_closes_dialog_shows_strip",
+  "pass": true,
+  "detail": {}
+ },
+ {
+  "id": "Q3_stop_while_walking_hides_strip",
+  "pass": true,
+  "detail": {}
+ },
+ {
+  "id": "M1_reduced_motion",
+  "pass": true,
+  "detail": [
+   "none",
+   "none",
+   "0s"
+  ]
+ },
+ {
+  "id": "M2_mobile_pill_in_view",
+  "pass": true,
+  "detail": {
+   "l": 79.5,
+   "r": 79.5,
+   "sw": 390
+  }
+ },
+ {
+  "id": "M3_mobile_strip_no_overflow",
+  "pass": true,
+  "detail": {}
+ },
+ {
+  "id": "AXE mobile strip",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "AXE home with pill",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "E1_console_errors_and_external_requests",
+  "pass": true,
+  "detail": {
+   "errs": [],
+   "ext": []
+  }
+ }
+]

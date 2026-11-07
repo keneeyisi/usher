@@ -1,0 +1,83 @@
+{
+ "when": "2026-11-03T13:38:39.302Z",
+ "pass": false,
+ "queries": 465,
+ "identical": 1,
+ "diffs": [
+  {
+   "q": "I've lost my job and I'm struggling to pay for food and household bills. What financial support can I get?",
+   "old": [
+    "navigate",
+    "financial-support",
+    "what-support-is-available",
+    "similarity 0.742, margin 0.102 over household-tax-assistance"
+   ],
+   "browser": [
+    "navigate",
+    "financial-support",
+    "what-support-is-available",
+    "similarity 0.742, margin 0.102 over household-tax-assistance"
+   ]
+  },
+  {
+   "q": "I'm renting and I'm not sure what my landlord is supposed to fix.",
+   "old": [
+    "navigate",
+    "housing-property-housing-repairs",
+    "what-your-landlord-must-fix",
+    "similarity 0.700, margin 0.248 over housing-property-rent-support"
+   ],
+   "browser": [
+    "navigate",
+    "housing-property-housing-repairs",
+    "what-your-landlord-must-fix",
+    "similarity 0.700, margin 0.248 over housing-property-rent-support"
+   ]
+  },
+  {
+   "q": "I want to make my house bigger at the back. What do I need to do before I start building?",
+   "old": [
+    "navigate",
+    "development-approval",
+    "do-i-need-approval",
+    "similarity 0.607, margin 0.089 over planning-development-property-development"
+   ],
+   "browser": [
+    "navigate",
+    "development-approval",
+    "do-i-need-approval",
+    "similarity 0.607, margin 0.089 over planning-development-property-development"
+   ]
+  },
+  {
+   "q": "I've just moved into a new house and need to sort out parking. I want to know what I'll have to pay.",
+   "old": [
+    "navigate",
+    "residential-parking",
+    "permit-charges",
+    "similarity 0.585, margin 0.023 over transport-vehicles-parking-charges"
+   ],
+   "browser": [
+    "navigate",
+    "residential-parking",
+    "permit-charges",
+    "similarity 0.585, margin 0.023 over transport-vehicles-parking-charges"
+   ]
+  },
+  {
+   "q": "How much tax should I pay?",
+   "old": [
+    "clarify",
+    null,
+    null,
+    "qualifier"
+   ],
+   "browser": [
+    "clarify",
+    null,
+    null,
+    "qualifier"
+   ]
+  }
+ ]
+}

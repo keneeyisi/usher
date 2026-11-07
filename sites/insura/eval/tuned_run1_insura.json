@@ -1,0 +1,1892 @@
+{
+ "site": "insura",
+ "itemsFile": "insura_tuned.json",
+ "itemsSha256": "53435b97fe1426804637938f1e611b1d072f5dc4c5038e246a6565c9210b34e2",
+ "indexTextsHash": "f0906fae",
+ "summary": {
+  "n": 42,
+  "nNavigate": 37,
+  "nClarify": 2,
+  "nReject": 3,
+  "a": {
+   "page": "45.9% [31-62] (17/37)",
+   "hit3": "64.9% [49-78] (24/37)",
+   "hit5": "70.3% [54-83] (26/37)",
+   "section": "42.9% [16-75] (3/7)"
+  },
+  "a2": {
+   "page": "75.7% [60-87] (28/37)",
+   "hit3": "94.6% [82-99] (35/37)",
+   "hit5": "100.0% [91-100] (37/37)",
+   "section": "57.1% [25-84] (4/7)"
+  },
+  "b": {
+   "page": "70.3% [54-83] (26/37)",
+   "hit3": "89.2% [75-96] (33/37)",
+   "hit5": "91.9% [79-97] (34/37)"
+  },
+  "c": {
+   "pageAccuracyNavItems": "51.4% [36-67] (19/37)",
+   "section": "14.3% [3-51] (1/7)",
+   "wrongDestinationAllItems": "21.4% [12-36] (9/42)",
+   "wrongDestinationNavItems": "21.6% [11-37] (8/37)",
+   "clarificationRateAll": "28.6% [17-44] (12/42)",
+   "clarifiedOnNavItems": "27.0% [15-43] (10/37)",
+   "clarificationsOfferingGold": "58.3% [32-81] (7/12)",
+   "within1stepNavItems": "64.9% [49-78] (24/37)",
+   "rejectionAccuracy": "66.7% [21-94] (2/3)",
+   "falseRejectOnNavItems": "0.0% [0-9] (0/37)",
+   "clarifyItemsClarified": "100.0% [34-100] (2/2)",
+   "decisionCorrectAll": "54.8% [40-69] (23/42)"
+  },
+  "mcnemar": {
+   "c_vs_a": {
+    "onlyA": 6,
+    "onlyB": 4,
+    "p": 0.75390625
+   },
+   "c_vs_a2": {
+    "onlyA": 2,
+    "onlyB": 11,
+    "p": 0.0224609375
+   },
+   "c_vs_b": {
+    "onlyA": 0,
+    "onlyB": 7,
+    "p": 0.015625
+   },
+   "b_vs_a2": {
+    "onlyA": 3,
+    "onlyB": 5,
+    "p": 0.7265625
+   },
+   "a2_vs_a": {
+    "onlyA": 11,
+    "onlyB": 0,
+    "p": 0.0009765625
+   }
+  },
+  "within1stepVsBaseline": {
+   "goalpostWithin1": "64.9%",
+   "baselineA_hit3": "64.9%",
+   "baselineA2_hit3": "94.6%",
+   "semantic_hit3": "89.2%"
+  },
+  "byLabelOverlap": {
+   "0": {
+    "n": 25,
+    "a": "40.0%",
+    "a2": "68.0%",
+    "b": "64.0%",
+    "goalpostCorrectNav": "52.0%",
+    "goalpostWrongNav": "28.0%"
+   },
+   "1": {
+    "n": 8,
+    "a": "50.0%",
+    "a2": "87.5%",
+    "b": "87.5%",
+    "goalpostCorrectNav": "50.0%",
+    "goalpostWrongNav": "0.0%"
+   },
+   "2+": {
+    "n": 4,
+    "a": "75.0%",
+    "a2": "100.0%",
+    "b": "75.0%",
+    "goalpostCorrectNav": "50.0%",
+    "goalpostWrongNav": "25.0%"
+   }
+  }
+ },
+ "rows": [
+  {
+   "id": "INS_T01",
+   "query": "A pipe burst and my ceiling came down.",
+   "gold": "navigate",
+   "goldDest": "claim-home-escape-of-water",
+   "goldSection": "what-to-do-straight-away",
+   "overlap": 0,
+   "a": {
+    "top": "home-frozen-pipes",
+    "h1": false,
+    "h3": true,
+    "h5": true,
+    "sec": false
+   },
+   "a2": {
+    "top": "home-escape-of-water",
+    "h1": false,
+    "h3": true,
+    "h5": true,
+    "sec": false
+   },
+   "b": {
+    "top": "home-escape-of-water",
+    "h1": false,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "home-escape-of-water",
+    "section": null,
+    "reason": "similarity 0.608, margin 0.076 over claim-home-escape-of-water",
+    "options": [],
+    "correctNav": false,
+    "wrongNav": true,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": false,
+    "within1": false
+   }
+  },
+  {
+   "id": "INS_T02",
+   "query": "Someone drove into my parked car and didn't leave a note.",
+   "gold": "navigate",
+   "goldDest": "claim-motor-hit-and-run",
+   "goldSection": "what-to-do",
+   "overlap": 0,
+   "a": {
+    "top": "claim-motor-hit-and-run",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": true
+   },
+   "a2": {
+    "top": "claim-motor-hit-and-run",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": true
+   },
+   "b": {
+    "top": "claim-motor-hit-and-run",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "claim-motor-hit-and-run",
+    "section": null,
+    "reason": "similarity 0.678, margin 0.221 over claim-motor-theft",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": false,
+    "within1": true
+   }
+  },
+  {
+   "id": "INS_T03",
+   "query": "I sold my car last week.",
+   "gold": "navigate",
+   "goldDest": "chg-vehicle-sell",
+   "goldSection": "tell-us-when-it-is-sold",
+   "overlap": 1,
+   "a": {
+    "top": "chg-vehicle-sell",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": true
+   },
+   "a2": {
+    "top": "chg-vehicle-sell",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": true
+   },
+   "b": {
+    "top": "chg-vehicle-sell",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "chg-vehicle-sell",
+    "section": "tell-us-when-it-is-sold",
+    "reason": "similarity 0.717, margin 0.238 over claim-motor-total-loss",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": true,
+    "within1": true
+   }
+  },
+  {
+   "id": "INS_T04",
+   "query": "My price went up and I've done nothing different.",
+   "gold": "navigate",
+   "goldDest": "renew-price-change",
+   "goldSection": null,
+   "overlap": 1,
+   "a": {
+    "top": "renew-price-change",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "renew-price-change",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "renew-price-change",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "renew-price-change",
+    "section": "market-wide-cost-increases",
+    "reason": "similarity 0.828, margin 0.325 over chg-mid-term-adjust",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true
+   }
+  },
+  {
+   "id": "INS_T05",
+   "query": "I'm going skiing in February.",
+   "gold": "navigate",
+   "goldDest": "travel-winter-sports",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "top": "travel-winter-sports",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "travel-winter-sports",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "travel-winter-sports",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "travel-winter-sports",
+    "section": "off-piste-skiing",
+    "reason": "similarity 0.661, margin 0.326 over travel-activities",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true
+   }
+  },
+  {
+   "id": "INS_T06",
+   "query": "My phone got nicked on holiday.",
+   "gold": "navigate",
+   "goldDest": "claim-travel-possessions",
+   "goldSection": "what-to-do-abroad",
+   "overlap": 0,
+   "a": {
+    "top": "help-contact",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": false
+   },
+   "a2": {
+    "top": "claim-travel-possessions",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": false
+   },
+   "b": {
+    "top": "travel-baggage",
+    "h1": false,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "travel-baggage",
+    "section": null,
+    "reason": "similarity 0.481, margin 0.029 over claim-travel-possessions",
+    "options": [],
+    "correctNav": false,
+    "wrongNav": true,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": false,
+    "within1": false
+   }
+  },
+  {
+   "id": "INS_T07",
+   "query": "My dad died, what do I do about his cover?",
+   "gold": "navigate",
+   "goldDest": "bereave-notify",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "top": "bereave-notify",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "bereave-notify",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "bereave-notify",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "bereave-notify",
+    "section": null,
+    "reason": "similarity 0.541, margin 0.170 over life-whole-of-life",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true
+   }
+  },
+  {
+   "id": "INS_T08",
+   "query": "I need proof of my no-claims for my new insurer.",
+   "gold": "navigate",
+   "goldDest": "car-ncd-proof",
+   "goldSection": "where-to-find-your-proof",
+   "overlap": 2,
+   "a": {
+    "top": "claim-travel-possessions",
+    "h1": false,
+    "h3": true,
+    "h5": true,
+    "sec": false
+   },
+   "a2": {
+    "top": "car-ncd-proof",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": true
+   },
+   "b": {
+    "top": "car-ncd-proof",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "clarify",
+    "dest": null,
+    "section": null,
+    "reason": "qualifier",
+    "options": [
+     "claim-home-escape-of-water",
+     "claim-motor-accident",
+     "claim-travel-possessions",
+     "claim-pet-vet"
+    ],
+    "correctNav": false,
+    "wrongNav": false,
+    "clarified": true,
+    "offersGold": false,
+    "rejected": false,
+    "sec": false,
+    "within1": false
+   }
+  },
+  {
+   "id": "INS_T09",
+   "query": "Can I pay monthly instead of all at once?",
+   "gold": "navigate",
+   "goldDest": "pay-monthly-yearly",
+   "goldSection": "paying-monthly",
+   "overlap": 2,
+   "a": {
+    "top": "pay-monthly-yearly",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": true
+   },
+   "a2": {
+    "top": "pay-monthly-yearly",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": true
+   },
+   "b": {
+    "top": "pay-monthly-yearly",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "pay-monthly-yearly",
+    "section": null,
+    "reason": "similarity 0.800, margin 0.404 over acc-payment-methods",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": false,
+    "within1": true
+   }
+  },
+  {
+   "id": "INS_T10",
+   "query": "I think someone pretending to be you scammed me.",
+   "gold": "navigate",
+   "goldDest": "help-fraud-report",
+   "goldSection": "what-to-do-now",
+   "overlap": 0,
+   "a": {
+    "top": "help-fraud-report",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": false
+   },
+   "a2": {
+    "top": "help-fraud-report",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": false
+   },
+   "b": {
+    "top": "help-fraud-report",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "help-fraud-report",
+    "section": "signs-of-a-scam",
+    "reason": "similarity 0.733, margin 0.354 over help-fraud-claims",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": false,
+    "within1": true
+   }
+  },
+  {
+   "id": "INS_T11",
+   "query": "my son has just passed his test and wants to drive my car",
+   "gold": "navigate",
+   "goldDest": "car-young-drivers",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "top": "car-young-drivers",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "car-young-drivers",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "car-young-drivers",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "car-young-drivers",
+    "section": "pass-plus-and-driver-training",
+    "reason": "similarity 0.562, margin 0.182 over car-named-drivers",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true
+   }
+  },
+  {
+   "id": "INS_T12",
+   "query": "can I put my wife on the policy as well",
+   "gold": "navigate",
+   "goldDest": "car-named-drivers",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "top": "trust-why",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "a2": {
+    "top": "car-comprehensive",
+    "h1": false,
+    "h3": false,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "chg-cancel-policy",
+    "h1": false,
+    "h3": false,
+    "h5": false
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "chg-cancel-policy",
+    "section": null,
+    "reason": "similarity 0.538, margin 0.035 over life-joint",
+    "options": [],
+    "correctNav": false,
+    "wrongNav": true,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": false
+   }
+  },
+  {
+   "id": "INS_T13",
+   "query": "a stone cracked my windscreen on the motorway",
+   "gold": "navigate",
+   "goldDest": "claim-motor-windscreen",
+   "goldSection": null,
+   "overlap": 1,
+   "a": {
+    "top": "home-subsidence",
+    "h1": false,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "car-windscreen",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "car-windscreen",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "clarify",
+    "dest": null,
+    "section": null,
+    "reason": "close_alternatives",
+    "options": [
+     "car-windscreen",
+     "claim-motor-windscreen"
+    ],
+    "correctNav": false,
+    "wrongNav": false,
+    "clarified": true,
+    "offersGold": true,
+    "rejected": false,
+    "sec": null,
+    "within1": true
+   }
+  },
+  {
+   "id": "INS_T14",
+   "query": "my car has conked out by the side of the road",
+   "gold": "navigate",
+   "goldDest": "car-breakdown",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "top": "chg-vehicle-sell",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "a2": {
+    "top": "chg-vehicle-sell",
+    "h1": false,
+    "h3": false,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "claim-motor-theft",
+    "h1": false,
+    "h3": false,
+    "h5": false
+   },
+   "c": {
+    "decision": "clarify",
+    "dest": null,
+    "section": null,
+    "reason": "weak_match",
+    "options": [
+     "claim-motor-theft",
+     "claim-motor-total-loss",
+     "car-courtesy"
+    ],
+    "correctNav": false,
+    "wrongNav": false,
+    "clarified": true,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": false
+   }
+  },
+  {
+   "id": "INS_T15",
+   "query": "burglars broke in and took my laptop and telly",
+   "gold": "navigate",
+   "goldDest": "claim-home-burglary",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "top": "home-theft",
+    "h1": false,
+    "h3": false,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "home-theft",
+    "h1": false,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "home-theft",
+    "h1": false,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "home-theft",
+    "section": null,
+    "reason": "similarity 0.719, margin 0.100 over claim-home-burglary",
+    "options": [],
+    "correctNav": false,
+    "wrongNav": true,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": false
+   }
+  },
+  {
+   "id": "INS_T16",
+   "query": "I ended up in hospital while on holiday",
+   "gold": "navigate",
+   "goldDest": "claim-travel-medical",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "top": "travel-single-trip",
+    "h1": false,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "travel-medical",
+    "h1": false,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "travel-medical",
+    "h1": false,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "travel-medical",
+    "section": null,
+    "reason": "similarity 0.656, margin 0.148 over travel-cancellation",
+    "options": [],
+    "correctNav": false,
+    "wrongNav": true,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": false
+   }
+  },
+  {
+   "id": "INS_T17",
+   "query": "I have a heart condition, will I be covered abroad",
+   "gold": "navigate",
+   "goldDest": "travel-preexisting",
+   "goldSection": null,
+   "overlap": 1,
+   "a": {
+    "top": "ci-cover",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "a2": {
+    "top": "ci-cover",
+    "h1": false,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "travel-preexisting",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "clarify",
+    "dest": null,
+    "section": null,
+    "reason": "close_alternatives",
+    "options": [
+     "travel-preexisting",
+     "travel-medical"
+    ],
+    "correctNav": false,
+    "wrongNav": false,
+    "clarified": true,
+    "offersGold": true,
+    "rejected": false,
+    "sec": null,
+    "within1": true
+   }
+  },
+  {
+   "id": "INS_T18",
+   "query": "my dog swallowed a sock and needs an operation",
+   "gold": "navigate",
+   "goldDest": "claim-pet-vet",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "top": "chg-cancel-policy",
+    "h1": false,
+    "h3": false,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "claim-pet-vet",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "pet-dental-routine",
+    "h1": false,
+    "h3": false,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "pet-dental-routine",
+    "section": null,
+    "reason": "similarity 0.407, margin 0.060 over pet-pre-existing",
+    "options": [],
+    "correctNav": false,
+    "wrongNav": true,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": false
+   }
+  },
+  {
+   "id": "INS_T19",
+   "query": "our cat has gone missing",
+   "gold": "navigate",
+   "goldDest": "claim-pet-lost",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "top": "claim-motor-total-loss",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "a2": {
+    "top": "claim-pet-lost",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "claim-pet-lost",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "claim-pet-lost",
+    "section": null,
+    "reason": "similarity 0.549, margin 0.154 over pet-accident-only",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true
+   }
+  },
+  {
+   "id": "INS_T20",
+   "query": "my dog had skin problems last year, is that covered",
+   "gold": "navigate",
+   "goldDest": "pet-pre-existing",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "top": "renew-quote",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "a2": {
+    "top": "pet-lifetime",
+    "h1": false,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "pet-lifetime",
+    "h1": false,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "clarify",
+    "dest": null,
+    "section": null,
+    "reason": "close_alternatives",
+    "options": [
+     "pet-lifetime",
+     "pet-pre-existing"
+    ],
+    "correctNav": false,
+    "wrongNav": false,
+    "clarified": true,
+    "offersGold": true,
+    "rejected": false,
+    "sec": null,
+    "within1": true
+   }
+  },
+  {
+   "id": "INS_T21",
+   "query": "I changed my mind and want my money back within a fortnight",
+   "gold": "navigate",
+   "goldDest": "chg-cooling-off",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "top": "chg-cancel-policy",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "a2": {
+    "top": "chg-cooling-off",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "chg-mid-term-adjust",
+    "h1": false,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "clarify",
+    "dest": null,
+    "section": null,
+    "reason": "close_alternatives",
+    "options": [
+     "chg-mid-term-adjust",
+     "chg-cooling-off",
+     "pet-claiming"
+    ],
+    "correctNav": false,
+    "wrongNav": false,
+    "clarified": true,
+    "offersGold": true,
+    "rejected": false,
+    "sec": null,
+    "within1": true
+   }
+  },
+  {
+   "id": "INS_T22",
+   "query": "we've moved house and need to update where you send letters",
+   "gold": "navigate",
+   "goldDest": "chg-address",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "top": "chg-address",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "chg-address",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "chg-address",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "chg-address",
+    "section": "how-to-update",
+    "reason": "similarity 0.522, margin 0.078 over chg-property",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true
+   }
+  },
+  {
+   "id": "INS_T23",
+   "query": "I'm unhappy with how my claim was handled and want to complain",
+   "gold": "navigate",
+   "goldDest": "help-complaint",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "top": "claim-dispute",
+    "h1": false,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "help-complaint",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "help-complaint",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "clarify",
+    "dest": null,
+    "section": null,
+    "reason": "qualifier",
+    "options": [
+     "claim-home-escape-of-water",
+     "claim-motor-accident",
+     "claim-travel-possessions",
+     "claim-pet-vet"
+    ],
+    "correctNav": false,
+    "wrongNav": false,
+    "clarified": true,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": false
+   }
+  },
+  {
+   "id": "INS_T24",
+   "query": "you turned down my claim and I think that's wrong",
+   "gold": "navigate",
+   "goldDest": "claim-dispute",
+   "goldSection": null,
+   "overlap": 1,
+   "a": {
+    "top": "renew-no-renewal",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "a2": {
+    "top": "claim-dispute",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "claim-dispute",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "clarify",
+    "dest": null,
+    "section": null,
+    "reason": "qualifier",
+    "options": [
+     "claim-home-escape-of-water",
+     "claim-motor-accident",
+     "claim-travel-possessions",
+     "claim-pet-vet"
+    ],
+    "correctNav": false,
+    "wrongNav": false,
+    "clarified": true,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": false
+   }
+  },
+  {
+   "id": "INS_T25",
+   "query": "I can't afford this month's payment",
+   "gold": "navigate",
+   "goldDest": "pay-missed",
+   "goldSection": null,
+   "overlap": 1,
+   "a": {
+    "top": "acc-payment-methods",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "a2": {
+    "top": "pay-missed",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "pay-missed",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "pay-missed",
+    "section": "if-you-are-in-financial-difficulty",
+    "reason": "similarity 0.616, margin 0.149 over pay-monthly-yearly",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true
+   }
+  },
+  {
+   "id": "INS_T26",
+   "query": "how do I put my life policy in trust so my kids don't pay inheritance tax",
+   "gold": "navigate",
+   "goldDest": "trust-why",
+   "goldSection": null,
+   "overlap": 2,
+   "a": {
+    "top": "trust-why",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "trust-why",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "trust-why",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "trust-why",
+    "section": "inheritance-tax",
+    "reason": "similarity 0.727, margin 0.128 over life-whole-of-life",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true
+   }
+  },
+  {
+   "id": "INS_T27",
+   "query": "if I get cancer will I get a lump sum",
+   "gold": "navigate",
+   "goldDest": "ci-cover",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "top": "ci-cover",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "ci-cover",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "ci-cover",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "clarify",
+    "dest": null,
+    "section": null,
+    "reason": "weak_match",
+    "options": [
+     "ci-cover"
+    ],
+    "correctNav": false,
+    "wrongNav": false,
+    "clarified": true,
+    "offersGold": true,
+    "rejected": false,
+    "sec": null,
+    "within1": true
+   }
+  },
+  {
+   "id": "INS_T28",
+   "query": "I'm self-employed, what happens if I can't work through illness",
+   "gold": "navigate",
+   "goldDest": "income-protection",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "top": "income-short-term",
+    "h1": false,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "income-short-term",
+    "h1": false,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "income-protection",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "income-protection",
+    "section": null,
+    "reason": "similarity 0.483, margin 0.023 over ci-cover",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true
+   }
+  },
+  {
+   "id": "INS_T29",
+   "query": "my car was nicked from outside my house",
+   "gold": "navigate",
+   "goldDest": "claim-motor-theft",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "top": "home-personal-possessions",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "a2": {
+    "top": "claim-motor-theft",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "claim-motor-theft",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "claim-motor-theft",
+    "section": "if-the-car-is-recovered",
+    "reason": "similarity 0.577, margin 0.176 over home-personal-possessions",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true
+   }
+  },
+  {
+   "id": "INS_T30",
+   "query": "I rent out my flat to tenants",
+   "gold": "navigate",
+   "goldDest": "home-landlord",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "top": "home-landlord",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "home-landlord",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "home-landlord",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "home-landlord",
+    "section": null,
+    "reason": "similarity 0.636, margin 0.079 over home-renters",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true
+   }
+  },
+  {
+   "id": "INS_T31",
+   "query": "when is someone coming to look at the damage",
+   "gold": "navigate",
+   "goldDest": "claim-assessor",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "top": "home-theft",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "a2": {
+    "top": "claim-assessor",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "claim-assessor",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "claim-assessor",
+    "section": null,
+    "reason": "similarity 0.507, margin 0.084 over claim-motor-accident",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true
+   }
+  },
+  {
+   "id": "INS_T32",
+   "query": "your offer for my written-off car is far too low",
+   "gold": "navigate",
+   "goldDest": "claim-motor-total-loss",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "top": "claim-motor-total-loss",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "claim-motor-total-loss",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "claim-motor-total-loss",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "claim-motor-total-loss",
+    "section": "when-a-car-is-a-total-loss",
+    "reason": "similarity 0.540, margin 0.136 over chg-vehicle-sell",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true
+   }
+  },
+  {
+   "id": "INS_T33",
+   "query": "I need to cancel my trip because I broke my leg",
+   "gold": "navigate",
+   "goldDest": "travel-cancellation",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "top": "travel-single-trip",
+    "h1": false,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "travel-single-trip",
+    "h1": false,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "travel-cancellation",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "travel-cancellation",
+    "section": "cancelling-for-illness",
+    "reason": "similarity 0.571, margin 0.044 over claim-travel-cancellation",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true
+   }
+  },
+  {
+   "id": "INS_T34",
+   "query": "cancel my car insurance",
+   "gold": "navigate",
+   "goldDest": "chg-cancel-policy",
+   "goldSection": null,
+   "overlap": 1,
+   "a": {
+    "top": "chg-cancel-policy",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "chg-cancel-policy",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "chg-cancel-policy",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "chg-cancel-policy",
+    "section": "cover-you-need-by-law",
+    "reason": "similarity 0.778, margin 0.253 over renew-no-renewal",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true
+   }
+  },
+  {
+   "id": "INS_T35",
+   "query": "I want to claim",
+   "gold": "clarify",
+   "goldDest": null,
+   "goldSection": null,
+   "overlap": null,
+   "a": {
+    "top": "claim-home-escape-of-water",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "a2": {
+    "top": "chg-cancel-policy",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "b": {
+    "top": "claim-track",
+    "h1": false,
+    "h3": false,
+    "h5": false
+   },
+   "c": {
+    "decision": "clarify",
+    "dest": null,
+    "section": null,
+    "reason": "qualifier",
+    "options": [
+     "claim-home-escape-of-water",
+     "claim-motor-accident",
+     "claim-travel-possessions",
+     "claim-pet-vet"
+    ],
+    "correct": true,
+    "offersGold": true,
+    "wrongNav": false
+   }
+  },
+  {
+   "id": "INS_T36",
+   "query": "cancel",
+   "gold": "clarify",
+   "goldDest": null,
+   "goldSection": null,
+   "overlap": null,
+   "a": {
+    "top": "chg-cancel-policy",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "a2": {
+    "top": "chg-cancel-policy",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "b": {
+    "top": "chg-cancel-policy",
+    "h1": false,
+    "h3": false,
+    "h5": false
+   },
+   "c": {
+    "decision": "clarify",
+    "dest": null,
+    "section": null,
+    "reason": "qualifier",
+    "options": [
+     "chg-cancel-policy",
+     "travel-cancellation",
+     "pay-direct-debit"
+    ],
+    "correct": true,
+    "offersGold": true,
+    "wrongNav": false
+   }
+  },
+  {
+   "id": "INS_T37",
+   "query": "can you recommend a good pension provider",
+   "gold": "reject",
+   "goldDest": null,
+   "goldSection": null,
+   "overlap": null,
+   "a": {
+    "top": "claim-travel-cancellation",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "a2": {
+    "top": "claim-travel-cancellation",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "b": {
+    "top": "help-vulnerable",
+    "h1": false,
+    "h3": false,
+    "h5": false
+   },
+   "c": {
+    "decision": "reject",
+    "dest": null,
+    "section": null,
+    "reason": "off_topic",
+    "options": [],
+    "correct": true,
+    "wrongNav": false
+   }
+  },
+  {
+   "id": "INS_T38",
+   "query": "who is going to win the election",
+   "gold": "reject",
+   "goldDest": null,
+   "goldSection": null,
+   "overlap": null,
+   "a": {
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "a2": {
+    "top": "travel-winter-sports",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "b": {
+    "top": "car-young-drivers",
+    "h1": false,
+    "h3": false,
+    "h5": false
+   },
+   "c": {
+    "decision": "reject",
+    "dest": null,
+    "section": null,
+    "reason": "no_match",
+    "options": [],
+    "correct": true,
+    "wrongNav": false
+   }
+  },
+  {
+   "id": "INS_T39",
+   "query": "how do I get a refund from my airline for a delayed flight",
+   "gold": "reject",
+   "goldDest": null,
+   "goldSection": null,
+   "overlap": null,
+   "a": {
+    "top": "travel-delays",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "a2": {
+    "top": "travel-delays",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "b": {
+    "top": "claim-travel-cancellation",
+    "h1": false,
+    "h3": false,
+    "h5": false
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "claim-travel-cancellation",
+    "section": "tell-your-travel-providers",
+    "reason": "similarity 0.565, margin 0.048 over travel-delays",
+    "options": [],
+    "correct": false,
+    "wrongNav": true
+   }
+  },
+  {
+   "id": "INS_T40",
+   "query": "continue my claim",
+   "gold": "navigate",
+   "goldDest": "acc-saved-claim-water",
+   "goldSection": null,
+   "overlap": 1,
+   "a": {
+    "top": "acc-saved-claim-water",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "acc-saved-claim-water",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "acc-open-claims",
+    "h1": false,
+    "h3": false,
+    "h5": false
+   },
+   "c": {
+    "decision": "clarify",
+    "dest": null,
+    "section": null,
+    "reason": "qualifier",
+    "options": [
+     "claim-home-escape-of-water",
+     "claim-motor-accident",
+     "claim-travel-possessions",
+     "claim-pet-vet"
+    ],
+    "correctNav": false,
+    "wrongNav": false,
+    "clarified": true,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": false
+   }
+  },
+  {
+   "id": "INS_T41",
+   "query": "I need to send my photos",
+   "gold": "navigate",
+   "goldDest": "acc-saved-claim-water",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "top": "acc-saved-claim-water",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "acc-saved-claim-water",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "acc-saved-claim-water",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "acc-open-claims",
+    "section": null,
+    "reason": "resume intent: no saved item for help-data-rights, showing Open claims",
+    "options": [],
+    "correctNav": false,
+    "wrongNav": true,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": false
+   }
+  },
+  {
+   "id": "INS_T42",
+   "query": "finish my renewal quote",
+   "gold": "navigate",
+   "goldDest": "acc-saved-quote-car",
+   "goldSection": null,
+   "overlap": 2,
+   "a": {
+    "top": "acc-saved-quote-car",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "acc-saved-quote-car",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "renew-quote",
+    "h1": false,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "renew-quote",
+    "section": "shopping-around",
+    "reason": "similarity 0.698, margin 0.107 over renew-no-renewal",
+    "options": [],
+    "correctNav": false,
+    "wrongNav": true,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": false
+   }
+  }
+ ]
+}

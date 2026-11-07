@@ -1,0 +1,315 @@
+[
+ {
+  "id": "mobile_320_home_axe",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "mobile_320_home_no_horizontal_scroll",
+  "pass": true,
+  "detail": {
+   "scrollWidth": 320
+  }
+ },
+ {
+  "id": "mobile_320_panel_inside_viewport",
+  "pass": true,
+  "detail": {
+   "left": 12,
+   "right": 308,
+   "w": 296
+  }
+ },
+ {
+  "id": "mobile_320_axe_panel_open",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "mobile_320_strip_after_navigation",
+  "pass": true,
+  "detail": {
+   "path": "/usher-demonstrator/sites/lumenet/p/fault-intermittent.html#check-the-pattern",
+   "stripVisible": true,
+   "collapsed": true,
+   "stripH": 74,
+   "state": "arrived",
+   "sw": 320
+  }
+ },
+ {
+  "id": "mobile_320_strip_collapsed_height_le_20pct_viewport",
+  "pass": true,
+  "detail": {
+   "path": "/usher-demonstrator/sites/lumenet/p/fault-intermittent.html#check-the-pattern",
+   "stripVisible": true,
+   "collapsed": true,
+   "stripH": 74,
+   "state": "arrived",
+   "sw": 320
+  }
+ },
+ {
+  "id": "mobile_320_no_horizontal_scroll_destination",
+  "pass": true,
+  "detail": {
+   "path": "/usher-demonstrator/sites/lumenet/p/fault-intermittent.html#check-the-pattern",
+   "stripVisible": true,
+   "collapsed": true,
+   "stripH": 74,
+   "state": "arrived",
+   "sw": 320
+  }
+ },
+ {
+  "id": "mobile_320_axe_destination_collapsed",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "mobile_320_strip_expands",
+  "pass": true,
+  "detail": {
+   "collapsed": false,
+   "h": 279,
+   "exp": "true"
+  }
+ },
+ {
+  "id": "mobile_320_axe_destination_expanded",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "mobile_375_home_axe",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "mobile_375_home_no_horizontal_scroll",
+  "pass": true,
+  "detail": {
+   "scrollWidth": 375
+  }
+ },
+ {
+  "id": "mobile_375_panel_inside_viewport",
+  "pass": true,
+  "detail": {
+   "left": 12,
+   "right": 363,
+   "w": 351
+  }
+ },
+ {
+  "id": "mobile_375_axe_panel_open",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "mobile_375_strip_after_navigation",
+  "pass": true,
+  "detail": {
+   "path": "/usher-demonstrator/sites/lumenet/p/fault-intermittent.html#check-the-pattern",
+   "stripVisible": true,
+   "collapsed": true,
+   "stripH": 74,
+   "state": "arrived",
+   "sw": 375
+  }
+ },
+ {
+  "id": "mobile_375_strip_collapsed_height_le_20pct_viewport",
+  "pass": true,
+  "detail": {
+   "path": "/usher-demonstrator/sites/lumenet/p/fault-intermittent.html#check-the-pattern",
+   "stripVisible": true,
+   "collapsed": true,
+   "stripH": 74,
+   "state": "arrived",
+   "sw": 375
+  }
+ },
+ {
+  "id": "mobile_375_no_horizontal_scroll_destination",
+  "pass": true,
+  "detail": {
+   "path": "/usher-demonstrator/sites/lumenet/p/fault-intermittent.html#check-the-pattern",
+   "stripVisible": true,
+   "collapsed": true,
+   "stripH": 74,
+   "state": "arrived",
+   "sw": 375
+  }
+ },
+ {
+  "id": "mobile_375_axe_destination_collapsed",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "mobile_375_strip_expands",
+  "pass": true,
+  "detail": {
+   "collapsed": false,
+   "h": 279,
+   "exp": "true"
+  }
+ },
+ {
+  "id": "mobile_375_axe_destination_expanded",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "mobile_414_home_axe",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "mobile_414_home_no_horizontal_scroll",
+  "pass": true,
+  "detail": {
+   "scrollWidth": 414
+  }
+ },
+ {
+  "id": "mobile_414_panel_inside_viewport",
+  "pass": true,
+  "detail": {
+   "left": 12,
+   "right": 402,
+   "w": 390
+  }
+ },
+ {
+  "id": "mobile_414_axe_panel_open",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "mobile_414_strip_after_navigation",
+  "pass": true,
+  "detail": {
+   "path": "/usher-demonstrator/sites/lumenet/p/fault-intermittent.html#check-the-pattern",
+   "stripVisible": true,
+   "collapsed": true,
+   "stripH": 74,
+   "state": "arrived",
+   "sw": 414
+  }
+ },
+ {
+  "id": "mobile_414_strip_collapsed_height_le_20pct_viewport",
+  "pass": true,
+  "detail": {
+   "path": "/usher-demonstrator/sites/lumenet/p/fault-intermittent.html#check-the-pattern",
+   "stripVisible": true,
+   "collapsed": true,
+   "stripH": 74,
+   "state": "arrived",
+   "sw": 414
+  }
+ },
+ {
+  "id": "mobile_414_no_horizontal_scroll_destination",
+  "pass": true,
+  "detail": {
+   "path": "/usher-demonstrator/sites/lumenet/p/fault-intermittent.html#check-the-pattern",
+   "stripVisible": true,
+   "collapsed": true,
+   "stripH": 74,
+   "state": "arrived",
+   "sw": 414
+  }
+ },
+ {
+  "id": "mobile_414_axe_destination_collapsed",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "mobile_414_strip_expands",
+  "pass": true,
+  "detail": {
+   "collapsed": false,
+   "h": 226,
+   "exp": "true"
+  }
+ },
+ {
+  "id": "mobile_414_axe_destination_expanded",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "desktop_ask_navigates",
+  "pass": true,
+  "detail": {
+   "u": "/usher-demonstrator/sites/lumenet/p/fault-intermittent.html#check-the-pattern"
+  }
+ },
+ {
+  "id": "desktop_axe_destination",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "axe_compare.html_375",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "compare_renders_both_375",
+  "pass": true,
+  "detail": {
+   "l": "Typical speeds and the evening range\nBroadband plans and offers › Speeds explained\nIntermittent connection\nFaults, speed",
+   "r": "It sounds like you need help with intermittent connection.\n\nGo to: Home › Faults, speed and outages › Slow or dropping connection › Intermittent connection › Ch"
+  }
+ },
+ {
+  "id": "axe_search.html_375",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "axe_compare.html_1280",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "compare_renders_both_1280",
+  "pass": true,
+  "detail": {
+   "l": "Typical speeds and the evening range\nBroadband plans and offers › Speeds explained\nIntermittent connection\nFaults, speed",
+   "r": "It sounds like you need help with intermittent connection.\n\nGo to: Home › Faults, speed and outages › Slow or dropping connection › Intermittent connection › Ch"
+  }
+ },
+ {
+  "id": "allpages_axe_375",
+  "pass": true,
+  "detail": {
+   "pages": 129,
+   "violationPages": 0,
+   "first": []
+  }
+ },
+ {
+  "id": "allpages_no_horizontal_scroll_375",
+  "pass": true,
+  "detail": {
+   "pages": 129,
+   "overflow": []
+  }
+ },
+ {
+  "id": "no_console_errors",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "no_external_requests",
+  "pass": true,
+  "detail": []
+ }
+]

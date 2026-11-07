@@ -1,0 +1,2781 @@
+{
+ "site": "lumenet",
+ "itemsFile": "lumenet_tuned_v2.json",
+ "harness": "goalpost-eval-v2",
+ "engineVersion": "RESOLVER7_GP3",
+ "itemsSha256": "f058f649aabcbf8e8e90768c5f5fde01814492aaa79355c2f316fc42ee7d3a90",
+ "indexTextsHash": "71a2be54",
+ "summary": {
+  "n": 51,
+  "nNavigate": 45,
+  "nClarify": 3,
+  "nReject": 3,
+  "a": {
+   "page": "48.9% [35-63] (22/45)",
+   "hit3": "64.4% [50-77] (29/45)",
+   "hit5": "75.6% [61-86] (34/45)",
+   "section": "n/a"
+  },
+  "a2": {
+   "page": "80.0% [66-89] (36/45)",
+   "hit3": "93.3% [82-98] (42/45)",
+   "hit5": "97.8% [88-100] (44/45)",
+   "section": "n/a"
+  },
+  "b": {
+   "page": "75.6% [61-86] (34/45)",
+   "hit3": "91.1% [79-96] (41/45)",
+   "hit5": "95.6% [85-99] (43/45)"
+  },
+  "c": {
+   "pageAccuracyNavItems": "68.9% [54-80] (31/45)",
+   "section": "n/a",
+   "wrongDestinationAllItems": "13.7% [7-26] (7/51)",
+   "wrongDestinationNavItems": "15.6% [8-29] (7/45)",
+   "clarificationRateAll": "19.6% [11-32] (10/51)",
+   "clarifiedOnNavItems": "15.6% [8-29] (7/45)",
+   "clarificationsOfferingGold": "90.0% [60-98] (9/10)",
+   "within1stepNavItems": "82.2% [69-91] (37/45)",
+   "rejectionAccuracy": "100.0% [44-100] (3/3)",
+   "falseRejectOnNavItems": "0.0% [0-8] (0/45)",
+   "clarifyItemsClarified": "100.0% [44-100] (3/3)",
+   "decisionCorrectAll": "72.5% [59-83] (37/51)",
+   "twinQuestionsAll": 0
+  },
+  "lenientTwinPages": {
+   "note": "twin cover/claim pages also accepted (item field twinDestinationIds); strict numbers above are the headline",
+   "a": "48.9% [35-63] (22/45)",
+   "a2": "80.0% [66-89] (36/45)",
+   "b": "75.6% [61-86] (34/45)",
+   "goalpostCorrectNav": "68.9% [54-80] (31/45)",
+   "goalpostWrongNav": "15.6% [8-29] (7/45)"
+  },
+  "mcnemar": {
+   "c_vs_a": {
+    "onlyA": 14,
+    "onlyB": 5,
+    "p": 0.063568115234375
+   },
+   "c_vs_a2": {
+    "onlyA": 8,
+    "onlyB": 13,
+    "p": 0.38331031799316406
+   },
+   "c_vs_b": {
+    "onlyA": 2,
+    "onlyB": 5,
+    "p": 0.453125
+   },
+   "b_vs_a2": {
+    "onlyA": 6,
+    "onlyB": 8,
+    "p": 0.79052734375
+   },
+   "a2_vs_a": {
+    "onlyA": 16,
+    "onlyB": 2,
+    "p": 0.001312255859375
+   }
+  },
+  "within1stepVsBaseline": {
+   "goalpostWithin1": "82.2%",
+   "baselineA_hit3": "64.4%",
+   "baselineA2_hit3": "93.3%",
+   "semantic_hit3": "91.1%"
+  },
+  "byLabelOverlap": {
+   "0": {
+    "n": 21,
+    "a": "23.8%",
+    "a2": "71.4%",
+    "b": "76.2%",
+    "goalpostCorrectNav": "71.4%",
+    "goalpostWrongNav": "19.0%"
+   },
+   "1": {
+    "n": 15,
+    "a": "53.3%",
+    "a2": "80.0%",
+    "b": "66.7%",
+    "goalpostCorrectNav": "60.0%",
+    "goalpostWrongNav": "13.3%"
+   },
+   "2+": {
+    "n": 9,
+    "a": "100.0%",
+    "a2": "100.0%",
+    "b": "88.9%",
+    "goalpostCorrectNav": "77.8%",
+    "goalpostWrongNav": "11.1%"
+   }
+  },
+  "savedState": {
+   "note": "positives: query plausibly about the user's saved item (savedStateTarget); negatives: same topic but not the user's item (savedStateNegative)",
+   "positives_n": 7,
+   "a_top1": "42.9% [16-75] (3/7)",
+   "a2_top1": "28.6% [8-64] (2/7)",
+   "b_top1": "28.6% [8-64] (2/7)",
+   "goalpostNavigated": "57.1% [25-84] (4/7)",
+   "goalpostNavigatedOrOffered": "71.4% [36-92] (5/7)",
+   "negatives_n": 2,
+   "a_top1Saved": "0.0% [0-66] (0/2)",
+   "a2_top1Saved": "0.0% [0-66] (0/2)",
+   "b_top1Saved": "0.0% [0-66] (0/2)",
+   "goalpostHijacked": "0.0% [0-66] (0/2)"
+  },
+  "twins": {
+   "note": "navigate items whose gold page has a near-duplicate twin (twinDestinationIds); wrong twin = committed/top-1 to the twin",
+   "n": 0,
+   "a_wrongTwinTop1": "n/a",
+   "a2_wrongTwinTop1": "n/a",
+   "b_wrongTwinTop1": "n/a",
+   "goalpostCorrect": "n/a",
+   "goalpostWrongTwin": "n/a",
+   "goalpostTwinQuestion": "n/a"
+  }
+ },
+ "rows": [
+  {
+   "id": "LUM_T01",
+   "query": "My internet drops every evening.",
+   "gold": "navigate",
+   "goldDest": "fault-intermittent",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "top": "speed-typical",
+    "h1": false,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "fault-intermittent",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "fault-intermittent",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "fault-intermittent",
+    "section": "check-the-pattern",
+    "reason": "similarity 0.745, margin 0.246 over speed-typical",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": false,
+    "a2": true,
+    "b": true,
+    "cCorrect": true,
+    "cWrong": false
+   }
+  },
+  {
+   "id": "LUM_T02",
+   "query": "I'm moving house in three weeks.",
+   "gold": "navigate",
+   "goldDest": "acct-saved-move",
+   "goldSection": null,
+   "overlap": 1,
+   "a": {
+    "top": "acct-saved-move",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "move-service",
+    "h1": false,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "move-choose-date",
+    "h1": false,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "acct-saved-move",
+    "section": null,
+    "reason": "saved state match: acct-saved-move 0.556 vs move-choose-date 0.578 (window 0.03)",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": true,
+    "a2": false,
+    "b": false,
+    "cCorrect": true,
+    "cWrong": false
+   },
+   "saved": {
+    "kind": "positive",
+    "target": "acct-saved-move",
+    "a": true,
+    "a2": false,
+    "b": false,
+    "cNav": true,
+    "cOffered": false,
+    "cRoutedOrOffered": true
+   }
+  },
+  {
+   "id": "LUM_T03",
+   "query": "My bill jumped this month.",
+   "gold": "navigate",
+   "goldDest": "bill-changed",
+   "goldSection": null,
+   "overlap": 1,
+   "a": {
+    "top": "bill-changed",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "bill-changed",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "bill-changed",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "bill-changed",
+    "section": "part-month-charges",
+    "reason": "similarity 0.782, margin 0.115 over bill-first",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": true,
+    "a2": true,
+    "b": true,
+    "cCorrect": true,
+    "cWrong": false
+   }
+  },
+  {
+   "id": "LUM_T04",
+   "query": "I want to leave but I'm still in my contract.",
+   "gold": "navigate",
+   "goldDest": "etc-charges",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "top": "rise-leave",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "a2": {
+    "top": "etc-charges",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "etc-charges",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "clarify",
+    "dest": null,
+    "section": null,
+    "reason": "close_alternatives",
+    "options": [
+     "etc-charges",
+     "con-end-date",
+     "etc-exemptions"
+    ],
+    "correctNav": false,
+    "wrongNav": false,
+    "clarified": true,
+    "offersGold": true,
+    "rejected": false,
+    "sec": null,
+    "within1": true,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": false,
+    "a2": true,
+    "b": true,
+    "cCorrect": false,
+    "cWrong": false
+   }
+  },
+  {
+   "id": "LUM_T05",
+   "query": "The Wi-Fi doesn't reach my bedroom.",
+   "gold": "navigate",
+   "goldDest": "eq-mesh",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "top": "eq-wifi-settings",
+    "h1": false,
+    "h3": false,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "eq-mesh",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "eq-dead-spots",
+    "h1": false,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "eq-dead-spots",
+    "section": "wired-options",
+    "reason": "similarity 0.672, margin 0.036 over eq-mesh",
+    "options": [],
+    "correctNav": false,
+    "wrongNav": true,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": false,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": false,
+    "a2": true,
+    "b": false,
+    "cCorrect": false,
+    "cWrong": true
+   }
+  },
+  {
+   "id": "LUM_T06",
+   "query": "The engineer never turned up.",
+   "gold": "navigate",
+   "goldDest": "fault-missed-appt",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "top": "acct-scams",
+    "h1": false,
+    "h3": false,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "fault-missed-appt",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "fault-missed-appt",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "fault-missed-appt",
+    "section": "late-engineers",
+    "reason": "similarity 0.452, margin 0.105 over fault-engineer-visit",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": false,
+    "a2": true,
+    "b": true,
+    "cCorrect": true,
+    "cWrong": false
+   }
+  },
+  {
+   "id": "LUM_T07",
+   "query": "I can't remember my router password.",
+   "gold": "navigate",
+   "goldDest": "eq-wifi-password",
+   "goldSection": null,
+   "overlap": 2,
+   "a": {
+    "top": "eq-wifi-password",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "eq-wifi-password",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "eq-wifi-password",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "eq-wifi-password",
+    "section": "changing-the-password",
+    "reason": "similarity 0.804, margin 0.195 over fault-lights",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": true,
+    "a2": true,
+    "b": true,
+    "cCorrect": true,
+    "cWrong": false
+   }
+  },
+  {
+   "id": "LUM_T08",
+   "query": "I'm away for a month, can I stop paying?",
+   "gold": "navigate",
+   "goldDest": "con-pause",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "top": "con-pause",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "con-pause",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "con-pause",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "con-pause",
+    "section": null,
+    "reason": "similarity 0.673, margin 0.101 over con-end-date",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": true,
+    "a2": true,
+    "b": true,
+    "cCorrect": true,
+    "cWrong": false
+   }
+  },
+  {
+   "id": "LUM_T09",
+   "query": "Someone is logging in to my account.",
+   "gold": "navigate",
+   "goldDest": "acct-hacked",
+   "goldSection": null,
+   "overlap": 1,
+   "a": {
+    "top": "acct-hacked",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "acct-hacked",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "acct-hacked",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "acct-hacked",
+    "section": "contact-us",
+    "reason": "similarity 0.701, margin 0.183 over acct-login",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": true,
+    "a2": true,
+    "b": true,
+    "cCorrect": true,
+    "cWrong": false
+   }
+  },
+  {
+   "id": "LUM_T10",
+   "query": "My contract just ended and the price went up.",
+   "gold": "navigate",
+   "goldDest": "rise-out-of-contract",
+   "goldSection": null,
+   "overlap": 1,
+   "a": {
+    "top": "con-end-date",
+    "h1": false,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "rise-out-of-contract",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "rise-out-of-contract",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "rise-out-of-contract",
+    "section": "staying-on-the-standard-price",
+    "reason": "similarity 0.771, margin 0.183 over rise-leave",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": false,
+    "a2": true,
+    "b": true,
+    "cCorrect": true,
+    "cWrong": false
+   }
+  },
+  {
+   "id": "LUM_T11",
+   "query": "my wifi is rubbish upstairs",
+   "gold": "navigate",
+   "goldDest": "eq-dead-spots",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "a2": {
+    "top": "eq-dead-spots",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "eq-dead-spots",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "clarify",
+    "dest": null,
+    "section": null,
+    "reason": "close_alternatives",
+    "options": [
+     "eq-dead-spots",
+     "fault-wifi-vs-broadband"
+    ],
+    "correctNav": false,
+    "wrongNav": false,
+    "clarified": true,
+    "offersGold": true,
+    "rejected": false,
+    "sec": null,
+    "within1": true,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": false,
+    "a2": true,
+    "b": true,
+    "cCorrect": false,
+    "cWrong": false
+   }
+  },
+  {
+   "id": "LUM_T12",
+   "query": "how do I check how fast my internet is",
+   "gold": "navigate",
+   "goldDest": "speedtest-how",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "top": "fault-no-connection",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "a2": {
+    "top": "fault-no-connection",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "b": {
+    "top": "speedtest-how",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "speedtest-how",
+    "section": null,
+    "reason": "similarity 0.711, margin 0.161 over fault-slow",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": false,
+    "a2": false,
+    "b": true,
+    "cCorrect": true,
+    "cWrong": false
+   }
+  },
+  {
+   "id": "LUM_T13",
+   "query": "the internet is really slow today",
+   "gold": "navigate",
+   "goldDest": "fault-slow",
+   "goldSection": null,
+   "overlap": 1,
+   "a": {
+    "top": "fault-wifi-vs-broadband",
+    "h1": false,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "fault-slow",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "fault-slow",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "fault-slow",
+    "section": null,
+    "reason": "similarity 0.643, margin 0.112 over fault-wifi-vs-broadband",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": false,
+    "a2": true,
+    "b": true,
+    "cCorrect": true,
+    "cWrong": false
+   }
+  },
+  {
+   "id": "LUM_T14",
+   "query": "no internet at all since this morning",
+   "gold": "navigate",
+   "goldDest": "fault-no-connection",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "top": "sim-esim",
+    "h1": false,
+    "h3": false,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "sim-esim",
+    "h1": false,
+    "h3": false,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "fault-no-connection",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "fault-no-connection",
+    "section": null,
+    "reason": "similarity 0.655, margin 0.225 over move-no-service",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": false,
+    "a2": false,
+    "b": true,
+    "cCorrect": true,
+    "cWrong": false
+   }
+  },
+  {
+   "id": "LUM_T15",
+   "query": "what do the flashing lights on my router mean",
+   "gold": "navigate",
+   "goldDest": "fault-lights",
+   "goldSection": null,
+   "overlap": 2,
+   "a": {
+    "top": "fault-lights",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "fault-lights",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "fault-lights",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "fault-lights",
+    "section": "internet-light",
+    "reason": "similarity 0.764, margin 0.315 over eq-hub",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": true,
+    "a2": true,
+    "b": true,
+    "cCorrect": true,
+    "cWrong": false
+   }
+  },
+  {
+   "id": "LUM_T16",
+   "query": "I want to keep my mobile number when I switch to you",
+   "gold": "navigate",
+   "goldDest": "sim-keep-number",
+   "goldSection": null,
+   "overlap": 2,
+   "a": {
+    "top": "sim-keep-number",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "sim-keep-number",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "sim-keep-number",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "sim-keep-number",
+    "section": "cancelling-a-switch",
+    "reason": "similarity 0.621, margin 0.059 over acct-details",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": true,
+    "a2": true,
+    "b": true,
+    "cCorrect": true,
+    "cWrong": false
+   }
+  },
+  {
+   "id": "LUM_T17",
+   "query": "will my phone work in Spain",
+   "gold": "navigate",
+   "goldDest": "roam-europe",
+   "goldSection": null,
+   "overlap": 1,
+   "a": {
+    "top": "phone-plans",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "a2": {
+    "top": "roam-europe",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "roam-europe",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "roam-europe",
+    "section": null,
+    "reason": "similarity 0.684, margin 0.235 over roam-world",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": false,
+    "a2": true,
+    "b": true,
+    "cCorrect": true,
+    "cWrong": false
+   }
+  },
+  {
+   "id": "LUM_T18",
+   "query": "I got a huge bill after using data abroad",
+   "gold": "navigate",
+   "goldDest": "roam-spend-cap",
+   "goldSection": null,
+   "overlap": 1,
+   "a": {
+    "top": "roam-europe",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "a2": {
+    "top": "roam-spend-cap",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "data-allowance",
+    "h1": false,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "data-allowance",
+    "section": "speed-after-fair-use",
+    "reason": "similarity 0.562, margin 0.032 over roam-spend-cap",
+    "options": [],
+    "correctNav": false,
+    "wrongNav": true,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": false,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": false,
+    "a2": true,
+    "b": false,
+    "cCorrect": false,
+    "cWrong": true
+   }
+  },
+  {
+   "id": "LUM_T19",
+   "query": "how do I block certain sites for the kids",
+   "gold": "navigate",
+   "goldDest": "eq-parental",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "top": "tv-kids-streaming",
+    "h1": false,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "tv-kids-streaming",
+    "h1": false,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "eq-parental",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "eq-parental",
+    "section": "limits",
+    "reason": "similarity 0.751, margin 0.228 over tv-kids-streaming",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": false,
+    "a2": false,
+    "b": true,
+    "cCorrect": true,
+    "cWrong": false
+   }
+  },
+  {
+   "id": "LUM_T20",
+   "query": "can visitors use the wifi without my password",
+   "gold": "navigate",
+   "goldDest": "eq-guest",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "top": "eq-guest",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "eq-guest",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "eq-guest",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "eq-guest",
+    "section": null,
+    "reason": "similarity 0.665, margin 0.061 over eq-wifi-password",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": true,
+    "a2": true,
+    "b": true,
+    "cCorrect": true,
+    "cWrong": false
+   }
+  },
+  {
+   "id": "LUM_T21",
+   "query": "I'm struggling to pay my bill this month",
+   "gold": "navigate",
+   "goldDest": "pay-help",
+   "goldSection": null,
+   "overlap": 2,
+   "a": {
+    "top": "pay-help",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "pay-help",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "pay-ways",
+    "h1": false,
+    "h3": false,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "pay-ways",
+    "section": null,
+    "reason": "similarity 0.658, margin 0.055 over bill-changed",
+    "options": [],
+    "correctNav": false,
+    "wrongNav": true,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": false,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": true,
+    "a2": true,
+    "b": false,
+    "cCorrect": false,
+    "cWrong": true
+   }
+  },
+  {
+   "id": "LUM_T22",
+   "query": "my payment bounced",
+   "gold": "navigate",
+   "goldDest": "dd-failed",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "top": "pay-late",
+    "h1": false,
+    "h3": false,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "dd-failed",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "pay-late",
+    "h1": false,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "pay-late",
+    "section": "getting-help",
+    "reason": "similarity 0.591, margin 0.075 over dd-failed",
+    "options": [],
+    "correctNav": false,
+    "wrongNav": true,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": false,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": false,
+    "a2": true,
+    "b": false,
+    "cCorrect": false,
+    "cWrong": true
+   }
+  },
+  {
+   "id": "LUM_T23",
+   "query": "you've charged me for something I never ordered",
+   "gold": "navigate",
+   "goldDest": "dispute-bill",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "top": "acct-scams",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "a2": {
+    "top": "dispute-bill",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "dispute-bill",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "dispute-bill",
+    "section": null,
+    "reason": "similarity 0.649, margin 0.187 over bill-first",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": false,
+    "a2": true,
+    "b": true,
+    "cCorrect": true,
+    "cWrong": false
+   }
+  },
+  {
+   "id": "LUM_T24",
+   "query": "I was promised money back for the outage",
+   "gold": "navigate",
+   "goldDest": "comp-claim",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "top": "fault-no-connection",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "a2": {
+    "top": "comp-credit",
+    "h1": false,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "comp-claim",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "comp-claim",
+    "section": null,
+    "reason": "similarity 0.517, margin 0.021 over pay-late",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": false,
+    "a2": false,
+    "b": true,
+    "cCorrect": true,
+    "cWrong": false
+   }
+  },
+  {
+   "id": "LUM_T25",
+   "query": "is fibre available on my street",
+   "gold": "navigate",
+   "goldDest": "new-availability",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "top": "new-availability",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "new-availability",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "new-availability",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "new-availability",
+    "section": "if-fibre-is-not-available",
+    "reason": "similarity 0.747, margin 0.143 over plan-fttc",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": true,
+    "a2": true,
+    "b": true,
+    "cCorrect": true,
+    "cWrong": false
+   }
+  },
+  {
+   "id": "LUM_T26",
+   "query": "what does 500 meg actually mean",
+   "gold": "navigate",
+   "goldDest": "speed-mbps",
+   "goldSection": null,
+   "overlap": 1,
+   "a": {
+    "top": "fault-lights",
+    "h1": false,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "fault-lights",
+    "h1": false,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "speed-mbps",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "speed-mbps",
+    "section": null,
+    "reason": "similarity 0.408, margin 0.087 over plan-gigabit",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": false,
+    "a2": false,
+    "b": true,
+    "cCorrect": true,
+    "cWrong": false
+   }
+  },
+  {
+   "id": "LUM_T27",
+   "query": "how do I send back my old router",
+   "gold": "navigate",
+   "goldDest": "eq-return",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "top": "phone-upgrade",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "a2": {
+    "top": "eq-return",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "fault-reset",
+    "h1": false,
+    "h3": false,
+    "h5": false
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "fault-reset",
+    "section": null,
+    "reason": "similarity 0.583, margin 0.065 over move-equipment",
+    "options": [],
+    "correctNav": false,
+    "wrongNav": true,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": false,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": false,
+    "a2": true,
+    "b": false,
+    "cCorrect": false,
+    "cWrong": true
+   }
+  },
+  {
+   "id": "LUM_T28",
+   "query": "my router has stopped working and needs replacing",
+   "gold": "navigate",
+   "goldDest": "eq-replace",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "top": "eq-replace",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "eq-replace",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "eq-replace",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "eq-replace",
+    "section": null,
+    "reason": "similarity 0.678, margin 0.111 over fault-lights",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": true,
+    "a2": true,
+    "b": true,
+    "cCorrect": true,
+    "cWrong": false
+   }
+  },
+  {
+   "id": "LUM_T29",
+   "query": "I got a scam call pretending to be you",
+   "gold": "navigate",
+   "goldDest": "acct-scams",
+   "goldSection": null,
+   "overlap": 2,
+   "a": {
+    "top": "acct-scams",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "acct-scams",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "acct-scams",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "acct-scams",
+    "section": null,
+    "reason": "similarity 0.532, margin 0.118 over help-contact",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": true,
+    "a2": true,
+    "b": true,
+    "cCorrect": true,
+    "cWrong": false
+   }
+  },
+  {
+   "id": "LUM_T30",
+   "query": "I've forgotten the password for my online account",
+   "gold": "navigate",
+   "goldDest": "acct-password",
+   "goldSection": null,
+   "overlap": 1,
+   "a": {
+    "top": "acct-password",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "acct-password",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "acct-password",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "acct-password",
+    "section": "reset-link",
+    "reason": "similarity 0.768, margin 0.256 over eq-wifi-password",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": true,
+    "a2": true,
+    "b": true,
+    "cCorrect": true,
+    "cWrong": false
+   }
+  },
+  {
+   "id": "LUM_T31",
+   "query": "I'd like a new phone on a monthly plan",
+   "gold": "navigate",
+   "goldDest": "phone-plans",
+   "goldSection": null,
+   "overlap": 2,
+   "a": {
+    "top": "phone-plans",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "phone-plans",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "phone-plans",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "phone-plans",
+    "section": "how-it-works",
+    "reason": "similarity 0.765, margin 0.116 over sim-plans",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": true,
+    "a2": true,
+    "b": true,
+    "cCorrect": true,
+    "cWrong": false
+   }
+  },
+  {
+   "id": "LUM_T32",
+   "query": "can I get the sports channels",
+   "gold": "navigate",
+   "goldDest": "tv-sports-films",
+   "goldSection": null,
+   "overlap": 1,
+   "a": {
+    "top": "tv-sports-films",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "tv-sports-films",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "tv-packages",
+    "h1": false,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "clarify",
+    "dest": null,
+    "section": null,
+    "reason": "close_alternatives",
+    "options": [
+     "tv-packages",
+     "tv-sports-films"
+    ],
+    "correctNav": false,
+    "wrongNav": false,
+    "clarified": true,
+    "offersGold": true,
+    "rejected": false,
+    "sec": null,
+    "within1": true,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": true,
+    "a2": true,
+    "b": false,
+    "cCorrect": false,
+    "cWrong": false
+   }
+  },
+  {
+   "id": "LUM_T33",
+   "query": "I want to talk to a real person",
+   "gold": "navigate",
+   "goldDest": "help-contact",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "top": "plan-choose",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "a2": {
+    "top": "help-contact",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "help-contact",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "help-contact",
+    "section": null,
+    "reason": "similarity 0.610, margin 0.328 over help-accessibility",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": false,
+    "a2": true,
+    "b": true,
+    "cCorrect": true,
+    "cWrong": false
+   }
+  },
+  {
+   "id": "LUM_T34",
+   "query": "my mum died and I need to close her account",
+   "gold": "navigate",
+   "goldDest": "help-bereavement",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "top": "help-bereavement",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "help-bereavement",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "help-bereavement",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "help-bereavement",
+    "section": null,
+    "reason": "similarity 0.716, margin 0.280 over sw-cancel",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": true,
+    "a2": true,
+    "b": true,
+    "cCorrect": true,
+    "cWrong": false
+   }
+  },
+  {
+   "id": "LUM_T35",
+   "query": "you don't cover the address I'm moving to",
+   "gold": "navigate",
+   "goldDest": "move-no-service",
+   "goldSection": null,
+   "overlap": 1,
+   "a": {
+    "top": "move-cancel-old",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "a2": {
+    "top": "move-no-service",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "move-no-service",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "clarify",
+    "dest": null,
+    "section": null,
+    "reason": "saved_state_offer",
+    "options": [
+     "acct-saved-move",
+     "move-no-service"
+    ],
+    "correctNav": false,
+    "wrongNav": false,
+    "clarified": true,
+    "offersGold": true,
+    "rejected": false,
+    "sec": null,
+    "within1": true,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": false,
+    "a2": true,
+    "b": true,
+    "cCorrect": false,
+    "cWrong": false
+   }
+  },
+  {
+   "id": "LUM_T36",
+   "query": "I want to take my router with me to the new house",
+   "gold": "navigate",
+   "goldDest": "move-equipment",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "top": "acct-saved-move",
+    "h1": false,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "move-equipment",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "move-equipment",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "move-equipment",
+    "section": "take-it-with-you",
+    "reason": "similarity 0.727, margin 0.169 over move-service",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": false,
+    "a2": true,
+    "b": true,
+    "cCorrect": true,
+    "cWrong": false
+   }
+  },
+  {
+   "id": "LUM_T37",
+   "query": "cancel my broadband",
+   "gold": "navigate",
+   "goldDest": "sw-cancel",
+   "goldSection": null,
+   "overlap": 1,
+   "a": {
+    "top": "sw-cancel",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "sw-cancel",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "move-cancel-old",
+    "h1": false,
+    "h3": false,
+    "h5": false
+   },
+   "c": {
+    "decision": "clarify",
+    "dest": null,
+    "section": null,
+    "reason": "close_alternatives",
+    "options": [
+     "move-cancel-old",
+     "tv-change-cancel",
+     "con-pause"
+    ],
+    "correctNav": false,
+    "wrongNav": false,
+    "clarified": true,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": false,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": true,
+    "a2": true,
+    "b": false,
+    "cCorrect": false,
+    "cWrong": false
+   }
+  },
+  {
+   "id": "LUM_T38",
+   "query": "cancel",
+   "gold": "clarify",
+   "goldDest": null,
+   "goldSection": null,
+   "overlap": null,
+   "a": {
+    "top": "sw-cancel",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "a2": {
+    "top": "sw-cancel",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "b": {
+    "top": "tv-change-cancel",
+    "h1": false,
+    "h3": false,
+    "h5": false
+   },
+   "c": {
+    "decision": "clarify",
+    "dest": null,
+    "section": null,
+    "reason": "qualifier",
+    "options": [
+     "sw-cancel",
+     "fault-engineer-visit",
+     "tv-change-cancel"
+    ],
+    "correct": true,
+    "offersGold": true,
+    "wrongNav": false,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": false,
+    "a2": false,
+    "b": false,
+    "cCorrect": false,
+    "cWrong": false
+   }
+  },
+  {
+   "id": "LUM_T39",
+   "query": "my bill",
+   "gold": "clarify",
+   "goldDest": null,
+   "goldSection": null,
+   "overlap": null,
+   "a": {
+    "top": "bill-paper",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "a2": {
+    "top": "bill-paper",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "b": {
+    "top": "bill-first",
+    "h1": false,
+    "h3": false,
+    "h5": false
+   },
+   "c": {
+    "decision": "clarify",
+    "dest": null,
+    "section": null,
+    "reason": "qualifier",
+    "options": [
+     "bill-changed",
+     "pay-ways",
+     "dispute-bill"
+    ],
+    "correct": true,
+    "offersGold": true,
+    "wrongNav": false,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": false,
+    "a2": false,
+    "b": false,
+    "cCorrect": false,
+    "cWrong": false
+   }
+  },
+  {
+   "id": "LUM_T40",
+   "query": "speed",
+   "gold": "clarify",
+   "goldDest": null,
+   "goldSection": null,
+   "overlap": null,
+   "a": {
+    "top": "speed-typical",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "a2": {
+    "top": "speed-typical",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "b": {
+    "top": "speedtest-how",
+    "h1": false,
+    "h3": false,
+    "h5": false
+   },
+   "c": {
+    "decision": "clarify",
+    "dest": null,
+    "section": null,
+    "reason": "qualifier",
+    "options": [
+     "speedtest-how",
+     "speed-guarantee",
+     "plan-gigabit"
+    ],
+    "correct": true,
+    "offersGold": true,
+    "wrongNav": false,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": false,
+    "a2": false,
+    "b": false,
+    "cCorrect": false,
+    "cWrong": false
+   }
+  },
+  {
+   "id": "LUM_T41",
+   "query": "what's the best phone to buy this year",
+   "gold": "reject",
+   "goldDest": null,
+   "goldSection": null,
+   "overlap": null,
+   "a": {
+    "top": "plan-fttc",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "a2": {
+    "top": "plan-fttc",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "b": {
+    "top": "phone-plans",
+    "h1": false,
+    "h3": false,
+    "h5": false
+   },
+   "c": {
+    "decision": "reject",
+    "dest": null,
+    "section": null,
+    "reason": "off_topic",
+    "options": [],
+    "correct": true,
+    "wrongNav": false,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": false,
+    "a2": false,
+    "b": false,
+    "cCorrect": false,
+    "cWrong": false
+   }
+  },
+  {
+   "id": "LUM_T42",
+   "query": "what's the weather going to be like",
+   "gold": "reject",
+   "goldDest": null,
+   "goldSection": null,
+   "overlap": null,
+   "a": {
+    "top": "sim-plans",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "a2": {
+    "top": "sim-plans",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "b": {
+    "top": "fault-outage-check",
+    "h1": false,
+    "h3": false,
+    "h5": false
+   },
+   "c": {
+    "decision": "reject",
+    "dest": null,
+    "section": null,
+    "reason": "no_match",
+    "options": [],
+    "correct": true,
+    "wrongNav": false,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": false,
+    "a2": false,
+    "b": false,
+    "cCorrect": false,
+    "cWrong": false
+   }
+  },
+  {
+   "id": "LUM_T43",
+   "query": "write me a limerick about a cat",
+   "gold": "reject",
+   "goldDest": null,
+   "goldSection": null,
+   "overlap": null,
+   "a": {
+    "top": "help-contact",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "a2": {
+    "top": "help-contact",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "b": {
+    "top": "bill-explained",
+    "h1": false,
+    "h3": false,
+    "h5": false
+   },
+   "c": {
+    "decision": "reject",
+    "dest": null,
+    "section": null,
+    "reason": "no_match",
+    "options": [],
+    "correct": true,
+    "wrongNav": false,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": false,
+    "a2": false,
+    "b": false,
+    "cCorrect": false,
+    "cWrong": false
+   }
+  },
+  {
+   "id": "LUM_T44",
+   "query": "where is my engineer",
+   "gold": "navigate",
+   "goldDest": "acct-saved-fault",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "top": "fault-engineer-visit",
+    "h1": false,
+    "h3": false,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "fault-engineer-visit",
+    "h1": false,
+    "h3": false,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "fault-engineer-visit",
+    "h1": false,
+    "h3": false,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "acct-saved-fault",
+    "section": "engineer-visit",
+    "reason": "saved state (resume intent): acct-saved-fault relevance 0.541 vs fault-engineer-visit 0.567",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": false,
+    "a2": false,
+    "b": false,
+    "cCorrect": true,
+    "cWrong": false
+   },
+   "saved": {
+    "kind": "positive",
+    "target": "acct-saved-fault",
+    "a": false,
+    "a2": false,
+    "b": false,
+    "cNav": true,
+    "cOffered": false,
+    "cRoutedOrOffered": true
+   }
+  },
+  {
+   "id": "LUM_T45",
+   "query": "my internet is still down",
+   "gold": "navigate",
+   "goldDest": "acct-saved-fault",
+   "goldSection": null,
+   "overlap": 0,
+   "a": {
+    "top": "fault-no-connection",
+    "h1": false,
+    "h3": false,
+    "h5": false,
+    "sec": null
+   },
+   "a2": {
+    "top": "fault-no-connection",
+    "h1": false,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "fault-no-connection",
+    "h1": false,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "acct-faults",
+    "section": null,
+    "reason": "resume intent: no saved item for fault-no-connection, showing My faults and tickets",
+    "options": [],
+    "correctNav": false,
+    "wrongNav": true,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": false,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": false,
+    "a2": false,
+    "b": false,
+    "cCorrect": false,
+    "cWrong": true
+   },
+   "saved": {
+    "kind": "positive",
+    "target": "acct-saved-fault",
+    "a": false,
+    "a2": false,
+    "b": false,
+    "cNav": false,
+    "cOffered": false,
+    "cRoutedOrOffered": false
+   }
+  },
+  {
+   "id": "LUM_T46",
+   "query": "I'm moving house",
+   "gold": "navigate",
+   "goldDest": "acct-saved-move",
+   "goldSection": null,
+   "overlap": 1,
+   "a": {
+    "top": "acct-saved-move",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "move-service",
+    "h1": false,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "acct-saved-move",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "acct-saved-move",
+    "section": null,
+    "reason": "saved state match: acct-saved-move 0.591 vs move-choose-date 0.550 (window 0.03)",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": true,
+    "a2": false,
+    "b": true,
+    "cCorrect": true,
+    "cWrong": false
+   },
+   "saved": {
+    "kind": "positive",
+    "target": "acct-saved-move",
+    "a": true,
+    "a2": false,
+    "b": true,
+    "cNav": true,
+    "cOffered": false,
+    "cRoutedOrOffered": true
+   }
+  },
+  {
+   "id": "LUM_T47",
+   "query": "carry on with my house move",
+   "gold": "navigate",
+   "goldDest": "acct-saved-move",
+   "goldSection": null,
+   "overlap": 2,
+   "a": {
+    "top": "acct-saved-move",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "acct-saved-move",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "acct-saved-move",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "acct-saved-move",
+    "section": null,
+    "reason": "saved state (resume intent): acct-saved-move relevance 0.637 vs move-choose-date 0.513",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": true,
+    "a2": true,
+    "b": true,
+    "cCorrect": true,
+    "cWrong": false
+   },
+   "saved": {
+    "kind": "positive",
+    "target": "acct-saved-move",
+    "a": true,
+    "a2": true,
+    "b": true,
+    "cNav": true,
+    "cOffered": false,
+    "cRoutedOrOffered": true
+   }
+  },
+  {
+   "id": "LUM_T48",
+   "query": "how do engineer visits work in general",
+   "gold": "navigate",
+   "goldDest": "fault-engineer-visit",
+   "goldSection": null,
+   "overlap": 2,
+   "a": {
+    "top": "fault-engineer-visit",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "fault-engineer-visit",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "fault-engineer-visit",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "fault-engineer-visit",
+    "section": "on-the-day",
+    "reason": "similarity 0.694, margin 0.218 over fault-ticket",
+    "options": [],
+    "correctNav": true,
+    "wrongNav": false,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": true,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": true,
+    "a2": true,
+    "b": true,
+    "cCorrect": true,
+    "cWrong": false
+   },
+   "saved": {
+    "kind": "negative",
+    "a": false,
+    "a2": false,
+    "b": false,
+    "cHijack": false
+   }
+  },
+  {
+   "id": "LUM_T49",
+   "query": "what do the stages of a fault ticket mean",
+   "gold": "navigate",
+   "goldDest": "fault-ticket",
+   "goldSection": null,
+   "overlap": 2,
+   "a": {
+    "top": "fault-ticket",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "fault-ticket",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "fault-ticket",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "clarify",
+    "dest": null,
+    "section": null,
+    "reason": "close_alternatives",
+    "options": [
+     "fault-ticket",
+     "acct-faults"
+    ],
+    "correctNav": false,
+    "wrongNav": false,
+    "clarified": true,
+    "offersGold": true,
+    "rejected": false,
+    "sec": null,
+    "within1": true,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": true,
+    "a2": true,
+    "b": true,
+    "cCorrect": false,
+    "cWrong": false
+   },
+   "saved": {
+    "kind": "negative",
+    "a": false,
+    "a2": false,
+    "b": false,
+    "cHijack": false
+   }
+  },
+  {
+   "id": "LUM_T50",
+   "query": "has the engineer been booked for my fault",
+   "gold": "navigate",
+   "goldDest": "acct-saved-fault",
+   "goldSection": null,
+   "overlap": 1,
+   "a": {
+    "top": "fault-ticket",
+    "h1": false,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "acct-saved-fault",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "fault-ticket",
+    "h1": false,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "navigate",
+    "dest": "fault-ticket",
+    "section": "ticket-stages",
+    "reason": "similarity 0.688, margin 0.089 over fault-missed-appt",
+    "options": [],
+    "correctNav": false,
+    "wrongNav": true,
+    "clarified": false,
+    "offersGold": false,
+    "rejected": false,
+    "sec": null,
+    "within1": false,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": false,
+    "a2": true,
+    "b": false,
+    "cCorrect": false,
+    "cWrong": true
+   },
+   "saved": {
+    "kind": "positive",
+    "target": "acct-saved-fault",
+    "a": false,
+    "a2": true,
+    "b": false,
+    "cNav": false,
+    "cOffered": false,
+    "cRoutedOrOffered": false
+   }
+  },
+  {
+   "id": "LUM_T51",
+   "query": "change the date of my broadband move",
+   "gold": "navigate",
+   "goldDest": "acct-saved-move",
+   "goldSection": null,
+   "overlap": 1,
+   "a": {
+    "top": "move-choose-date",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "a2": {
+    "top": "move-choose-date",
+    "h1": true,
+    "h3": true,
+    "h5": true,
+    "sec": null
+   },
+   "b": {
+    "top": "move-choose-date",
+    "h1": true,
+    "h3": true,
+    "h5": true
+   },
+   "c": {
+    "decision": "clarify",
+    "dest": null,
+    "section": null,
+    "reason": "saved_state_offer",
+    "options": [
+     "acct-saved-move",
+     "move-choose-date",
+     "move-track"
+    ],
+    "correctNav": false,
+    "wrongNav": false,
+    "clarified": true,
+    "offersGold": true,
+    "rejected": false,
+    "sec": null,
+    "within1": true,
+    "twinQuestion": false
+   },
+   "lenient": {
+    "a": true,
+    "a2": true,
+    "b": true,
+    "cCorrect": false,
+    "cWrong": false
+   },
+   "saved": {
+    "kind": "positive",
+    "target": "acct-saved-move",
+    "a": false,
+    "a2": false,
+    "b": false,
+    "cNav": false,
+    "cOffered": true,
+    "cRoutedOrOffered": true
+   }
+  }
+ ]
+}

@@ -1,0 +1,374 @@
+{
+ "site": "insura",
+ "set": "tuned",
+ "items": [
+  {
+   "query": "A pipe burst and my ceiling came down.",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "claim-home-escape-of-water",
+   "expectedSectionId": "what-to-do-straight-away",
+   "card": true,
+   "id": "INS_T01",
+   "set": "tuned",
+   "twinDestinationIds": [
+    "home-escape-of-water"
+   ]
+  },
+  {
+   "query": "Someone drove into my parked car and didn't leave a note.",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "claim-motor-hit-and-run",
+   "expectedSectionId": "what-to-do",
+   "card": true,
+   "id": "INS_T02",
+   "set": "tuned"
+  },
+  {
+   "query": "I sold my car last week.",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "chg-vehicle-sell",
+   "expectedSectionId": "tell-us-when-it-is-sold",
+   "card": true,
+   "id": "INS_T03",
+   "set": "tuned"
+  },
+  {
+   "query": "My price went up and I've done nothing different.",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "renew-price-change",
+   "anySection": true,
+   "card": true,
+   "id": "INS_T04",
+   "set": "tuned"
+  },
+  {
+   "query": "I'm going skiing in February.",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "travel-winter-sports",
+   "anySection": true,
+   "card": true,
+   "id": "INS_T05",
+   "set": "tuned"
+  },
+  {
+   "query": "My phone got nicked on holiday.",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "claim-travel-possessions",
+   "expectedSectionId": "what-to-do-abroad",
+   "card": true,
+   "id": "INS_T06",
+   "set": "tuned",
+   "twinDestinationIds": [
+    "travel-baggage"
+   ]
+  },
+  {
+   "query": "My dad died, what do I do about his cover?",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "bereave-notify",
+   "anySection": true,
+   "card": true,
+   "id": "INS_T07",
+   "set": "tuned"
+  },
+  {
+   "query": "I need proof of my no-claims for my new insurer.",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "car-ncd-proof",
+   "expectedSectionId": "where-to-find-your-proof",
+   "card": true,
+   "id": "INS_T08",
+   "set": "tuned"
+  },
+  {
+   "query": "Can I pay monthly instead of all at once?",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "pay-monthly-yearly",
+   "expectedSectionId": "paying-monthly",
+   "card": true,
+   "id": "INS_T09",
+   "set": "tuned"
+  },
+  {
+   "query": "I think someone pretending to be you scammed me.",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "help-fraud-report",
+   "expectedSectionId": "what-to-do-now",
+   "card": true,
+   "id": "INS_T10",
+   "set": "tuned"
+  },
+  {
+   "query": "my son has just passed his test and wants to drive my car",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "car-young-drivers",
+   "anySection": true,
+   "id": "INS_T11",
+   "set": "tuned"
+  },
+  {
+   "query": "can I put my wife on the policy as well",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "car-named-drivers",
+   "anySection": true,
+   "id": "INS_T12",
+   "set": "tuned"
+  },
+  {
+   "query": "a stone cracked my windscreen on the motorway",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "claim-motor-windscreen",
+   "anySection": true,
+   "acceptableDestinationIds": [
+    "car-windscreen"
+   ],
+   "id": "INS_T13",
+   "set": "tuned"
+  },
+  {
+   "query": "my car has conked out by the side of the road",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "car-breakdown",
+   "anySection": true,
+   "id": "INS_T14",
+   "set": "tuned"
+  },
+  {
+   "query": "burglars broke in and took my laptop and telly",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "claim-home-burglary",
+   "anySection": true,
+   "id": "INS_T15",
+   "set": "tuned",
+   "twinDestinationIds": [
+    "home-theft"
+   ]
+  },
+  {
+   "query": "I ended up in hospital while on holiday",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "claim-travel-medical",
+   "anySection": true,
+   "id": "INS_T16",
+   "set": "tuned",
+   "twinDestinationIds": [
+    "travel-medical"
+   ]
+  },
+  {
+   "query": "I have a heart condition, will I be covered abroad",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "travel-preexisting",
+   "anySection": true,
+   "id": "INS_T17",
+   "set": "tuned"
+  },
+  {
+   "query": "my dog swallowed a sock and needs an operation",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "claim-pet-vet",
+   "anySection": true,
+   "id": "INS_T18",
+   "set": "tuned"
+  },
+  {
+   "query": "our cat has gone missing",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "claim-pet-lost",
+   "anySection": true,
+   "id": "INS_T19",
+   "set": "tuned"
+  },
+  {
+   "query": "my dog had skin problems last year, is that covered",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "pet-pre-existing",
+   "anySection": true,
+   "id": "INS_T20",
+   "set": "tuned"
+  },
+  {
+   "query": "I changed my mind and want my money back within a fortnight",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "chg-cooling-off",
+   "anySection": true,
+   "id": "INS_T21",
+   "set": "tuned"
+  },
+  {
+   "query": "we've moved house and need to update where you send letters",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "chg-address",
+   "anySection": true,
+   "id": "INS_T22",
+   "set": "tuned"
+  },
+  {
+   "query": "I'm unhappy with how my claim was handled and want to complain",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "help-complaint",
+   "anySection": true,
+   "id": "INS_T23",
+   "set": "tuned"
+  },
+  {
+   "query": "you turned down my claim and I think that's wrong",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "claim-dispute",
+   "anySection": true,
+   "id": "INS_T24",
+   "set": "tuned"
+  },
+  {
+   "query": "I can't afford this month's payment",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "pay-missed",
+   "anySection": true,
+   "id": "INS_T25",
+   "set": "tuned"
+  },
+  {
+   "query": "how do I put my life policy in trust so my kids don't pay inheritance tax",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "trust-why",
+   "anySection": true,
+   "id": "INS_T26",
+   "set": "tuned"
+  },
+  {
+   "query": "if I get cancer will I get a lump sum",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "ci-cover",
+   "anySection": true,
+   "id": "INS_T27",
+   "set": "tuned"
+  },
+  {
+   "query": "I'm self-employed, what happens if I can't work through illness",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "income-protection",
+   "anySection": true,
+   "id": "INS_T28",
+   "set": "tuned"
+  },
+  {
+   "query": "my car was nicked from outside my house",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "claim-motor-theft",
+   "anySection": true,
+   "id": "INS_T29",
+   "set": "tuned"
+  },
+  {
+   "query": "I rent out my flat to tenants",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "home-landlord",
+   "anySection": true,
+   "id": "INS_T30",
+   "set": "tuned"
+  },
+  {
+   "query": "when is someone coming to look at the damage",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "claim-assessor",
+   "anySection": true,
+   "id": "INS_T31",
+   "set": "tuned"
+  },
+  {
+   "query": "your offer for my written-off car is far too low",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "claim-motor-total-loss",
+   "anySection": true,
+   "acceptableDestinationIds": [
+    "claim-settlement"
+   ],
+   "id": "INS_T32",
+   "set": "tuned"
+  },
+  {
+   "query": "I need to cancel my trip because I broke my leg",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "travel-cancellation",
+   "anySection": true,
+   "acceptableDestinationIds": [
+    "claim-travel-cancellation"
+   ],
+   "id": "INS_T33",
+   "set": "tuned"
+  },
+  {
+   "query": "cancel my car insurance",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "chg-cancel-policy",
+   "anySection": true,
+   "id": "INS_T34",
+   "set": "tuned"
+  },
+  {
+   "query": "I want to claim",
+   "expectedDecision": "clarify",
+   "expectedOptionIds": [
+    "claim-home-escape-of-water",
+    "claim-motor-accident",
+    "claim-travel-possessions",
+    "claim-pet-vet"
+   ],
+   "id": "INS_T35",
+   "set": "tuned"
+  },
+  {
+   "query": "cancel",
+   "expectedDecision": "clarify",
+   "expectedOptionIds": [
+    "chg-cancel-policy",
+    "travel-cancellation",
+    "pay-direct-debit"
+   ],
+   "id": "INS_T36",
+   "set": "tuned"
+  },
+  {
+   "query": "can you recommend a good pension provider",
+   "expectedDecision": "reject",
+   "id": "INS_T37",
+   "set": "tuned"
+  },
+  {
+   "query": "who is going to win the election",
+   "expectedDecision": "reject",
+   "id": "INS_T38",
+   "set": "tuned"
+  },
+  {
+   "query": "how do I get a refund from my airline for a delayed flight",
+   "expectedDecision": "reject",
+   "id": "INS_T39",
+   "set": "tuned"
+  },
+  {
+   "query": "continue my claim",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "acc-saved-claim-water",
+   "anySection": true,
+   "id": "INS_T40",
+   "set": "tuned"
+  },
+  {
+   "query": "I need to send my photos",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "acc-saved-claim-water",
+   "anySection": true,
+   "id": "INS_T41",
+   "set": "tuned"
+  },
+  {
+   "query": "finish my renewal quote",
+   "expectedDecision": "navigate",
+   "expectedDestinationId": "acc-saved-quote-car",
+   "anySection": true,
+   "id": "INS_T42",
+   "set": "tuned"
+  }
+ ]
+}

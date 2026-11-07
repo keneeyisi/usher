@@ -1,0 +1,201 @@
+
+== BROWSER TUNED: 46/46 pass
+PASS  T01_lost_job_financial_support         #service/financial-support/section/0
+PASS  T02_landlord_repairs                   #service/housing-property-housing-repairs/section/1
+PASS  T03_house_extension                    #service/development-approval/section/0
+PASS  T04_moved_parking_cost                 #service/residential-parking/section/2
+PASS  T05_ambiguous_tax                      clarify [money-tax-household-charge-payment, household-tax-assistance, money-tax-tax-records]
+PASS  T06_identity_documents                 #service/identity-replacement/section/2
+PASS  T07_vehicle_owe                        #service/vehicle-registration/section/3
+PASS  T08_sofa_collection_cost               #service/large-item-collection/section/1
+PASS  T09_household_payment_assistance       #service/household-tax-assistance/section/2
+PASS  T10_complaint_followup                 #service/formal-complaint/section/3
+PASS  T11_resume_parking_application         #service/saved-residential-parking-application/section/2
+PASS  T12_new_passport                       #service/identity-replacement
+PASS  F01_parking_flagship_permit            #service/residential-parking/section/3
+PASS  F02_identity_flagship_new_one          #service/identity-replacement/section/4
+PASS  F03_identity_placeholder               #service/identity-replacement/section/0
+PASS  A01_extension_permit_not_parking       #service/development-approval/section/0
+PASS  A02_conservatory_permission            #service/development-approval/section/0
+PASS  A03_park_near_home                     #service/residential-parking/section/3
+PASS  A04_tax_ambiguous_variant              clarify [money-tax-household-charge-payment, household-tax-assistance, money-tax-tax-records]
+PASS  A05_pay_household_tax                  #service/money-tax-household-charge-payment
+PASS  A06_cannot_afford_household_charge     #service/household-tax-assistance
+PASS  A07_redundant_food                     #service/financial-support
+PASS  A08_new_complaint                      #service/formal-complaint/section/2
+PASS  A09_complaint_status                   #service/formal-complaint/section/1
+PASS  A10_complaint_appeal                   #service/formal-complaint/section/3
+PASS  A11_new_parking_application            #service/residential-parking/section/3
+PASS  A12_saved_parking_application          #service/saved-residential-parking-application/section/2
+PASS  A13_resume_other_service               #service/activity-in-progress/section/0
+PASS  A14_unrelated_weather                  reject
+PASS  A15_unrelated_joke                     reject
+PASS  A16_low_specificity_help               clarify
+PASS  A17_low_specificity_form               clarify
+PASS  A18_change_address                     #service/address-change/section/2
+PASS  A19_visitor_parking                    #service/visitor-parking
+PASS  A20_register_car                       #service/vehicle-registration/section/0
+PASS  A21_tenancy_rights                     #service/housing-property-tenancy-support/section/0
+PASS  A22_boiler_ignored                     #service/housing-property-housing-repairs/section/1
+PASS  A23_fridge_disposal                    #service/large-item-collection/section/3
+PASS  T13_resume_pick_up_visitor_form        #service/activity-in-progress/section/0
+PASS  T14_resume_go_back_parking             #service/saved-residential-parking-application/section/2
+PASS  T15_generic_dispute                    clarify [safety-legal-civic-challenge-a-decision, benefits-support-appeals, formal-complaint]
+PASS  T16_generic_payment                    clarify [money-tax-household-charge-payment, benefits-support-payment-information, money-tax-payment-arrangements]
+PASS  T17_offtopic_story                     reject
+PASS  T18_offtopic_trivia                    reject
+PASS  T19_comment_next_door_plans            #service/planning-development-planning-applications/section/1
+PASS  T20_back_to_work_not_resume            #service/work-business-employment-support
+
+== BROWSER HELDOUT_R6: 27/44 pass
+FAIL  S01_student_full_charge                #service/money-tax-household-charge-payment  <-- destination money-tax-household-charge-payment (expected money-tax-exemptions/money-tax-household-charge-discounts)
+PASS  S02_breakdown_paid_this_year           #service/money-tax-tax-records/section/0
+PASS  S03_band_wrong                         #service/money-tax-charge-appeals/section/1
+PASS  S04_when_payment_lands                 #service/benefits-support-payment-information/section/0
+PASS  S05_entitled_low_wage                  #service/financial-support
+FAIL  S06_support_stopped_wrongly            #service/benefits-support-payment-information/section/3  <-- destination benefits-support-payment-information (expected benefits-support-appeals/benefits-support-support-reviews)
+FAIL  S07_waiting_list_council_flat          clarify [identity-records-personal-details, housing-property-housing-applications, identity-records-record-requests]  <-- decision clarify (expected navigate)
+FAIL  S08_mould_bedroom_rented               clarify [housing-property-housing-repairs, housing-property-tenancy-support]  <-- decision clarify (expected navigate)
+PASS  S09_short_on_rent                      #service/housing-property-rent-support
+PASS  S10_skip_on_road                       #service/transport-vehicles-road-permits
+FAIL  S11_hospital_bus_cancelled             clarify [transport-vehicles-public-transport, health-care-service-appeals, formal-complaint]  <-- decision clarify (expected navigate)
+PASS  S12_carer_guest_permit                 #service/visitor-parking/section/1
+PASS  S13_new_number_plate                   #service/vehicle-registration/section/1
+FAIL  S14_loft_dormer                        clarify [development-approval, housing-property-temporary-accommodation]  <-- decision clarify (expected navigate)
+PASS  S15_cost_submit_garage_plans           #service/planning-development-development-fees/section/0
+FAIL  S16_porch_refused                      #service/environment-utilities-report-an-environmental-issue  <-- destination environment-utilities-report-an-environmental-issue (expected planning-development-planning-appeals)
+PASS  S17_rates_small_unit                   #service/work-business-business-rates/section/0
+PASS  S18_work_after_sickness                #service/work-business-employment-support/section/1
+FAIL  S19_hot_dogs_festival                  clarify [family-community-event-permits, work-business-business-licence]  <-- decision clarify (expected navigate)
+FAIL  S20_primary_turned_down                clarify [housing-property-housing-applications, education-learning-school-place, education-learning-admissions-appeals]  <-- decision clarify (expected navigate)
+PASS  S21_dyslexia_extra_support             #service/education-learning-education-support
+PASS  S22_retrain_electrician                #service/education-learning-course-funding
+FAIL  S23_husband_need_break                 clarify [health-care-carer-support]  <-- decision clarify (expected navigate)
+PASS  S24_walk_in_clinic                     #service/health-care-health-access
+FAIL  S25_low_isolated                       clarify [housing-property-neighbourhood-issues, housing-property-temporary-accommodation, family-community-community-groups]  <-- decision clarify (expected navigate)
+PASS  S26_fun_day_village_green              #service/family-community-event-permits/section/0
+PASS  S27_hire_hall_party                    #service/family-community-community-facilities
+PASS  S28_cracked_green_bin                  #service/environment-utilities-collection-services/section/2
+PASS  S29_abandoned_car                      #service/environment-utilities-report-an-environmental-issue/section/1
+PASS  S30_electricity_bill_help              #service/environment-utilities-utility-support/section/0
+FAIL  S31_marriage_record_misspelt           clarify [identity-records-personal-details, identity-records-record-corrections]  <-- decision clarify (expected navigate)
+PASS  S32_relocated_records                  #service/address-change/section/1
+FAIL  S33_passport_flood                     clarify [environment-utilities-environmental-records, safety-legal-civic-public-safety, housing-property-property-information]  <-- decision clarify (expected navigate)
+FAIL  S34_phone_dismissive                   #service/identity-records-record-requests  <-- destination identity-records-record-requests (expected formal-complaint)
+FAIL  S35_knives_to_kids                     clarify [work-business-trading-standards, work-business-trading-registration, work-business-business-licence]  <-- decision clarify (expected navigate)
+FAIL  S36_halfway_laptop_died                #service/activity-in-progress/section/0  <-- destination activity-in-progress (expected saved-residential-parking-application)
+PASS  S37_status_sent_last_month             #service/activity-submitted
+PASS  S38_challenge_a_decision               clarify [safety-legal-civic-challenge-a-decision, health-care-service-appeals, housing-property-housing-appeals]
+PASS  S39_book_something                     clarify [family-community-community-facilities, large-item-collection, education-learning-adult-learning]
+PASS  S40_report_a_problem                   clarify [safety-legal-civic-safety-reporting, formal-complaint, transport-vehicles-traffic-reports]
+PASS  S41_banana_bread                       reject
+FAIL  S42_election_france                    clarify [safety-legal-civic-civic-processes]  <-- decision clarify (expected reject)
+PASS  S43_maths_homework                     reject
+PASS  S44_film_tonight                       reject
+
+== BROWSER HELDOUT_R5: 24/35 pass
+FAIL  R01_monthly_instalments                #service/money-tax-household-charge-payment/section/3  <-- destination money-tax-household-charge-payment (expected money-tax-payment-arrangements/money-tax-direct-debit)
+FAIL  R02_last_years_bill_copy               #service/money-tax-household-charge-payment  <-- destination money-tax-household-charge-payment (expected money-tax-tax-records/money-tax-annual-statements)
+PASS  R03_hours_cut_rent_shopping            #service/housing-property-rent-support
+PASS  R04_prove_income_claim                 #service/financial-support/section/2
+FAIL  R05_water_through_ceiling              clarify [housing-property-property-information, environment-utilities-utility-support, housing-property-housing-repairs]  <-- decision clarify (expected navigate)
+PASS  R06_landlord_keeping_deposit           #service/housing-property-tenancy-support/section/2
+PASS  R07_neighbours_music_3am               #service/housing-property-neighbourhood-issues
+FAIL  R08_brother_van_staying                #service/housing-property-temporary-accommodation  <-- destination housing-property-temporary-accommodation (expected visitor-parking)
+PASS  R09_permit_only_street_one_car         #service/residential-parking
+PASS  R10_pothole_tyre                       #service/transport-vehicles-road-services
+PASS  R11_sold_motorbike_keeper              #service/vehicle-registration/section/2
+FAIL  R12_garden_room                        clarify [family-community-community-facilities]  <-- decision clarify (expected navigate)
+FAIL  R13_empty_site_proposals               #service/transport-vehicles-traffic-reports/section/2  <-- destination transport-vehicles-traffic-reports (expected planning-development-planning-applications/planning-development-planning-records/planning-development-local-plans/planning-development-neighbourhood-development)
+PASS  R14_open_cafe_licences                 #service/work-business-business-licence/section/0
+FAIL  R15_fake_bag_no_refund                 clarify [work-business-trading-standards]  <-- decision clarify (expected navigate)
+PASS  R16_secondary_mid_year                 #service/education-learning-school-place/section/1
+PASS  R17_nursery_costs_two_year_old         #service/education-learning-childcare-support/section/1
+FAIL  R18_mum_keeps_falling                  clarify [health-care-care-support, health-care-care-assessment, benefits-support-household-support]  <-- decision clarify (expected navigate)
+PASS  R19_cost_home_care_visits              #service/health-care-care-charges/section/2
+PASS  R20_few_hours_helping                  #service/family-community-volunteering
+PASS  R21_grant_community_garden             #service/family-community-community-funding/section/0
+PASS  R22_pizza_boxes_bin                    #service/environment-utilities-waste-recycling/section/0
+FAIL  R23_dumped_mattress_pavement           #service/housing-property-housing-repairs  <-- destination housing-property-housing-repairs (expected environment-utilities-report-an-environmental-issue/environment-utilities-street-cleanliness)
+PASS  R24_book_washing_machine_pickup        #service/large-item-collection/section/3
+FAIL  R25_wallet_stolen_id                   #service/identity-records-identity-support  <-- destination identity-records-identity-support (expected identity-replacement)
+PASS  R26_son_birth_record_passport          #service/birth-certificate/section/3
+FAIL  R27_footbridge_railings_loose          clarify [safety-legal-civic-safety-reporting, transport-vehicles-travel-support]  <-- decision clarify (expected navigate)
+PASS  R28_paperwork_behind_decision          #service/identity-records-record-requests
+PASS  R29_half_filled_parking_form           #service/saved-residential-parking-application/section/2
+PASS  R30_just_appeal                        clarify [safety-legal-civic-service-appeals, benefits-support-appeals, education-learning-admissions-appeals]
+PASS  R31_how_much_cost                      clarify [identity-records-certificates, planning-development-development-fees, environment-utilities-waste-charges]
+PASS  R32_letter_dont_understand             clarify [safety-legal-civic-legal-information, identity-records-personal-details, safety-legal-civic-service-appeals]
+PASS  R33_football_kickoff                   reject
+PASS  R34_poem_autumn                        reject
+PASS  R35_flight_spain                       reject
+
+== BROWSER HELDOUT_R4: 19/24 pass
+PASS  N01_council_bill_afford                #service/household-tax-assistance
+FAIL  N02_council_tax_discount_living_alone  #service/money-tax-household-charge-payment  <-- destination money-tax-household-charge-payment (expected money-tax-household-charge-discounts)
+FAIL  N03_gas_cut_off_nothing_to_eat         clarify [benefits-support-emergency-assistance, housing-property-temporary-accommodation]  <-- decision clarify (expected navigate)
+PASS  N04_benefit_claim_turned_down          #service/benefits-support-appeals
+PASS  N05_boiler_landlord_wont_answer        #service/housing-property-housing-repairs/section/1
+PASS  N06_kicked_out_nowhere_to_stay         #service/housing-property-temporary-accommodation
+PASS  N07_leave_car_on_my_street             #service/residential-parking/section/3
+PASS  N08_free_bus_travel_mum                #service/transport-vehicles-travel-support/section/0
+PASS  N09_build_conservatory                 #service/development-approval
+FAIL  N10_object_neighbour_extension         #service/planning-development-property-development  <-- destination planning-development-property-development (expected planning-development-planning-applications)
+PASS  N11_food_van_weekends                  #service/work-business-trading-registration/section/1
+PASS  N12_faulty_kettle_refund               #service/work-business-trading-standards
+PASS  N13_daughter_primary_school            #service/education-learning-school-place/section/0
+PASS  N14_evening_english_classes            #service/education-learning-adult-learning/section/1
+PASS  N15_dad_cannot_cope_at_home            #service/health-care-care-support/section/0
+FAIL  N16_caring_for_son_exhausted           clarify [benefits-support-eligibility-checker, health-care-carer-support, transport-vehicles-travel-support]  <-- decision clarify (expected navigate)
+PASS  N17_street_party_close_road            #service/family-community-event-permits/section/1
+PASS  N18_teenager_after_school              #service/family-community-youth-services
+PASS  N19_bins_not_emptied                   #service/environment-utilities-collection-services/section/1
+PASS  N20_rubbish_dumped_alley               #service/environment-utilities-report-an-environmental-issue/section/0
+FAIL  N21_lost_driving_licence               clarify [work-business-business-records, identity-replacement, education-learning-education-records]  <-- decision clarify (expected navigate)
+PASS  N22_married_change_surname             #service/identity-records-personal-details/section/0
+PASS  N23_dangerous_building                 #service/safety-legal-civic-safety-reporting/section/0
+PASS  N24_unfair_council_decision            #service/safety-legal-civic-challenge-a-decision/section/1
+
+== BROWSER HELDOUT_R3: 12/16 pass
+PASS  H01_hours_cut_bills                    #service/financial-support
+PASS  H02_behind_household_charge            #service/household-tax-assistance/section/2
+PASS  H03_loft_conversion                    #service/development-approval/section/0
+FAIL  H04_residents_permit_price             #service/residential-parking/section/0  <-- section eligibility (expected permit-charges)
+PASS  H05_lost_id_card_needs                 #service/identity-replacement/section/1
+PASS  H06_mattress_cost                      #service/large-item-collection/section/1
+FAIL  H07_complaint_rejected                 clarify [safety-legal-civic-challenge-a-decision, formal-complaint, safety-legal-civic-complaint-review]  <-- decision clarify (expected navigate)
+PASS  H08_complaint_update                   #service/formal-complaint/section/1
+PASS  H09_finish_parking_application         #service/saved-residential-parking-application/section/2
+FAIL  H10_damp_mould_whose_job               #service/housing-property-housing-repairs  <-- section null (expected what-your-landlord-must-fix)
+PASS  H11_motorbike_cost                     #service/vehicle-registration/section/3
+PASS  H12_income_tax                         clarify [money-tax-household-charge-payment, household-tax-assistance, money-tax-tax-records]
+PASS  H13_restaurant                         reject
+PASS  H14_second_storey_parking              clarify [planning-development-property-development, development-approval, residential-parking]
+FAIL  H15_complaint_roads                    #service/transport-vehicles-road-services  <-- destination transport-vehicles-road-services (expected formal-complaint)
+PASS  H16_broken_window_tenant               #service/housing-property-housing-repairs/section/1
+
+== NODE vs BROWSER PARITY
+{"queries":165,"minCosine":0.9999996,"maxAbsComponentDiff":8.25e-8,"maxTopScoreDiff":0,"decisionMismatches":[],"errors":[]}
+== MODEL LOAD (ms, fresh browser context each, local server) {"n":177,"min":763,"median":871,"max":1401}
+
+== SCENARIOS
+PASS  FLAGSHIP_1_parking_cost  {"mode":"semantic","decision":"navigate","reason":"similarity 0.585, margin 0.023 over transport-vehicles-parking-charges","dest":"residential-parking","section":"permit-charges","hash":"#service/residential-parking/section/2","h1":"Residential Parking","panel":"What I understoodIt sounds like you've moved house and want to know what a residents' parking permit costs.You said “have to pay”: on this page that’s under Permit charges.Taking you toResidential Parking · Permit chargesHomeTransport & Veh"}
+PASS  FLAGSHIP_2_passport  {"mode":"semantic","decision":"navigate","reason":"similarity 0.516, margin 0.173 over birth-certificate","dest":"identity-replacement","section":null,"hash":"#service/identity-replacement","h1":"Document Replacement","panel":"What I understoodIt sounds like you need a replacement identity document.You said “new passport”: on this site that’s called Document Replacement (in Identity & Records).Taking you toDocument ReplacementHomeIdentity & RecordsCertificates & "}
+PASS  FLAGSHIP_3_resume_application  {"result":{"mode":"semantic","decision":"navigate","reason":"resume intent: saved application for residential-parking","dest":"saved-residential-parking-application","section":"continue-where-you-left-off","hash":"#service/saved-residential-parking-application/section/2","h1":"Residential Parking Application","panel":"What I understoodIt sounds like you want to pick up the residents' parking permit application you saved.You said “parking permit application”: on this site that’s called Residential Parking Application (in My CivicSphere).You said “pick it "},"task":{"hash":"#task/parking/2/resumed","on":"Permit","done":["✓ Eligibility","✓ Vehicle"],"notice":true}}
+PASS  FLAGSHIP_4_clarification  {"result":{"mode":"semantic","decision":"clarify","reason":"generic_action","dest":null,"section":null,"hash":"#home","h1":"How can we help you today?","panel":"WHAT I UNDERSTOOD It sounds like you want to appeal, but there is more than one kind of appeal on this site. ONE QUICK QUESTION There are several ways to challenge, appeal or complain. Which one is about your situation? Service Appeals Safe"},"options":["Service Appeals Safety, Legal & Civic Services → Safety Reporting → Service Appeals","Appeals Benefits & Support → Disability & Care Support → Appeals","Admissions Appeals Education & Learning → Childcare → Admissions Appeals"],"hashAfterOption":"#service/safety-legal-civic-service-appeals"}
+PASS  FLAGSHIP_5_rejection  {"mode":"semantic","decision":"reject","reason":"off_topic","dest":null,"section":null,"hash":"#home","h1":"How can we help you today?","panel":"WHAT I UNDERSTOOD That doesn't look like something the council handles. I could not match that to a CivicSphere service. CivicSphereNav helps with public services such as parking, housing, household charges, identity documents and complaint"}
+PASS  E2E_resume_opens_saved_step  {"hash":"#task/parking/2/resumed","on":"Permit","done":["✓ Eligibility","✓ Vehicle"],"notice":true}
+PASS  E2E_resume_survives_reload  {"stepAfterReload":"Permit"}
+PASS  E2E_clarification_option_navigates  {"options":3,"hash":"#service/money-tax-household-charge-payment"}
+PASS  ROUTES_account_area  {"domain":"My CivicSphere","group":["In Progress","Submitted Applications"],"inProgress":{"cards":["Residential Parking Application"],"crumb":"Home\nMy CivicSphere\nActivity & Records\nIn Progress"},"savedCrumb":"Home\nMy CivicSphere\nActivity & Records\nIn Progress\nResidential Parking Application"}
+PASS  ROUTES_invalid_handled  {"notFound":"Page not found","badSectionWarning":true,"navigateToInvalidReturned":false}
+PASS  CATALOGUE_valid_in_browser  {"domains":13,"services":150,"sections":497,"profiles":16}
+PASS  DEBUG_view_renders  {"semanticDebug":true}
+PASS  DEBUG_passport_semantic  {"mode":"semantic","decision":"navigate","dest":"identity-replacement"}
+PASS  DEBUG_T04_lexical_tiebreak  {"mode":"semantic","decision":"navigate","dest":"residential-parking","section":"permit-charges","rules":["lexical tie-break in band 0.05: transport-vehicles-parking-charges +0.0267, visitor-parking +0.048, residential-parking +0.08"],"shown":true}
+PASS  LOADING_state_then_semantic  {"statusLoading":"Preparing… 50% · Loading inference engine","during":{"state":"interpreting","text":"INTERPRETING GOAL\nCivicSphereNav is understanding what you are trying to accomplish…\nPreparing the meaning model… 50%","btnEnabled":true,"inputEnabled":true},"done":true,"result":{"mode":"semantic","decision":"navigate","dest":"identity-replacement","status":"Meaning model ready · all-MiniLM-L6-v2, runs offline in your browser · loaded in 4.9 s"}}
+PASS  TIMEOUT_lexical_then_semantic  {"first":{"mode":"lexical","decision":"navigate","dest":"residential-parking","notice":"The meaning model is still loading, so this answer used keyword matching."},"second":{"mode":"semantic","dest":"identity-replacement"}}
+PASS  FALLBACK_semantic_off  {"model":{"state":"failed","loadMs":null,"error":"meaning model disabled (?semantic=off)"},"result":{"mode":"lexical","decision":"navigate","dest":"residential-parking","notice":"The meaning model is unavailable, so this answer used keyword matching.","status":"Meaning model unavailable · using keyword matching"},"warnings":1}
+PASS  FALLBACK_model_missing  {"model":{"state":"failed","loadMs":null,"error":"`local_files_only=true` or `env.allowRemoteModels=false` and file was not found locally at \"./models/Xenova/all-MiniLM-L6-v2/onnx/model_quantized.onnx\"."},"result":{"mode":"lexical","dest":"residential-parking","notice":"The meaning model is unavailable, so this answer used keyword matching."},"expectedErrors":2}
+
+SUMMARY browser tuned 46/46 | heldout_r6 27/44 | heldout_r5 24/35 | heldout_r4 19/24 | heldout_r3 12/16 | scenarios 18/18 | console errors 0 | stuck 0 | parity mismatches 0 | model load median 871 ms

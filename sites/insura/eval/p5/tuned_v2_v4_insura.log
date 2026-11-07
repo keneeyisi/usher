@@ -1,0 +1,138 @@
+{
+ "n": 47,
+ "nNavigate": 41,
+ "nClarify": 3,
+ "nReject": 3,
+ "a": {
+  "page": "43.9% [30-59] (18/41)",
+  "hit3": "65.9% [51-78] (27/41)",
+  "hit5": "73.2% [58-84] (30/41)",
+  "section": "42.9% [16-75] (3/7)"
+ },
+ "a2": {
+  "page": "75.6% [61-86] (31/41)",
+  "hit3": "97.6% [87-100] (40/41)",
+  "hit5": "100.0% [91-100] (41/41)",
+  "section": "57.1% [25-84] (4/7)"
+ },
+ "b": {
+  "page": "70.7% [56-82] (29/41)",
+  "hit3": "85.4% [72-93] (35/41)",
+  "hit5": "92.7% [81-97] (38/41)"
+ },
+ "c": {
+  "pageAccuracyNavItems": "80.5% [66-90] (33/41)",
+  "section": "28.6% [8-64] (2/7)",
+  "wrongDestinationAllItems": "10.6% [5-23] (5/47)",
+  "wrongDestinationNavItems": "9.8% [4-23] (4/41)",
+  "clarificationRateAll": "14.9% [7-28] (7/47)",
+  "clarifiedOnNavItems": "9.8% [4-23] (4/41)",
+  "clarificationsOfferingGold": "85.7% [49-97] (6/7)",
+  "within1stepNavItems": "87.8% [74-95] (36/41)",
+  "rejectionAccuracy": "66.7% [21-94] (2/3)",
+  "falseRejectOnNavItems": "0.0% [0-9] (0/41)",
+  "clarifyItemsClarified": "100.0% [44-100] (3/3)",
+  "decisionCorrectAll": "80.9% [67-90] (38/47)",
+  "twinQuestionsAll": 1
+ },
+ "lenientTwinPages": {
+  "note": "twin cover/claim pages also accepted (item field twinDestinationIds); strict numbers above are the headline",
+  "a": "46.3% [32-61] (19/41)",
+  "a2": "80.5% [66-90] (33/41)",
+  "b": "78.0% [63-88] (32/41)",
+  "goalpostCorrectNav": "82.9% [69-91] (34/41)",
+  "goalpostWrongNav": "7.3% [3-19] (3/41)"
+ },
+ "mcnemar": {
+  "c_vs_a": {
+   "onlyA": 15,
+   "onlyB": 0,
+   "p": 0.00006103515625
+  },
+  "c_vs_a2": {
+   "onlyA": 5,
+   "onlyB": 3,
+   "p": 0.7265625
+  },
+  "c_vs_b": {
+   "onlyA": 5,
+   "onlyB": 1,
+   "p": 0.21875
+  },
+  "b_vs_a2": {
+   "onlyA": 4,
+   "onlyB": 6,
+   "p": 0.75390625
+  },
+  "a2_vs_a": {
+   "onlyA": 13,
+   "onlyB": 0,
+   "p": 0.000244140625
+  }
+ },
+ "within1stepVsBaseline": {
+  "goalpostWithin1": "87.8%",
+  "baselineA_hit3": "65.9%",
+  "baselineA2_hit3": "97.6%",
+  "semantic_hit3": "85.4%"
+ },
+ "byLabelOverlap": {
+  "0": {
+   "n": 26,
+   "a": "38.5%",
+   "a2": "73.1%",
+   "b": "65.4%",
+   "goalpostCorrectNav": "76.9%",
+   "goalpostWrongNav": "11.5%"
+  },
+  "1": {
+   "n": 9,
+   "a": "44.4%",
+   "a2": "77.8%",
+   "b": "77.8%",
+   "goalpostCorrectNav": "77.8%",
+   "goalpostWrongNav": "11.1%"
+  },
+  "2+": {
+   "n": 6,
+   "a": "66.7%",
+   "a2": "83.3%",
+   "b": "83.3%",
+   "goalpostCorrectNav": "100.0%",
+   "goalpostWrongNav": "0.0%"
+  }
+ },
+ "savedState": {
+  "note": "positives: query plausibly about the user's saved item (savedStateTarget); negatives: same topic but not the user's item (savedStateNegative)",
+  "positives_n": 5,
+  "a_top1": "80.0% [38-96] (4/5)",
+  "a2_top1": "80.0% [38-96] (4/5)",
+  "b_top1": "60.0% [23-88] (3/5)",
+  "goalpostNavigated": "100.0% [57-100] (5/5)",
+  "goalpostNavigatedOrOffered": "100.0% [57-100] (5/5)",
+  "negatives_n": 2,
+  "a_top1Saved": "0.0% [0-66] (0/2)",
+  "a2_top1Saved": "0.0% [0-66] (0/2)",
+  "b_top1Saved": "0.0% [0-66] (0/2)",
+  "goalpostHijacked": "0.0% [0-66] (0/2)"
+ },
+ "twins": {
+  "note": "navigate items whose gold page has a near-duplicate twin (twinDestinationIds); wrong twin = committed/top-1 to the twin",
+  "n": 4,
+  "a_wrongTwinTop1": "25.0% [5-70] (1/4)",
+  "a2_wrongTwinTop1": "50.0% [15-85] (2/4)",
+  "b_wrongTwinTop1": "75.0% [30-95] (3/4)",
+  "goalpostCorrect": "75.0% [30-95] (3/4)",
+  "goalpostWrongTwin": "25.0% [5-70] (1/4)",
+  "goalpostTwinQuestion": "0.0% [0-49] (0/4)"
+ }
+}
+FAIL INS_T12 "can I put my wife on the policy as well" | gold navigate car-named-drivers | got navigate chg-cancel-policy similarity 0.538, margin 0.035 over life-joint | a: trust-why b: chg-cancel-policy
+FAIL INS_T14 "my car has conked out by the side of the road" | gold navigate car-breakdown | got clarify claim-motor-theft,claim-motor-total-loss,car-courtesy weak_match | a: chg-vehicle-sell b: claim-motor-theft
+FAIL INS_T16 "I ended up in hospital while on holiday" | gold navigate claim-travel-medical | got navigate travel-medical similarity 0.656, margin 0.148 over travel-cancellation | a: travel-single-trip b: travel-medical
+FAIL INS_T17 "I have a heart condition, will I be covered abroad" | gold navigate travel-preexisting | got clarify travel-preexisting,travel-medical close_alternatives | a: ci-cover b: travel-preexisting
+FAIL INS_T18 "my dog swallowed a sock and needs an operation" | gold navigate claim-pet-vet | got navigate pet-dental-routine similarity 0.407, margin 0.060 over pet-pre-existing | a: chg-cancel-policy b: pet-dental-routine
+FAIL INS_T20 "my dog had skin problems last year, is that covered" | gold navigate pet-pre-existing | got clarify pet-lifetime,pet-pre-existing close_alternatives | a: renew-quote b: pet-lifetime
+FAIL INS_T21 "I changed my mind and want my money back within a fortnight" | gold navigate chg-cooling-off | got clarify chg-mid-term-adjust,chg-cooling-off,pet-claiming close_alternatives | a: chg-cancel-policy b: chg-mid-term-adjust
+FAIL INS_T39 "how do I get a refund from my airline for a delayed flight" | gold reject  | got navigate claim-travel-cancellation similarity 0.565, margin 0.048 over travel-delays | a: travel-delays b: claim-travel-cancellation
+FAIL INS_T44 "how do you calculate renewal prices" | gold navigate renew-price-change | got navigate renew-quote similarity 0.562, margin 0.063 over renew-multi-policy | a: pay-refunds b: renew-quote

@@ -1,0 +1,65 @@
+=AREA renewals | Renewals, prices and payments | Renewal quotes, why prices change, paying monthly or yearly, payment problems and discounts. | service
+=GROUP renewal | Renewal and price changes
+=GROUP paying | Pay monthly or yearly
+=GROUP problems | Payment problems
+=GROUP discounts | Discounts
+#renew-quote | Your renewal quote | renewal | What your renewal invitation shows and how to check, compare and accept it. | renewal invitation; renewal notice; policy renewal | A letter has arrived saying my policy is about to renew ;; Looking at what next year's cover will cost before it rolls over
+- What the invitation shows :: Your new premium, last year's premium, the cover and excess, and the date the new term starts.
+- Checking your details :: Make sure your address, mileage, drivers and cover levels are still correct; errors can invalidate a claim.
+- Auto-renewal :: Policies renew automatically on the stored payment method unless you tell us you do not want to continue.
+- Shopping around :: You can compare quotes at any time; you do not have to wait for the renewal date.
+#renew-price-change | Why your price changed | renewal | The factors that make a premium go up or down at renewal. | premium increase; price rise at renewal; insurance cost went up | My price went up and I've done nothing different ;; Understanding why I am being asked to pay more than last year
+- Factors we use :: Age, address, vehicle or property value, claims history, mileage, occupation and claims costs across the market.
+- Market-wide cost increases :: Rising repair costs, theft and inflation can raise prices even when your own circumstances are unchanged.
+- Tax and levies :: Insurance Premium Tax is included in the price shown and rises when the rate changes.
+- Ways to lower your premium :: Increase your voluntary excess, remove unneeded extras, pay annually and review sums insured.
+#renew-no-renewal | If we do not offer renewal | renewal | Why we might decline to renew and what your options are. | policy not renewed; insurer cancelled cover; non-renewal | I got a letter saying you will not renew my insurance ;; What to do when the insurer will not offer me another year
+- Reasons for non-renewal :: Reasons can include claims history, withdrawal of a product or non-payment; we tell you in writing.
+- What to do next :: Compare other insurers early; you may need to give details of why cover was not renewed.
+- Your records :: Ask us for a letter showing your no-claims discount, claims history and cover dates.
+- Challenging a decision :: Contact us if you think the decision is wrong; you can ask for a manager to review.
+#renew-multi-policy | Multi-policy and loyalty discounts | discounts | Discounts for holding more than one policy or staying with us. | multi-policy discount; loyalty discount; bundle discount | Cheaper cover because I have both my car and home with you ;; A reward for staying with the same insurer
+- Multi-policy discount :: Take two or more eligible policies and receive a discount applied to each premium.
+- Loyalty discount :: Existing customers may receive a small discount when they renew, shown in the renewal quote.
+- Referral rewards :: Introduce a friend who buys a policy and you may both receive a voucher, subject to terms.
+- Combining renewals :: Align renewal dates by contacting us; we can help you spread cost.
+#renew-discount-codes | Promotional codes and offers | discounts | How to use a discount code and what conditions apply. | voucher code; promo code; special offer | I have a code from an advert to get money off ;; Using a voucher on my new quote
+- Applying a code :: Enter the code at the quote stage; it cannot be added after you have bought the policy.
+- Conditions :: Codes may apply only to new customers, specific products or purchases made before a closing date.
+- Cashback and vouchers :: Cashback is paid within 60 days after the cooling-off period has ended.
+- Existing customers :: Offers for new customers are not available on renewal; ask us whether a loyalty price is available.
+#pay-monthly-yearly | Pay monthly or yearly | paying | The ways to pay your premium and how monthly instalments are calculated. | monthly payments; annual payment; pay in instalments; Direct Debit | Can I pay monthly instead of all at once ;; Spreading the cost of my insurance over the year
+- Paying monthly :: You pay a deposit and the balance in monthly instalments by Direct Debit; the credit agreement shows the interest charged.
+- Paying annually :: One payment by card or bank transfer; usually cheaper overall because no interest is charged.
+- APR and the cost of credit :: Monthly payments are a credit agreement, with an APR shown on your quote and agreement.
+- Changing how you pay :: Switch between monthly and annual from My Insura at renewal; mid-term changes may attract a fee.
+#pay-direct-debit | Direct Debit and payment dates | paying | How your Direct Debit works and how to change the date or the account. | direct debit; payment date; change bank account | I want to move my payment day to the end of the month ;; Updating the bank account that my insurance is paid from
+- The Direct Debit Guarantee :: You are protected by the guarantee; we write to you ten days before the first collection.
+- Changing the date :: Choose a new collection day in My Insura; we may collect two payments in the month of change.
+- Changing the bank account :: Set up a new Direct Debit instruction in My Insura; it takes five working days to process.
+- Cancelling the Direct Debit :: Contact us first; cancelling your Direct Debit without telling us could lead to policy cancellation.
+#pay-missed | Missed or failed payments | problems | What happens if a payment fails and how to catch up. | payment failed; missed instalment; behind with payments | The bank rejected a payment and I do not want my cover to stop ;; What to do when I cannot afford my insurance this month
+- What happens next :: We try to collect the payment again after seven days and send a reminder before taking any action.
+- Cancellation for non-payment :: If arrears remain after the reminder period we may cancel the policy and tell you the cancellation date.
+- Catching up :: Pay the arrears online or by phone; cover continues if payment is received before the cancellation date.
+- If you are in financial difficulty :: Contact us as soon as possible; we can discuss a payment plan and signpost free debt advice.
+#pay-refunds | Refunds and credit balances | problems | How we calculate and pay refunds after cancellation or changes. | refund; pro-rata refund; money back | I cancelled and want to know how much money I will get back ;; When the credit for an overpayment will reach my account
+- How refunds are calculated :: Pro rata for the unexpired period, less any admin fee and any claims paid in the policy year.
+- When refunds are paid :: Within 14 days of cancellation, to the bank account or card used for payment.
+- Credit on your account :: Overpayments are held as a credit and used against your next instalment, or refunded on request.
+- Refund after a claim :: If a total loss claim has been paid, no refund of the premium is usually due.
+#pay-card-security | Paying safely and card payments | problems | How we protect your payment details and what to do if you spot a payment you do not recognise. | card payment; payment security; unrecognised payment | There is a payment to Insura on my statement I don't recognise ;; Whether it is safe to give my card details online
+- How we protect your details :: Payments use encrypted pages and card details are tokenised, so we never store your full card number.
+- Payment you do not recognise :: Check your policy list in My Insura; if you still do not recognise it, contact us and your bank.
+- Changing your card :: Update your card in My Insura under Payment methods before it expires.
+- Scam warnings :: We never ask for card details by text message or for payment to a new account by email.
+#pay-fees | Fees and charges | discounts | A list of administration fees for changes, cancellation and documents. | admin fee; cancellation fee; mid-term adjustment fee | Why I was charged for changing my address ;; The cost of cancelling my policy part-way through the year
+- Administration fees :: An admin fee applies for new policies and mid-term changes; the amount is in your Insurance Product Information Document.
+- Cancellation fee :: A fee applies if you cancel after the 14-day cooling-off period.
+- Cost of documents :: Duplicate documents are free from My Insura; postal copies may attract a small charge.
+- Fee transparency :: All fees are shown before you confirm a change, and in your policy schedule.
+#pay-premium-tax | Insurance Premium Tax and price breakdown | discounts | What is included in your premium and how tax is shown. | IPT; premium breakdown; tax on insurance | Why there is tax on my insurance bill ;; Seeing what makes up the price I pay
+- What is Insurance Premium Tax :: A government tax added to most general insurance premiums; the rate is shown separately on your documents.
+- Not charged on :: Some life and long-term protection policies are exempt from Insurance Premium Tax.
+- Your price breakdown :: View net premium, tax and fees on your schedule in My Insura.
+- Questions about tax :: We cannot give tax advice; speak to HMRC or an adviser.

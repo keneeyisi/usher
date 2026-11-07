@@ -1,0 +1,42 @@
+PASS mobile_320_home_axe                            []
+PASS mobile_320_home_no_horizontal_scroll           {"scrollWidth":320}
+PASS mobile_320_panel_inside_viewport               {"left":12,"right":308,"w":296}
+PASS mobile_320_axe_panel_open                      []
+PASS mobile_320_strip_after_navigation              {"path":"/p/home-escape-of-water.html","stripVisible":true,"collapsed":true,"stripH":74,"state":"arrived","sw":320}
+PASS mobile_320_strip_collapsed_height_le_20pct_viewport {"path":"/p/home-escape-of-water.html","stripVisible":true,"collapsed":true,"stripH":74,"state":"arrived","sw":320}
+PASS mobile_320_no_horizontal_scroll_destination    {"path":"/p/home-escape-of-water.html","stripVisible":true,"collapsed":true,"stripH":74,"state":"arrived","sw":320}
+PASS mobile_320_axe_destination_collapsed           []
+PASS mobile_320_strip_expands                       {"collapsed":false,"h":414,"exp":"true"}
+PASS mobile_320_axe_destination_expanded            []
+PASS mobile_375_home_axe                            []
+PASS mobile_375_home_no_horizontal_scroll           {"scrollWidth":375}
+PASS mobile_375_panel_inside_viewport               {"left":12,"right":363,"w":351}
+PASS mobile_375_axe_panel_open                      []
+PASS mobile_375_strip_after_navigation              {"path":"/p/home-escape-of-water.html","stripVisible":true,"collapsed":true,"stripH":74,"state":"arrived","sw":375}
+PASS mobile_375_strip_collapsed_height_le_20pct_viewport {"path":"/p/home-escape-of-water.html","stripVisible":true,"collapsed":true,"stripH":74,"state":"arrived","sw":375}
+PASS mobile_375_no_horizontal_scroll_destination    {"path":"/p/home-escape-of-water.html","stripVisible":true,"collapsed":true,"stripH":74,"state":"arrived","sw":375}
+PASS mobile_375_axe_destination_collapsed           []
+PASS mobile_375_strip_expands                       {"collapsed":false,"h":388,"exp":"true"}
+PASS mobile_375_axe_destination_expanded            []
+PASS mobile_414_home_axe                            []
+PASS mobile_414_home_no_horizontal_scroll           {"scrollWidth":414}
+PASS mobile_414_panel_inside_viewport               {"left":12,"right":402,"w":390}
+PASS mobile_414_axe_panel_open                      []
+PASS mobile_414_strip_after_navigation              {"path":"/p/home-escape-of-water.html","stripVisible":true,"collapsed":true,"stripH":74,"state":"arrived","sw":414}
+PASS mobile_414_strip_collapsed_height_le_20pct_viewport {"path":"/p/home-escape-of-water.html","stripVisible":true,"collapsed":true,"stripH":74,"state":"arrived","sw":414}
+PASS mobile_414_no_horizontal_scroll_destination    {"path":"/p/home-escape-of-water.html","stripVisible":true,"collapsed":true,"stripH":74,"state":"arrived","sw":414}
+PASS mobile_414_axe_destination_collapsed           []
+PASS mobile_414_strip_expands                       {"collapsed":false,"h":368,"exp":"true"}
+PASS mobile_414_axe_destination_expanded            []
+PASS desktop_ask_navigates                          {"u":"/p/home-escape-of-water.html"}
+PASS desktop_axe_destination                        []
+PASS axe_compare.html_375                           []
+PASS compare_renders_both_375                       {"l":"Escape of water\nHome insurance › What's covered\nEscape of water claim\nClaims › Home claims\nFrozen pipes and heating\nHome","r":"It sounds like you need help with escape of water.\n\nGo to: Home › Home insurance › What's covered › Escape of water\n\nTake me there"}
+PASS axe_search.html_375                            []
+PASS axe_compare.html_1280                          []
+PASS compare_renders_both_1280                      {"l":"Escape of water\nHome insurance › What's covered\nEscape of water claim\nClaims › Home claims\nFrozen pipes and heating\nHome","r":"It sounds like you need help with escape of water.\n\nGo to: Home › Home insurance › What's covered › Escape of water\n\nTake me there"}
+PASS allpages_axe_375                               {"pages":132,"violationPages":0,"first":[]}
+PASS allpages_no_horizontal_scroll_375              {"pages":132,"overflow":[]}
+PASS no_console_errors                              []
+PASS no_external_requests                           []
+41/41 passed

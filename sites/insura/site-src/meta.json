@@ -1,0 +1,262 @@
+{
+ "id": "insura",
+ "name": "Insura",
+ "shortName": "Insura",
+ "tagline": "Insurance for car, home, travel, life and pets (fictional)",
+ "noun": "the insurer",
+ "rejectMessage": "I could not match that to an Insura service. Usher helps with Insura's car, home, travel, life and pet insurance, claims, renewals, changes and support.",
+ "theme": {
+  "accent": "#2b2a6f",
+  "accentDark": "#1c1b4d",
+  "tint": "#e9e9f6",
+  "highlight": "#f2a900",
+  "highlightTint": "#fff1cf",
+  "link": "#2c3fa8"
+ },
+ "hero": "Insurance, explained.",
+ "heroSub": "Cover for your car, home, trips, family and pets, and help when you need to claim. Insura is a fictional insurer created for research.",
+ "domain": "insura.example",
+ "phone": "01632 960 100",
+ "logo": "I",
+ "qualifiers": [
+  {
+   "id": "which-claim",
+   "triggerTerms": [
+    "claim"
+   ],
+   "unlessAnyOf": [
+    "home",
+    "house",
+    "flat",
+    "car",
+    "motor",
+    "vehicle",
+    "travel",
+    "trip",
+    "holiday",
+    "pet",
+    "dog",
+    "cat",
+    "water",
+    "pipe",
+    "flood",
+    "storm",
+    "burglary",
+    "theft",
+    "stolen",
+    "windscreen",
+    "accident",
+    "crash",
+    "phone",
+    "luggage",
+    "vet",
+    "status",
+    "progress",
+    "update",
+    "decline",
+    "declined",
+    "refuse",
+    "refused",
+    "dispute",
+    "disagree",
+    "offer",
+    "payout",
+    "settlement",
+    "track",
+    "life",
+    "death",
+    "died",
+    "assessor",
+    "photo",
+    "photos",
+    "ncd",
+    "discount",
+    "proof",
+    "complain",
+    "complaint",
+    "unhappy",
+    "handled",
+    "turned",
+    "wrong",
+    "continue",
+    "finish",
+    "carry",
+    "resume",
+    "send",
+    "upload",
+    "saved",
+    "appeal",
+    "bonus",
+    "earned"
+   ],
+   "message": "I understand you want to make a claim, but I need to know which type of insurance it is for.",
+   "options": [
+    "claim-home-escape-of-water",
+    "claim-motor-accident",
+    "claim-travel-possessions",
+    "claim-pet-vet"
+   ]
+  },
+  {
+   "id": "which-cancel",
+   "triggerTerms": [
+    "cancel"
+   ],
+   "unlessAnyOf": [
+    "policy",
+    "insurance",
+    "cover",
+    "car",
+    "home",
+    "house",
+    "travel",
+    "trip",
+    "holiday",
+    "pet",
+    "life",
+    "payment",
+    "direct",
+    "debit",
+    "renewal",
+    "renew",
+    "cooling",
+    "subscription",
+    "membership"
+   ],
+   "message": "I understand you want to cancel something, but I need to know whether it is a policy, a trip or a payment.",
+   "options": [
+    "chg-cancel-policy",
+    "travel-cancellation",
+    "pay-direct-debit"
+   ]
+  }
+ ],
+ "offTopic": [
+  "Best mortgage rates for first-time buyers",
+  "Legal advice about my landlord not returning my deposit",
+  "What's the weather like tomorrow",
+  "Write me a poem about autumn",
+  "A recipe for lasagne",
+  "Who won the football last night",
+  "How do I invest in shares",
+  "Give me tax advice for my self-assessment",
+  "Book me a table at an Italian restaurant",
+  "Translate this sentence into French",
+  "What is the capital of Australia",
+  "How do I fix a leaking tap myself",
+  "Best credit card with no fees",
+  "Recommend a good film to watch tonight",
+  "Tell me a joke",
+  "Where can I buy a used car cheaply",
+  "What is a good diet to lose weight",
+  "How do I apply for a passport",
+  "Find me a plumber near me",
+  "Which pension should I choose",
+  "How to train my dog to sit",
+  "Compare broadband deals",
+  "Help me write a CV",
+  "Current exchange rate for the euro",
+  "What medicines should I take for a cold"
+ ],
+ "intents": {
+  "create": [
+   "make a claim",
+   "start a claim",
+   "want to claim",
+   "need to claim",
+   "report an incident",
+   "report a loss"
+  ],
+  "resume": [
+   "send my photos",
+   "upload my photos",
+   "upload photos",
+   "finish my claim",
+   "carry on with my claim",
+   "continue my claim",
+   "finish my quote",
+   "continue my quote",
+   "finish my renewal quote",
+   "continue my renewal quote",
+   "finish my car quote",
+   "finish my renewal"
+  ]
+ },
+ "savedNoun": "saved item",
+ "saved": [
+  {
+   "id": "saved-claim-water",
+   "kind": "claim",
+   "ownerDestination": "claim-home-escape-of-water",
+   "destination": "acc-saved-claim-water",
+   "reference": "CLM-HM-20261012-0388",
+   "label": "Water damage claim",
+   "savedAt": "2026-10-12T16:20:00+01:00",
+   "progress": {
+    "step": 2,
+    "total": 5,
+    "stepLabel": "Upload photos"
+   },
+   "synthetic": true
+  },
+  {
+   "id": "saved-quote-car",
+   "kind": "quote",
+   "ownerDestination": "renew-quote",
+   "destination": "acc-saved-quote-car",
+   "reference": "QT-CR-20261014-2210",
+   "label": "Car renewal quote",
+   "savedAt": "2026-10-14T09:05:00+01:00",
+   "progress": {
+    "step": 3,
+    "total": 4,
+    "stepLabel": "Add-ons"
+   },
+   "synthetic": true
+  }
+ ],
+ "fallbackResume": "acc-open-claims",
+ "examples": [
+  "A pipe burst and water is coming through the ceiling",
+  "Can I pay monthly?",
+  "I sold my car last week"
+ ],
+ "placeholder": "e.g. my car was stolen overnight",
+ "compare": true,
+ "about": [
+  [
+   "about",
+   "About Insura",
+   "Insura is a fictional insurer created for a research prototype. Nothing here is a real product, price, address or phone number."
+  ],
+  [
+   "careers",
+   "Careers",
+   "There are no real vacancies. This page exists so the site has the usual non-service pages."
+  ],
+  [
+   "privacy",
+   "Privacy notice",
+   "This research prototype stores no personal data on a server. Search and Usher run in your browser."
+  ],
+  [
+   "cookies",
+   "Cookies",
+   "This site uses no cookies. Route progress is kept in your browser's session storage while you navigate."
+  ],
+  [
+   "accessibility",
+   "Accessibility statement",
+   "We aim to meet WCAG 2.2 AA. Tested with axe-core and keyboard navigation; no user study."
+  ],
+  [
+   "press",
+   "Press",
+   "Press enquiries: press@insura.example (fictional)."
+  ]
+ ],
+ "parents": {
+  "acc-saved-claim-water": "acc-open-claims",
+  "acc-saved-quote-car": "acc-saved-quotes"
+ }
+}

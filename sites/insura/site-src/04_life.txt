@@ -1,0 +1,61 @@
+=AREA life | Life and income protection | Life cover, critical illness, income protection, trusts and what to do after a bereavement. | service
+=GROUP life | Life cover
+=GROUP ci | Critical illness
+=GROUP income | Income protection
+=GROUP trust | Writing a policy in trust
+=GROUP bereavement | Bereavement
+#life-term | Level and decreasing term life cover | life | Cover that pays a lump sum if you die within a set term, either level or reducing over time. | term assurance; life insurance; mortgage protection | Insurance that pays my family a lump sum if I die while the mortgage is still running ;; A policy so my partner and kids are looked after if I pass away
+- Level term cover :: The amount paid on death stays the same for the whole term and suits protecting a family's living costs.
+- Decreasing term cover :: The payout reduces over time in line with a repayment mortgage and is usually cheaper than level cover.
+- Choosing a term and amount :: Match the term to your mortgage or until children are independent, and the amount to debts plus income needs.
+- What's not covered :: Death from suicide in the first year, and claims where health or lifestyle was not disclosed accurately.
+#life-whole-of-life | Whole of life cover | life | Cover that pays out whenever you die, as long as premiums are paid. | whole life insurance; funeral cover; inheritance tax planning | Insurance that is guaranteed to pay out whenever I die, so my family can cover the funeral ;; A policy with no end date so my heirs are certain to get something
+- How it works :: Premiums are paid for life or until a set age, and a lump sum is paid out on death with no end date.
+- Guaranteed or reviewable premiums :: Guaranteed premiums stay fixed; reviewable premiums can change at set review dates.
+- Using whole of life for inheritance tax :: It can be written in trust to provide money for a possible inheritance tax bill.
+- Over-50s plans :: Simple plans with no medical questions but often a smaller payout and a qualifying period.
+#life-joint | Joint and family life cover | life | One policy covering two people, paying out on the first or second death. | joint life policy; cover for couples; first death | One policy covering me and my husband ;; Paying out when either of us dies rather than both of us
+- First death and second death :: First death pays when the first person dies and ends; second death pays after both have died.
+- Cost compared with two single policies :: A joint first-death policy is generally cheaper but pays out only once.
+- Divorce or separation :: A joint policy cannot always be split; consider two separate single policies if you may separate.
+- Changing from joint to single :: Ask us whether the policy allows conversion; evidence of good health may be required.
+#ci-cover | Critical illness cover | ci | A lump sum paid if you are diagnosed with a serious illness listed in the policy. | critical illness insurance;serious illness cover;cancer cover | A payout if I am diagnosed with cancer or have a heart attack ;; Cover that pays money if I get a major illness and cannot cope financially ;; Pays a tax-free lump sum if I am diagnosed with a serious illness
+- Conditions covered :: Typical illnesses covered include cancer, heart attack and stroke, defined in the policy document.
+- Definitions and severity :: A diagnosis must meet the policy definition; early-stage conditions may pay a partial claim.
+- Waiting and survival periods :: A claim is paid only if you survive the survival period, usually 14 or 28 days after diagnosis.
+- What's not covered :: Conditions that existed before the policy started, and illnesses not listed or not meeting the definition.
+#ci-children | Children's critical illness cover | ci | Built-in cover paying a lump sum if your child is diagnosed with a specified condition. | child critical illness; cover for my kids | A payout if my daughter becomes seriously ill ;; Cover that includes my children as part of my own policy
+- What is included :: Children from 30 days to 18 years are covered for a set list of conditions, with a reduced lump sum.
+- How to claim :: Contact us with the medical report from the consultant treating your child.
+- Does it end your policy :: A children's claim usually does not affect your own cover.
+- Limits :: Children's cover is typically the lower of 50% of your critical illness amount or £25,000.
+#income-protection | Income protection insurance | income | Regular payments if you cannot work because of illness or injury. | sick pay cover; income protection; replace my salary | Monthly money if I am off work for a long time because I am ill ;; Cover to replace my pay if I cannot work after an accident
+- How a claim is paid :: A monthly payment of up to 60% of your pre-tax income is made after the deferred period until you return to work.
+- Deferred period :: Choose how long to wait before payments start, from four weeks to one year, to match employer sick pay.
+- Own occupation and suited occupation :: Own occupation pays if you cannot do your own job; suited occupation pays only if you cannot do any suitable job.
+- What's not covered :: Redundancy, pre-existing conditions and illness caused by drug abuse.
+#income-short-term | Short-term income cover | income | Payments for up to one or two years if you cannot work through accident, sickness or unemployment. | accident sickness unemployment cover; ASU; mortgage payment protection | Cover for my mortgage payments if I am off sick or lose my job ;; Short-term help with bills if I cannot work for a while
+- What's covered :: Monthly benefits for a maximum of 12 or 24 months for each claim, paid after a short waiting period.
+- Unemployment cover :: Redundancy is covered only if you have been employed for at least six months and are not facing known redundancy.
+- Self-employed customers :: You will need to provide accounts or tax returns to support a claim.
+- Policy exclusions :: Pre-existing conditions, voluntary redundancy and any fixed-term contract ending.
+#trust-why | Writing your policy in trust | trust | How putting a policy in a trust can help money reach the right people faster and may avoid inheritance tax. | trust a life policy; discretionary trust; bare trust | Making sure the payout goes straight to my children and not through probate ;; Setting up a trust for my life insurance so it is outside my estate
+- What a trust does :: The proceeds are paid to your trustees rather than into your estate, which may speed up payment.
+- Types of trust :: A bare trust names fixed beneficiaries; a discretionary trust lets trustees decide who benefits and when.
+- Inheritance tax :: A policy in trust is usually outside your estate for inheritance tax, but rules vary and you should check with an adviser.
+- Using our trust forms :: Download the trust forms from My Insura and send the signed originals to us; we cannot give legal advice.
+#trust-changing | Changing or ending a trust | trust | How to change trustees or beneficiaries on a policy already placed in trust. | change trustees; add a beneficiary; trust deed | I need to add my new baby as a beneficiary to the policy ;; One of the trustees has died and I need to replace them
+- Changing trustees :: Complete our trustee change form signed by all existing trustees and the new trustee.
+- Changing beneficiaries :: This depends on the type of trust; a bare trust cannot be changed once beneficiaries are named.
+- Documents we need :: A certified copy of the trust deed and identification for any new trustees.
+- Legal advice :: Speak to a solicitor if you are unsure; we are not able to advise on tax or legal consequences.
+#bereave-notify | Telling us about a death | bereavement | What to do and what we need when a policyholder has died. | report a death; deceased policyholder; my dad died | My dad died and I need to know what to do about his insurance ;; Letting you know that a customer has passed away
+- Who can contact us :: A relative, executor or solicitor can tell us; we will speak to you with sensitivity and take care of everything we can.
+- What we need :: A copy of the death certificate and, for a life policy, the claim form and policy number if known.
+- What happens to the policy :: Life cover can pay out; car, home and pet policies may be amended or cancelled and refunds sent to the estate.
+- How long it takes :: Most claims are paid within ten working days once we have all the documents.
+#bereave-claim | Making a life insurance claim | bereavement | How the person dealing with the estate can claim on a life policy. | life insurance payout; claiming on a policy after death; executor claim | I am dealing with my mum's estate and want to claim on her life policy ;; How long it takes to receive the money after someone dies
+- Who can claim :: The policy owner's executor, trustees or named beneficiaries under a trust.
+- Documents needed :: The death certificate, claim form, identification, and the grant of probate where applicable.
+- Payment :: We pay by bank transfer to the executor or trustees once the claim is accepted.
+- Claim decisions :: We may ask for medical records to check the information given at application.

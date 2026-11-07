@@ -1,0 +1,71 @@
+=AREA billing | Billing and payments | Understanding your bill, paying it, Direct Debit, credit and refunds, and billing disputes. | service
+=GROUP bill | Understanding your bill
+=GROUP pay | Pay your bill
+=GROUP dd | Direct Debit
+=GROUP credit | Credit and refunds
+=GROUP dispute | Billing disputes
+#bill-explained | Your bill explained | bill | A guide to each section of your Lumenet bill: charges, credits and totals. | bill breakdown; read my bill; what the charges mean | I can't make sense of all the lines on my bill ;; Understanding what each charge on my statement is for
+- Bill summary :: Shows the bill date, amount due, due date and any credits at the top of page one.
+- Monthly charges :: Your plan, TV, add-ons and mobile lines, each listed with the period they cover.
+- One-off charges :: Activation fees, engineer visits, device payments and equipment charges.
+- Payment information :: Direct Debit date, balance brought forward and how to pay.
+#bill-changed | Why your bill has changed | bill | Common reasons your bill is higher or lower than usual. | bill higher than usual; bill jumped; unexpected charge; bigger bill | My bill jumped this month and I don't know why ;; The amount I owe is higher than last month
+- Part-month charges :: A first or last bill covers part of a month and can include an advance charge.
+- Price changes :: An annual price increase or end of a promotional discount increases the monthly charge.
+- Extra usage :: Charges for roaming, premium calls or data beyond your cap are added on the bill.
+- Missed discounts :: If a promotion has ended, check My Lumenet for a loyalty price.
+#bill-first | Your first bill | bill | What to expect on your first bill including activation and pro rata charges. | first bill; new customer bill; set up charge | The first bill is bigger than I expected ;; Why I was charged twice in one month
+- When it arrives :: Within 14 days of your service going live, then monthly on the same day.
+- What it includes :: Activation fee, part month of service in advance and the next full month.
+- Setting up Direct Debit :: Pay the first bill by card if Direct Debit is not yet set up.
+- Questions :: Contact us if the amount differs from your order confirmation.
+#bill-paper | Paper bills and bill formats | bill | Choose between online, paper and accessible formats. | paperless billing; paper bill; large print bill | I want my bills in large print ;; Stopping paper bills and getting them by email
+- Online bills :: Free and available in My Lumenet and by email on the day each bill is issued.
+- Paper bills :: Available for £2 per bill; free for customers over 75 or on a social tariff.
+- Accessible formats :: Large print, Braille and audio bills are free on request.
+- Changing :: Update your preference in My Lumenet under Bill settings.
+#pay-ways | Ways to pay your bill | pay | Pay by card, bank transfer, Direct Debit or at a PayPoint outlet. | pay my bill; make a payment; pay online; PayPoint | How can I pay what I owe ;; Paying my bill with my debit card
+- Online or app :: Pay by debit or credit card in My Lumenet or the app; payment shows immediately.
+- Bank transfer :: Use the sort code and account number shown on your bill with your reference.
+- Cash :: Pay with a barcode at PayPoint outlets; payment takes up to two working days.
+- Phone :: Call our automated line, 24 hours a day, with your card.
+#pay-late | Late and missed payments | pay | What happens if you do not pay your bill on time. | overdue bill; late fee; payment reminder; barred account | I missed a payment and am worried my service will be cut off ;; What happens if I cannot pay my bill this month
+- Reminders :: We send a reminder after seven days and a final notice after 14 days.
+- Late payment fee :: A £7 fee may be added if a payment is more than ten days overdue.
+- Service restriction :: Mobile and TV may be restricted and broadband suspended after 30 days of non-payment.
+- Getting help :: Contact us before you miss a payment; we can set up a plan or move the date.
+#pay-help | Help if you are struggling to pay | pay | Support such as payment plans, social tariffs and signposting to free debt advice. | financial difficulty;payment plan;debt help;cannot afford;struggling to pay;cannot afford my bill | I am struggling to afford my broadband ;; Money is tight and I need cheaper options
+- Payment plans :: Spread what you owe over three to six months without extra interest.
+- Social tariff :: A discounted plan for customers on certain benefits.
+- Moving to a cheaper plan :: Change to a lower speed without penalty if you are in financial difficulty.
+- Free debt advice :: We signpost free debt advice services if you want additional support.
+#dd-setup | Set up or change your Direct Debit | dd | How to start, change or cancel a Direct Debit. | direct debit setup; change bank account; payment date change | I got a new bank account and want to switch payment ;; Moving my Direct Debit date to after payday
+- Setting up :: Add your bank details in My Lumenet; collection starts with your next bill.
+- Changing the date :: Choose a day from the 1st to 28th; the change applies to the next bill.
+- Changing the bank account :: Enter the new details and the old instruction is cancelled automatically.
+- Direct Debit Guarantee :: Covers you against errors; we give ten days' notice of changes in the amount or date.
+#dd-failed | Failed Direct Debit | dd | What happens if the bank rejects a payment and how to put it right. | direct debit failed;payment bounced;insufficient funds;my payment bounced;payment rejected by the bank | The bank says the payment was rejected ;; Paying again after a Direct Debit failed
+- Why it happens :: Insufficient funds, a closed account or an incorrect instruction can cause a failed collection.
+- What we do :: We try again after five working days and tell you by text and email.
+- Fees :: A £7 charge may apply to failed Direct Debits.
+- Put it right :: Pay by card in My Lumenet and update bank details if needed.
+#credit-refund | Refunds and credit balances | credit | How we pay back credits after you overpay, leave or are due compensation. | refund; account in credit; overpaid | I paid too much and want the money back ;; Getting a refund after leaving the company
+- When you are in credit :: A credit appears on your account when you overpay or after a service credit.
+- Asking for a refund :: Request a refund in My Lumenet; it is paid to the bank account used for payment within ten working days.
+- Final bill refund :: After your final bill, any credit is refunded automatically within 30 days.
+- Refund to a card :: Card refunds go back to the card used, taking up to five days to appear.
+#credit-top-up | Pay as you go and top-ups | credit | Using mobile credit and automatic top-ups. | top up; pay as you go credit; credit expiry | Adding credit to my phone ;; Whether my credit runs out
+- How to top up :: Top up in the app, online or at shops with a voucher.
+- Automatic top-up :: Set a minimum balance and amount for a payment card to be charged when credit runs low.
+- Credit expiry :: Credit does not expire while you top up at least once every six months.
+- Bonus credit :: Occasional top-up offers apply bonus credit that expires after 30 days.
+#dispute-bill | Dispute a charge | dispute | How to challenge something on your bill you think is wrong. | wrong charge; disputed bill; incorrect billing; billing error | I think I have been charged for something I didn't order ;; The bill includes a fee I was told would be free
+- Tell us first :: Report the item through My Lumenet or by phone, with the bill date and the charge in question.
+- While we investigate :: We will not chase the disputed amount, but you should pay the undisputed part by the due date.
+- Our response :: We aim to resolve billing disputes within ten working days.
+- If you do not agree :: Use our complaints process and then free independent dispute resolution.
+#dispute-adr | Independent dispute resolution | dispute | Taking a complaint to a free, independent scheme after eight weeks or a deadlock letter. | alternative dispute resolution; ADR; ombudsman; escalate complaint | I want someone neutral to review my dispute ;; I have not reached an agreement with the company
+- When you can go :: After eight weeks, or immediately if we issue a letter saying we cannot reach agreement.
+- The scheme :: Our scheme is free and independent and the decision is binding on us, not on you.
+- What to send :: Your complaint reference, bills and a short summary.
+- Time limits :: Complain to the scheme within six months of our final response.

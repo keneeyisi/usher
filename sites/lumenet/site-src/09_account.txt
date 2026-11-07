@@ -1,0 +1,55 @@
+=AREA account | My account and security | Your Lumenet account (synthetic demonstration): services, faults, login, security and personal details. | account
+=GROUP myaccount | My account
+=GROUP login | Login and passwords
+=GROUP secure | Account security and scams
+=GROUP details | Personal details
+#acct-overview | My Lumenet overview | myaccount | Your dashboard: services, bills, usage and anything that needs your attention. | account home; dashboard; my lumenet | Seeing everything about my account on one page ;; Where to check what services I have
+- Your services :: Broadband, TV and mobile services on the account with plan names and prices.
+- Latest bill :: Amount due, date and a link to pay or view the PDF.
+- Usage :: Mobile data used and broadband speed test results.
+- Needs attention :: Faults, moves, offers and tasks waiting for you.
+#acct-services | My services and plan | myaccount | Your current plans, add-ons, contract dates and options to change. | my plan; current package; what I pay for | Checking exactly which package I am on ;; Seeing when my deal finishes and what I can change
+- Plan details :: Speed, price, equipment and included extras for each service.
+- Contract dates :: Start date, minimum term end date and notice period.
+- Add or remove :: Add TV, mobile or Wi-Fi extenders, or remove optional extras.
+- Change plan :: Compare plans and upgrade or downgrade.
+#acct-faults | My faults and tickets | myaccount | All fault tickets you have reported, with their status and next steps. | open tickets; my faults; fault list | Seeing the faults I have reported and whether they are fixed ;; Where to continue a fault report I started
+- Open tickets :: Each fault with its reference, status and expected fix time.
+- Test results :: The latest line test result for each fault.
+- Appointments :: Engineer visits booked, with date and time window.
+- Report a new fault :: Choose the service and the type of problem to start a ticket.
+#acct-saved-fault | Dropping connection fault ticket | myaccount | Your open fault ticket FLT-20261015-5521: dropping connection (synthetic test state). | open fault ticket; engineer visit booked; fault FLT-20261015-5521 | Where is my engineer for the fault I reported ;; Checking my internet fault that is still not fixed
+- Ticket summary :: Reference FLT-20261015-5521, broadband, dropping connection, reported 15 October 2026.
+- Status :: Engineer visit booked Thursday 22 October, 8am to 1pm; line test showed intermittent noise.
+- Engineer visit :: Make sure someone aged 18 or over is home and the Hub and socket are accessible.
+- Rearrange or add details :: Change the appointment or message the faults team from this page.
+#acct-saved-move | House move to new address | myaccount | Your pending house move MOV-20261012-0173 to 14 Orchard Lane, move date 14 November (synthetic test state). | pending move; saved move; moving house order | Carry on with the move I started for my new address ;; Confirm the date my internet will be switched on at the new house
+- Move summary :: Reference MOV-20261012-0173; new address 14 Orchard Lane, Northfield; move date 14 November 2026.
+- Progress so far :: Step 3 of 5: Confirm your date. Address check is complete; date and access still need confirming.
+- Continue where you left off :: Confirm your move date and choose an installation appointment.
+- Changing or cancelling the move :: Change the date up to two working days before, or cancel the move in this page.
+#acct-login | Sign-in problems | login | What to do if you cannot sign in to My Lumenet or the app. | can't log in; locked out; login failed; two-step verification | I can't get into my account any more ;; The app keeps saying my details are wrong
+- Check your details :: Use your email address or account number; passwords are case-sensitive.
+- Locked out :: After five wrong attempts, accounts lock for 30 minutes.
+- Two-step verification :: We send a six-digit code by text; if your number has changed, contact us.
+- Register a new account :: Use your account number and postcode from a bill to register.
+#acct-password | Reset your password | login | How to choose a new password and what makes a strong one. | forgot password; reset password; change password; password link | I have forgotten my password ;; Changing my login details because they are old
+- Reset link :: Choose Forgotten password and we email a link valid for 30 minutes.
+- Choosing a password :: Use at least 12 characters with a mix of words and numbers.
+- Changing it while signed in :: Go to Security in My Lumenet and choose Change password.
+- If you do not get the email :: Check spam and that you used the right email; contact us if it still fails.
+#acct-hacked | Secure a hacked account | secure | What to do if someone else has been using your account or you think your login has been stolen. | account hacked; someone logged in; unauthorised access; stolen account | Someone is logging in to my account ;; I noticed changes on my account that I did not make
+- Act straight away :: Change your password, sign out of all devices and turn on two-step verification.
+- Contact us :: Tell us what you saw; we can lock the account while we investigate and reverse changes.
+- Check your bank :: Look for unrecognised payments and tell your bank if card details may be at risk.
+- Protect other accounts :: Change passwords for any other service where you use the same password.
+#acct-scams | Scam calls, texts and emails | secure | How to spot fake messages that pretend to be from Lumenet and what to do. | scam text; phishing; fake call; nuisance call; suspicious email | A text said my broadband would be cut off unless I paid ;; A caller said they were from Lumenet and wanted remote access
+- Signs of a scam :: Urgent threats, links to unfamiliar sites and requests for card details, passwords or remote access.
+- What we will never do :: We never ask for your password or full card number, or ask you to install software to fix a fault.
+- If you have responded :: Contact your bank, change passwords and report to Action Fraud.
+- Report it :: Forward suspicious texts to 7726 and emails to the address on our website.
+#acct-details | Personal details and marketing choices | details | Update your name, address, phone, email and how we contact you. | change email; update phone number; marketing preferences; unsubscribe | I changed my phone number and need to update it ;; Stopping marketing messages from the company
+- Contact details :: Update email and mobile in My Lumenet; we send a code to confirm the change.
+- Name changes :: We need a marriage certificate or deed poll to change the name on the account.
+- Marketing :: Choose which channels we may use for offers; service messages are always sent.
+- Your data rights :: Ask for a copy of your data or deletion, subject to what we must keep by law.
