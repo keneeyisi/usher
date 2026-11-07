@@ -8,11 +8,11 @@
   "navigation": {
    "mode": "path",
    "urlTemplates": {
-    "home": "/usher-demonstrator/sites/insura/index.html",
-    "area": "/usher-demonstrator/sites/insura/{area}.html",
-    "group": "/usher-demonstrator/sites/insura/{area}.html#{group}",
-    "page": "/usher-demonstrator/sites/insura/p/{id}.html",
-    "section": "/usher-demonstrator/sites/insura/p/{id}.html#{anchor}"
+    "home": "/usher/sites/insura/index.html",
+    "area": "/usher/sites/insura/{area}.html",
+    "group": "/usher/sites/insura/{area}.html#{group}",
+    "page": "/usher/sites/insura/p/{id}.html",
+    "section": "/usher/sites/insura/p/{id}.html#{anchor}"
    }
   },
   "scope": {
@@ -336,7 +336,7 @@
      "anchor": "how-to-claim"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/car-comprehensive.html",
+   "url": "/usher/sites/insura/p/car-comprehensive.html",
    "kind": "information"
   },
   {
@@ -382,7 +382,7 @@
      "anchor": "how-to-claim"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/car-tpft.html",
+   "url": "/usher/sites/insura/p/car-tpft.html",
    "kind": "information"
   },
   {
@@ -430,7 +430,7 @@
      "anchor": "how-to-claim"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/car-third-party.html",
+   "url": "/usher/sites/insura/p/car-third-party.html",
    "kind": "information"
   },
   {
@@ -480,7 +480,7 @@
      "anchor": "when-the-excess-is-not-charged"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/car-excess.html",
+   "url": "/usher/sites/insura/p/car-excess.html",
    "kind": "information"
   },
   {
@@ -529,7 +529,7 @@
      "anchor": "how-to-use-your-cover"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/car-breakdown.html",
+   "url": "/usher/sites/insura/p/car-breakdown.html",
    "kind": "information"
   },
   {
@@ -577,7 +577,7 @@
      "anchor": "adding-or-removing-the-courtesy-car"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/car-courtesy.html",
+   "url": "/usher/sites/insura/p/car-courtesy.html",
    "kind": "information"
   },
   {
@@ -625,7 +625,7 @@
      "anchor": "how-to-make-a-legal-expenses-claim"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/car-legal.html",
+   "url": "/usher/sites/insura/p/car-legal.html",
    "kind": "information"
   },
   {
@@ -673,7 +673,7 @@
      "anchor": "how-to-claim"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/car-windscreen.html",
+   "url": "/usher/sites/insura/p/car-windscreen.html",
    "kind": "information"
   },
   {
@@ -725,7 +725,7 @@
      "anchor": "named-driver-and-no-claims-discount"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/car-named-drivers.html",
+   "url": "/usher/sites/insura/p/car-named-drivers.html",
    "kind": "information"
   },
   {
@@ -773,7 +773,7 @@
      "anchor": "ways-to-reduce-the-cost"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/car-young-drivers.html",
+   "url": "/usher/sites/insura/p/car-young-drivers.html",
    "kind": "information"
   },
   {
@@ -821,7 +821,7 @@
      "anchor": "telling-us-about-a-change"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/car-business-use.html",
+   "url": "/usher/sites/insura/p/car-business-use.html",
    "kind": "information"
   },
   {
@@ -869,7 +869,7 @@
      "anchor": "if-you-break-down-or-crash-abroad"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/car-abroad.html",
+   "url": "/usher/sites/insura/p/car-abroad.html",
    "kind": "information"
   },
   {
@@ -917,7 +917,7 @@
      "anchor": "discount-if-you-stop-driving"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/car-ncd.html",
+   "url": "/usher/sites/insura/p/car-ncd.html",
    "kind": "information"
   },
   {
@@ -965,7 +965,7 @@
      "anchor": "if-your-proof-is-lost-or-wrong"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/car-ncd-proof.html",
+   "url": "/usher/sites/insura/p/car-ncd-proof.html",
    "kind": "information"
   },
   {
@@ -1013,7 +1013,7 @@
      "anchor": "adding-or-removing-protection"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/car-ncd-protect.html",
+   "url": "/usher/sites/insura/p/car-ncd-protect.html",
    "kind": "information"
   },
   {
@@ -1063,7 +1063,7 @@
      "anchor": "fitting-returning-and-privacy"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/car-telematics.html",
+   "url": "/usher/sites/insura/p/car-telematics.html",
    "kind": "information"
   },
   {
@@ -1109,7 +1109,7 @@
      "anchor": "mortgage-lender-requirements"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/home-buildings.html",
+   "url": "/usher/sites/insura/p/home-buildings.html",
    "kind": "information"
   },
   {
@@ -1155,7 +1155,7 @@
      "anchor": "home-contents-away-from-home"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/home-contents.html",
+   "url": "/usher/sites/insura/p/home-contents.html",
    "kind": "information"
   },
   {
@@ -1201,7 +1201,7 @@
      "anchor": "switching-to-combined-cover"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/home-combined.html",
+   "url": "/usher/sites/insura/p/home-combined.html",
    "kind": "information"
   },
   {
@@ -1251,7 +1251,7 @@
      "anchor": "trace-and-access"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/home-escape-of-water.html",
+   "url": "/usher/sites/insura/p/home-escape-of-water.html",
    "kind": "information"
   },
   {
@@ -1299,7 +1299,7 @@
      "anchor": "claiming"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/home-accidental-damage.html",
+   "url": "/usher/sites/insura/p/home-accidental-damage.html",
    "kind": "information"
   },
   {
@@ -1347,7 +1347,7 @@
      "anchor": "what-to-do-after-a-break-in"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/home-theft.html",
+   "url": "/usher/sites/insura/p/home-theft.html",
    "kind": "information"
   },
   {
@@ -1397,7 +1397,7 @@
      "anchor": "alternative-accommodation"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/home-storm-flood.html",
+   "url": "/usher/sites/insura/p/home-storm-flood.html",
    "kind": "information"
   },
   {
@@ -1445,7 +1445,7 @@
      "anchor": "reporting-cracks"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/home-subsidence.html",
+   "url": "/usher/sites/insura/p/home-subsidence.html",
    "kind": "information"
   },
   {
@@ -1493,7 +1493,7 @@
      "anchor": "how-to-claim"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/home-frozen-pipes.html",
+   "url": "/usher/sites/insura/p/home-frozen-pipes.html",
    "kind": "information"
   },
   {
@@ -1541,7 +1541,7 @@
      "anchor": "landlord-s-rent-loss"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/home-alt-accommodation.html",
+   "url": "/usher/sites/insura/p/home-alt-accommodation.html",
    "kind": "information"
   },
   {
@@ -1589,7 +1589,7 @@
      "anchor": "making-a-claim"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/home-personal-possessions.html",
+   "url": "/usher/sites/insura/p/home-personal-possessions.html",
    "kind": "information"
   },
   {
@@ -1637,7 +1637,7 @@
      "anchor": "using-the-helplines"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/home-legal-emergency.html",
+   "url": "/usher/sites/insura/p/home-legal-emergency.html",
    "kind": "information"
   },
   {
@@ -1685,7 +1685,7 @@
      "anchor": "telling-us-about-changes"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/home-landlord.html",
+   "url": "/usher/sites/insura/p/home-landlord.html",
    "kind": "information"
   },
   {
@@ -1733,7 +1733,7 @@
      "anchor": "moving-out"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/home-renters.html",
+   "url": "/usher/sites/insura/p/home-renters.html",
    "kind": "information"
   },
   {
@@ -1779,7 +1779,7 @@
      "anchor": "buying-after-you-have-booked"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/travel-single-trip.html",
+   "url": "/usher/sites/insura/p/travel-single-trip.html",
    "kind": "information"
   },
   {
@@ -1827,7 +1827,7 @@
      "anchor": "is-annual-cover-worth-it"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/travel-annual.html",
+   "url": "/usher/sites/insura/p/travel-annual.html",
    "kind": "information"
   },
   {
@@ -1873,7 +1873,7 @@
      "anchor": "adding-a-child-later"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/travel-family.html",
+   "url": "/usher/sites/insura/p/travel-family.html",
    "kind": "information"
   },
   {
@@ -1921,7 +1921,7 @@
      "anchor": "what-s-not-covered"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/travel-medical.html",
+   "url": "/usher/sites/insura/p/travel-medical.html",
    "kind": "information"
   },
   {
@@ -1969,7 +1969,7 @@
      "anchor": "what-happens-if-you-do-not-declare"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/travel-preexisting.html",
+   "url": "/usher/sites/insura/p/travel-preexisting.html",
    "kind": "information"
   },
   {
@@ -2017,7 +2017,7 @@
      "anchor": "not-covered"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/travel-cancellation.html",
+   "url": "/usher/sites/insura/p/travel-cancellation.html",
    "kind": "information"
   },
   {
@@ -2065,7 +2065,7 @@
      "anchor": "airline-compensation"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/travel-delays.html",
+   "url": "/usher/sites/insura/p/travel-delays.html",
    "kind": "information"
   },
   {
@@ -2113,7 +2113,7 @@
      "anchor": "reporting-loss"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/travel-baggage.html",
+   "url": "/usher/sites/insura/p/travel-baggage.html",
    "kind": "information"
   },
   {
@@ -2161,7 +2161,7 @@
      "anchor": "adding-winter-sports"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/travel-winter-sports.html",
+   "url": "/usher/sites/insura/p/travel-winter-sports.html",
    "kind": "information"
   },
   {
@@ -2209,7 +2209,7 @@
      "anchor": "declaring-an-activity"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/travel-activities.html",
+   "url": "/usher/sites/insura/p/travel-activities.html",
    "kind": "information"
   },
   {
@@ -2257,7 +2257,7 @@
      "anchor": "making-a-claim-at-sea"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/travel-cruise.html",
+   "url": "/usher/sites/insura/p/travel-cruise.html",
    "kind": "information"
   },
   {
@@ -2305,7 +2305,7 @@
      "anchor": "what-s-not-covered"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/life-term.html",
+   "url": "/usher/sites/insura/p/life-term.html",
    "kind": "information"
   },
   {
@@ -2353,7 +2353,7 @@
      "anchor": "over-50s-plans"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/life-whole-of-life.html",
+   "url": "/usher/sites/insura/p/life-whole-of-life.html",
    "kind": "information"
   },
   {
@@ -2401,7 +2401,7 @@
      "anchor": "changing-from-joint-to-single"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/life-joint.html",
+   "url": "/usher/sites/insura/p/life-joint.html",
    "kind": "information"
   },
   {
@@ -2450,7 +2450,7 @@
      "anchor": "what-s-not-covered"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/ci-cover.html",
+   "url": "/usher/sites/insura/p/ci-cover.html",
    "kind": "information"
   },
   {
@@ -2496,7 +2496,7 @@
      "anchor": "limits"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/ci-children.html",
+   "url": "/usher/sites/insura/p/ci-children.html",
    "kind": "information"
   },
   {
@@ -2544,7 +2544,7 @@
      "anchor": "what-s-not-covered"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/income-protection.html",
+   "url": "/usher/sites/insura/p/income-protection.html",
    "kind": "information"
   },
   {
@@ -2592,7 +2592,7 @@
      "anchor": "policy-exclusions"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/income-short-term.html",
+   "url": "/usher/sites/insura/p/income-short-term.html",
    "kind": "information"
   },
   {
@@ -2640,7 +2640,7 @@
      "anchor": "using-our-trust-forms"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/trust-why.html",
+   "url": "/usher/sites/insura/p/trust-why.html",
    "kind": "information"
   },
   {
@@ -2688,7 +2688,7 @@
      "anchor": "legal-advice"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/trust-changing.html",
+   "url": "/usher/sites/insura/p/trust-changing.html",
    "kind": "information"
   },
   {
@@ -2736,7 +2736,7 @@
      "anchor": "how-long-it-takes"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/bereave-notify.html",
+   "url": "/usher/sites/insura/p/bereave-notify.html",
    "kind": "information"
   },
   {
@@ -2784,7 +2784,7 @@
      "anchor": "claim-decisions"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/bereave-claim.html",
+   "url": "/usher/sites/insura/p/bereave-claim.html",
    "kind": "information"
   },
   {
@@ -2830,7 +2830,7 @@
      "anchor": "premiums-as-pets-age"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/pet-lifetime.html",
+   "url": "/usher/sites/insura/p/pet-lifetime.html",
    "kind": "information"
   },
   {
@@ -2878,7 +2878,7 @@
      "anchor": "upgrading"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/pet-time-limited.html",
+   "url": "/usher/sites/insura/p/pet-time-limited.html",
    "kind": "information"
   },
   {
@@ -2924,7 +2924,7 @@
      "anchor": "switching-to-fuller-cover"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/pet-accident-only.html",
+   "url": "/usher/sites/insura/p/pet-accident-only.html",
    "kind": "information"
   },
   {
@@ -2972,7 +2972,7 @@
      "anchor": "can-an-exclusion-be-removed"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/pet-pre-existing.html",
+   "url": "/usher/sites/insura/p/pet-pre-existing.html",
    "kind": "information"
   },
   {
@@ -3020,7 +3020,7 @@
      "anchor": "cooling-off"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/pet-waiting-periods.html",
+   "url": "/usher/sites/insura/p/pet-waiting-periods.html",
    "kind": "information"
   },
   {
@@ -3068,7 +3068,7 @@
      "anchor": "paying-the-vet-directly"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/pet-vet-fees.html",
+   "url": "/usher/sites/insura/p/pet-vet-fees.html",
    "kind": "information"
   },
   {
@@ -3116,7 +3116,7 @@
      "anchor": "claims-for-ongoing-treatment"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/pet-claiming.html",
+   "url": "/usher/sites/insura/p/pet-claiming.html",
    "kind": "information"
   },
   {
@@ -3166,7 +3166,7 @@
      "anchor": "wellness-add-on"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/pet-dental-routine.html",
+   "url": "/usher/sites/insura/p/pet-dental-routine.html",
    "kind": "information"
   },
   {
@@ -3216,7 +3216,7 @@
      "anchor": "evidence-we-need"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/claim-home-escape-of-water.html",
+   "url": "/usher/sites/insura/p/claim-home-escape-of-water.html",
    "kind": "information"
   },
   {
@@ -3265,7 +3265,7 @@
      "anchor": "replacement-and-cash-settlement"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/claim-home-burglary.html",
+   "url": "/usher/sites/insura/p/claim-home-burglary.html",
    "kind": "information"
   },
   {
@@ -3313,7 +3313,7 @@
      "anchor": "fallen-trees-and-fences"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/claim-home-storm-flood.html",
+   "url": "/usher/sites/insura/p/claim-home-storm-flood.html",
    "kind": "information"
   },
   {
@@ -3361,7 +3361,7 @@
      "anchor": "excess"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/claim-home-accidental.html",
+   "url": "/usher/sites/insura/p/claim-home-accidental.html",
    "kind": "information"
   },
   {
@@ -3409,7 +3409,7 @@
      "anchor": "repairs"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/claim-motor-accident.html",
+   "url": "/usher/sites/insura/p/claim-motor-accident.html",
    "kind": "information"
   },
   {
@@ -3457,7 +3457,7 @@
      "anchor": "if-the-car-is-recovered"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/claim-motor-theft.html",
+   "url": "/usher/sites/insura/p/claim-motor-theft.html",
    "kind": "information"
   },
   {
@@ -3505,7 +3505,7 @@
      "anchor": "no-claims-discount"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/claim-motor-hit-and-run.html",
+   "url": "/usher/sites/insura/p/claim-motor-hit-and-run.html",
    "kind": "information"
   },
   {
@@ -3553,7 +3553,7 @@
      "anchor": "effect-on-your-no-claims-discount"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/claim-motor-windscreen.html",
+   "url": "/usher/sites/insura/p/claim-motor-windscreen.html",
    "kind": "information"
   },
   {
@@ -3603,7 +3603,7 @@
      "anchor": "if-you-disagree"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/claim-motor-total-loss.html",
+   "url": "/usher/sites/insura/p/claim-motor-total-loss.html",
    "kind": "information"
   },
   {
@@ -3652,7 +3652,7 @@
      "anchor": "claims-on-return-home"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/claim-travel-medical.html",
+   "url": "/usher/sites/insura/p/claim-travel-medical.html",
    "kind": "information"
   },
   {
@@ -3701,7 +3701,7 @@
      "anchor": "passports-and-cash"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/claim-travel-possessions.html",
+   "url": "/usher/sites/insura/p/claim-travel-possessions.html",
    "kind": "information"
   },
   {
@@ -3749,7 +3749,7 @@
      "anchor": "settlement"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/claim-travel-cancellation.html",
+   "url": "/usher/sites/insura/p/claim-travel-cancellation.html",
    "kind": "information"
   },
   {
@@ -3798,7 +3798,7 @@
      "anchor": "decline-and-review"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/claim-pet-vet.html",
+   "url": "/usher/sites/insura/p/claim-pet-vet.html",
    "kind": "information"
   },
   {
@@ -3846,7 +3846,7 @@
      "anchor": "evidence-we-need"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/claim-pet-lost.html",
+   "url": "/usher/sites/insura/p/claim-pet-lost.html",
    "kind": "information"
   },
   {
@@ -3894,7 +3894,7 @@
      "anchor": "contacting-your-claims-handler"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/claim-track.html",
+   "url": "/usher/sites/insura/p/claim-track.html",
    "kind": "information"
   },
   {
@@ -3942,7 +3942,7 @@
      "anchor": "if-an-appointment-is-missed"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/claim-assessor.html",
+   "url": "/usher/sites/insura/p/claim-assessor.html",
    "kind": "information"
   },
   {
@@ -3990,7 +3990,7 @@
      "anchor": "underinsurance"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/claim-settlement.html",
+   "url": "/usher/sites/insura/p/claim-settlement.html",
    "kind": "information"
   },
   {
@@ -4038,7 +4038,7 @@
      "anchor": "legal-action"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/claim-dispute.html",
+   "url": "/usher/sites/insura/p/claim-dispute.html",
    "kind": "information"
   },
   {
@@ -4086,7 +4086,7 @@
      "anchor": "shopping-around"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/renew-quote.html",
+   "url": "/usher/sites/insura/p/renew-quote.html",
    "kind": "information"
   },
   {
@@ -4134,7 +4134,7 @@
      "anchor": "ways-to-lower-your-premium"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/renew-price-change.html",
+   "url": "/usher/sites/insura/p/renew-price-change.html",
    "kind": "information"
   },
   {
@@ -4182,7 +4182,7 @@
      "anchor": "challenging-a-decision"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/renew-no-renewal.html",
+   "url": "/usher/sites/insura/p/renew-no-renewal.html",
    "kind": "information"
   },
   {
@@ -4230,7 +4230,7 @@
      "anchor": "combining-renewals"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/renew-multi-policy.html",
+   "url": "/usher/sites/insura/p/renew-multi-policy.html",
    "kind": "information"
   },
   {
@@ -4278,7 +4278,7 @@
      "anchor": "existing-customers"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/renew-discount-codes.html",
+   "url": "/usher/sites/insura/p/renew-discount-codes.html",
    "kind": "information"
   },
   {
@@ -4328,7 +4328,7 @@
      "anchor": "changing-how-you-pay"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/pay-monthly-yearly.html",
+   "url": "/usher/sites/insura/p/pay-monthly-yearly.html",
    "kind": "information"
   },
   {
@@ -4376,7 +4376,7 @@
      "anchor": "cancelling-the-direct-debit"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/pay-direct-debit.html",
+   "url": "/usher/sites/insura/p/pay-direct-debit.html",
    "kind": "information"
   },
   {
@@ -4424,7 +4424,7 @@
      "anchor": "if-you-are-in-financial-difficulty"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/pay-missed.html",
+   "url": "/usher/sites/insura/p/pay-missed.html",
    "kind": "information"
   },
   {
@@ -4472,7 +4472,7 @@
      "anchor": "refund-after-a-claim"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/pay-refunds.html",
+   "url": "/usher/sites/insura/p/pay-refunds.html",
    "kind": "information"
   },
   {
@@ -4520,7 +4520,7 @@
      "anchor": "scam-warnings"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/pay-card-security.html",
+   "url": "/usher/sites/insura/p/pay-card-security.html",
    "kind": "information"
   },
   {
@@ -4568,7 +4568,7 @@
      "anchor": "fee-transparency"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/pay-fees.html",
+   "url": "/usher/sites/insura/p/pay-fees.html",
    "kind": "information"
   },
   {
@@ -4616,7 +4616,7 @@
      "anchor": "questions-about-tax"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/pay-premium-tax.html",
+   "url": "/usher/sites/insura/p/pay-premium-tax.html",
    "kind": "information"
   },
   {
@@ -4664,7 +4664,7 @@
      "anchor": "moving-abroad"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/chg-address.html",
+   "url": "/usher/sites/insura/p/chg-address.html",
    "kind": "information"
   },
   {
@@ -4712,7 +4712,7 @@
      "anchor": "why-accuracy-matters"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/chg-personal-details.html",
+   "url": "/usher/sites/insura/p/chg-personal-details.html",
    "kind": "information"
   },
   {
@@ -4760,7 +4760,7 @@
      "anchor": "price-effect"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/chg-vehicle.html",
+   "url": "/usher/sites/insura/p/chg-vehicle.html",
    "kind": "information"
   },
   {
@@ -4810,7 +4810,7 @@
      "anchor": "statutory-off-road-notification"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/chg-vehicle-sell.html",
+   "url": "/usher/sites/insura/p/chg-vehicle-sell.html",
    "kind": "information"
   },
   {
@@ -4858,7 +4858,7 @@
      "anchor": "cover-you-need-by-law"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/chg-cancel-policy.html",
+   "url": "/usher/sites/insura/p/chg-cancel-policy.html",
    "kind": "information"
   },
   {
@@ -4910,7 +4910,7 @@
      "anchor": "claims-in-the-cooling-off-period"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/chg-cooling-off.html",
+   "url": "/usher/sites/insura/p/chg-cooling-off.html",
    "kind": "information"
   },
   {
@@ -4958,7 +4958,7 @@
      "anchor": "removing-cover"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/chg-add-driver.html",
+   "url": "/usher/sites/insura/p/chg-add-driver.html",
    "kind": "information"
   },
   {
@@ -5008,7 +5008,7 @@
      "anchor": "unoccupied-property"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/chg-property.html",
+   "url": "/usher/sites/insura/p/chg-property.html",
    "kind": "information"
   },
   {
@@ -5056,7 +5056,7 @@
      "anchor": "documents"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/chg-ownership.html",
+   "url": "/usher/sites/insura/p/chg-ownership.html",
    "kind": "information"
   },
   {
@@ -5104,7 +5104,7 @@
      "anchor": "reversing-a-change"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/chg-mid-term-adjust.html",
+   "url": "/usher/sites/insura/p/chg-mid-term-adjust.html",
    "kind": "information"
   },
   {
@@ -5152,7 +5152,7 @@
      "anchor": "text-relay-and-bsl"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/help-contact.html",
+   "url": "/usher/sites/insura/p/help-contact.html",
    "kind": "information"
   },
   {
@@ -5200,7 +5200,7 @@
      "anchor": "calls-are-recorded"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/help-opening-times.html",
+   "url": "/usher/sites/insura/p/help-opening-times.html",
    "kind": "information"
   },
   {
@@ -5248,7 +5248,7 @@
      "anchor": "compensation"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/help-complaint.html",
+   "url": "/usher/sites/insura/p/help-complaint.html",
    "kind": "information"
   },
   {
@@ -5296,7 +5296,7 @@
      "anchor": "contact-details"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/help-ombudsman.html",
+   "url": "/usher/sites/insura/p/help-ombudsman.html",
    "kind": "information"
   },
   {
@@ -5346,7 +5346,7 @@
      "anchor": "how-we-will-contact-you"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/help-fraud-report.html",
+   "url": "/usher/sites/insura/p/help-fraud-report.html",
    "kind": "information"
   },
   {
@@ -5396,7 +5396,7 @@
      "anchor": "reporting-fraud"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/help-fraud-claims.html",
+   "url": "/usher/sites/insura/p/help-fraud-claims.html",
    "kind": "information"
   },
   {
@@ -5448,7 +5448,7 @@
      "anchor": "reasonable-adjustments"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/help-accessibility.html",
+   "url": "/usher/sites/insura/p/help-accessibility.html",
    "kind": "information"
   },
   {
@@ -5498,7 +5498,7 @@
      "anchor": "your-information"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/help-vulnerable.html",
+   "url": "/usher/sites/insura/p/help-vulnerable.html",
    "kind": "information"
   },
   {
@@ -5548,7 +5548,7 @@
      "anchor": "complaining-to-the-regulator"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/help-data-rights.html",
+   "url": "/usher/sites/insura/p/help-data-rights.html",
    "kind": "information"
   },
   {
@@ -5596,7 +5596,7 @@
      "anchor": "sharing-access"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/acc-policies.html",
+   "url": "/usher/sites/insura/p/acc-policies.html",
    "kind": "account"
   },
   {
@@ -5646,7 +5646,7 @@
      "anchor": "paperless-preferences"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/acc-documents.html",
+   "url": "/usher/sites/insura/p/acc-documents.html",
    "kind": "account"
   },
   {
@@ -5694,7 +5694,7 @@
      "anchor": "start-a-new-claim"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/acc-open-claims.html",
+   "url": "/usher/sites/insura/p/acc-open-claims.html",
    "kind": "account"
   },
   {
@@ -5740,7 +5740,7 @@
      "anchor": "next-steps"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/acc-saved-claim-water.html",
+   "url": "/usher/sites/insura/p/acc-saved-claim-water.html",
    "parent": "acc-open-claims",
    "kind": "saved"
   },
@@ -5787,7 +5787,7 @@
      "anchor": "quote-validity"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/acc-saved-quote-car.html",
+   "url": "/usher/sites/insura/p/acc-saved-quote-car.html",
    "parent": "acc-saved-quotes",
    "kind": "saved"
   },
@@ -5836,7 +5836,7 @@
      "anchor": "delete-a-quote"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/acc-saved-quotes.html",
+   "url": "/usher/sites/insura/p/acc-saved-quotes.html",
    "kind": "saved"
   },
   {
@@ -5884,7 +5884,7 @@
      "anchor": "payment-history"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/acc-payment-methods.html",
+   "url": "/usher/sites/insura/p/acc-payment-methods.html",
    "kind": "account"
   },
   {
@@ -5932,7 +5932,7 @@
      "anchor": "notifications"
     }
    ],
-   "url": "/usher-demonstrator/sites/insura/p/acc-messages.html",
+   "url": "/usher/sites/insura/p/acc-messages.html",
    "kind": "account"
   }
  ],
@@ -6296,7 +6296,7 @@
    "I’m going skiing in February"
   ],
   "placeholderPrefix": "e.g. ",
-  "hotkey": "/usher-demonstrator/sites/insura/",
+  "hotkey": "/usher/sites/insura/",
   "examples": [
    "A pipe burst and water is coming through the ceiling",
    "Can I pay monthly?",

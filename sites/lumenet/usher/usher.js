@@ -426,7 +426,7 @@ const NAV = SITE.navigation || { mode: 'path' };
 const expand = (tpl, vars) => tpl.replace(/\{(\w+)\}/g, (m, k) => vars[k] == null ? '' : String(vars[k]));
 function urlFor(kind, id, sectionIndex) { // kind: home | area | group | page | section
   const T = NAV.urlTemplates || {};
-  if (kind === 'home') return T.home || SITE.baseUrl || '/usher-demonstrator/sites/lumenet/';
+  if (kind === 'home') return T.home || SITE.baseUrl || '/usher/sites/lumenet/';
   if (kind === 'area') return T.area ? expand(T.area, { area: id, id }) : ((AREAS.find(a => a.id === id) || {}).url || null);
   if (kind === 'group') { const s = id; const vars = { area: s.domain, group: s.groupId, groupLabel: encodeURIComponent(s.group) }; return T.group ? expand(T.group, vars) : null; }
   const s = byId(id); if (!s) return null;
@@ -1116,7 +1116,7 @@ return { createExplain };
  * Re-implemented from the R6.3 interface of CivicSphereNav, against profile data only (no CivicSphere code). Lives in an open Shadow DOM so host CSS
  * cannot break it and it cannot break the host; theming crosses the boundary only through CSS custom properties (--usher-*).
  * Add to a page:  <script src="usher/usher.js" data-profile="profile.json" data-index="usher-index.json"></script>
- * Optional data-*: data-models, data-vendor (default ./models/ ./vendor/), data-hotkey ("/usher-demonstrator/sites/lumenet/" default, "off"), data-compare (URL of a compare page), data-debug.
+ * Optional data-*: data-models, data-vendor (default ./models/ ./vendor/), data-hotkey ("/usher/sites/lumenet/" default, "off"), data-compare (URL of a compare page), data-debug.
  * Host API: window.usher { ready, engine, explain, embedder, open(), close(), resolve(q), ask(q), setState(list), on(evt, fn), navigate(id, section, source),
  *   cancel(), trace, lastResult, onNavigate, onResume, html {...} }. Nothing is sent anywhere; the host decides what to do with events (analytics is the host's choice).
  */
@@ -1126,7 +1126,7 @@ if (window.usher) return;
 const SCRIPT = document.currentScript;
 const attr = (k, d) => (SCRIPT && SCRIPT.getAttribute('data-' + k)) || d;
 const CFG = { profile: attr('profile', 'usher-profile.json'), index: attr('index', 'usher-index.json'), models: attr('models', './models/'), vendor: attr('vendor', './vendor/'),
-  hotkey: attr('hotkey', '/usher-demonstrator/sites/lumenet/'), compare: attr('compare', ''), embedder: SCRIPT && SCRIPT.src ? new URL('usher-embedder.js', SCRIPT.src).href : './usher/usher-embedder.js' };
+  hotkey: attr('hotkey', '/usher/sites/lumenet/'), compare: attr('compare', ''), embedder: SCRIPT && SCRIPT.src ? new URL('usher-embedder.js', SCRIPT.src).href : './usher/usher-embedder.js' };
 const QS = new URLSearchParams(location.search);
 const DEBUG = QS.get('debug') === '1' || attr('debug', '') === '1';
 const MODEL_WAIT_MS = Number(QS.get('modelwait')) || 30000;
@@ -1174,7 +1174,7 @@ function mount() {
   (document.body.firstChild ? document.body.insertBefore(host, document.body.firstChild) : document.body.appendChild(host));
   R = host.attachShadow({ mode: 'open' });
   const pill = UI.pillLabel || 'I’m here because…', sub = UI.subline || 'Describe your situation. We’ll take you there.', ph = phText(0), hk = CFG.hotkey === 'off' ? '' : CFG.hotkey;
-  const compass = '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9.5" fill="none" stroke="currentColor" stroke-width="2"/usher-demonstrator/sites/lumenet/><path d="M15.8 8.2l-2.1 5.5-5.5 2.1 2.1-5.5z" fill="currentColor"/></svg>';
+  const compass = '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9.5" fill="none" stroke="currentColor" stroke-width="2"/usher/sites/lumenet/><path d="M15.8 8.2l-2.1 5.5-5.5 2.1 2.1-5.5z" fill="currentColor"/></svg>';
   R.innerHTML = `<style>${CSS}</style>
 <div id="announcer" class="visually-hidden" role="status" aria-live="polite" aria-atomic="true"></div>
 <div id="routestrip" class="routestrip" role="navigation" aria-label="Your route" hidden></div>

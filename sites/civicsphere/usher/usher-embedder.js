@@ -17,7 +17,7 @@ async function fetchBytes(E, url, from, to, stage) {
 const setP = (E, p, stage) => { E.progress = Math.max(E.progress, Math.min(100, Math.round(p))); if (stage) E.stage = stage; E.emit(); };
 export async function run(E, opts) {
   const t0 = performance.now(), C = opts.engine, MODEL = C.MODEL, params = opts.params || new URLSearchParams();
-  const vendor = opts.vendor.replace(/\/?$/, '/usher-demonstrator/sites/civicsphere/'), models = opts.models.replace(/\/?$/, '/usher-demonstrator/sites/civicsphere/');
+  const vendor = opts.vendor.replace(/\/?$/, '/'), models = opts.models.replace(/\/?$/, '/');
   try {
     if (params.get('semantic') === 'off') throw new Error('meaning model disabled (?semantic=off)');
     setP(E, 1, 'Loading catalogue index');
