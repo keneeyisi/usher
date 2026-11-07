@@ -60,7 +60,7 @@ const profile = {
   qualifiers: [ { id: 'which-tax', triggerTerms: ['tax'], unlessAnyOf: ['householdcharge', 'council', 'household', 'home', 'house', 'property', 'vehicle', 'car', 'business', 'road'], message: taxQ.message, options: taxQ.options.slice() } ],
   offTopic: D.OFFTOPIC.slice(),
   hints: { lexicalProfiles: JSON.parse(JSON.stringify(C.GOAL_PROFILES)) },
-  ui: { pillLabel: 'I want to…', placeholder: 'e.g. replace my identity document', hotkey: '/usher-demonstrator/sites/lumenet/',
+  ui: { pillLabel: 'I want to…', placeholder: 'e.g. replace my identity document', hotkey: 'off',
     examples: ['I need a new passport', "I've just moved into a new house and need to sort out parking. I want to know what I'll have to pay.", 'my landlord won’t fix the damp in my flat'] }
 };
 const out = process.argv[2] || path.join(ROOT, 'profiles', 'civicsphere.profile.json');

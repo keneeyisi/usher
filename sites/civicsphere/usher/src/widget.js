@@ -13,7 +13,7 @@ if (window.usher) return;
 const SCRIPT = document.currentScript;
 const attr = (k, d) => (SCRIPT && SCRIPT.getAttribute('data-' + k)) || d;
 const CFG = { profile: attr('profile', 'usher-profile.json'), index: attr('index', 'usher-index.json'), models: attr('models', './models/'), vendor: attr('vendor', './vendor/'),
-  hotkey: attr('hotkey', '/usher/sites/civicsphere/'), compare: attr('compare', ''), embedder: SCRIPT && SCRIPT.src ? new URL('usher-embedder.js', SCRIPT.src).href : './usher/usher-embedder.js' };
+  hotkey: attr('hotkey', 'off'), compare: attr('compare', ''), embedder: SCRIPT && SCRIPT.src ? new URL('usher-embedder.js', SCRIPT.src).href : './usher/usher-embedder.js' };
 const QS = new URLSearchParams(location.search);
 const DEBUG = QS.get('debug') === '1' || attr('debug', '') === '1';
 const MODEL_WAIT_MS = Number(QS.get('modelwait')) || 30000;
