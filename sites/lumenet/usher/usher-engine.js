@@ -422,14 +422,21 @@ const validateCatalogue = () => validateProfile(profile);
 /* ---- URLs (navigation.mode: hash | path | callback) ---- */
 const NAV = SITE.navigation || { mode: 'path' };
 const expand = (tpl, vars) => tpl.replace(/\{(\w+)\}/g, (m, k) => vars[k] == null ? '' : String(vars[k]));
+// Profile paths are site-root-relative. Resolve them against this demonstrator's
+// current directory so both localhost and the /usher/sites/<site>/ deployment work.
+const sitePath = value => {
+  if (!value) return value;
+  const target = new URL(String(value).replace(/^\/+/, ''), location.href);
+  return target.pathname + target.search + target.hash;
+};
 function urlFor(kind, id, sectionIndex) { // kind: home | area | group | page | section
   const T = NAV.urlTemplates || {};
-  if (kind === 'home') return T.home || SITE.baseUrl || '/';
-  if (kind === 'area') return T.area ? expand(T.area, { area: id, id }) : ((AREAS.find(a => a.id === id) || {}).url || null);
-  if (kind === 'group') { const s = id; const vars = { area: s.domain, group: s.groupId, groupLabel: encodeURIComponent(s.group) }; return T.group ? expand(T.group, vars) : null; }
+  if (kind === 'home') return sitePath(T.home || SITE.baseUrl || 'index.html');
+  if (kind === 'area') return sitePath(T.area ? expand(T.area, { area: id, id }) : ((AREAS.find(a => a.id === id) || {}).url || null));
+  if (kind === 'group') { const s = id; const vars = { area: s.domain, group: s.groupId, groupLabel: encodeURIComponent(s.group) }; return sitePath(T.group ? expand(T.group, vars) : null); }
   const s = byId(id); if (!s) return null;
-  if (kind === 'page') return T.page ? expand(T.page, { id }) : s.url;
-  if (kind === 'section') { const x = s.sections[sectionIndex]; if (T.section) return expand(T.section, { id, index: sectionIndex, anchor: x && x.anchor ? String(x.anchor).replace(/^#/, '') : '' }); return (s.url || '') + (x && x.anchor ? x.anchor : ''); }
+  if (kind === 'page') return sitePath(T.page ? expand(T.page, { id }) : s.url);
+  if (kind === 'section') { const x = s.sections[sectionIndex]; if (T.section) return sitePath(expand(T.section, { id, index: sectionIndex, anchor: x && x.anchor ? String(x.anchor).replace(/^#/, '') : '' })); return sitePath((s.url || '') + (x && x.anchor ? x.anchor : '')); }
   return null;
 }
 // Route steps shown to the visitor: Home > Area > Group > [parent] > Page > [Section], each with its URL (null when the site has no page for it).
