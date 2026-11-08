@@ -1,7 +1,7 @@
-/* R6.3 checks (R7_GP2: pill wording is now "I’m here because…"): pill, "/usher-demonstrator/sites/civicsphere/" shortcut, Esc, focus trap, command-line dialog (no chat wording), route strip, accessibility.
+/* R6.3 checks (R7_GP2: pill wording is now "I’m here because…"): pill, "/" shortcut, Esc, focus trap, command-line dialog (no chat wording), route strip, accessibility.
    Usage: node tests/run_r63_entry.js [baseUrl] [outDir]   (serve the build first: python3 -m http.server 8008) */
 const { chromium } = require('playwright'); const fs = require('fs'), path = require('path');
-const BASE = (process.argv[2] || 'http://localhost:8008/').replace(/\/?$/, '/usher-demonstrator/sites/civicsphere/'); const OUT = process.argv[3] || path.join(__dirname, '..', 'r63_entry_results');
+const BASE = (process.argv[2] || 'http://localhost:8008/').replace(/\/?$/, '/'); const OUT = process.argv[3] || path.join(__dirname, '..', 'r63_entry_results');
 fs.mkdirSync(OUT, { recursive: true }); const AXE = path.join(__dirname, 'vendor', 'axe.min.js'), ROOT = path.join(__dirname, '..');
 const checks = [], errs = [], ext = [];
 const add = (id, pass, detail) => { checks.push({ id, pass: !!pass, detail }); console.log((pass ? 'PASS ' : 'FAIL ') + id.padEnd(40) + ' ' + JSON.stringify(detail).slice(0, 260)); };
@@ -28,9 +28,9 @@ const PARK = "I've just moved into a new house and need to sort out parking. I w
     add('P4_pill_on_every_page', await (async () => { const out = []; for (const h of ['#directory', '#domain/housing-property', '#service/residential-parking', '#versus', '#about', '#search/bins']) { await p.evaluate(h => { location.hash = h }, h); await p.waitForTimeout(200); out.push(await p.isVisible('#nbpill')); } return out.every(Boolean) })(), true);
     await p.evaluate(() => { location.hash = '#home' }); await ctx.close(); }
 
-  // 3. "/usher-demonstrator/sites/civicsphere/" shortcut, Esc, focus trap, scrim
+  // 3. "/" shortcut, Esc, focus trap, scrim
   { const { ctx, p } = await page('#home');
-    await p.keyboard.press('/usher-demonstrator/sites/civicsphere/'); await p.waitForTimeout(150);
+    await p.keyboard.press('/'); await p.waitForTimeout(150);
     const o = await p.evaluate(() => { const d = document.getElementById('nbpanel'), r = d.getBoundingClientRect(); return { open: d.classList.contains('open'), role: d.getAttribute('role'), modal: d.getAttribute('aria-modal'), focused: document.activeElement.id, cx: Math.round(r.left + r.width / 2), vw: innerWidth, w: Math.round(r.width), scrim: !document.getElementById('nbscrim').hidden, expanded: document.getElementById('nbpill').getAttribute('aria-expanded'), val: document.getElementById('nbinput').value, labelled: document.getElementById(d.getAttribute('aria-labelledby')).innerText };});
     add('K1_slash_opens_dialog', o.open && o.role === 'dialog' && o.modal === 'true' && o.focused === 'nbinput' && o.scrim && o.expanded === 'true' && o.val === '', o);
     add('K2_dialog_centred_and_wide', Math.abs(o.cx - o.vw / 2) <= 2 && o.w >= 600, o); add('K2b_dialog_label', /^I’m here because…$/.test((o.labelled || '').trim()), o.labelled);
@@ -45,13 +45,13 @@ const PARK = "I've just moved into a new house and need to sort out parking. I w
     for (let i = 0; i < 12; i++) { await p.keyboard.press('Shift+Tab'); if (!(await p.evaluate(() => !!document.activeElement.closest('#nbpanel')))) trapped = false; }
     add('K6_focus_trapped_in_dialog', trapped && seen.size >= 3, [...seen]);
     await p.mouse.click(20, 20); await p.waitForTimeout(100); add('K7_click_outside_closes', !(await open(p)), {});
-    await p.keyboard.press('/usher-demonstrator/sites/civicsphere/'); await p.waitForTimeout(100); await p.click('#nbclose'); add('K8_close_button', !(await open(p)), {});
+    await p.keyboard.press('/'); await p.waitForTimeout(100); await p.click('#nbclose'); add('K8_close_button', !(await open(p)), {});
     // pill is keyboard operable
     await p.focus('#nbpill'); await p.keyboard.press('Enter'); await p.waitForTimeout(100); add('K9_pill_enter_opens', await open(p), {});
     await ctx.close(); }
 
   // 4. command line with interpretation, then route strip
-  { const { ctx, p } = await page('#home'); await p.keyboard.press('/usher-demonstrator/sites/civicsphere/'); await p.keyboard.type(PARK); await p.keyboard.press('Enter');
+  { const { ctx, p } = await page('#home'); await p.keyboard.press('/'); await p.keyboard.type(PARK); await p.keyboard.press('Enter');
     await p.waitForFunction(() => document.querySelector('#nbresult').dataset.state === 'done', null, { timeout: 30000 });
     await p.waitForTimeout(250); await p.screenshot({ path: path.join(OUT, '02_command_line_with_interpretation.png') });
     const c = await p.evaluate(() => { const r = document.getElementById('nbresult'); return { kicker: (r.querySelector('.kicker') || {}).innerText, interp: (r.querySelector('.interp') || {}).innerText, bridge: !!r.querySelector('.bridge'), bubbles: document.querySelectorAll('#nbpanel [class*="bubble"],#nbpanel [class*="avatar"],#nbpanel [class*="msg"]').length, panelText: document.getElementById('nbpanel').innerText, stripShown: !document.getElementById('routestrip').hidden, decision: r.dataset.decision }; });
@@ -70,7 +70,7 @@ const PARK = "I've just moved into a new house and need to sort out parking. I w
     await p.evaluate(() => window.scrollTo(0, 0)); await p.screenshot({ path: path.join(OUT, '04_route_strip_arrived.png') });
     await axe(p, 'route strip arrived');
     await p.click('#rsdismiss'); add('R6_dismiss_hides_strip', await p.evaluate(() => document.getElementById('routestrip').hidden), {});
-    await p.keyboard.press('/usher-demonstrator/sites/civicsphere/'); await p.waitForTimeout(100); add('R7_pill_works_again_after_dismiss', await open(p), {});
+    await p.keyboard.press('/'); await p.waitForTimeout(100); add('R7_pill_works_again_after_dismiss', await open(p), {});
     await axe(p, 'open command line with result'); await ctx.close(); }
 
   // 5. clarification stays in dialog, picking closes it and starts strip; Stop dismisses strip while walking

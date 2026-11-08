@@ -3,7 +3,7 @@
 // (tests/mini-site, a 6-page static site with a path-mode profile, no CivicSphere code) to prove portability and multi-page route persistence.
 // usage: NODE_PATH=... node tests/gate_widget_browser.js http://localhost:8030/
 const path = require('path'), fs = require('fs'), { chromium } = require('playwright');
-const BASE = (process.argv[2] || 'http://localhost:8030/').replace(/\/?$/, '/usher-demonstrator/sites/civicsphere/'), AXE = fs.readFileSync(path.join(__dirname, 'vendor', 'axe.min.js'), 'utf8');
+const BASE = (process.argv[2] || 'http://localhost:8030/').replace(/\/?$/, '/'), AXE = fs.readFileSync(path.join(__dirname, 'vendor', 'axe.min.js'), 'utf8');
 const res = []; const add = (id, pass, d) => { res.push({ id, pass: !!pass, detail: d }); console.log((pass ? 'PASS ' : 'FAIL ') + id.padEnd(46) + ' ' + JSON.stringify(d).slice(0, 260)); };
 (async () => {
   const b = await chromium.launch(); const errs = [], ext = [];
@@ -27,12 +27,12 @@ const res = []; const add = (id, pass, d) => { res.push({ id, pass: !!pass, deta
   }
   // ---- keyboard, focus, reduced motion (desktop) ----
   { const pg = await mk({ width: 1280, height: 800 }, { reducedMotion: 'reduce' }); await pg.goto(BASE + 'index.html#home'); await ready(pg);
-    await pg.keyboard.press('/usher-demonstrator/sites/civicsphere/'); const open = await pg.evaluate(() => document.getElementById('usher-root').shadowRoot.getElementById('nbpanel').classList.contains('open'));
+    await pg.keyboard.press('/'); const open = await pg.evaluate(() => document.getElementById('usher-root').shadowRoot.getElementById('nbpanel').classList.contains('open'));
     const focusIn = await pg.evaluate(() => { const r = document.getElementById('usher-root').shadowRoot; return r.activeElement && r.activeElement.id; });
     add('A_keyboard_slash_opens_and_focuses_input', open && focusIn === 'nbinput', { open, focusIn });
     await pg.keyboard.press('Escape'); const back = await pg.evaluate(() => { const r = document.getElementById('usher-root').shadowRoot; return { open: r.getElementById('nbpanel').classList.contains('open'), focus: r.activeElement && r.activeElement.id }; });
     add('A_keyboard_escape_closes_returns_focus_to_pill', !back.open && back.focus === 'nbpill', back);
-    await pg.keyboard.press('/usher-demonstrator/sites/civicsphere/'); await sh(pg, '#nbinput').fill('I need to replace my identity document'); await pg.keyboard.press('Enter'); await arrived(pg);
+    await pg.keyboard.press('/'); await sh(pg, '#nbinput').fill('I need to replace my identity document'); await pg.keyboard.press('Enter'); await arrived(pg);
     const hash = await pg.evaluate(() => location.hash); add('A_reduced_motion_navigates_and_arrives', /identity-replacement/.test(hash), { hash });
     const v = await axe(pg); add('A_reduced_motion_axe', v.length === 0, v);
     await pg.keyboard.press('Escape'); await sh(pg, '#nbpill').click(); await sh(pg, '#nbinput').fill('tell me a joke about cats'); await sh(pg, '#nbfind').click();

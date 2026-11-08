@@ -66,7 +66,7 @@ function mulberry32(a) { return () => { a |= 0; a = a + 0x6D2B79F5 | 0; let t = 
     store.length > 400 && store.shift();
   }
   const ok2 = full === n && disc === n;
-  log('G2_decision_equivalence', ok2, { queries: n, fullJsonIdentical: full, discreteIdentical: disc, perSet: stats, lexicalFallbackIdentical: lexEq + '/usher-demonstrator/sites/civicsphere/' + n, rankedListIdentical: rankEq + '/usher-demonstrator/sites/civicsphere/' + n, ms: Date.now() - t0, firstDiffs: diffs });
+  log('G2_decision_equivalence', ok2, { queries: n, fullJsonIdentical: full, discreteIdentical: disc, perSet: stats, lexicalFallbackIdentical: lexEq + '/' + n, rankedListIdentical: rankEq + '/' + n, ms: Date.now() - t0, firstDiffs: diffs });
   log('G2b_lexical_and_ranked', lexEq === n && rankEq === n, { lexEq, rankEq, n });
   writeStore = store; // used by explain gate in tests/gate_explain.js via the saved file
   fs.writeFileSync(path.join(T, '.gate_explain_cache.json'), JSON.stringify(store));

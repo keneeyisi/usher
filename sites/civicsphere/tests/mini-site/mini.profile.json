@@ -8,11 +8,11 @@
   "navigation": {
    "mode": "path",
    "urlTemplates": {
-    "home": "/usher-demonstrator/sites/civicsphere/tests/mini-site/index.html",
-    "area": "/usher-demonstrator/sites/civicsphere/tests/mini-site/{area}.html",
-    "group": "/usher-demonstrator/sites/civicsphere/tests/mini-site/{area}.html#{group}",
-    "page": "/usher-demonstrator/sites/civicsphere/tests/mini-site/library/{id}.html",
-    "section": "/usher-demonstrator/sites/civicsphere/tests/mini-site/library/{id}.html#{anchor}"
+    "home": "/tests/mini-site/index.html",
+    "area": "/tests/mini-site/{area}.html",
+    "group": "/tests/mini-site/{area}.html#{group}",
+    "page": "/tests/mini-site/library/{id}.html",
+    "section": "/tests/mini-site/library/{id}.html#{anchor}"
    }
   },
   "scope": {
@@ -61,7 +61,7 @@
    "title": "Join the library",
    "area": "borrowing",
    "group": "cards",
-   "url": "/usher-demonstrator/sites/civicsphere/tests/mini-site/library/join.html",
+   "url": "/tests/mini-site/library/join.html",
    "summary": "Sign up for a free library card.",
    "kind": "information",
    "descriptions": [
@@ -94,7 +94,7 @@
    "title": "Renew a loan",
    "area": "borrowing",
    "group": "loans",
-   "url": "/usher-demonstrator/sites/civicsphere/tests/mini-site/library/renew.html",
+   "url": "/tests/mini-site/library/renew.html",
    "summary": "Renew books you have borrowed.",
    "kind": "information",
    "descriptions": [
@@ -127,7 +127,7 @@
    "title": "Book a meeting room",
    "area": "spaces",
    "group": "rooms",
-   "url": "/usher-demonstrator/sites/civicsphere/tests/mini-site/library/rooms.html",
+   "url": "/tests/mini-site/library/rooms.html",
    "summary": "Reserve a study or meeting room.",
    "kind": "information",
    "descriptions": [
@@ -183,7 +183,7 @@
    "I need a room for a meeting"
   ],
   "placeholderPrefix": "e.g. ",
-  "hotkey": "/usher-demonstrator/sites/civicsphere/",
+  "hotkey": "/",
   "examples": [
    "I want a library card",
    "renew my books"

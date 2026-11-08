@@ -3,7 +3,7 @@
 // as the RESOLVER6 legacy resolver driven by Node embeddings, on every fixture (all sets) plus 300 seeded variants (spec: browser == Node).
 // usage: NODE_PATH=... node tests/gate_g5_browser.js http://localhost:8030/
 const path = require('path'), fs = require('fs'), ROOT = path.join(__dirname, '..'), { chromium } = require('playwright');
-const BASE = (process.argv[2] || 'http://localhost:8030/').replace(/\/?$/, '/usher-demonstrator/sites/civicsphere/');
+const BASE = (process.argv[2] || 'http://localhost:8030/').replace(/\/?$/, '/');
 const LS = require(path.join(ROOT, 'civicsphere-semantic.js'));
 const canon = v => JSON.stringify(v, (k, x) => x && typeof x === 'object' && !Array.isArray(x) ? Object.fromEntries(Object.keys(x).sort().map(kk => [kk, x[kk]])) : x);
 const strip = r => { const c = JSON.parse(JSON.stringify(r)); delete c.version; return c; };

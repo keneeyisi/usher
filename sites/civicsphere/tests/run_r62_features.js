@@ -2,7 +2,7 @@
    situation awareness, clarification question, rejection, comparison mode, reduced motion, keyboard, mobile, axe-core.
    Usage: node tests/run_r62_features.js [baseUrl] [outDir]   (serve the build first: python3 -m http.server 8008) */
 const { chromium } = require('playwright'); const fs = require('fs'), path = require('path');
-const BASE = (process.argv[2] || 'http://localhost:8008/').replace(/\/?$/, '/usher-demonstrator/sites/civicsphere/'); const OUT = process.argv[3] || path.join(__dirname, '..', 'r62_feature_results');
+const BASE = (process.argv[2] || 'http://localhost:8008/').replace(/\/?$/, '/'); const OUT = process.argv[3] || path.join(__dirname, '..', 'r62_feature_results');
 const SH = path.join(OUT, 'screens'); fs.mkdirSync(SH, { recursive: true }); const AXE = path.join(__dirname, 'vendor', 'axe.min.js');
 const Q = { passport: 'I need a new passport', parking: "I've just moved into a new house and need to sort out parking. I want to know what I'll have to pay.", resume: "I filled in part of my residents' parking permit application. Can I pick it up again?", situ: 'I started a parking permit application yesterday and want to finish it', appeal: 'I want to appeal', poem: 'Write me a poem about autumn', damp: 'my landlord won’t fix the damp in my flat' };
 const checks = [], axeRes = [], errs = [], ext = [];

@@ -240,7 +240,7 @@
         "noStuck": true,
         "noConsoleErrors": true
       },
-      "screenshot": "/usher-demonstrator/sites/civicsphere/workspace/civicspherenav/work/build/CivicSphereNav_IUI2027_USHER_v6/tests/results_2026-10-29_USHER2/browser/screenshots/T04_parking_cost.png",
+      "screenshot": "/workspace/civicspherenav/work/build/CivicSphereNav_IUI2027_USHER_v6/tests/results_2026-10-29_USHER2/browser/screenshots/T04_parking_cost.png",
       "hash": "#service/residential-parking/section/2",
       "trace": [
         "Understanding goal",
@@ -299,7 +299,7 @@
         "noStuck": true,
         "noConsoleErrors": true
       },
-      "screenshot": "/usher-demonstrator/sites/civicsphere/workspace/civicspherenav/work/build/CivicSphereNav_IUI2027_USHER_v6/tests/results_2026-10-29_USHER2/browser/screenshots/T05.png",
+      "screenshot": "/workspace/civicspherenav/work/build/CivicSphereNav_IUI2027_USHER_v6/tests/results_2026-10-29_USHER2/browser/screenshots/T05.png",
       "candidates": [
         {
           "id": "money-tax-exemptions",
@@ -516,7 +516,7 @@
         "noStuck": true,
         "noConsoleErrors": true
       },
-      "screenshot": "/usher-demonstrator/sites/civicsphere/workspace/civicspherenav/work/build/CivicSphereNav_IUI2027_USHER_v6/tests/results_2026-10-29_USHER2/browser/screenshots/T09.png",
+      "screenshot": "/workspace/civicspherenav/work/build/CivicSphereNav_IUI2027_USHER_v6/tests/results_2026-10-29_USHER2/browser/screenshots/T09.png",
       "hash": "#service/household-tax-assistance/section/2",
       "trace": [
         "Understanding goal",
@@ -574,7 +574,7 @@
         "noStuck": true,
         "noConsoleErrors": true
       },
-      "screenshot": "/usher-demonstrator/sites/civicsphere/workspace/civicspherenav/work/build/CivicSphereNav_IUI2027_USHER_v6/tests/results_2026-10-29_USHER2/browser/screenshots/T10.png",
+      "screenshot": "/workspace/civicspherenav/work/build/CivicSphereNav_IUI2027_USHER_v6/tests/results_2026-10-29_USHER2/browser/screenshots/T10.png",
       "hash": "#service/formal-complaint/section/3",
       "trace": [
         "Understanding goal",
@@ -632,7 +632,7 @@
         "noStuck": true,
         "noConsoleErrors": true
       },
-      "screenshot": "/usher-demonstrator/sites/civicsphere/workspace/civicspherenav/work/build/CivicSphereNav_IUI2027_USHER_v6/tests/results_2026-10-29_USHER2/browser/screenshots/T11.png",
+      "screenshot": "/workspace/civicspherenav/work/build/CivicSphereNav_IUI2027_USHER_v6/tests/results_2026-10-29_USHER2/browser/screenshots/T11.png",
       "hash": "#service/saved-residential-parking-application/section/2",
       "trace": [
         "Understanding goal",
@@ -690,7 +690,7 @@
         "noStuck": true,
         "noConsoleErrors": true
       },
-      "screenshot": "/usher-demonstrator/sites/civicsphere/workspace/civicspherenav/work/build/CivicSphereNav_IUI2027_USHER_v6/tests/results_2026-10-29_USHER2/browser/screenshots/T12_passport.png",
+      "screenshot": "/workspace/civicspherenav/work/build/CivicSphereNav_IUI2027_USHER_v6/tests/results_2026-10-29_USHER2/browser/screenshots/T12_passport.png",
       "hash": "#service/identity-replacement",
       "trace": [
         "Understanding goal",
@@ -5975,7 +5975,7 @@
         "noStuck": true,
         "noConsoleErrors": true
       },
-      "screenshot": "/usher-demonstrator/sites/civicsphere/workspace/civicspherenav/work/build/CivicSphereNav_IUI2027_USHER_v6/tests/results_2026-10-29_USHER2/browser/screenshots/R23_dumped_mattress.png",
+      "screenshot": "/workspace/civicspherenav/work/build/CivicSphereNav_IUI2027_USHER_v6/tests/results_2026-10-29_USHER2/browser/screenshots/R23_dumped_mattress.png",
       "hash": "#service/housing-property-housing-repairs",
       "trace": [
         "Understanding goal",
@@ -6150,7 +6150,7 @@
         "noStuck": true,
         "noConsoleErrors": true
       },
-      "screenshot": "/usher-demonstrator/sites/civicsphere/workspace/civicspherenav/work/build/CivicSphereNav_IUI2027_USHER_v6/tests/results_2026-10-29_USHER2/browser/screenshots/R26_birth_record_not_passport.png",
+      "screenshot": "/workspace/civicspherenav/work/build/CivicSphereNav_IUI2027_USHER_v6/tests/results_2026-10-29_USHER2/browser/screenshots/R26_birth_record_not_passport.png",
       "hash": "#service/birth-certificate/section/3",
       "trace": [
         "Understanding goal",

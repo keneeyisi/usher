@@ -11,7 +11,7 @@ const check = require(path.join(__dirname, 'fixture_check.js'));
 const S = require(path.join(__dirname, '..', 'civicsphere-semantic.js'));
 const SETS = ['tuned', 'heldout_r6', 'heldout_r5', 'heldout_r4', 'heldout_r3'];
 const args = process.argv.slice(2);
-const BASE = (args.find(a => /^https?:/.test(a)) || 'http://localhost:8008/').replace(/\/?$/, '/usher-demonstrator/sites/civicsphere/');
+const BASE = (args.find(a => /^https?:/.test(a)) || 'http://localhost:8008/').replace(/\/?$/, '/');
 const OUT = args.includes('--out') ? path.resolve(args[args.indexOf('--out') + 1]) : path.join(__dirname, 'browser_results');
 fs.mkdirSync(path.join(OUT, 'screenshots'), { recursive: true });
 const { fixtures } = JSON.parse(fs.readFileSync(path.join(__dirname, 'fixtures.json'), 'utf8'));
@@ -58,7 +58,7 @@ async function runFixture(browser, f) {
     const sec = ui.section === '' ? null : Number(ui.section);
     const navOk = await page.waitForFunction(() => document.querySelector('#nbresult').dataset.navigation === 'complete', null, { timeout: 9000 }).then(() => true, () => false);
     rec.checks.navigationCompleted = navOk;
-    const expectedHash = `#service/${ui.destination}${sec != null ? '/usher-demonstrator/sites/civicsphere/section/' + sec : ''}`;
+    const expectedHash = `#service/${ui.destination}${sec != null ? '/section/' + sec : ''}`;
     if (sec != null) rec.checks.sectionHighlighted = await page.waitForSelector(`#sec-${sec}[data-highlighted="1"]`, { timeout: 3000 }).then(() => true, () => false);
     if (SHOTS[f.id]) { await page.waitForTimeout(500); rec.screenshot = path.join(OUT, 'screenshots', SHOTS[f.id] + '.png'); await page.screenshot({ path: rec.screenshot }); }
     const after = await page.evaluate(() => ({ hash: location.hash, trace: window.__civicTrace.slice(), h1: (document.querySelector('#app h1') || {}).textContent, secId: (document.querySelector('.content-section[data-highlighted="1"]') || { dataset: {} }).dataset.sectionId || null }));

@@ -1,7 +1,7 @@
 /* R6 UI checks: vendored axe-core (tests/vendor/axe.min.js, test-only) on key pages + screenshots.
    Usage: node tests/run_ui_checks.js [baseUrl] [outDir]   (serve the build on :8008 first) */
 const {chromium}=require('playwright');const fs=require('fs'),path=require('path');
-const BASE=(process.argv[2]||'http://localhost:8008/').replace(/\/?$/,'/usher-demonstrator/sites/civicsphere/');const OUT=process.argv[3]||path.join(__dirname,'..','ui_check_results');
+const BASE=(process.argv[2]||'http://localhost:8008/').replace(/\/?$/,'/');const OUT=process.argv[3]||path.join(__dirname,'..','ui_check_results');
 const AXE=path.join(__dirname,'vendor','axe.min.js');fs.mkdirSync(path.join(OUT,'screens'),{recursive:true});
 const PAGES=[['home','#home'],['directory','#directory'],['domain','#domain/transport-vehicles'],['group','#group/transport-vehicles/'+encodeURIComponent('Parking')],['service-parking','#service/residential-parking'],['service-identity','#service/identity-replacement'],['account-dashboard','#domain/my-civicsphere'],['activity-in-progress','#service/activity-in-progress/section/0'],['saved-application','#service/saved-residential-parking-application'],['search','#search/parking'],['info-accessibility','#info/accessibility'],['task-parking-resumed','#task/parking/2/resumed'],['not-found','#service/nope']];
 async function axe(pg){await pg.addScriptTag({path:AXE});return pg.evaluate(async()=>{const r=await axe.run(document,{runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21a','wcag21aa','wcag22aa','best-practice']}});return r.violations.map(v=>({id:v.id,impact:v.impact,help:v.help,nodes:v.nodes.length,targets:v.nodes.slice(0,3).map(n=>n.target.join(' '))}))})}

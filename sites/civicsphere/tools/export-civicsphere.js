@@ -63,7 +63,7 @@ const profile = {
   // R7_GP2 (19 Oct 2026): "I’m here because…" wording + rotating placeholder examples (problem, situation, question, status check, goal).
   ui: { pillLabel: 'I’m here because…', subline: 'Describe your situation. We’ll take you there.', placeholder: 'e.g. my bin wasn’t collected',
     placeholders: ['my bin wasn’t collected', 'I’m moving house next month', 'I might need planning permission', 'I’m waiting for my parking permit', 'I need a new passport'],
-    placeholderPrefix: 'e.g. ', hotkey: 'off',
+    placeholderPrefix: 'e.g. ', hotkey: '/',
     examples: ['I need a new passport', "I've just moved into a new house and need to sort out parking. I want to know what I'll have to pay.", 'my landlord won’t fix the damp in my flat'] }
 };
 const out = process.argv[2] || path.join(ROOT, 'profiles', 'civicsphere.profile.json');

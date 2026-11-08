@@ -424,7 +424,7 @@ const NAV = SITE.navigation || { mode: 'path' };
 const expand = (tpl, vars) => tpl.replace(/\{(\w+)\}/g, (m, k) => vars[k] == null ? '' : String(vars[k]));
 function urlFor(kind, id, sectionIndex) { // kind: home | area | group | page | section
   const T = NAV.urlTemplates || {};
-  if (kind === 'home') return T.home || SITE.baseUrl || '/usher/sites/civicsphere/';
+  if (kind === 'home') return T.home || SITE.baseUrl || '/';
   if (kind === 'area') return T.area ? expand(T.area, { area: id, id }) : ((AREAS.find(a => a.id === id) || {}).url || null);
   if (kind === 'group') { const s = id; const vars = { area: s.domain, group: s.groupId, groupLabel: encodeURIComponent(s.group) }; return T.group ? expand(T.group, vars) : null; }
   const s = byId(id); if (!s) return null;
