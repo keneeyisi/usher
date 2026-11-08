@@ -30,7 +30,7 @@ const DOMAINS = [
   ['environment-utilities', 'Environment & Utilities', 'Waste, recycling, utilities, environmental services and reporting.', 'service'],
   ['identity-records', 'Identity & Records', 'Identity documents, certificates, records and official requests.', 'service'],
   ['safety-legal-civic', 'Safety, Legal & Civic Services', 'Complaints, appeals, safety reporting and civic processes.', 'service'],
-  ['my-civicsphere', 'My CivicSphere', 'Your saved applications, activity and records (synthetic test account).', 'account']
+  ['my-civicsphere', 'My CivicSphere', 'Your saved applications, activity and records in this demonstration account.', 'account']
 ];
 const GROUPS = {
   'money-tax': ['Household Charges', 'Payments', 'Financial Support', 'Tax Records'],
@@ -135,9 +135,9 @@ const SPECIAL = [
     sections: [sec('Saved applications', { intents: ['resume'] }), sec('Awaiting your action'), sec('Recently submitted', { intents: ['status'] })] },
   { id: 'activity-submitted', title: 'Submitted Applications', domain: 'my-civicsphere', group: 'Activity & Records', description: 'Applications you have submitted and their current status.', type: 'account', aliases: ['submitted applications'],
     sections: [sec('Current applications', { intents: ['status'] }), sec('Past applications')] },
-  { id: 'saved-residential-parking-application', title: 'Residential Parking Application', parent: 'activity-in-progress', domain: 'my-civicsphere', group: 'Activity & Records', description: 'Your saved, unsubmitted residential parking permit application (synthetic test state).', type: 'saved_application',
+  { id: 'saved-residential-parking-application', title: 'Residential Parking Application', parent: 'activity-in-progress', domain: 'my-civicsphere', group: 'Activity & Records', description: 'Your saved, unsubmitted residential parking permit application in this demonstration account.', type: 'saved_application',
     aliases: ['saved parking application'],
-    savedApplication: { reference: 'CS-RP-20261008-0427', task: 'parking', step: 2, savedAt: '2026-10-08T17:42:00+01:00', applicant: 'Alex Morgan (synthetic test account)', completed: { 'Vehicle registration': 'CSH 284A', 'Vehicle type': 'Passenger vehicle', 'Eligible parking area': 'Zone C (synthetic)' } },
+    savedApplication: { reference: 'CS-RP-20261008-0427', task: 'parking', step: 2, savedAt: '2026-10-08T17:42:00+01:00', applicant: 'Alex Morgan (demonstration account)', completed: { 'Vehicle registration': 'CSH 284A', 'Vehicle type': 'Passenger vehicle', 'Eligible parking area': 'Zone C (demonstration)' } },
     sections: [sec('Application summary'), sec('Progress so far', { intents: ['status'] }), sec('Continue where you left off', { intents: ['resume'] })] }
 ];
 

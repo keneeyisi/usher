@@ -1187,7 +1187,7 @@ function mount() {
   <div class="nbbody">
    <div class="nbhead"><label id="nblabel" for="nbinput" class="nbprompt">${compass}<span>${escape(pill)}</span></label><button id="nbclose" class="nbclose" type="button" aria-label="Close (Esc)">×</button></div>
    <p id="nbsub" class="nbsub">${escape(sub)}</p>
-   <div class="nbinput"><input id="nbinput" placeholder="${escape(ph)}" aria-describedby="nbsub" autocomplete="off" data-ph-index="0"><button id="mic" class="mic" type="button" aria-label="Voice input">●</button><button id="nbfind" class="nbfind" type="button">${escape(UI.findLabel || 'Show my route')}</button></div>
+   <div class="nbinput"><input id="nbinput" placeholder="${escape(ph)}" aria-describedby="nbsub" autocomplete="off" data-ph-index="0"><button id="mic" class="mic" type="button" aria-label="Start voice search" title="Start voice search"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="9" y="2.5" width="6" height="12" rx="3" fill="none" stroke="currentColor" stroke-width="2"/><path d="M5.5 11.5a6.5 6.5 0 0 0 13 0M12 18v3.5M8.5 21.5h7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button><button id="nbfind" class="nbfind" type="button">${escape(UI.findLabel || 'Show my route')}</button></div>
    <div id="nbstatus" class="nbstatus" data-state="loading" role="status" aria-live="polite">Preparing…</div>
    <div id="nbresult" class="nbresult"></div>
    <p class="nbfoot">${CFG.compare ? '<button class="linkbtn" type="button" id="vstoggle">Compare with site search</button>' : '<span></span>'}<span class="kbdhint"><kbd>Enter</kbd> to go · <kbd>Esc</kbd> to close</span></p>

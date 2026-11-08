@@ -5,5 +5,5 @@ const fs = require('fs'), path = require('path');
 const D = path.join(__dirname, '..', 'usher'), rd = f => fs.readFileSync(path.join(D, f), 'utf8');
 const widget = rd('src/widget.js').replace("/*@@CSS@@*/''", () => JSON.stringify(rd('src/widget.css')));
 fs.writeFileSync(path.join(D, 'usher-widget.js'), widget);
-fs.writeFileSync(path.join(D, 'usher.js'), ['/usher-demonstrator/sites/insura/* Usher bundle: usher-engine + usher-explain + usher-widget (see the individual files for documentation). */', rd('usher-engine.js'), rd('usher-explain.js'), widget].join('\n;\n'));
+fs.writeFileSync(path.join(D, 'usher.js'), ['/* Usher bundle: usher-engine + usher-explain + usher-widget (see the individual files for documentation). */', rd('usher-engine.js'), rd('usher-explain.js'), widget].join('\n;\n'));
 console.log('built usher-widget.js and usher.js (' + (fs.statSync(path.join(D, 'usher.js')).size / 1024).toFixed(0) + ' KB)');

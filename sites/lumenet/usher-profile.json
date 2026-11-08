@@ -8,11 +8,11 @@
   "navigation": {
    "mode": "path",
    "urlTemplates": {
-    "home": "/usher/sites/lumenet/index.html",
-    "area": "/usher/sites/lumenet/{area}.html",
-    "group": "/usher/sites/lumenet/{area}.html#{group}",
-    "page": "/usher/sites/lumenet/p/{id}.html",
-    "section": "/usher/sites/lumenet/p/{id}.html#{anchor}"
+    "home": "/index.html",
+    "area": "/{area}.html",
+    "group": "/{area}.html#{group}",
+    "page": "/p/{id}.html",
+    "section": "/p/{id}.html#{anchor}"
    }
   },
   "scope": {
@@ -317,7 +317,7 @@
      "anchor": "costs"
     }
    ],
-   "url": "/usher/sites/lumenet/p/plan-fttc.html",
+   "url": "/p/plan-fttc.html",
    "kind": "information"
   },
   {
@@ -367,7 +367,7 @@
      "anchor": "costs"
     }
    ],
-   "url": "/usher/sites/lumenet/p/plan-ftth.html",
+   "url": "/p/plan-ftth.html",
    "kind": "information"
   },
   {
@@ -415,7 +415,7 @@
      "anchor": "costs"
     }
    ],
-   "url": "/usher/sites/lumenet/p/plan-gigabit.html",
+   "url": "/p/plan-gigabit.html",
    "kind": "information"
   },
   {
@@ -463,7 +463,7 @@
      "anchor": "changing-plan-later"
     }
    ],
-   "url": "/usher/sites/lumenet/p/plan-choose.html",
+   "url": "/p/plan-choose.html",
    "kind": "information"
   },
   {
@@ -511,7 +511,7 @@
      "anchor": "range-of-speeds"
     }
    ],
-   "url": "/usher/sites/lumenet/p/speed-typical.html",
+   "url": "/p/speed-typical.html",
    "kind": "information"
   },
   {
@@ -559,7 +559,7 @@
      "anchor": "exceptions"
     }
    ],
-   "url": "/usher/sites/lumenet/p/speed-guarantee.html",
+   "url": "/p/speed-guarantee.html",
    "kind": "information"
   },
   {
@@ -609,7 +609,7 @@
      "anchor": "megabits-and-megabytes"
     }
    ],
-   "url": "/usher/sites/lumenet/p/speed-mbps.html",
+   "url": "/p/speed-mbps.html",
    "kind": "information"
   },
   {
@@ -659,7 +659,7 @@
      "anchor": "how-to-claim"
     }
    ],
-   "url": "/usher/sites/lumenet/p/offer-current.html",
+   "url": "/p/offer-current.html",
    "kind": "information"
   },
   {
@@ -707,7 +707,7 @@
      "anchor": "social-tariff"
     }
    ],
-   "url": "/usher/sites/lumenet/p/offer-student-senior.html",
+   "url": "/p/offer-student-senior.html",
    "kind": "information"
   },
   {
@@ -755,7 +755,7 @@
      "anchor": "price-protection"
     }
    ],
-   "url": "/usher/sites/lumenet/p/offer-loyalty.html",
+   "url": "/p/offer-loyalty.html",
    "kind": "information"
   },
   {
@@ -803,7 +803,7 @@
      "anchor": "shared-buildings"
     }
    ],
-   "url": "/usher/sites/lumenet/p/new-availability.html",
+   "url": "/p/new-availability.html",
    "kind": "information"
   },
   {
@@ -851,7 +851,7 @@
      "anchor": "if-you-are-not-home"
     }
    ],
-   "url": "/usher/sites/lumenet/p/new-install.html",
+   "url": "/p/new-install.html",
    "kind": "information"
   },
   {
@@ -899,7 +899,7 @@
      "anchor": "if-something-goes-wrong"
     }
    ],
-   "url": "/usher/sites/lumenet/p/new-switching.html",
+   "url": "/p/new-switching.html",
    "kind": "information"
   },
   {
@@ -947,7 +947,7 @@
      "anchor": "moving-or-changing-a-business"
     }
    ],
-   "url": "/usher/sites/lumenet/p/biz-broadband.html",
+   "url": "/p/biz-broadband.html",
    "kind": "information"
   },
   {
@@ -993,7 +993,7 @@
      "anchor": "ordering"
     }
    ],
-   "url": "/usher/sites/lumenet/p/sim-plans.html",
+   "url": "/p/sim-plans.html",
    "kind": "information"
   },
   {
@@ -1039,7 +1039,7 @@
      "anchor": "if-it-will-not-activate"
     }
    ],
-   "url": "/usher/sites/lumenet/p/sim-esim.html",
+   "url": "/p/sim-esim.html",
    "kind": "information"
   },
   {
@@ -1087,7 +1087,7 @@
      "anchor": "cancelling-a-switch"
     }
    ],
-   "url": "/usher/sites/lumenet/p/sim-keep-number.html",
+   "url": "/p/sim-keep-number.html",
    "kind": "information"
   },
   {
@@ -1135,7 +1135,7 @@
      "anchor": "ending-early"
     }
    ],
-   "url": "/usher/sites/lumenet/p/phone-plans.html",
+   "url": "/p/phone-plans.html",
    "kind": "information"
   },
   {
@@ -1183,7 +1183,7 @@
      "anchor": "checking-your-eligibility"
     }
    ],
-   "url": "/usher/sites/lumenet/p/phone-upgrade.html",
+   "url": "/p/phone-upgrade.html",
    "kind": "information"
   },
   {
@@ -1231,7 +1231,7 @@
      "anchor": "cost"
     }
    ],
-   "url": "/usher/sites/lumenet/p/phone-protection.html",
+   "url": "/p/phone-protection.html",
    "kind": "information"
   },
   {
@@ -1279,7 +1279,7 @@
      "anchor": "before-you-travel"
     }
    ],
-   "url": "/usher/sites/lumenet/p/roam-europe.html",
+   "url": "/p/roam-europe.html",
    "kind": "information"
   },
   {
@@ -1329,7 +1329,7 @@
      "anchor": "pass-not-working"
     }
    ],
-   "url": "/usher/sites/lumenet/p/roam-world.html",
+   "url": "/p/roam-world.html",
    "kind": "information"
   },
   {
@@ -1379,7 +1379,7 @@
      "anchor": "premium-rate-services"
     }
    ],
-   "url": "/usher/sites/lumenet/p/roam-spend-cap.html",
+   "url": "/p/roam-spend-cap.html",
    "kind": "information"
   },
   {
@@ -1427,7 +1427,7 @@
      "anchor": "rollover"
     }
    ],
-   "url": "/usher/sites/lumenet/p/data-allowance.html",
+   "url": "/p/data-allowance.html",
    "kind": "information"
   },
   {
@@ -1475,7 +1475,7 @@
      "anchor": "alerts"
     }
    ],
-   "url": "/usher/sites/lumenet/p/data-usage.html",
+   "url": "/p/data-usage.html",
    "kind": "information"
   },
   {
@@ -1523,7 +1523,7 @@
      "anchor": "limits"
     }
    ],
-   "url": "/usher/sites/lumenet/p/data-hotspot.html",
+   "url": "/p/data-hotspot.html",
    "kind": "information"
   },
   {
@@ -1571,7 +1571,7 @@
      "anchor": "changing-package"
     }
    ],
-   "url": "/usher/sites/lumenet/p/tv-packages.html",
+   "url": "/p/tv-packages.html",
    "kind": "information"
   },
   {
@@ -1619,7 +1619,7 @@
      "anchor": "returning-equipment"
     }
    ],
-   "url": "/usher/sites/lumenet/p/tv-box.html",
+   "url": "/p/tv-box.html",
    "kind": "information"
   },
   {
@@ -1669,7 +1669,7 @@
      "anchor": "watching-on-other-devices"
     }
    ],
-   "url": "/usher/sites/lumenet/p/tv-sports-films.html",
+   "url": "/p/tv-sports-films.html",
    "kind": "information"
   },
   {
@@ -1717,7 +1717,7 @@
      "anchor": "app-problems"
     }
    ],
-   "url": "/usher/sites/lumenet/p/tv-kids-streaming.html",
+   "url": "/p/tv-kids-streaming.html",
    "kind": "information"
   },
   {
@@ -1765,7 +1765,7 @@
      "anchor": "changing-a-bundle"
     }
    ],
-   "url": "/usher/sites/lumenet/p/tv-bundle-home.html",
+   "url": "/p/tv-bundle-home.html",
    "kind": "information"
   },
   {
@@ -1813,7 +1813,7 @@
      "anchor": "billing"
     }
    ],
-   "url": "/usher/sites/lumenet/p/tv-bundle-mobile.html",
+   "url": "/p/tv-bundle-mobile.html",
    "kind": "information"
   },
   {
@@ -1861,7 +1861,7 @@
      "anchor": "final-bill"
     }
    ],
-   "url": "/usher/sites/lumenet/p/tv-change-cancel.html",
+   "url": "/p/tv-change-cancel.html",
    "kind": "information"
   },
   {
@@ -1911,7 +1911,7 @@
      "anchor": "report-a-fault"
     }
    ],
-   "url": "/usher/sites/lumenet/p/fault-slow.html",
+   "url": "/p/fault-slow.html",
    "kind": "information"
   },
   {
@@ -1961,7 +1961,7 @@
      "anchor": "compensation"
     }
    ],
-   "url": "/usher/sites/lumenet/p/fault-intermittent.html",
+   "url": "/p/fault-intermittent.html",
    "kind": "information"
   },
   {
@@ -2009,7 +2009,7 @@
      "anchor": "if-wired-is-slow-too"
     }
    ],
-   "url": "/usher/sites/lumenet/p/fault-wifi-vs-broadband.html",
+   "url": "/p/fault-wifi-vs-broadband.html",
    "kind": "information"
   },
   {
@@ -2059,7 +2059,7 @@
      "anchor": "try-the-wired-option"
     }
    ],
-   "url": "/usher/sites/lumenet/p/fault-streaming.html",
+   "url": "/p/fault-streaming.html",
    "kind": "information"
   },
   {
@@ -2109,7 +2109,7 @@
      "anchor": "report-the-fault"
     }
    ],
-   "url": "/usher/sites/lumenet/p/fault-no-connection.html",
+   "url": "/p/fault-no-connection.html",
    "kind": "information"
   },
   {
@@ -2159,7 +2159,7 @@
      "anchor": "reset-button"
     }
    ],
-   "url": "/usher/sites/lumenet/p/fault-lights.html",
+   "url": "/p/fault-lights.html",
    "kind": "information"
   },
   {
@@ -2209,7 +2209,7 @@
      "anchor": "charges"
     }
    ],
-   "url": "/usher/sites/lumenet/p/fault-line.html",
+   "url": "/p/fault-line.html",
    "kind": "information"
   },
   {
@@ -2259,7 +2259,7 @@
      "anchor": "when-not-to-reset"
     }
    ],
-   "url": "/usher/sites/lumenet/p/fault-reset.html",
+   "url": "/p/fault-reset.html",
    "kind": "information"
   },
   {
@@ -2307,7 +2307,7 @@
      "anchor": "planned-work"
     }
    ],
-   "url": "/usher/sites/lumenet/p/fault-outage-check.html",
+   "url": "/p/fault-outage-check.html",
    "kind": "information"
   },
   {
@@ -2357,7 +2357,7 @@
      "anchor": "rearranging"
     }
    ],
-   "url": "/usher/sites/lumenet/p/fault-engineer-visit.html",
+   "url": "/p/fault-engineer-visit.html",
    "kind": "information"
   },
   {
@@ -2405,7 +2405,7 @@
      "anchor": "late-engineers"
     }
    ],
-   "url": "/usher/sites/lumenet/p/fault-missed-appt.html",
+   "url": "/p/fault-missed-appt.html",
    "kind": "information"
   },
   {
@@ -2458,7 +2458,7 @@
      "anchor": "closing-a-ticket"
     }
    ],
-   "url": "/usher/sites/lumenet/p/fault-ticket.html",
+   "url": "/p/fault-ticket.html",
    "kind": "information"
   },
   {
@@ -2508,7 +2508,7 @@
      "anchor": "when-you-get-it"
     }
    ],
-   "url": "/usher/sites/lumenet/p/comp-automatic.html",
+   "url": "/p/comp-automatic.html",
    "kind": "information"
   },
   {
@@ -2556,7 +2556,7 @@
      "anchor": "if-we-say-no"
     }
    ],
-   "url": "/usher/sites/lumenet/p/comp-claim.html",
+   "url": "/p/comp-claim.html",
    "kind": "information"
   },
   {
@@ -2604,7 +2604,7 @@
      "anchor": "time-limits"
     }
    ],
-   "url": "/usher/sites/lumenet/p/comp-credit.html",
+   "url": "/p/comp-credit.html",
    "kind": "information"
   },
   {
@@ -2652,7 +2652,7 @@
      "anchor": "saving-evidence"
     }
    ],
-   "url": "/usher/sites/lumenet/p/speedtest-how.html",
+   "url": "/p/speedtest-how.html",
    "kind": "information"
   },
   {
@@ -2702,7 +2702,7 @@
      "anchor": "when-to-report"
     }
    ],
-   "url": "/usher/sites/lumenet/p/speedtest-results.html",
+   "url": "/p/speedtest-results.html",
    "kind": "information"
   },
   {
@@ -2750,7 +2750,7 @@
      "anchor": "your-right-to-leave"
     }
    ],
-   "url": "/usher/sites/lumenet/p/speedtest-below-guarantee.html",
+   "url": "/p/speedtest-below-guarantee.html",
    "kind": "information"
   },
   {
@@ -2800,7 +2800,7 @@
      "anchor": "costs"
     }
    ],
-   "url": "/usher/sites/lumenet/p/move-service.html",
+   "url": "/p/move-service.html",
    "kind": "information"
   },
   {
@@ -2848,7 +2848,7 @@
      "anchor": "if-your-move-is-delayed"
     }
    ],
-   "url": "/usher/sites/lumenet/p/move-choose-date.html",
+   "url": "/p/move-choose-date.html",
    "kind": "information"
   },
   {
@@ -2896,7 +2896,7 @@
      "anchor": "payment"
     }
    ],
-   "url": "/usher/sites/lumenet/p/move-two-homes.html",
+   "url": "/p/move-two-homes.html",
    "kind": "information"
   },
   {
@@ -2944,7 +2944,7 @@
      "anchor": "landlord-permission"
     }
    ],
-   "url": "/usher/sites/lumenet/p/move-address-check.html",
+   "url": "/p/move-address-check.html",
    "kind": "information"
   },
   {
@@ -2992,7 +2992,7 @@
      "anchor": "register-interest"
     }
    ],
-   "url": "/usher/sites/lumenet/p/move-no-service.html",
+   "url": "/p/move-no-service.html",
    "kind": "information"
   },
   {
@@ -3040,7 +3040,7 @@
      "anchor": "final-bill"
     }
    ],
-   "url": "/usher/sites/lumenet/p/move-cancel-old.html",
+   "url": "/p/move-cancel-old.html",
    "kind": "information"
   },
   {
@@ -3088,7 +3088,7 @@
      "anchor": "reset-before-you-go"
     }
    ],
-   "url": "/usher/sites/lumenet/p/move-equipment.html",
+   "url": "/p/move-equipment.html",
    "kind": "information"
   },
   {
@@ -3138,7 +3138,7 @@
      "anchor": "if-something-is-wrong"
     }
    ],
-   "url": "/usher/sites/lumenet/p/move-track.html",
+   "url": "/p/move-track.html",
    "kind": "information"
   },
   {
@@ -3186,7 +3186,7 @@
      "anchor": "payment-information"
     }
    ],
-   "url": "/usher/sites/lumenet/p/bill-explained.html",
+   "url": "/p/bill-explained.html",
    "kind": "information"
   },
   {
@@ -3236,7 +3236,7 @@
      "anchor": "missed-discounts"
     }
    ],
-   "url": "/usher/sites/lumenet/p/bill-changed.html",
+   "url": "/p/bill-changed.html",
    "kind": "information"
   },
   {
@@ -3284,7 +3284,7 @@
      "anchor": "questions"
     }
    ],
-   "url": "/usher/sites/lumenet/p/bill-first.html",
+   "url": "/p/bill-first.html",
    "kind": "information"
   },
   {
@@ -3332,7 +3332,7 @@
      "anchor": "changing"
     }
    ],
-   "url": "/usher/sites/lumenet/p/bill-paper.html",
+   "url": "/p/bill-paper.html",
    "kind": "information"
   },
   {
@@ -3382,7 +3382,7 @@
      "anchor": "phone"
     }
    ],
-   "url": "/usher/sites/lumenet/p/pay-ways.html",
+   "url": "/p/pay-ways.html",
    "kind": "information"
   },
   {
@@ -3432,7 +3432,7 @@
      "anchor": "getting-help"
     }
    ],
-   "url": "/usher/sites/lumenet/p/pay-late.html",
+   "url": "/p/pay-late.html",
    "kind": "information"
   },
   {
@@ -3486,7 +3486,7 @@
      "anchor": "free-debt-advice"
     }
    ],
-   "url": "/usher/sites/lumenet/p/pay-help.html",
+   "url": "/p/pay-help.html",
    "kind": "information"
   },
   {
@@ -3534,7 +3534,7 @@
      "anchor": "direct-debit-guarantee"
     }
    ],
-   "url": "/usher/sites/lumenet/p/dd-setup.html",
+   "url": "/p/dd-setup.html",
    "kind": "information"
   },
   {
@@ -3586,7 +3586,7 @@
      "anchor": "put-it-right"
     }
    ],
-   "url": "/usher/sites/lumenet/p/dd-failed.html",
+   "url": "/p/dd-failed.html",
    "kind": "information"
   },
   {
@@ -3634,7 +3634,7 @@
      "anchor": "refund-to-a-card"
     }
    ],
-   "url": "/usher/sites/lumenet/p/credit-refund.html",
+   "url": "/p/credit-refund.html",
    "kind": "information"
   },
   {
@@ -3682,7 +3682,7 @@
      "anchor": "bonus-credit"
     }
    ],
-   "url": "/usher/sites/lumenet/p/credit-top-up.html",
+   "url": "/p/credit-top-up.html",
    "kind": "information"
   },
   {
@@ -3732,7 +3732,7 @@
      "anchor": "if-you-do-not-agree"
     }
    ],
-   "url": "/usher/sites/lumenet/p/dispute-bill.html",
+   "url": "/p/dispute-bill.html",
    "kind": "information"
   },
   {
@@ -3782,7 +3782,7 @@
      "anchor": "time-limits"
     }
    ],
-   "url": "/usher/sites/lumenet/p/dispute-adr.html",
+   "url": "/p/dispute-adr.html",
    "kind": "information"
   },
   {
@@ -3832,7 +3832,7 @@
      "anchor": "cooling-off"
     }
    ],
-   "url": "/usher/sites/lumenet/p/con-terms.html",
+   "url": "/p/con-terms.html",
    "kind": "information"
   },
   {
@@ -3882,7 +3882,7 @@
      "anchor": "renewing"
     }
    ],
-   "url": "/usher/sites/lumenet/p/con-end-date.html",
+   "url": "/p/con-end-date.html",
    "kind": "information"
   },
   {
@@ -3932,7 +3932,7 @@
      "anchor": "how-to-apply"
     }
    ],
-   "url": "/usher/sites/lumenet/p/con-pause.html",
+   "url": "/p/con-pause.html",
    "kind": "information"
   },
   {
@@ -3982,7 +3982,7 @@
      "anchor": "how-to-change"
     }
    ],
-   "url": "/usher/sites/lumenet/p/con-change-plan.html",
+   "url": "/p/con-change-plan.html",
    "kind": "information"
   },
   {
@@ -4032,7 +4032,7 @@
      "anchor": "checking-your-price"
     }
    ],
-   "url": "/usher/sites/lumenet/p/rise-annual.html",
+   "url": "/p/rise-annual.html",
    "kind": "information"
   },
   {
@@ -4082,7 +4082,7 @@
      "anchor": "reminders"
     }
    ],
-   "url": "/usher/sites/lumenet/p/rise-out-of-contract.html",
+   "url": "/p/rise-out-of-contract.html",
    "kind": "information"
   },
   {
@@ -4130,7 +4130,7 @@
      "anchor": "equipment"
     }
    ],
-   "url": "/usher/sites/lumenet/p/rise-leave.html",
+   "url": "/p/rise-leave.html",
    "kind": "information"
   },
   {
@@ -4180,7 +4180,7 @@
      "anchor": "ways-to-reduce-it"
     }
    ],
-   "url": "/usher/sites/lumenet/p/etc-charges.html",
+   "url": "/p/etc-charges.html",
    "kind": "information"
   },
   {
@@ -4230,7 +4230,7 @@
      "anchor": "bereavement-or-care"
     }
    ],
-   "url": "/usher/sites/lumenet/p/etc-exemptions.html",
+   "url": "/p/etc-exemptions.html",
    "kind": "information"
   },
   {
@@ -4278,7 +4278,7 @@
      "anchor": "written-confirmation"
     }
    ],
-   "url": "/usher/sites/lumenet/p/etc-calculate.html",
+   "url": "/p/etc-calculate.html",
    "kind": "information"
   },
   {
@@ -4334,7 +4334,7 @@
      "anchor": "returning-equipment"
     }
    ],
-   "url": "/usher/sites/lumenet/p/sw-cancel.html",
+   "url": "/p/sw-cancel.html",
    "kind": "information"
   },
   {
@@ -4384,7 +4384,7 @@
      "anchor": "placing-the-hub"
     }
    ],
-   "url": "/usher/sites/lumenet/p/eq-hub.html",
+   "url": "/p/eq-hub.html",
    "kind": "information"
   },
   {
@@ -4434,7 +4434,7 @@
      "anchor": "if-you-cannot-sign-in"
     }
    ],
-   "url": "/usher/sites/lumenet/p/eq-wifi-password.html",
+   "url": "/p/eq-wifi-password.html",
    "kind": "information"
   },
   {
@@ -4484,7 +4484,7 @@
      "anchor": "smart-connect"
     }
    ],
-   "url": "/usher/sites/lumenet/p/eq-wifi-settings.html",
+   "url": "/p/eq-wifi-settings.html",
    "kind": "information"
   },
   {
@@ -4534,7 +4534,7 @@
      "anchor": "cost"
     }
    ],
-   "url": "/usher/sites/lumenet/p/eq-mesh.html",
+   "url": "/p/eq-mesh.html",
    "kind": "information"
   },
   {
@@ -4585,7 +4585,7 @@
      "anchor": "check-interference"
     }
    ],
-   "url": "/usher/sites/lumenet/p/eq-dead-spots.html",
+   "url": "/p/eq-dead-spots.html",
    "kind": "information"
   },
   {
@@ -4633,7 +4633,7 @@
      "anchor": "buying"
     }
    ],
-   "url": "/usher/sites/lumenet/p/eq-powerline.html",
+   "url": "/p/eq-powerline.html",
    "kind": "information"
   },
   {
@@ -4683,7 +4683,7 @@
      "anchor": "set-up-my-lumenet"
     }
    ],
-   "url": "/usher/sites/lumenet/p/eq-setup.html",
+   "url": "/p/eq-setup.html",
    "kind": "information"
   },
   {
@@ -4733,7 +4733,7 @@
      "anchor": "collection"
     }
    ],
-   "url": "/usher/sites/lumenet/p/eq-replace.html",
+   "url": "/p/eq-replace.html",
    "kind": "information"
   },
   {
@@ -4787,7 +4787,7 @@
      "anchor": "charges"
     }
    ],
-   "url": "/usher/sites/lumenet/p/eq-return.html",
+   "url": "/p/eq-return.html",
    "kind": "information"
   },
   {
@@ -4837,7 +4837,7 @@
      "anchor": "limits"
     }
    ],
-   "url": "/usher/sites/lumenet/p/eq-parental.html",
+   "url": "/p/eq-parental.html",
    "kind": "information"
   },
   {
@@ -4885,7 +4885,7 @@
      "anchor": "smart-devices"
     }
    ],
-   "url": "/usher/sites/lumenet/p/eq-guest.html",
+   "url": "/p/eq-guest.html",
    "kind": "information"
   },
   {
@@ -4935,7 +4935,7 @@
      "anchor": "remote-access"
     }
    ],
-   "url": "/usher/sites/lumenet/p/eq-security.html",
+   "url": "/p/eq-security.html",
    "kind": "information"
   },
   {
@@ -4983,7 +4983,7 @@
      "anchor": "needs-attention"
     }
    ],
-   "url": "/usher/sites/lumenet/p/acct-overview.html",
+   "url": "/p/acct-overview.html",
    "kind": "account"
   },
   {
@@ -5031,7 +5031,7 @@
      "anchor": "change-plan"
     }
    ],
-   "url": "/usher/sites/lumenet/p/acct-services.html",
+   "url": "/p/acct-services.html",
    "kind": "account"
   },
   {
@@ -5079,7 +5079,7 @@
      "anchor": "report-a-new-fault"
     }
    ],
-   "url": "/usher/sites/lumenet/p/acct-faults.html",
+   "url": "/p/acct-faults.html",
    "kind": "account"
   },
   {
@@ -5127,7 +5127,7 @@
      "anchor": "rearrange-or-add-details"
     }
    ],
-   "url": "/usher/sites/lumenet/p/acct-saved-fault.html",
+   "url": "/p/acct-saved-fault.html",
    "parent": "acct-faults",
    "kind": "saved"
   },
@@ -5176,7 +5176,7 @@
      "anchor": "changing-or-cancelling-the-move"
     }
    ],
-   "url": "/usher/sites/lumenet/p/acct-saved-move.html",
+   "url": "/p/acct-saved-move.html",
    "parent": "acct-services",
    "kind": "saved"
   },
@@ -5227,7 +5227,7 @@
      "anchor": "register-a-new-account"
     }
    ],
-   "url": "/usher/sites/lumenet/p/acct-login.html",
+   "url": "/p/acct-login.html",
    "kind": "account"
   },
   {
@@ -5277,7 +5277,7 @@
      "anchor": "if-you-do-not-get-the-email"
     }
    ],
-   "url": "/usher/sites/lumenet/p/acct-password.html",
+   "url": "/p/acct-password.html",
    "kind": "account"
   },
   {
@@ -5327,7 +5327,7 @@
      "anchor": "protect-other-accounts"
     }
    ],
-   "url": "/usher/sites/lumenet/p/acct-hacked.html",
+   "url": "/p/acct-hacked.html",
    "kind": "account"
   },
   {
@@ -5379,7 +5379,7 @@
      "anchor": "report-it"
     }
    ],
-   "url": "/usher/sites/lumenet/p/acct-scams.html",
+   "url": "/p/acct-scams.html",
    "kind": "account"
   },
   {
@@ -5429,7 +5429,7 @@
      "anchor": "your-data-rights"
     }
    ],
-   "url": "/usher/sites/lumenet/p/acct-details.html",
+   "url": "/p/acct-details.html",
    "kind": "account"
   },
   {
@@ -5479,7 +5479,7 @@
      "anchor": "relay-and-sign-language"
     }
    ],
-   "url": "/usher/sites/lumenet/p/help-contact.html",
+   "url": "/p/help-contact.html",
    "kind": "information"
   },
   {
@@ -5527,7 +5527,7 @@
      "anchor": "quietest-times"
     }
    ],
-   "url": "/usher/sites/lumenet/p/help-opening.html",
+   "url": "/p/help-opening.html",
    "kind": "information"
   },
   {
@@ -5575,7 +5575,7 @@
      "anchor": "our-final-response"
     }
    ],
-   "url": "/usher/sites/lumenet/p/help-complaints.html",
+   "url": "/p/help-complaints.html",
    "kind": "information"
   },
   {
@@ -5623,7 +5623,7 @@
      "anchor": "keep-records"
     }
    ],
-   "url": "/usher/sites/lumenet/p/help-complaint-escalate.html",
+   "url": "/p/help-complaint-escalate.html",
    "kind": "information"
   },
   {
@@ -5677,7 +5677,7 @@
      "anchor": "tell-us-once"
     }
    ],
-   "url": "/usher/sites/lumenet/p/help-accessibility.html",
+   "url": "/p/help-accessibility.html",
    "kind": "information"
   },
   {
@@ -5727,7 +5727,7 @@
      "anchor": "during-a-power-cut"
     }
    ],
-   "url": "/usher/sites/lumenet/p/help-priority.html",
+   "url": "/p/help-priority.html",
    "kind": "information"
   },
   {
@@ -5777,7 +5777,7 @@
      "anchor": "third-party-authority"
     }
    ],
-   "url": "/usher/sites/lumenet/p/help-bereavement.html",
+   "url": "/p/help-bereavement.html",
    "kind": "information"
   },
   {
@@ -5827,7 +5827,7 @@
      "anchor": "accessibility"
     }
    ],
-   "url": "/usher/sites/lumenet/p/help-stores.html",
+   "url": "/p/help-stores.html",
    "kind": "information"
   },
   {
@@ -5877,7 +5877,7 @@
      "anchor": "guides-for-older-customers"
     }
    ],
-   "url": "/usher/sites/lumenet/p/help-guides.html",
+   "url": "/p/help-guides.html",
    "kind": "information"
   }
  ],
@@ -6246,7 +6246,7 @@
    "I’m looking for a faster plan"
   ],
   "placeholderPrefix": "e.g. ",
-  "hotkey": "off",
+  "hotkey": "/",
   "examples": [
    "My internet drops every evening",
    "I'm moving house in three weeks",

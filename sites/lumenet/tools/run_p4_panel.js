@@ -4,7 +4,7 @@
 // screenshots, axe-core, overflow, console errors and external requests.
 // usage: NODE_PATH=... node run_p4_panel.js <baseUrl> <siteDir> <profileRelPath> <outDir> <config.json>
 const fs = require('fs'), path = require('path'), { chromium } = require('playwright');
-const [BASE0, SITE, PROF, OUT, CFGF] = process.argv.slice(2); const BASE = BASE0.replace(/\/?$/, '/usher-demonstrator/sites/lumenet/');
+const [BASE0, SITE, PROF, OUT, CFGF] = process.argv.slice(2); const BASE = BASE0.replace(/\/?$/, '/');
 const CFG = JSON.parse(fs.readFileSync(CFGF, 'utf8')); const P = JSON.parse(fs.readFileSync(path.join(SITE, PROF), 'utf8')); const UI = P.ui;
 const AXE = fs.readFileSync(path.join(SITE, 'tests', 'vendor', 'axe.min.js'), 'utf8'); fs.mkdirSync(OUT, { recursive: true });
 const res = [], errs = [], ext = []; const add = (id, pass, d) => { res.push({ id, pass: !!pass, detail: d }); console.log((pass ? 'PASS ' : 'FAIL ') + id.padEnd(52) + ' ' + JSON.stringify(d).slice(0, 320)); };

@@ -29,7 +29,7 @@
   "id": "mobile_320_strip_after_navigation",
   "pass": true,
   "detail": {
-   "path": "/usher-demonstrator/sites/insura/p/home-escape-of-water.html",
+   "path": "/p/home-escape-of-water.html",
    "stripVisible": true,
    "collapsed": true,
    "stripH": 74,
@@ -41,7 +41,7 @@
   "id": "mobile_320_strip_collapsed_height_le_20pct_viewport",
   "pass": true,
   "detail": {
-   "path": "/usher-demonstrator/sites/insura/p/home-escape-of-water.html",
+   "path": "/p/home-escape-of-water.html",
    "stripVisible": true,
    "collapsed": true,
    "stripH": 74,
@@ -53,7 +53,7 @@
   "id": "mobile_320_no_horizontal_scroll_destination",
   "pass": true,
   "detail": {
-   "path": "/usher-demonstrator/sites/insura/p/home-escape-of-water.html",
+   "path": "/p/home-escape-of-water.html",
    "stripVisible": true,
    "collapsed": true,
    "stripH": 74,
@@ -110,7 +110,7 @@
   "id": "mobile_375_strip_after_navigation",
   "pass": true,
   "detail": {
-   "path": "/usher-demonstrator/sites/insura/p/home-escape-of-water.html",
+   "path": "/p/home-escape-of-water.html",
    "stripVisible": true,
    "collapsed": true,
    "stripH": 74,
@@ -122,7 +122,7 @@
   "id": "mobile_375_strip_collapsed_height_le_20pct_viewport",
   "pass": true,
   "detail": {
-   "path": "/usher-demonstrator/sites/insura/p/home-escape-of-water.html",
+   "path": "/p/home-escape-of-water.html",
    "stripVisible": true,
    "collapsed": true,
    "stripH": 74,
@@ -134,7 +134,7 @@
   "id": "mobile_375_no_horizontal_scroll_destination",
   "pass": true,
   "detail": {
-   "path": "/usher-demonstrator/sites/insura/p/home-escape-of-water.html",
+   "path": "/p/home-escape-of-water.html",
    "stripVisible": true,
    "collapsed": true,
    "stripH": 74,
@@ -191,7 +191,7 @@
   "id": "mobile_414_strip_after_navigation",
   "pass": true,
   "detail": {
-   "path": "/usher-demonstrator/sites/insura/p/home-escape-of-water.html",
+   "path": "/p/home-escape-of-water.html",
    "stripVisible": true,
    "collapsed": true,
    "stripH": 74,
@@ -203,7 +203,7 @@
   "id": "mobile_414_strip_collapsed_height_le_20pct_viewport",
   "pass": true,
   "detail": {
-   "path": "/usher-demonstrator/sites/insura/p/home-escape-of-water.html",
+   "path": "/p/home-escape-of-water.html",
    "stripVisible": true,
    "collapsed": true,
    "stripH": 74,
@@ -215,7 +215,7 @@
   "id": "mobile_414_no_horizontal_scroll_destination",
   "pass": true,
   "detail": {
-   "path": "/usher-demonstrator/sites/insura/p/home-escape-of-water.html",
+   "path": "/p/home-escape-of-water.html",
    "stripVisible": true,
    "collapsed": true,
    "stripH": 74,
@@ -246,7 +246,7 @@
   "id": "desktop_ask_navigates",
   "pass": true,
   "detail": {
-   "u": "/usher-demonstrator/sites/insura/p/home-escape-of-water.html"
+   "u": "/p/home-escape-of-water.html"
   }
  },
  {
