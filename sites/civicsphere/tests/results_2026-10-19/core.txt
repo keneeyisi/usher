@@ -1,0 +1,133 @@
+CivicSphereNav RESOLVER6 | mode semantic (Xenova/all-MiniLM-L6-v2) | catalogue VALID {"domains":13,"services":150,"sections":497,"profiles":16}
+
+== TUNED: 46/46 pass
+
+== HELDOUT_R6: 27/44 pass
+FAIL  S01_student_full_charge                money-tax-household-charge-payment (91%)  <-- destination money-tax-household-charge-payment (expected money-tax-exemptions/money-tax-household-charge-discounts)
+PASS  S02_breakdown_paid_this_year           money-tax-tax-records#your-account-history (97%)
+PASS  S03_band_wrong                         money-tax-charge-appeals#valuation-bands (89%)
+PASS  S04_when_payment_lands                 benefits-support-payment-information#payment-dates (86%)
+PASS  S05_entitled_low_wage                  financial-support (74%)
+FAIL  S06_support_stopped_wrongly            benefits-support-payment-information#change-your-bank-account (86%)  <-- destination benefits-support-payment-information (expected benefits-support-appeals/benefits-support-support-reviews)
+FAIL  S07_waiting_list_council_flat          clarify:close_alternatives [identity-records-personal-details, housing-property-housing-applications, identity-records-record-requests]  <-- decision clarify (expected navigate)
+FAIL  S08_mould_bedroom_rented               clarify:weak_match [housing-property-housing-repairs, housing-property-tenancy-support]  <-- decision clarify (expected navigate)
+PASS  S09_short_on_rent                      housing-property-rent-support (92%)
+PASS  S10_skip_on_road                       transport-vehicles-road-permits (88%)
+FAIL  S11_hospital_bus_cancelled             clarify:weak_match [transport-vehicles-public-transport, health-care-service-appeals, formal-complaint]  <-- decision clarify (expected navigate)
+PASS  S12_carer_guest_permit                 visitor-parking#visitor-permits (80%)
+PASS  S13_new_number_plate                   vehicle-registration#information-required (79%)
+FAIL  S14_loft_dormer                        clarify:close_alternatives [development-approval, housing-property-temporary-accommodation]  <-- decision clarify (expected navigate)
+PASS  S15_cost_submit_garage_plans           planning-development-development-fees#planning-application-fees (76%)
+FAIL  S16_porch_refused                      environment-utilities-report-an-environmental-issue (59%)  <-- destination environment-utilities-report-an-environmental-issue (expected planning-development-planning-appeals)
+PASS  S17_rates_small_unit                   work-business-business-rates#how-rates-are-calculated (90%)
+PASS  S18_work_after_sickness                work-business-employment-support#returning-to-work (70%)
+FAIL  S19_hot_dogs_festival                  clarify:close_alternatives [family-community-event-permits, work-business-business-licence]  <-- decision clarify (expected navigate)
+FAIL  S20_primary_turned_down                clarify:weak_match [housing-property-housing-applications, education-learning-school-place, education-learning-admissions-appeals]  <-- decision clarify (expected navigate)
+PASS  S21_dyslexia_extra_support             education-learning-education-support (81%)
+PASS  S22_retrain_electrician                education-learning-course-funding (58%)
+FAIL  S23_husband_need_break                 clarify:weak_match [health-care-carer-support]  <-- decision clarify (expected navigate)
+PASS  S24_walk_in_clinic                     health-care-health-access (86%)
+FAIL  S25_low_isolated                       clarify:weak_match [housing-property-neighbourhood-issues, housing-property-temporary-accommodation, family-community-community-groups]  <-- decision clarify (expected navigate)
+PASS  S26_fun_day_village_green              family-community-event-permits#do-i-need-permission (89%)
+PASS  S27_hire_hall_party                    family-community-community-facilities (76%)
+PASS  S28_cracked_green_bin                  environment-utilities-collection-services#new-or-replacement-bins (78%)
+PASS  S29_abandoned_car                      environment-utilities-report-an-environmental-issue#abandoned-vehicles (88%)
+PASS  S30_electricity_bill_help              environment-utilities-utility-support#energy-bill-schemes (90%)
+FAIL  S31_marriage_record_misspelt           clarify:close_alternatives [identity-records-personal-details, identity-records-record-corrections]  <-- decision clarify (expected navigate)
+PASS  S32_relocated_records                  address-change#records-affected (73%)
+FAIL  S33_passport_flood                     clarify:weak_match [environment-utilities-environmental-records, safety-legal-civic-public-safety, housing-property-property-information]  <-- decision clarify (expected navigate)
+FAIL  S34_phone_dismissive                   identity-records-record-requests (73%)  <-- destination identity-records-record-requests (expected formal-complaint)
+FAIL  S35_knives_to_kids                     clarify:weak_match [work-business-trading-standards, work-business-trading-registration, work-business-business-licence]  <-- decision clarify (expected navigate)
+FAIL  S36_halfway_laptop_died                activity-in-progress#saved-applications (94%)  <-- destination activity-in-progress (expected saved-residential-parking-application)
+PASS  S37_status_sent_last_month             activity-submitted (75%)
+PASS  S38_challenge_a_decision               clarify:generic_action [safety-legal-civic-challenge-a-decision, health-care-service-appeals, housing-property-housing-appeals]
+PASS  S39_book_something                     clarify:generic_action [family-community-community-facilities, large-item-collection, education-learning-adult-learning]
+PASS  S40_report_a_problem                   clarify:generic_action [safety-legal-civic-safety-reporting, formal-complaint, transport-vehicles-traffic-reports]
+PASS  S41_banana_bread                       reject:no_match
+FAIL  S42_election_france                    clarify:weak_match [safety-legal-civic-civic-processes]  <-- decision clarify (expected reject)
+PASS  S43_maths_homework                     reject:no_match
+PASS  S44_film_tonight                       reject:off_topic
+
+== HELDOUT_R5: 24/35 pass
+FAIL  R01_monthly_instalments                money-tax-household-charge-payment#how-to-pay-online (90%)  <-- destination money-tax-household-charge-payment (expected money-tax-payment-arrangements/money-tax-direct-debit)
+FAIL  R02_last_years_bill_copy               money-tax-household-charge-payment (73%)  <-- destination money-tax-household-charge-payment (expected money-tax-tax-records/money-tax-annual-statements)
+PASS  R03_hours_cut_rent_shopping            housing-property-rent-support (71%)
+PASS  R04_prove_income_claim                 financial-support#evidence-and-documents (85%)
+FAIL  R05_water_through_ceiling              clarify:weak_match [housing-property-property-information, environment-utilities-utility-support, housing-property-housing-repairs]  <-- decision clarify (expected navigate)
+PASS  R06_landlord_keeping_deposit           housing-property-tenancy-support#deposits (87%)
+PASS  R07_neighbours_music_3am               housing-property-neighbourhood-issues (76%)
+FAIL  R08_brother_van_staying                housing-property-temporary-accommodation (62%)  <-- destination housing-property-temporary-accommodation (expected visitor-parking)
+PASS  R09_permit_only_street_one_car         residential-parking (66%)
+PASS  R10_pothole_tyre                       transport-vehicles-road-services (82%)
+PASS  R11_sold_motorbike_keeper              vehicle-registration#registration-process (77%)
+FAIL  R12_garden_room                        clarify:weak_match [family-community-community-facilities]  <-- decision clarify (expected navigate)
+FAIL  R13_empty_site_proposals               transport-vehicles-traffic-reports#report-a-traffic-problem (71%)  <-- destination transport-vehicles-traffic-reports (expected planning-development-planning-applications/planning-development-planning-records/planning-development-local-plans/planning-development-neighbourhood-development)
+PASS  R14_open_cafe_licences                 work-business-business-licence#which-licence-you-need (94%)
+FAIL  R15_fake_bag_no_refund                 clarify:weak_match [work-business-trading-standards]  <-- decision clarify (expected navigate)
+PASS  R16_secondary_mid_year                 education-learning-school-place#moving-to-secondary-school (88%)
+PASS  R17_nursery_costs_two_year_old         education-learning-childcare-support#help-with-childcare-costs (88%)
+FAIL  R18_mum_keeps_falling                  clarify:close_alternatives [health-care-care-support, health-care-care-assessment, benefits-support-household-support]  <-- decision clarify (expected navigate)
+PASS  R19_cost_home_care_visits              health-care-care-charges#care-home-fees (89%)
+PASS  R20_few_hours_helping                  family-community-volunteering (86%)
+PASS  R21_grant_community_garden             family-community-community-funding#grants-available (91%)
+PASS  R22_pizza_boxes_bin                    environment-utilities-waste-recycling#which-bin-to-use (69%)
+FAIL  R23_dumped_mattress_pavement           housing-property-housing-repairs (57%)  <-- destination housing-property-housing-repairs (expected environment-utilities-report-an-environmental-issue/environment-utilities-street-cleanliness)
+PASS  R24_book_washing_machine_pickup        large-item-collection#how-to-request (77%)
+FAIL  R25_wallet_stolen_id                   identity-records-identity-support (85%)  <-- destination identity-records-identity-support (expected identity-replacement)
+PASS  R26_son_birth_record_passport          birth-certificate#request-a-certificate (81%)
+FAIL  R27_footbridge_railings_loose          clarify:weak_match [safety-legal-civic-safety-reporting, transport-vehicles-travel-support]  <-- decision clarify (expected navigate)
+PASS  R28_paperwork_behind_decision          identity-records-record-requests (82%)
+PASS  R29_half_filled_parking_form           saved-residential-parking-application#continue-where-you-left-off (98%)
+PASS  R30_just_appeal                        clarify:generic_action [safety-legal-civic-service-appeals, benefits-support-appeals, education-learning-admissions-appeals]
+PASS  R31_how_much_cost                      clarify:weak_match [identity-records-certificates, planning-development-development-fees, environment-utilities-waste-charges]
+PASS  R32_letter_dont_understand             clarify:close_alternatives [safety-legal-civic-legal-information, identity-records-personal-details, safety-legal-civic-service-appeals]
+PASS  R33_football_kickoff                   reject:no_match
+PASS  R34_poem_autumn                        reject:off_topic
+PASS  R35_flight_spain                       reject:off_topic
+
+== HELDOUT_R4: 19/24 pass
+PASS  N01_council_bill_afford                household-tax-assistance (95%)
+FAIL  N02_council_tax_discount_living_alone  money-tax-household-charge-payment (62%)  <-- destination money-tax-household-charge-payment (expected money-tax-household-charge-discounts)
+FAIL  N03_gas_cut_off_nothing_to_eat         clarify:weak_match [benefits-support-emergency-assistance, housing-property-temporary-accommodation]  <-- decision clarify (expected navigate)
+PASS  N04_benefit_claim_turned_down          benefits-support-appeals (84%)
+PASS  N05_boiler_landlord_wont_answer        housing-property-housing-repairs#what-your-landlord-must-fix (84%)
+PASS  N06_kicked_out_nowhere_to_stay         housing-property-temporary-accommodation (74%)
+PASS  N07_leave_car_on_my_street             residential-parking#how-to-apply (87%)
+PASS  N08_free_bus_travel_mum                transport-vehicles-travel-support#bus-passes (95%)
+PASS  N09_build_conservatory                 development-approval (74%)
+FAIL  N10_object_neighbour_extension         planning-development-property-development (55%)  <-- destination planning-development-property-development (expected planning-development-planning-applications)
+PASS  N11_food_van_weekends                  work-business-trading-registration#food-hygiene-inspections (70%)
+PASS  N12_faulty_kettle_refund               work-business-trading-standards (67%)
+PASS  N13_daughter_primary_school            education-learning-school-place#starting-primary-school (88%)
+PASS  N14_evening_english_classes            education-learning-adult-learning#english-and-maths (90%)
+PASS  N15_dad_cannot_cope_at_home            health-care-care-support#help-at-home (67%)
+FAIL  N16_caring_for_son_exhausted           clarify:weak_match [benefits-support-eligibility-checker, health-care-carer-support, transport-vehicles-travel-support]  <-- decision clarify (expected navigate)
+PASS  N17_street_party_close_road            family-community-event-permits#road-closures-for-events (64%)
+PASS  N18_teenager_after_school              family-community-youth-services (92%)
+PASS  N19_bins_not_emptied                   environment-utilities-collection-services#missed-collections (85%)
+PASS  N20_rubbish_dumped_alley               environment-utilities-report-an-environmental-issue#fly-tipping (81%)
+FAIL  N21_lost_driving_licence               clarify:close_alternatives [work-business-business-records, identity-replacement, education-learning-education-records]  <-- decision clarify (expected navigate)
+PASS  N22_married_change_surname             identity-records-personal-details#change-of-name (90%)
+PASS  N23_dangerous_building                 safety-legal-civic-safety-reporting#dangerous-structures (76%)
+PASS  N24_unfair_council_decision            safety-legal-civic-challenge-a-decision#how-to-ask-for-a-reconsideration (99%)
+
+== HELDOUT_R3: 12/16 pass
+PASS  H01_hours_cut_bills                    financial-support (79%)
+PASS  H02_behind_household_charge            household-tax-assistance#support-options (99%)
+PASS  H03_loft_conversion                    development-approval#do-i-need-approval (90%)
+FAIL  H04_residents_permit_price             residential-parking#eligibility (98%)  <-- section eligibility (expected permit-charges)
+PASS  H05_lost_id_card_needs                 identity-replacement#what-you-need (93%)
+PASS  H06_mattress_cost                      large-item-collection#charges (90%)
+FAIL  H07_complaint_rejected                 clarify:close_alternatives [safety-legal-civic-challenge-a-decision, formal-complaint, safety-legal-civic-complaint-review]  <-- decision clarify (expected navigate)
+PASS  H08_complaint_update                   formal-complaint#how-complaints-are-handled (76%)
+PASS  H09_finish_parking_application         saved-residential-parking-application#continue-where-you-left-off (99%)
+FAIL  H10_damp_mould_whose_job               housing-property-housing-repairs (74%)  <-- section null (expected what-your-landlord-must-fix)
+PASS  H11_motorbike_cost                     vehicle-registration#fees-and-charges (87%)
+PASS  H12_income_tax                         clarify:qualifier [money-tax-household-charge-payment, household-tax-assistance, money-tax-tax-records]
+PASS  H13_restaurant                         reject:off_topic
+PASS  H14_second_storey_parking              clarify:close_alternatives [planning-development-property-development, development-approval, residential-parking]
+FAIL  H15_complaint_roads                    transport-vehicles-road-services (72%)  <-- destination transport-vehicles-road-services (expected formal-complaint)
+PASS  H16_broken_window_tenant               housing-property-housing-repairs#what-your-landlord-must-fix (87%)
+
+SUMMARY tuned 46/46 | heldout_r6 27/44 | heldout_r5 24/35 | heldout_r4 19/24 | heldout_r3 12/16 | catalogue valid
+known tuned failures: none | regressions: none

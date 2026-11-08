@@ -1,0 +1,1657 @@
+{
+  "notes": "expectedDecision: navigate | clarify | reject. expectedSectionId null means a page-level destination is expected; 'anySection': true means any section (or none) is acceptable. acceptable* lists give honest alternatives. set=heldout fixtures were written before the RESOLVER3 resolver was implemented and were not used for tuning. set=heldout_r3: RESOLVER3 held-out paraphrases (results were seen during RESOLVER3, so only semi-held-out for RESOLVER4). set=heldout_r4: 24 new everyday paraphrases across all 12 domains, written and hashed on 9 Oct 2026 before any RESOLVER4 descriptions or resolver code existed. | heldout_r5: 35 fresh paraphrases for RESOLVER5, written and frozen 9 Oct 2026 before any RESOLVER5 code",
+  "fixtures": [
+    {
+      "id": "T01_lost_job_financial_support",
+      "set": "tuned",
+      "source": "handover s8 #1 (wording constructed from summary)",
+      "query": "I've lost my job and I'm struggling to pay for food and household bills. What financial support can I get?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "financial-support",
+      "expectedSectionId": "how-to-apply",
+      "acceptableSectionIds": [
+        "what-support-is-available"
+      ]
+    },
+    {
+      "id": "T02_landlord_repairs",
+      "set": "tuned",
+      "source": "handover s8 #2 (wording constructed from summary)",
+      "query": "I'm renting and I'm not sure what my landlord is supposed to fix.",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "housing-property-housing-repairs",
+      "expectedSectionId": "what-your-landlord-must-fix"
+    },
+    {
+      "id": "T03_house_extension",
+      "set": "tuned",
+      "source": "handover s8 #3 / dev log",
+      "query": "I want to make my house bigger at the back. What do I need to do before I start building?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "development-approval",
+      "expectedSectionId": "do-i-need-approval"
+    },
+    {
+      "id": "T04_moved_parking_cost",
+      "set": "tuned",
+      "source": "handover s8 #4 / dev log",
+      "query": "I've just moved into a new house and need to sort out parking. I want to know what I'll have to pay.",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "residential-parking",
+      "expectedSectionId": "permit-charges"
+    },
+    {
+      "id": "T05_ambiguous_tax",
+      "set": "tuned",
+      "source": "handover s8 #5",
+      "query": "How much tax should I pay?",
+      "expectedDecision": "clarify",
+      "expectedClarifyReason": "qualifier"
+    },
+    {
+      "id": "T06_identity_documents",
+      "set": "tuned",
+      "source": "handover s8 #6 / s5 identity flagship",
+      "query": "My identity document has been damaged and I need to replace it. What documents will I need?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "identity-replacement",
+      "expectedSectionId": "documents"
+    },
+    {
+      "id": "T07_vehicle_owe",
+      "set": "tuned",
+      "source": "handover s8 #7 (now targets the approved Fees and charges section)",
+      "query": "How much do I owe for my vehicle?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "vehicle-registration",
+      "expectedSectionId": "fees-and-charges"
+    },
+    {
+      "id": "T08_sofa_collection_cost",
+      "set": "tuned",
+      "source": "handover s8 #8 (wording constructed from summary)",
+      "query": "I've got an old sofa I want the council to collect. How much will it cost?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "large-item-collection",
+      "expectedSectionId": "charges"
+    },
+    {
+      "id": "T09_household_payment_assistance",
+      "set": "tuned",
+      "source": "handover s9 failure A",
+      "query": "I'm struggling to keep up with my household payments and I need to know what help is available.",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "household-tax-assistance",
+      "expectedSectionId": "support-options"
+    },
+    {
+      "id": "T10_complaint_followup",
+      "set": "tuned",
+      "source": "handover s9 failure B",
+      "query": "I complained about a service but I'm not happy with the response. What can I do next?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "formal-complaint",
+      "expectedSectionId": "not-happy-with-the-response"
+    },
+    {
+      "id": "T11_resume_parking_application",
+      "set": "tuned",
+      "source": "handover s5 state-dependent scenario",
+      "query": "I started applying for a residential parking permit yesterday but didn't finish it. I want to carry on where I left off.",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "saved-residential-parking-application",
+      "expectedSectionId": "continue-where-you-left-off"
+    },
+    {
+      "id": "T12_new_passport",
+      "set": "tuned",
+      "source": "Kene's RESOLVER3 test failure",
+      "query": "I need a new passport",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "identity-replacement",
+      "anySection": true
+    },
+    {
+      "id": "F01_parking_flagship_permit",
+      "set": "tuned",
+      "source": "handover s5 parking flagship",
+      "query": "I want to park outside my house. How do I get a permit?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "residential-parking",
+      "expectedSectionId": "how-to-apply",
+      "acceptableSectionIds": [
+        "permit-requirements"
+      ]
+    },
+    {
+      "id": "F02_identity_flagship_new_one",
+      "set": "tuned",
+      "source": "identity flagship variant",
+      "query": "My ID card got damaged in the wash, how do I get a new one?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "identity-replacement",
+      "expectedSectionId": "replacement-process"
+    },
+    {
+      "id": "F03_identity_placeholder",
+      "set": "tuned",
+      "source": "UI placeholder text",
+      "query": "I need to replace my identity document",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "identity-replacement",
+      "anySection": true
+    },
+    {
+      "id": "A01_extension_permit_not_parking",
+      "set": "tuned",
+      "source": "adversarial parking vs planning",
+      "query": "I'm planning an extension on my house. Do I need a permit?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "development-approval",
+      "expectedSectionId": "do-i-need-approval",
+      "forbiddenDestinationIds": [
+        "residential-parking",
+        "visitor-parking"
+      ]
+    },
+    {
+      "id": "A02_conservatory_permission",
+      "set": "tuned",
+      "source": "adversarial parking vs planning",
+      "query": "Can I build a conservatory at the back of my house without permission?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "development-approval",
+      "expectedSectionId": "do-i-need-approval",
+      "forbiddenDestinationIds": [
+        "residential-parking"
+      ]
+    },
+    {
+      "id": "A03_park_near_home",
+      "set": "tuned",
+      "source": "near-miss parking",
+      "query": "We've moved to a house on a busy street and I need to be able to park near home.",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "residential-parking",
+      "anySection": true
+    },
+    {
+      "id": "A04_tax_ambiguous_variant",
+      "set": "tuned",
+      "source": "tax ambiguity",
+      "query": "What tax do I have to pay?",
+      "expectedDecision": "clarify",
+      "expectedClarifyReason": "qualifier"
+    },
+    {
+      "id": "A05_pay_household_tax",
+      "set": "tuned",
+      "source": "household tax vs assistance",
+      "query": "I want to pay my household tax bill.",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "money-tax-household-charge-payment",
+      "anySection": true
+    },
+    {
+      "id": "A06_cannot_afford_household_charge",
+      "set": "tuned",
+      "source": "household tax vs assistance",
+      "query": "I can't afford my household charge this month.",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "household-tax-assistance",
+      "anySection": true
+    },
+    {
+      "id": "A07_redundant_food",
+      "set": "tuned",
+      "source": "financial support vs payment assistance",
+      "query": "I've been made redundant and can't afford food.",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "financial-support",
+      "anySection": true
+    },
+    {
+      "id": "A08_new_complaint",
+      "set": "tuned",
+      "source": "complaint creation",
+      "query": "I want to make a complaint about how a member of staff treated me.",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "formal-complaint",
+      "expectedSectionId": "submit-a-complaint"
+    },
+    {
+      "id": "A09_complaint_status",
+      "set": "tuned",
+      "source": "complaint status",
+      "query": "I made a complaint three weeks ago and haven't heard anything back.",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "formal-complaint",
+      "expectedSectionId": "how-complaints-are-handled"
+    },
+    {
+      "id": "A10_complaint_appeal",
+      "set": "tuned",
+      "source": "complaint appeal",
+      "query": "I want to appeal the outcome of my complaint.",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "formal-complaint",
+      "expectedSectionId": "not-happy-with-the-response"
+    },
+    {
+      "id": "A11_new_parking_application",
+      "set": "tuned",
+      "source": "new vs resume parking",
+      "query": "I'd like to apply for a residents' parking permit.",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "residential-parking",
+      "expectedSectionId": "how-to-apply",
+      "forbiddenDestinationIds": [
+        "saved-residential-parking-application"
+      ]
+    },
+    {
+      "id": "A12_saved_parking_application",
+      "set": "tuned",
+      "source": "resume variant",
+      "query": "Where's the parking permit application I saved?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "saved-residential-parking-application",
+      "anySection": true
+    },
+    {
+      "id": "A13_resume_other_service",
+      "set": "tuned",
+      "source": "resume without a saved application of that type",
+      "query": "I started an identity document replacement application but didn't finish it.",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "activity-in-progress",
+      "expectedSectionId": "saved-applications"
+    },
+    {
+      "id": "A14_unrelated_weather",
+      "set": "tuned",
+      "source": "unrelated",
+      "query": "What's the weather going to be like tomorrow?",
+      "expectedDecision": "reject"
+    },
+    {
+      "id": "A15_unrelated_joke",
+      "set": "tuned",
+      "source": "unrelated",
+      "query": "Tell me a joke",
+      "expectedDecision": "reject"
+    },
+    {
+      "id": "A16_low_specificity_help",
+      "set": "tuned",
+      "source": "low specificity",
+      "query": "I need some help",
+      "expectedDecision": "clarify"
+    },
+    {
+      "id": "A17_low_specificity_form",
+      "set": "tuned",
+      "source": "low specificity",
+      "query": "I have a question about a form",
+      "expectedDecision": "clarify"
+    },
+    {
+      "id": "A18_change_address",
+      "set": "tuned",
+      "source": "address vs parking",
+      "query": "I've just moved house and need to update my address.",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "address-change",
+      "anySection": true
+    },
+    {
+      "id": "A19_visitor_parking",
+      "set": "tuned",
+      "source": "visitor vs residential parking",
+      "query": "My parents are visiting next week, how can they park near my flat?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "visitor-parking",
+      "anySection": true
+    },
+    {
+      "id": "A20_register_car",
+      "set": "tuned",
+      "source": "vehicle registration",
+      "query": "I've bought a car and need to register it.",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "vehicle-registration",
+      "anySection": true
+    },
+    {
+      "id": "A21_tenancy_rights",
+      "set": "tuned",
+      "source": "tenancy vs repairs",
+      "query": "My landlord wants to end my tenancy early, what are my rights?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "housing-property-tenancy-support",
+      "anySection": true
+    },
+    {
+      "id": "A22_boiler_ignored",
+      "set": "tuned",
+      "source": "repairs",
+      "query": "The boiler in my rented flat has broken and the landlord is ignoring me.",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "housing-property-housing-repairs",
+      "anySection": true
+    },
+    {
+      "id": "A23_fridge_disposal",
+      "set": "tuned",
+      "source": "large-item collection",
+      "query": "How do I get rid of an old fridge?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "large-item-collection",
+      "anySection": true
+    },
+    {
+      "id": "T13_resume_pick_up_visitor_form",
+      "set": "tuned",
+      "source": "R6 tuned addition (general-fix coverage, written 9 Oct 2026 before calibration)",
+      "query": "Can I pick up the visitor permit form I was filling in from where I stopped?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "activity-in-progress",
+      "expectedSectionId": "saved-applications"
+    },
+    {
+      "id": "T14_resume_go_back_parking",
+      "set": "tuned",
+      "source": "R6 tuned addition (general-fix coverage, written 9 Oct 2026 before calibration)",
+      "query": "Is there a way to go back to the residents' parking application I didn't complete?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "saved-residential-parking-application",
+      "anySection": true
+    },
+    {
+      "id": "T15_generic_dispute",
+      "set": "tuned",
+      "source": "R6 tuned addition (general-fix coverage, written 9 Oct 2026 before calibration)",
+      "query": "I'd like to dispute a decision",
+      "expectedDecision": "clarify",
+      "expectedClarifyReason": "generic_action"
+    },
+    {
+      "id": "T16_generic_payment",
+      "set": "tuned",
+      "source": "R6 tuned addition (general-fix coverage, written 9 Oct 2026 before calibration)",
+      "query": "I want to make a payment",
+      "expectedDecision": "clarify"
+    },
+    {
+      "id": "T17_offtopic_story",
+      "set": "tuned",
+      "source": "R6 tuned addition (general-fix coverage, written 9 Oct 2026 before calibration)",
+      "query": "Write a short story about a dragon",
+      "expectedDecision": "reject"
+    },
+    {
+      "id": "T18_offtopic_trivia",
+      "set": "tuned",
+      "source": "R6 tuned addition (general-fix coverage, written 9 Oct 2026 before calibration)",
+      "query": "Who won the World Cup in 1966?",
+      "expectedDecision": "reject"
+    },
+    {
+      "id": "T19_comment_next_door_plans",
+      "set": "tuned",
+      "source": "R6 tuned addition (general-fix coverage, written 9 Oct 2026 before calibration)",
+      "query": "How do I comment on the plans the house next door has submitted?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "planning-development-planning-applications",
+      "anySection": true,
+      "forbiddenDestinationIds": [
+        "development-approval"
+      ]
+    },
+    {
+      "id": "T20_back_to_work_not_resume",
+      "set": "tuned",
+      "source": "R6 tuned addition (general-fix coverage, written 9 Oct 2026 before calibration)",
+      "query": "I'm trying to get back to work after looking after my children for years",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "work-business-employment-support",
+      "anySection": true,
+      "forbiddenDestinationIds": [
+        "activity-in-progress",
+        "saved-residential-parking-application"
+      ]
+    },
+    {
+      "id": "H01_hours_cut_bills",
+      "set": "heldout_r3",
+      "query": "Money's really tight since my hours were cut and I can't cover my bills. Is there anything that can help?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "financial-support",
+      "anySection": true
+    },
+    {
+      "id": "H02_behind_household_charge",
+      "set": "heldout_r3",
+      "query": "I keep falling behind with my household charge payments, can I get some support?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "household-tax-assistance",
+      "anySection": true
+    },
+    {
+      "id": "H03_loft_conversion",
+      "set": "heldout_r3",
+      "query": "Do I need approval to put a loft conversion in?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "development-approval",
+      "expectedSectionId": "do-i-need-approval"
+    },
+    {
+      "id": "H04_residents_permit_price",
+      "set": "heldout_r3",
+      "query": "How much is a residents parking permit?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "residential-parking",
+      "expectedSectionId": "permit-charges"
+    },
+    {
+      "id": "H05_lost_id_card_needs",
+      "set": "heldout_r3",
+      "query": "I lost my identity card, what do I need to get a replacement?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "identity-replacement",
+      "expectedSectionId": "what-you-need",
+      "acceptableSectionIds": [
+        "documents"
+      ]
+    },
+    {
+      "id": "H06_mattress_cost",
+      "set": "heldout_r3",
+      "query": "Can the council take away an old mattress and what does it cost?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "large-item-collection",
+      "expectedSectionId": "charges"
+    },
+    {
+      "id": "H07_complaint_rejected",
+      "set": "heldout_r3",
+      "query": "The council rejected my complaint and I think they got it wrong. Who can I take this to?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "formal-complaint",
+      "expectedSectionId": "not-happy-with-the-response"
+    },
+    {
+      "id": "H08_complaint_update",
+      "set": "heldout_r3",
+      "query": "Is there any update on the complaint I sent in last month?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "formal-complaint",
+      "expectedSectionId": "how-complaints-are-handled"
+    },
+    {
+      "id": "H09_finish_parking_application",
+      "set": "heldout_r3",
+      "query": "I'd like to finish off the parking application I began earlier.",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "saved-residential-parking-application",
+      "anySection": true
+    },
+    {
+      "id": "H10_damp_mould_whose_job",
+      "set": "heldout_r3",
+      "query": "There's damp and mould in my rented flat. Whose job is it to sort it?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "housing-property-housing-repairs",
+      "expectedSectionId": "what-your-landlord-must-fix"
+    },
+    {
+      "id": "H11_motorbike_cost",
+      "set": "heldout_r3",
+      "query": "What will it cost me to register my motorbike?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "vehicle-registration",
+      "expectedSectionId": "fees-and-charges"
+    },
+    {
+      "id": "H12_income_tax",
+      "set": "heldout_r3",
+      "query": "Is income tax something you deal with?",
+      "expectedDecision": "clarify"
+    },
+    {
+      "id": "H13_restaurant",
+      "set": "heldout_r3",
+      "query": "Can you recommend a good restaurant nearby?",
+      "expectedDecision": "reject"
+    },
+    {
+      "id": "H14_second_storey_parking",
+      "set": "heldout_r3",
+      "query": "I'm thinking of adding a second storey to my house, will that affect where I can park?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "development-approval",
+      "anySection": true,
+      "acceptableDecisions": [
+        "clarify"
+      ],
+      "forbiddenDestinationIds": [
+        "residential-parking",
+        "visitor-parking"
+      ]
+    },
+    {
+      "id": "H15_complaint_roads",
+      "set": "heldout_r3",
+      "query": "I want to make a complaint about the state of the roads.",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "formal-complaint",
+      "expectedSectionId": "submit-a-complaint"
+    },
+    {
+      "id": "H16_broken_window_tenant",
+      "set": "heldout_r3",
+      "query": "I'm a tenant and my landlord won't fix the broken window.",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "housing-property-housing-repairs",
+      "anySection": true
+    },
+    {
+      "id": "N01_council_bill_afford",
+      "set": "heldout_r4",
+      "domain": "money-tax",
+      "query": "Can't afford my council bill this month",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "household-tax-assistance",
+      "anySection": true
+    },
+    {
+      "id": "N02_council_tax_discount_living_alone",
+      "set": "heldout_r4",
+      "domain": "money-tax",
+      "query": "Can I get money off my council tax because I live on my own?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "money-tax-household-charge-discounts",
+      "anySection": true
+    },
+    {
+      "id": "N03_gas_cut_off_nothing_to_eat",
+      "set": "heldout_r4",
+      "domain": "benefits-support",
+      "query": "Our gas got cut off and we've got nothing to eat tonight",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "benefits-support-emergency-assistance",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "financial-support"
+      ]
+    },
+    {
+      "id": "N04_benefit_claim_turned_down",
+      "set": "heldout_r4",
+      "domain": "benefits-support",
+      "query": "My benefits claim was turned down and I think it's wrong",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "benefits-support-appeals",
+      "anySection": true
+    },
+    {
+      "id": "N05_boiler_landlord_wont_answer",
+      "set": "heldout_r4",
+      "domain": "housing-property",
+      "query": "My boiler's broken and the landlord won't answer my calls",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "housing-property-housing-repairs",
+      "anySection": true
+    },
+    {
+      "id": "N06_kicked_out_nowhere_to_stay",
+      "set": "heldout_r4",
+      "domain": "housing-property",
+      "query": "We're being kicked out of our flat next week and have nowhere to stay",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "housing-property-temporary-accommodation",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "housing-property-tenancy-support"
+      ]
+    },
+    {
+      "id": "N07_leave_car_on_my_street",
+      "set": "heldout_r4",
+      "domain": "transport-vehicles",
+      "query": "How do I sort out being allowed to leave my car on the street where I live?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "residential-parking",
+      "anySection": true
+    },
+    {
+      "id": "N08_free_bus_travel_mum",
+      "set": "heldout_r4",
+      "domain": "transport-vehicles",
+      "query": "Can my elderly mum get a free bus pass?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "transport-vehicles-travel-support",
+      "anySection": true
+    },
+    {
+      "id": "N09_build_conservatory",
+      "set": "heldout_r4",
+      "domain": "planning-development",
+      "query": "I want to build a conservatory",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "development-approval",
+      "anySection": true
+    },
+    {
+      "id": "N10_object_neighbour_extension",
+      "set": "heldout_r4",
+      "domain": "planning-development",
+      "query": "My neighbour is building a huge extension and I want to object",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "planning-development-planning-applications",
+      "anySection": true
+    },
+    {
+      "id": "N11_food_van_weekends",
+      "set": "heldout_r4",
+      "domain": "work-business",
+      "query": "I want to start selling food from a van at weekends",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "work-business-business-licence",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "work-business-trading-registration"
+      ]
+    },
+    {
+      "id": "N12_faulty_kettle_refund",
+      "set": "heldout_r4",
+      "domain": "work-business",
+      "query": "A shop sold me a faulty kettle and won't give me a refund",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "work-business-trading-standards",
+      "anySection": true
+    },
+    {
+      "id": "N13_daughter_primary_school",
+      "set": "heldout_r4",
+      "domain": "education-learning",
+      "query": "My daughter starts primary school next September, how do we get her in?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "education-learning-school-place",
+      "anySection": true
+    },
+    {
+      "id": "N14_evening_english_classes",
+      "set": "heldout_r4",
+      "domain": "education-learning",
+      "query": "Are there any evening classes for adults who want to learn English?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "education-learning-adult-learning",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "education-learning-skills-development"
+      ]
+    },
+    {
+      "id": "N15_dad_cannot_cope_at_home",
+      "set": "heldout_r4",
+      "domain": "health-care",
+      "query": "My dad can't manage at home on his own anymore, can someone come and help him?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "health-care-care-assessment",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "health-care-care-support"
+      ]
+    },
+    {
+      "id": "N16_caring_for_son_exhausted",
+      "set": "heldout_r4",
+      "domain": "health-care",
+      "query": "I look after my disabled son full-time and I'm exhausted",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "health-care-carer-support",
+      "anySection": true
+    },
+    {
+      "id": "N17_street_party_close_road",
+      "set": "heldout_r4",
+      "domain": "family-community",
+      "query": "We want to close our road for a street party",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "family-community-event-permits",
+      "anySection": true
+    },
+    {
+      "id": "N18_teenager_after_school",
+      "set": "heldout_r4",
+      "domain": "family-community",
+      "query": "Where can my teenager go after school to hang out safely?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "family-community-youth-services",
+      "anySection": true
+    },
+    {
+      "id": "N19_bins_not_emptied",
+      "set": "heldout_r4",
+      "domain": "environment-utilities",
+      "query": "My bins weren't emptied this week",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "environment-utilities-collection-services",
+      "anySection": true
+    },
+    {
+      "id": "N20_rubbish_dumped_alley",
+      "set": "heldout_r4",
+      "domain": "environment-utilities",
+      "query": "Someone has dumped a pile of rubbish in the alley behind my house",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "environment-utilities-report-an-environmental-issue",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "environment-utilities-street-cleanliness"
+      ]
+    },
+    {
+      "id": "N21_lost_driving_licence",
+      "set": "heldout_r4",
+      "domain": "identity-records",
+      "query": "I lost my driving licence",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "identity-replacement",
+      "anySection": true
+    },
+    {
+      "id": "N22_married_change_surname",
+      "set": "heldout_r4",
+      "domain": "identity-records",
+      "query": "I got married and need to change my surname on my records",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "identity-records-personal-details",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "identity-records-record-corrections"
+      ]
+    },
+    {
+      "id": "N23_dangerous_building",
+      "set": "heldout_r4",
+      "domain": "safety-legal-civic",
+      "query": "I want to report a building that looks like it might collapse onto the pavement",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "safety-legal-civic-safety-reporting",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "safety-legal-civic-public-safety"
+      ]
+    },
+    {
+      "id": "N24_unfair_council_decision",
+      "set": "heldout_r4",
+      "domain": "safety-legal-civic",
+      "query": "The council refused my request and I think the decision is unfair",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "safety-legal-civic-challenge-a-decision",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "formal-complaint"
+      ]
+    },
+    {
+      "id": "R01_monthly_instalments",
+      "set": "heldout_r5",
+      "domain": "money-tax",
+      "query": "How do I spread the council charge on my home over monthly instalments?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "money-tax-payment-arrangements",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "money-tax-direct-debit"
+      ],
+      "near": "R02"
+    },
+    {
+      "id": "R02_last_years_bill_copy",
+      "set": "heldout_r5",
+      "domain": "money-tax",
+      "query": "I need a copy of last year's council charge bill for my flat",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "money-tax-tax-records",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "money-tax-annual-statements"
+      ],
+      "near": "R01"
+    },
+    {
+      "id": "R03_hours_cut_rent_shopping",
+      "set": "heldout_r5",
+      "domain": "benefits-support",
+      "query": "My hours were cut at work and I can't cover the rent and the weekly shop",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "financial-support",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "benefits-support-household-support",
+        "housing-property-rent-support"
+      ]
+    },
+    {
+      "id": "R04_prove_income_claim",
+      "set": "heldout_r5",
+      "domain": "benefits-support",
+      "query": "What paperwork do I send to prove my income when I claim support?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "benefits-support-evidence-requirements",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "financial-support"
+      ]
+    },
+    {
+      "id": "R05_water_through_ceiling",
+      "set": "heldout_r5",
+      "domain": "housing-property",
+      "query": "Water is coming through the ceiling of the flat I rent",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "housing-property-housing-repairs",
+      "anySection": true,
+      "near": "R06"
+    },
+    {
+      "id": "R06_landlord_keeping_deposit",
+      "set": "heldout_r5",
+      "domain": "housing-property",
+      "query": "My old landlord is keeping my deposit even though I left the place spotless",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "housing-property-tenancy-support",
+      "anySection": true,
+      "near": "R05"
+    },
+    {
+      "id": "R07_neighbours_music_3am",
+      "set": "heldout_r5",
+      "domain": "housing-property",
+      "query": "The people next door play loud music until 3am every night",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "housing-property-neighbourhood-issues",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "environment-utilities-report-an-environmental-issue",
+        "safety-legal-civic-safety-reporting"
+      ]
+    },
+    {
+      "id": "R08_brother_van_staying",
+      "set": "heldout_r5",
+      "domain": "transport-vehicles",
+      "query": "My brother is staying with me for a week and needs somewhere to leave his van",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "visitor-parking",
+      "anySection": true,
+      "forbiddenDestinationIds": [
+        "saved-residential-parking-application"
+      ],
+      "near": "R09"
+    },
+    {
+      "id": "R09_permit_only_street_one_car",
+      "set": "heldout_r5",
+      "domain": "transport-vehicles",
+      "query": "Our street is permit-only and we have one car, how do we get sorted?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "residential-parking",
+      "anySection": true,
+      "forbiddenDestinationIds": [
+        "visitor-parking"
+      ],
+      "near": "R08"
+    },
+    {
+      "id": "R10_pothole_tyre",
+      "set": "heldout_r5",
+      "domain": "transport-vehicles",
+      "query": "There's a huge pothole on my road that burst my tyre",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "transport-vehicles-road-services",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "transport-vehicles-traffic-reports",
+        "safety-legal-civic-safety-reporting"
+      ]
+    },
+    {
+      "id": "R11_sold_motorbike_keeper",
+      "set": "heldout_r5",
+      "domain": "transport-vehicles",
+      "query": "I sold my motorbike, how do I let you know it isn't mine any more?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "vehicle-registration",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "transport-vehicles-vehicle-records"
+      ]
+    },
+    {
+      "id": "R12_garden_room",
+      "set": "heldout_r5",
+      "domain": "planning-development",
+      "query": "Is it OK to put a garden room at the bottom of my garden?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "development-approval",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "planning-development-building-guidance"
+      ]
+    },
+    {
+      "id": "R13_empty_site_proposals",
+      "set": "heldout_r5",
+      "domain": "planning-development",
+      "query": "How can I see what's been proposed for the empty site at the end of my road?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "planning-development-planning-applications",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "planning-development-planning-records",
+        "planning-development-local-plans",
+        "planning-development-neighbourhood-development"
+      ]
+    },
+    {
+      "id": "R14_open_cafe_licences",
+      "set": "heldout_r5",
+      "domain": "work-business",
+      "query": "I want to open a small café, what licences do I need?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "work-business-business-licence",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "work-business-trading-registration",
+        "work-business-business-premises"
+      ]
+    },
+    {
+      "id": "R15_fake_bag_no_refund",
+      "set": "heldout_r5",
+      "domain": "work-business",
+      "query": "A shop sold me a fake designer bag and won't give my money back",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "work-business-trading-standards",
+      "anySection": true
+    },
+    {
+      "id": "R16_secondary_mid_year",
+      "set": "heldout_r5",
+      "domain": "education-learning",
+      "query": "We're moving areas mid-year and my son needs a new secondary school",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "education-learning-school-place",
+      "anySection": true
+    },
+    {
+      "id": "R17_nursery_costs_two_year_old",
+      "set": "heldout_r5",
+      "domain": "education-learning",
+      "query": "Can I get help paying for nursery for my two-year-old?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "education-learning-childcare-support",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "family-community-family-support"
+      ]
+    },
+    {
+      "id": "R18_mum_keeps_falling",
+      "set": "heldout_r5",
+      "domain": "health-care",
+      "query": "My mum keeps falling and needs someone to look at what help she needs at home",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "health-care-care-assessment",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "health-care-care-support"
+      ],
+      "near": "R19"
+    },
+    {
+      "id": "R19_cost_home_care_visits",
+      "set": "heldout_r5",
+      "domain": "health-care",
+      "query": "How much will we be charged for my dad's home care visits?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "health-care-care-charges",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "benefits-support-care-support-payment"
+      ],
+      "near": "R18"
+    },
+    {
+      "id": "R20_few_hours_helping",
+      "set": "heldout_r5",
+      "domain": "family-community",
+      "query": "I'd like to give a few hours a week helping out in my area",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "family-community-volunteering",
+      "anySection": true
+    },
+    {
+      "id": "R21_grant_community_garden",
+      "set": "heldout_r5",
+      "domain": "family-community",
+      "query": "Our residents' association wants a grant to start a community garden",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "family-community-community-funding",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "family-community-community-groups"
+      ]
+    },
+    {
+      "id": "R22_pizza_boxes_bin",
+      "set": "heldout_r5",
+      "domain": "environment-utilities",
+      "query": "Which bin do greasy pizza boxes go in?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "environment-utilities-recycling-guidance",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "environment-utilities-waste-recycling"
+      ]
+    },
+    {
+      "id": "R23_dumped_mattress_pavement",
+      "set": "heldout_r5",
+      "domain": "environment-utilities",
+      "query": "Someone has left a broken mattress on the pavement outside my house",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "environment-utilities-report-an-environmental-issue",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "environment-utilities-street-cleanliness"
+      ],
+      "forbiddenDestinationIds": [
+        "large-item-collection"
+      ],
+      "near": "R24"
+    },
+    {
+      "id": "R24_book_washing_machine_pickup",
+      "set": "heldout_r5",
+      "domain": "environment-utilities",
+      "query": "Can the council take away my broken washing machine? How do I book that?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "large-item-collection",
+      "anySection": true,
+      "near": "R23"
+    },
+    {
+      "id": "R25_wallet_stolen_id",
+      "set": "heldout_r5",
+      "domain": "identity-records",
+      "query": "My wallet was stolen with my ID card in it",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "identity-replacement",
+      "anySection": true,
+      "near": "R26"
+    },
+    {
+      "id": "R26_son_birth_record_passport",
+      "set": "heldout_r5",
+      "domain": "identity-records",
+      "query": "I need an official copy of my son's birth record for his passport application",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "birth-certificate",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "identity-records-certificates",
+        "identity-records-record-requests"
+      ],
+      "forbiddenDestinationIds": [
+        "identity-replacement"
+      ],
+      "near": "R25"
+    },
+    {
+      "id": "R27_footbridge_railings_loose",
+      "set": "heldout_r5",
+      "domain": "safety-legal-civic",
+      "query": "The railings on the footbridge are loose and someone could fall",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "safety-legal-civic-safety-reporting",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "safety-legal-civic-public-safety",
+        "transport-vehicles-road-services"
+      ]
+    },
+    {
+      "id": "R28_paperwork_behind_decision",
+      "set": "heldout_r5",
+      "domain": "safety-legal-civic",
+      "query": "I want to see the records the council used when it made a decision about me",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "safety-legal-civic-decision-records",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "safety-legal-civic-civic-requests",
+        "identity-records-record-requests"
+      ]
+    },
+    {
+      "id": "R29_half_filled_parking_form",
+      "set": "heldout_r5",
+      "domain": "my-civicsphere",
+      "query": "I filled in half of a parking permit form last week, can I get back to it?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "saved-residential-parking-application",
+      "anySection": true
+    },
+    {
+      "id": "R30_just_appeal",
+      "set": "heldout_r5",
+      "domain": "safety-legal-civic",
+      "query": "I want to appeal",
+      "expectedDecision": "clarify"
+    },
+    {
+      "id": "R31_how_much_cost",
+      "set": "heldout_r5",
+      "domain": "none",
+      "query": "How much does it cost?",
+      "expectedDecision": "clarify"
+    },
+    {
+      "id": "R32_letter_dont_understand",
+      "set": "heldout_r5",
+      "domain": "none",
+      "query": "I got a letter from the council and I don't understand it",
+      "expectedDecision": "clarify"
+    },
+    {
+      "id": "R33_football_kickoff",
+      "set": "heldout_r5",
+      "domain": "none",
+      "query": "What time does the football kick off tonight?",
+      "expectedDecision": "reject"
+    },
+    {
+      "id": "R34_poem_autumn",
+      "set": "heldout_r5",
+      "domain": "none",
+      "query": "Write me a poem about autumn",
+      "expectedDecision": "reject"
+    },
+    {
+      "id": "R35_flight_spain",
+      "set": "heldout_r5",
+      "domain": "none",
+      "query": "Find me a cheap flight to Spain",
+      "expectedDecision": "reject"
+    },
+    {
+      "id": "S01_student_full_charge",
+      "set": "heldout_r6",
+      "domain": "money-tax",
+      "query": "I've been paying the full council charge but I'm a full-time student, do I still have to?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "money-tax-exemptions",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "money-tax-household-charge-discounts"
+      ]
+    },
+    {
+      "id": "S02_breakdown_paid_this_year",
+      "set": "heldout_r6",
+      "domain": "money-tax",
+      "query": "Where can I see a breakdown of everything I paid towards the home charge this year?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "money-tax-annual-statements",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "money-tax-tax-records"
+      ]
+    },
+    {
+      "id": "S03_band_wrong",
+      "set": "heldout_r6",
+      "domain": "money-tax",
+      "query": "I think the band on my council charge is wrong and I want it looked at",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "money-tax-charge-appeals",
+      "anySection": true
+    },
+    {
+      "id": "S04_when_payment_lands",
+      "set": "heldout_r6",
+      "domain": "benefits-support",
+      "query": "When does my support payment actually land in my bank?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "benefits-support-payment-information",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "financial-support"
+      ]
+    },
+    {
+      "id": "S05_entitled_low_wage",
+      "set": "heldout_r6",
+      "domain": "benefits-support",
+      "query": "Am I even entitled to any help with money? I'm on a low wage",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "benefits-support-eligibility-checker",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "financial-support"
+      ]
+    },
+    {
+      "id": "S06_support_stopped_wrongly",
+      "set": "heldout_r6",
+      "domain": "benefits-support",
+      "query": "They stopped my support payments and I think they got it wrong",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "benefits-support-appeals",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "benefits-support-support-reviews"
+      ]
+    },
+    {
+      "id": "S07_waiting_list_council_flat",
+      "set": "heldout_r6",
+      "domain": "housing-property",
+      "query": "I want to get on the waiting list for a council flat",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "housing-property-housing-applications",
+      "anySection": true
+    },
+    {
+      "id": "S08_mould_bedroom_rented",
+      "set": "heldout_r6",
+      "domain": "housing-property",
+      "query": "Black mould keeps coming back in the bedroom of the place I rent",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "housing-property-housing-repairs",
+      "anySection": true,
+      "near": "S09"
+    },
+    {
+      "id": "S09_short_on_rent",
+      "set": "heldout_r6",
+      "domain": "housing-property",
+      "query": "I'm short on rent this month, is there help with that?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "housing-property-rent-support",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "financial-support"
+      ],
+      "near": "S08"
+    },
+    {
+      "id": "S10_skip_on_road",
+      "set": "heldout_r6",
+      "domain": "transport-vehicles",
+      "query": "Do I need permission to put a skip on the road outside my house?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "transport-vehicles-road-permits",
+      "anySection": true,
+      "forbiddenDestinationIds": [
+        "residential-parking"
+      ]
+    },
+    {
+      "id": "S11_hospital_bus_cancelled",
+      "set": "heldout_r6",
+      "domain": "transport-vehicles",
+      "query": "The bus to the hospital keeps getting cancelled, who do I tell?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "transport-vehicles-public-transport",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "transport-vehicles-traffic-reports"
+      ]
+    },
+    {
+      "id": "S12_carer_guest_permit",
+      "set": "heldout_r6",
+      "domain": "transport-vehicles",
+      "query": "How do I get guest permits so my carer can park outside my house when she visits?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "visitor-parking",
+      "anySection": true,
+      "forbiddenDestinationIds": [
+        "residential-parking"
+      ],
+      "near": "S13"
+    },
+    {
+      "id": "S13_new_number_plate",
+      "set": "heldout_r6",
+      "domain": "transport-vehicles",
+      "query": "I've put a private number plate on my car, what do I need to update?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "vehicle-registration",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "transport-vehicles-vehicle-records"
+      ],
+      "near": "S12"
+    },
+    {
+      "id": "S14_loft_dormer",
+      "set": "heldout_r6",
+      "domain": "planning-development",
+      "query": "We'd like to turn the loft into a bedroom with a dormer window",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "development-approval",
+      "anySection": true,
+      "near": "S16"
+    },
+    {
+      "id": "S15_cost_submit_garage_plans",
+      "set": "heldout_r6",
+      "domain": "planning-development",
+      "query": "How much does it cost to submit plans for a new garage?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "development-approval",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "planning-development-development-fees"
+      ]
+    },
+    {
+      "id": "S16_porch_refused",
+      "set": "heldout_r6",
+      "domain": "planning-development",
+      "query": "They refused permission for our porch, can we fight that?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "planning-development-planning-appeals",
+      "anySection": true,
+      "near": "S14"
+    },
+    {
+      "id": "S17_rates_small_unit",
+      "set": "heldout_r6",
+      "domain": "work-business",
+      "query": "How much are business rates on a small unit on the high street?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "work-business-business-rates",
+      "anySection": true
+    },
+    {
+      "id": "S18_work_after_sickness",
+      "set": "heldout_r6",
+      "domain": "work-business",
+      "query": "I'm looking for work after being off sick for a year",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "work-business-employment-support",
+      "anySection": true
+    },
+    {
+      "id": "S19_hot_dogs_festival",
+      "set": "heldout_r6",
+      "domain": "work-business",
+      "query": "Do I need a licence to sell hot dogs at a festival?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "work-business-business-licence",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "work-business-trading-registration"
+      ]
+    },
+    {
+      "id": "S20_primary_turned_down",
+      "set": "heldout_r6",
+      "domain": "education-learning",
+      "query": "Our application for the local primary got turned down",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "education-learning-admissions-appeals",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "education-learning-school-place"
+      ]
+    },
+    {
+      "id": "S21_dyslexia_extra_support",
+      "set": "heldout_r6",
+      "domain": "education-learning",
+      "query": "My daughter has dyslexia and needs extra support in class",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "education-learning-education-support",
+      "anySection": true
+    },
+    {
+      "id": "S22_retrain_electrician",
+      "set": "heldout_r6",
+      "domain": "education-learning",
+      "query": "Are there grants to help me retrain as an electrician?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "education-learning-course-funding",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "education-learning-skills-development",
+        "education-learning-learning-accounts"
+      ]
+    },
+    {
+      "id": "S23_husband_need_break",
+      "set": "heldout_r6",
+      "domain": "health-care",
+      "query": "I look after my husband full time and I need a break",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "health-care-carer-support",
+      "anySection": true
+    },
+    {
+      "id": "S24_walk_in_clinic",
+      "set": "heldout_r6",
+      "domain": "health-care",
+      "query": "Where can I find a walk-in clinic or a GP near me?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "health-care-health-access",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "health-care-health-information"
+      ]
+    },
+    {
+      "id": "S25_low_isolated",
+      "set": "heldout_r6",
+      "domain": "health-care",
+      "query": "I've been feeling really low and isolated, is there anything local?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "health-care-wellbeing-services",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "family-community-community-groups"
+      ]
+    },
+    {
+      "id": "S26_fun_day_village_green",
+      "set": "heldout_r6",
+      "domain": "family-community",
+      "query": "We want to hold a fun day on the village green, do we need a licence?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "family-community-event-permits",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "family-community-community-events"
+      ]
+    },
+    {
+      "id": "S27_hire_hall_party",
+      "set": "heldout_r6",
+      "domain": "family-community",
+      "query": "Where can I hire a hall for my son's birthday party?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "family-community-community-facilities",
+      "anySection": true
+    },
+    {
+      "id": "S28_cracked_green_bin",
+      "set": "heldout_r6",
+      "domain": "environment-utilities",
+      "query": "My green bin has a crack in it, can I get a new one?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "environment-utilities-collection-services",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "environment-utilities-waste-recycling"
+      ]
+    },
+    {
+      "id": "S29_abandoned_car",
+      "set": "heldout_r6",
+      "domain": "environment-utilities",
+      "query": "There's a car that's been abandoned on our street for weeks",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "environment-utilities-report-an-environmental-issue",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "transport-vehicles-traffic-reports",
+        "environment-utilities-street-cleanliness",
+        "safety-legal-civic-safety-reporting",
+        "transport-vehicles-road-services"
+      ]
+    },
+    {
+      "id": "S30_electricity_bill_help",
+      "set": "heldout_r6",
+      "domain": "environment-utilities",
+      "query": "I'm struggling with the electricity bill, is there help with energy costs?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "environment-utilities-utility-support",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "financial-support"
+      ]
+    },
+    {
+      "id": "S31_marriage_record_misspelt",
+      "set": "heldout_r6",
+      "domain": "identity-records",
+      "query": "My name is spelt wrong on our marriage record and I need it fixed",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "identity-records-record-corrections",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "identity-records-personal-details"
+      ]
+    },
+    {
+      "id": "S32_relocated_records",
+      "set": "heldout_r6",
+      "domain": "identity-records",
+      "query": "I've just relocated across town, how do I make sure my records show where I live now?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "address-change",
+      "anySection": true,
+      "forbiddenDestinationIds": [
+        "residential-parking"
+      ]
+    },
+    {
+      "id": "S33_passport_flood",
+      "set": "heldout_r6",
+      "domain": "identity-records",
+      "query": "My passport got soaked when the kitchen flooded",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "identity-replacement",
+      "anySection": true
+    },
+    {
+      "id": "S34_phone_dismissive",
+      "set": "heldout_r6",
+      "domain": "safety-legal-civic",
+      "query": "The person on the council phone line was really dismissive and I want that on record",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "formal-complaint",
+      "anySection": true
+    },
+    {
+      "id": "S35_knives_to_kids",
+      "set": "heldout_r6",
+      "domain": "safety-legal-civic",
+      "query": "Someone is selling knives to kids at the Sunday market",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "safety-legal-civic-safety-reporting",
+      "anySection": true,
+      "acceptableDestinationIds": [
+        "safety-legal-civic-public-safety",
+        "work-business-trading-standards"
+      ]
+    },
+    {
+      "id": "S36_halfway_laptop_died",
+      "set": "heldout_r6",
+      "domain": "my-civicsphere",
+      "query": "I was halfway through the parking permit application when my laptop died",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "saved-residential-parking-application",
+      "anySection": true
+    },
+    {
+      "id": "S37_status_sent_last_month",
+      "set": "heldout_r6",
+      "domain": "my-civicsphere",
+      "query": "Can I see what's happening with the application I sent off last month?",
+      "expectedDecision": "navigate",
+      "expectedDestinationId": "activity-submitted",
+      "anySection": true
+    },
+    {
+      "id": "S38_challenge_a_decision",
+      "set": "heldout_r6",
+      "domain": "none",
+      "query": "I'd like to challenge a decision",
+      "expectedDecision": "clarify"
+    },
+    {
+      "id": "S39_book_something",
+      "set": "heldout_r6",
+      "domain": "none",
+      "query": "I need to book something",
+      "expectedDecision": "clarify"
+    },
+    {
+      "id": "S40_report_a_problem",
+      "set": "heldout_r6",
+      "domain": "none",
+      "query": "I want to report a problem",
+      "expectedDecision": "clarify"
+    },
+    {
+      "id": "S41_banana_bread",
+      "set": "heldout_r6",
+      "domain": "none",
+      "query": "What's a good recipe for banana bread?",
+      "expectedDecision": "reject"
+    },
+    {
+      "id": "S42_election_france",
+      "set": "heldout_r6",
+      "domain": "none",
+      "query": "Who won the election in France?",
+      "expectedDecision": "reject"
+    },
+    {
+      "id": "S43_maths_homework",
+      "set": "heldout_r6",
+      "domain": "none",
+      "query": "Can you help me with my maths homework?",
+      "expectedDecision": "reject"
+    },
+    {
+      "id": "S44_film_tonight",
+      "set": "heldout_r6",
+      "domain": "none",
+      "query": "Recommend a film for tonight",
+      "expectedDecision": "reject"
+    }
+  ]
+}

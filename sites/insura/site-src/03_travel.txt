@@ -1,0 +1,60 @@
+=AREA travel | Travel insurance | Single trip and annual cover, medical and cancellation protection, and winter sports and activities. | service
+=GROUP single | Single trip
+=GROUP annual | Annual multi-trip
+=GROUP medical | Medical and cancellation
+=GROUP winter | Winter sports and activities
+#travel-single-trip | Single trip cover | single | Cover for one holiday or journey, from the day you book until you return. | one-off holiday insurance; single trip policy | Insurance for just one holiday this summer ;; Cover for a single break away that I have booked
+- What's covered :: Emergency medical costs, cancellation and curtailment, delayed baggage and personal liability for the dates of your trip.
+- Start and end dates :: Cover for cancellation starts when you buy the policy; all other sections start on the trip departure date.
+- Trip length limits :: Single trip policies cover trips up to 31 days in most cases; longer trips may need extended cover.
+- Buying after you have booked :: Buy as soon as you book to be covered if you must cancel for an insured reason.
+#travel-annual | Annual multi-trip cover | annual | Cover for all your trips in a year, with a maximum length for each trip. | yearly travel insurance; multi trip policy; year-round holiday cover | One policy that covers every holiday and city break I take this year ;; Paying once for all my trips instead of a policy for each
+- What's covered :: Every trip you start in the policy year, up to the maximum trip length shown in your schedule, in the countries you selected.
+- Maximum trip length :: Typically 31 or 45 days per trip; longer trips need an extension or a separate policy.
+- Who is on the policy :: Individual, couple, family and group policies are available, with all travellers named.
+- Is annual cover worth it :: It usually pays off from the second trip a year, particularly for European holidays and business trips.
+#travel-family | Family and group cover | annual | One travel policy for adults and children on the same trip. | family travel insurance; children covered | Covering all the family on the beach holiday ;; One policy for the kids and grandparents travelling together
+- Who counts as a child :: Children under 18, or under 23 in full-time education, may be included at no extra cost when travelling with an adult.
+- Group sizes :: Groups of up to ten adults can be covered together provided everyone travels on the same itinerary.
+- Excess for families :: One excess applies per person per claim; the schedule shows the amounts for each traveller.
+- Adding a child later :: Contact us to add a new baby or foster child; there may be no additional premium.
+#travel-medical | Emergency medical cover | medical | Cover for urgent medical treatment, hospital stays and repatriation if you are ill or injured abroad. | medical expenses abroad; hospital abroad; repatriation | I got ill on holiday and ended up in hospital abroad ;; Paying for treatment and bringing me home if I am hurt overseas
+- What's covered :: Hospital treatment, doctor fees, ambulance, and medical repatriation to the UK, up to the medical limit on your policy.
+- Calling the emergency assistance team :: Contact our 24-hour team before incurring large costs or agreeing to treatment, so we can arrange payment directly.
+- GHIC and EHIC :: A UK Global Health Insurance Card gives access to state treatment in the EU but does not cover private care or repatriation.
+- What's not covered :: Treatment that could wait until you return home, and costs of routine or planned procedures.
+#travel-preexisting | Pre-existing medical conditions | medical | How to declare an existing health condition so that it is covered. | declare medical conditions; health conditions on travel insurance; existing illness | I have diabetes and need to be sure I can still claim ;; Telling the insurer about my heart condition before travelling
+- What counts as pre-existing :: Any medical condition you have been diagnosed with, treated for or had symptoms of before the policy starts.
+- How to declare :: Answer the medical screening questions honestly; you may be offered cover with an extra premium or exclusions.
+- If your health changes :: Tell us if you receive a new diagnosis or change treatment between buying and travelling.
+- What happens if you do not declare :: A claim relating to an undeclared condition can be reduced or refused.
+#travel-cancellation | Cancellation and curtailment | medical | Cover for the cost of a trip you must cancel or cut short for an insured reason. | trip cancelled; cut holiday short; cancelled flight refund | I had to call off our holiday because of illness ;; Getting back the deposit when something stops us travelling
+- What's covered :: Unrecoverable travel and accommodation costs if you cannot travel or must return early because of illness, bereavement or jury service.
+- Cancelling for illness :: A doctor's certificate is needed, and you should cancel the trip as soon as you know you cannot travel.
+- Insured reasons :: Examples include serious illness or injury, redundancy, and damage to your home that needs you at home.
+- Not covered :: Changing your mind, financial hardship that is not redundancy, and most airline strikes known before you book.
+#travel-delays | Travel delay and missed departure | medical | Compensation for long delays and for missing a departure because of an unexpected event. | flight delay compensation; missed flight; delayed departure | The flight was delayed for ten hours and I was stuck at the airport ;; I missed my plane because of a traffic jam
+- Delay payment :: A fixed sum is payable after the first 12 hours of delay at the departure point, then for each further 12 hours.
+- Missed departure :: We cover extra travel and accommodation costs if you miss a departure because of a vehicle breakdown or accident.
+- Evidence to keep :: Get written confirmation of the delay from the airline or carrier and keep all receipts.
+- Airline compensation :: Claiming from the airline under flight compensation rules is separate; we may ask whether you have done so.
+#travel-baggage | Baggage and personal possessions | medical | Cover for lost, stolen or damaged luggage and items such as phones and cameras. | lost luggage; stolen phone abroad; delayed baggage | My suitcase never arrived and my phone got nicked on holiday ;; Paying for replacement of damaged or stolen luggage
+- What's covered :: Loss, theft or damage to baggage and personal possessions, with a single-item limit and an overall limit.
+- Delayed baggage :: Emergency purchases of toiletries and clothes are covered if your bags are delayed for more than 12 hours.
+- Valuables and gadgets :: Items such as cameras and phones have special limits and must not be left unattended.
+- Reporting loss :: Tell the police within 24 hours of theft and the airline of loss in writing, and keep reports.
+#travel-winter-sports | Winter sports cover | winter | An add-on for skiing, snowboarding and other snow sports, including piste closure and equipment. | skiing insurance; snowboard cover; ski holiday | I am going skiing in February and want to be covered on the slopes ;; Protection for a snowboarding trip including mountain rescue
+- What's covered :: Medical treatment for winter sports injuries, mountain rescue, lost ski pass and hired equipment.
+- Piste closure :: A fixed daily amount is payable if lack of snow closes the piste for more than 24 hours.
+- Off-piste skiing :: Off-piste is covered only when accompanied by a qualified guide and within the marked boundaries.
+- Adding winter sports :: Choose the add-on at quote, or add it later through My Insura before departure.
+#travel-activities | Adventure activities and hazardous sports | winter | Cover for activities such as scuba diving, trekking and bungee jumping that standard travel policies exclude. | scuba diving cover; extreme sports insurance; trekking insurance | I am planning to go diving and hiking and need to know what is covered ;; Cover for bungee jumping and other adventurous things abroad
+- Included activities :: Cover includes low-risk activities like snorkelling, easy hiking and cycling on road without competition.
+- Activities needing an add-on :: Diving to 30 metres, trekking above 3,000 metres and white-water rafting need the activities add-on.
+- Not covered :: Professional or competitive sport, and any activity where you did not follow safety instructions.
+- Declaring an activity :: Tell us before you travel; an unexpected extra premium is better than a declined claim.
+#travel-cruise | Cruise and long-stay cover | winter | Cover tailored to cruise holidays, missed ports and trips longer than 31 days. | cruise insurance; long stay travel cover; gap year insurance | Going on a three-week cruise and need cover for a missed port ;; Cover for a six-month trip around the world
+- Cruise cover :: Includes cabin confinement, missed port and itinerary change, and emergency medical evacuation from the ship.
+- Long-stay cover :: Single-trip policies for up to 12 months with set limits for baggage and cancellation.
+- Medical for older travellers :: Cover is available for travellers over 80 subject to screening and a higher medical premium.
+- Making a claim at sea :: Obtain a written report from the ship's medical centre before disembarking.

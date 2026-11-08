@@ -1,0 +1,315 @@
+[
+ {
+  "id": "mobile_320_home_axe",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "mobile_320_home_no_horizontal_scroll",
+  "pass": true,
+  "detail": {
+   "scrollWidth": 320
+  }
+ },
+ {
+  "id": "mobile_320_panel_inside_viewport",
+  "pass": true,
+  "detail": {
+   "left": 12,
+   "right": 308,
+   "w": 296
+  }
+ },
+ {
+  "id": "mobile_320_axe_panel_open",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "mobile_320_strip_after_navigation",
+  "pass": true,
+  "detail": {
+   "path": "/p/home-escape-of-water.html",
+   "stripVisible": true,
+   "collapsed": true,
+   "stripH": 74,
+   "state": "arrived",
+   "sw": 320
+  }
+ },
+ {
+  "id": "mobile_320_strip_collapsed_height_le_20pct_viewport",
+  "pass": true,
+  "detail": {
+   "path": "/p/home-escape-of-water.html",
+   "stripVisible": true,
+   "collapsed": true,
+   "stripH": 74,
+   "state": "arrived",
+   "sw": 320
+  }
+ },
+ {
+  "id": "mobile_320_no_horizontal_scroll_destination",
+  "pass": true,
+  "detail": {
+   "path": "/p/home-escape-of-water.html",
+   "stripVisible": true,
+   "collapsed": true,
+   "stripH": 74,
+   "state": "arrived",
+   "sw": 320
+  }
+ },
+ {
+  "id": "mobile_320_axe_destination_collapsed",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "mobile_320_strip_expands",
+  "pass": true,
+  "detail": {
+   "collapsed": false,
+   "h": 414,
+   "exp": "true"
+  }
+ },
+ {
+  "id": "mobile_320_axe_destination_expanded",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "mobile_375_home_axe",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "mobile_375_home_no_horizontal_scroll",
+  "pass": true,
+  "detail": {
+   "scrollWidth": 375
+  }
+ },
+ {
+  "id": "mobile_375_panel_inside_viewport",
+  "pass": true,
+  "detail": {
+   "left": 12,
+   "right": 363,
+   "w": 351
+  }
+ },
+ {
+  "id": "mobile_375_axe_panel_open",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "mobile_375_strip_after_navigation",
+  "pass": true,
+  "detail": {
+   "path": "/p/home-escape-of-water.html",
+   "stripVisible": true,
+   "collapsed": true,
+   "stripH": 74,
+   "state": "arrived",
+   "sw": 375
+  }
+ },
+ {
+  "id": "mobile_375_strip_collapsed_height_le_20pct_viewport",
+  "pass": true,
+  "detail": {
+   "path": "/p/home-escape-of-water.html",
+   "stripVisible": true,
+   "collapsed": true,
+   "stripH": 74,
+   "state": "arrived",
+   "sw": 375
+  }
+ },
+ {
+  "id": "mobile_375_no_horizontal_scroll_destination",
+  "pass": true,
+  "detail": {
+   "path": "/p/home-escape-of-water.html",
+   "stripVisible": true,
+   "collapsed": true,
+   "stripH": 74,
+   "state": "arrived",
+   "sw": 375
+  }
+ },
+ {
+  "id": "mobile_375_axe_destination_collapsed",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "mobile_375_strip_expands",
+  "pass": true,
+  "detail": {
+   "collapsed": false,
+   "h": 388,
+   "exp": "true"
+  }
+ },
+ {
+  "id": "mobile_375_axe_destination_expanded",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "mobile_414_home_axe",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "mobile_414_home_no_horizontal_scroll",
+  "pass": true,
+  "detail": {
+   "scrollWidth": 414
+  }
+ },
+ {
+  "id": "mobile_414_panel_inside_viewport",
+  "pass": true,
+  "detail": {
+   "left": 12,
+   "right": 402,
+   "w": 390
+  }
+ },
+ {
+  "id": "mobile_414_axe_panel_open",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "mobile_414_strip_after_navigation",
+  "pass": true,
+  "detail": {
+   "path": "/p/home-escape-of-water.html",
+   "stripVisible": true,
+   "collapsed": true,
+   "stripH": 74,
+   "state": "arrived",
+   "sw": 414
+  }
+ },
+ {
+  "id": "mobile_414_strip_collapsed_height_le_20pct_viewport",
+  "pass": true,
+  "detail": {
+   "path": "/p/home-escape-of-water.html",
+   "stripVisible": true,
+   "collapsed": true,
+   "stripH": 74,
+   "state": "arrived",
+   "sw": 414
+  }
+ },
+ {
+  "id": "mobile_414_no_horizontal_scroll_destination",
+  "pass": true,
+  "detail": {
+   "path": "/p/home-escape-of-water.html",
+   "stripVisible": true,
+   "collapsed": true,
+   "stripH": 74,
+   "state": "arrived",
+   "sw": 414
+  }
+ },
+ {
+  "id": "mobile_414_axe_destination_collapsed",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "mobile_414_strip_expands",
+  "pass": true,
+  "detail": {
+   "collapsed": false,
+   "h": 368,
+   "exp": "true"
+  }
+ },
+ {
+  "id": "mobile_414_axe_destination_expanded",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "desktop_ask_navigates",
+  "pass": true,
+  "detail": {
+   "u": "/p/home-escape-of-water.html"
+  }
+ },
+ {
+  "id": "desktop_axe_destination",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "axe_compare.html_375",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "compare_renders_both_375",
+  "pass": true,
+  "detail": {
+   "l": "Escape of water\nHome insurance › What's covered\nEscape of water claim\nClaims › Home claims\nFrozen pipes and heating\nHome",
+   "r": "It sounds like you need help with escape of water.\n\nGo to: Home › Home insurance › What's covered › Escape of water\n\nTake me there"
+  }
+ },
+ {
+  "id": "axe_search.html_375",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "axe_compare.html_1280",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "compare_renders_both_1280",
+  "pass": true,
+  "detail": {
+   "l": "Escape of water\nHome insurance › What's covered\nEscape of water claim\nClaims › Home claims\nFrozen pipes and heating\nHome",
+   "r": "It sounds like you need help with escape of water.\n\nGo to: Home › Home insurance › What's covered › Escape of water\n\nTake me there"
+  }
+ },
+ {
+  "id": "allpages_axe_375",
+  "pass": true,
+  "detail": {
+   "pages": 132,
+   "violationPages": 0,
+   "first": []
+  }
+ },
+ {
+  "id": "allpages_no_horizontal_scroll_375",
+  "pass": true,
+  "detail": {
+   "pages": 132,
+   "overflow": []
+  }
+ },
+ {
+  "id": "no_console_errors",
+  "pass": true,
+  "detail": []
+ },
+ {
+  "id": "no_external_requests",
+  "pass": true,
+  "detail": []
+ }
+]

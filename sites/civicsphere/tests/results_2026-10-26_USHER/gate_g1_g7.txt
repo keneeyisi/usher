@@ -1,0 +1,9 @@
+PASS G1_legacy_files_untouched          {"changed":[],"files":6,"modelsTree":true}
+PASS G3_index_equivalence               {"texts":729,"hash":"c64880bd","textsEqual":true,"vectorsByteIdentical":true,"recompileIdentical":true,"fresh":true,"formatField":"civicsphere-semantic-index/1 -> usher-index/0.1"}
+FAIL G2_decision_equivalence            {"queries":2186,"fullJsonIdentical":2151,"discreteIdentical":2162,"perSet":{"tuned":{"n":46,"same":42},"heldout_r3":{"n":16,"same":15},"heldout_r4":{"n":24,"same":24},"heldout_r5":{"n":35,"same":34},"heldout_r6":{"n":44,"same":43},"dummy":{"n":21,"same":20},"variant":{"n":2000,"same":1973}},"lexicalFallbackIdentical":"2186/2186","rankedListIdentical":"2186/2186","ms":26503,"firstDiffs":[{"q":"I st
+PASS G2b_lexical_and_ranked             {"lexEq":2186,"rankEq":2186,"n":2186}
+FAIL G4_published_results_reproduce     {"got":{"tuned":[46,46],"heldout_r3":[12,16],"heldout_r4":[19,24],"heldout_r5":[24,35],"heldout_r6":[28,44]},"expected":{"tuned":[46,46],"heldout_r6":[27,44],"heldout_r5":[24,35],"heldout_r4":[19,24],"heldout_r3":[12,16]}}
+PASS G7_frozen_sets_unchanged           {"heldout_r4":true,"heldout_r5":true,"heldout_r6":true,"heldout_r4_equals_frozen_copy":true,"heldout_r5_equals_frozen_copy":true,"heldout_r6_equals_frozen_copy":true,"fixturesJsonSha256":true,"note_r3":"heldout_r3: no per-set frozen hash on record; fixtures.json file hash unchanged (covers r3)"}
+
+GATE (Node part) FAILED: G2_decision_equivalence, G4_published_results_reproduce  (G5 browser parity and G6 UI suites run separately)
+exit 1

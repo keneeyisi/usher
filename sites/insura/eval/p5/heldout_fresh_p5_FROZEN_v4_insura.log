@@ -1,0 +1,157 @@
+{
+ "n": 60,
+ "nNavigate": 50,
+ "nClarify": 5,
+ "nReject": 5,
+ "a": {
+  "page": "54.0% [40-67] (27/50)",
+  "hit3": "62.0% [48-74] (31/50)",
+  "hit5": "66.0% [52-78] (33/50)",
+  "section": "n/a"
+ },
+ "a2": {
+  "page": "60.0% [46-72] (30/50)",
+  "hit3": "80.0% [67-89] (40/50)",
+  "hit5": "82.0% [69-90] (41/50)",
+  "section": "n/a"
+ },
+ "b": {
+  "page": "60.0% [46-72] (30/50)",
+  "hit3": "82.0% [69-90] (41/50)",
+  "hit5": "90.0% [79-96] (45/50)"
+ },
+ "c": {
+  "pageAccuracyNavItems": "50.0% [37-63] (25/50)",
+  "section": "n/a",
+  "wrongDestinationAllItems": "15.0% [8-26] (9/60)",
+  "wrongDestinationNavItems": "14.0% [7-26] (7/50)",
+  "clarificationRateAll": "36.7% [26-49] (22/60)",
+  "clarifiedOnNavItems": "36.0% [24-50] (18/50)",
+  "clarificationsOfferingGold": "54.5% [35-73] (12/22)",
+  "within1stepNavItems": "68.0% [54-79] (34/50)",
+  "rejectionAccuracy": "80.0% [38-96] (4/5)",
+  "falseRejectOnNavItems": "0.0% [0-7] (0/50)",
+  "clarifyItemsClarified": "60.0% [23-88] (3/5)",
+  "decisionCorrectAll": "53.3% [41-65] (32/60)",
+  "twinQuestionsAll": 6
+ },
+ "lenientTwinPages": {
+  "note": "twin cover/claim pages also accepted (item field twinDestinationIds); strict numbers above are the headline",
+  "a": "58.0% [44-71] (29/50)",
+  "a2": "68.0% [54-79] (34/50)",
+  "b": "66.0% [52-78] (33/50)",
+  "goalpostCorrectNav": "50.0% [37-63] (25/50)",
+  "goalpostWrongNav": "14.0% [7-26] (7/50)"
+ },
+ "mcnemar": {
+  "c_vs_a": {
+   "onlyA": 8,
+   "onlyB": 10,
+   "p": 0.8145294189453125
+  },
+  "c_vs_a2": {
+   "onlyA": 4,
+   "onlyB": 9,
+   "p": 0.266845703125
+  },
+  "c_vs_b": {
+   "onlyA": 2,
+   "onlyB": 7,
+   "p": 0.1796875
+  },
+  "b_vs_a2": {
+   "onlyA": 5,
+   "onlyB": 5,
+   "p": 1
+  },
+  "a2_vs_a": {
+   "onlyA": 7,
+   "onlyB": 4,
+   "p": 0.548828125
+  }
+ },
+ "within1stepVsBaseline": {
+  "goalpostWithin1": "68.0%",
+  "baselineA_hit3": "62.0%",
+  "baselineA2_hit3": "80.0%",
+  "semantic_hit3": "82.0%"
+ },
+ "byLabelOverlap": {
+  "0": {
+   "n": 25,
+   "a": "44.0%",
+   "a2": "52.0%",
+   "b": "40.0%",
+   "goalpostCorrectNav": "36.0%",
+   "goalpostWrongNav": "24.0%"
+  },
+  "1": {
+   "n": 18,
+   "a": "55.6%",
+   "a2": "66.7%",
+   "b": "77.8%",
+   "goalpostCorrectNav": "61.1%",
+   "goalpostWrongNav": "0.0%"
+  },
+  "2+": {
+   "n": 7,
+   "a": "85.7%",
+   "a2": "71.4%",
+   "b": "85.7%",
+   "goalpostCorrectNav": "71.4%",
+   "goalpostWrongNav": "14.3%"
+  }
+ },
+ "savedState": {
+  "note": "positives: query plausibly about the user's saved item (savedStateTarget); negatives: same topic but not the user's item (savedStateNegative)",
+  "positives_n": 8,
+  "a_top1": "62.5% [31-86] (5/8)",
+  "a2_top1": "25.0% [7-59] (2/8)",
+  "b_top1": "37.5% [14-69] (3/8)",
+  "goalpostNavigated": "25.0% [7-59] (2/8)",
+  "goalpostNavigatedOrOffered": "25.0% [7-59] (2/8)",
+  "negatives_n": 3,
+  "a_top1Saved": "0.0% [0-56] (0/3)",
+  "a2_top1Saved": "0.0% [0-56] (0/3)",
+  "b_top1Saved": "0.0% [0-56] (0/3)",
+  "goalpostHijacked": "0.0% [0-56] (0/3)"
+ },
+ "twins": {
+  "note": "navigate items whose gold page has a near-duplicate twin (twinDestinationIds); wrong twin = committed/top-1 to the twin",
+  "n": 6,
+  "a_wrongTwinTop1": "33.3% [10-70] (2/6)",
+  "a2_wrongTwinTop1": "66.7% [30-90] (4/6)",
+  "b_wrongTwinTop1": "50.0% [19-81] (3/6)",
+  "goalpostCorrect": "50.0% [19-81] (3/6)",
+  "goalpostWrongTwin": "0.0% [0-39] (0/6)",
+  "goalpostTwinQuestion": "33.3% [10-70] (2/6)"
+ }
+}
+FAIL INS_F01 "I backed into a post in the supermarket car park and dented the bumper, how do I claim" | gold navigate claim-motor-accident | got clarify claim-motor-theft,claim-motor-accident,claim-home-accidental close_alternatives | a: car-ncd b: claim-motor-theft
+FAIL INS_F02 "am I insured if I borrow my mate's car for the weekend" | gold navigate car-named-drivers | got clarify car-tpft,car-courtesy,car-abroad close_alternatives | a: chg-vehicle b: car-tpft
+FAIL INS_F06 "will one claim wipe out all my no-claims years" | gold navigate car-ncd | got clarify claim-home-escape-of-water,claim-motor-accident,claim-travel-possessions,claim-pet-vet qualifier | a: car-ncd b: car-ncd
+FAIL INS_F08 "we came home to find the back door forced and the telly gone" | gold navigate claim-home-burglary | got clarify claim-home-burglary,home-theft twin_question | a: home-theft b: home-theft
+FAIL INS_F10 "I knocked a tin of paint over the new carpet" | gold navigate claim-home-accidental | got clarify claim-home-accidental,home-accidental-damage twin_question | a: home-contents b: home-accidental-damage
+FAIL INS_F11 "I'm renting my flat out to tenants, what cover do I need" | gold navigate home-landlord | got navigate home-renters similarity 0.635, margin 0.038 over home-landlord | a: home-landlord b: home-renters
+FAIL INS_F13 "is there an add-on that sends someone out when the boiler packs up" | gold navigate home-legal-emergency | got clarify home-legal-emergency,acc-messages weak_match | a: home-legal-emergency b: home-legal-emergency
+FAIL INS_F16 "I broke my leg the week before the holiday and can't go, how do I get my money back" | gold navigate claim-travel-cancellation | got clarify pay-missed,claim-travel-cancellation,travel-medical close_alternatives | a: help-ombudsman b: pay-missed
+FAIL INS_F17 "I'm in hospital in Spain after falling ill, who do I ring" | gold navigate travel-medical | got clarify claim-travel-medical,travel-medical twin_question | a: travel-medical b: travel-medical
+FAIL INS_F19 "how do I work out how much life cover my family would need" | gold navigate life-term | got clarify life-term,life-whole-of-life,life-joint close_alternatives | a: life-joint b: life-term
+FAIL INS_F20 "I've been diagnosed with cancer, can I claim on my policy" | gold navigate ci-cover | got clarify claim-home-escape-of-water,claim-motor-accident,claim-travel-possessions,claim-pet-vet qualifier | a: ci-cover b: travel-preexisting
+FAIL INS_F23 "our cat has been missing for a week, does the policy help" | gold navigate claim-pet-lost | got navigate pet-pre-existing similarity 0.554, margin 0.044 over pet-lifetime | a: claim-motor-total-loss b: pet-pre-existing
+FAIL INS_F25 "how much do I have to pay myself when I claim on the car" | gold navigate car-excess | got navigate claim-motor-accident similarity 0.534, margin 0.021 over claim-motor-theft | a: home-renters b: claim-motor-accident
+FAIL INS_F30 "I only bought the policy three days ago and I've changed my mind" | gold navigate chg-cooling-off | got clarify chg-cancel-policy,acc-policies close_alternatives | a: travel-single-trip b: chg-cancel-policy
+FAIL INS_F33 "I've lost the paper proving my car is insured, can I get another" | gold navigate acc-documents | got clarify car-ncd-proof,claim-motor-theft,claim-motor-accident close_alternatives | a: chg-cancel-policy b: car-ncd-proof
+FAIL INS_F37 "the repair garage you sent me to did a bad job" | gold navigate claim-assessor | got navigate claim-motor-accident similarity 0.487, margin 0.031 over car-courtesy | a: car-breakdown b: claim-motor-accident
+FAIL INS_F38 "our dog needs an operation, can the vet bill go straight to you" | gold navigate pet-vet-fees | got clarify claim-pet-vet,pet-claiming twin_question | a: claim-pet-vet b: claim-pet-vet
+FAIL INS_F39 "my husband passed away, he had life cover with you" | gold navigate bereave-notify | got navigate life-joint similarity 0.556, margin 0.041 over life-whole-of-life | a: car-young-drivers b: life-joint
+FAIL INS_F42 "what should I check in my renewal invitation letter" | gold navigate renew-quote | got clarify renew-quote,renew-no-renewal close_alternatives | a: renew-quote b: renew-quote
+FAIL INS_F43 "any news on my claim" | gold navigate acc-saved-claim-water | got clarify claim-home-escape-of-water,claim-motor-accident,claim-travel-possessions,claim-pet-vet qualifier | a: acc-open-claims b: claim-track
+FAIL INS_F44 "how do I get the ceiling photos to you" | gold navigate acc-saved-claim-water | got clarify claim-home-escape-of-water,home-escape-of-water twin_question | a: acc-saved-claim-water b: acc-saved-claim-water
+FAIL INS_F45 "what's left to do on the claim for my wet ceiling" | gold navigate acc-saved-claim-water | got clarify claim-home-escape-of-water,claim-motor-accident,claim-travel-possessions,claim-pet-vet qualifier | a: home-contents b: claim-home-escape-of-water
+FAIL INS_F48 "I've got the photos of the damp ceiling now" | gold navigate acc-saved-claim-water | got navigate claim-home-escape-of-water twin rule: claim-home-escape-of-water (task cues) over home-escape-of-water | a: acc-saved-claim-water b: home-escape-of-water
+FAIL INS_F49 "add breakdown cover to the renewal quote I've got on the go" | gold navigate acc-saved-quote-car | got navigate renew-quote similarity 0.723, margin 0.192 over chg-add-driver | a: acc-saved-quote-car b: renew-quote
+FAIL INS_F50 "what's happening with the leak in the ceiling claim" | gold navigate acc-saved-claim-water | got clarify claim-home-escape-of-water,claim-motor-accident,claim-travel-possessions,claim-pet-vet qualifier | a: claim-home-escape-of-water b: claim-home-escape-of-water
+FAIL INS_F51 "burst pipe" | gold clarify  | got navigate home-escape-of-water similarity 0.557, margin 0.109 over claim-home-escape-of-water | a: home-frozen-pipes b: home-escape-of-water
+FAIL INS_F55 "I want to change something on my policy" | gold clarify  | got navigate acc-policies similarity 0.693, margin 0.091 over chg-address | a: chg-cancel-policy b: acc-policies
+FAIL INS_F60 "how much is the new iPhone" | gold reject  | got clarify renew-price-change weak_match | a: home-renters b: renew-price-change

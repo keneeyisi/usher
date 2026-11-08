@@ -1,0 +1,65 @@
+=AREA equipment | Equipment and Wi-Fi | Your router and hub, Wi-Fi coverage, set-up and returns, and parental controls. | service
+=GROUP router | Router and hub
+=GROUP coverage | Wi-Fi coverage and boosters
+=GROUP setup | Set-up and returns
+=GROUP controls | Parental controls
+#eq-hub | Your Lumenet Hub | router | An overview of the Hub router: lights, ports, buttons and what is in the box. | Lumenet Hub; router overview; hub 2; hub 3 | What the different sockets on my router are for ;; Finding out what comes in the box
+- What is in the box :: A Hub, power adapter, Ethernet cable and microfilter if you have a phone line.
+- Ports and buttons :: Four Ethernet ports, a WAN port, a WPS button and a reset button.
+- Models :: Hub 1 supports Wi-Fi 5, Hub 2 supports Wi-Fi 6 and Hub 3 supports Wi-Fi 6E with 2.5Gbps ports.
+- Placing the Hub :: Keep it off the floor, away from metal and not inside a cupboard.
+#eq-wifi-password | Router admin and Wi-Fi password | router | How to find, change or recover your Wi-Fi name and password and the Hub admin login. | forgot Wi-Fi password; change wifi password; router login; admin password | I can't remember my router password ;; Changing the password people use to connect to my Wi-Fi
+- Where to find the default :: The Wi-Fi name and password are on the label under your Hub.
+- Changing the password :: Sign in to My Lumenet or the app and choose Wi-Fi settings, then choose a new password.
+- Hub admin page :: Browse to 192.168.1.1 and use the admin password on the label.
+- If you cannot sign in :: Factory reset the Hub; all your settings will return to the label defaults.
+#eq-wifi-settings | Wi-Fi names, channels and bands | router | Changing the network name, 2.4 and 5GHz bands and channels to improve performance. | wifi channel; 5GHz; 2.4GHz; change network name | Changing my Wi-Fi name to something I recognise ;; Splitting the two Wi-Fi bands to get a faster connection
+- Network name :: Rename your network in My Lumenet; devices then need to reconnect.
+- 2.4 and 5GHz :: 2.4GHz reaches further; 5GHz is faster over shorter distances.
+- Channels :: Automatic selection works for most homes; choose manually if neighbours cause interference.
+- Smart connect :: Turn on to let the Hub choose the best band automatically.
+#eq-mesh | Mesh and extenders | coverage | Extend the Wi-Fi signal with mesh discs or an extender. | Wi-Fi booster; Wi-Fi extender; mesh wifi; Complete Wi-Fi | The Wi-Fi doesn't reach my bedroom ;; Boosting the signal in the garden and at the top of the house
+- Mesh discs :: Lumenet Complete Wi-Fi discs link to your Hub and create one network across the house.
+- Extenders :: A plug-in extender repeats the signal; speed can drop by half.
+- Placement :: Place each disc halfway between the Hub and the weak area, not in the weak area.
+- Cost :: Mesh packs start at £7 a month or £120 outright.
+#eq-dead-spots | Wi-Fi dead spots | coverage | Why signal fades in some rooms and how to fix it. | weak wifi signal;no signal upstairs;bedroom wifi;garden wifi | The signal fades completely in the back bedroom ;; Dropped video calls in one room of my house ;; Wifi is weak in some rooms or on another floor
+- Causes :: Thick walls, mirrors, fish tanks and cordless phones weaken Wi-Fi signals.
+- Move the Hub :: Place it centrally and at head height.
+- Wired options :: Use Ethernet or powerline adapters for rooms where Wi-Fi is hard to deliver.
+- Check interference :: Try a different channel or switch to 5GHz.
+#eq-powerline | Powerline adapters | coverage | Using your home's electrical wiring to extend your network. | powerline; ethernet over power; extend network without wifi | An alternative to Wi-Fi for my home office in the shed ;; Plugging a cable into the wall to carry the internet
+- How they work :: A pair of adapters sends the internet signal through your mains wiring.
+- Setting up :: Plug one into a wall socket next to the Hub and another where you need a connection and press the pair buttons.
+- Speed and limits :: Speeds depend on wiring age; avoid extension leads for best results.
+- Buying :: Available from our shop from £39 for a pair.
+#eq-setup | Set-up guide | setup | Step-by-step set up of your Hub, TV box and mobile device. | install router; connect hub; first time set up; new router | I just got my router and don't know how to plug it in ;; Setting up the box that arrived in the post
+- Connect the Hub :: Plug in the power and connect the grey cable from your phone socket or ONT.
+- Wait for the light :: The Internet light turns solid white within ten minutes.
+- Connect devices :: Join the Wi-Fi using the name and password on the Hub label.
+- Set up My Lumenet :: Register at My Lumenet with your account number to manage your services.
+#eq-replace | Faulty or replacement equipment | setup | What to do if your Hub or box stops working or arrives damaged. | broken router; faulty box; replacement hub; router dead | My router won't switch on at all ;; Getting a new hub because the old one is faulty
+- Check first :: Try a different socket and plug; if the Hub still has no lights, it may need replacing.
+- Free replacement :: Faulty equipment under 24 months old is replaced free of charge within two working days.
+- Damage by you :: Equipment damaged through misuse is charged at the replacement rate.
+- Collection :: We include a returns bag with the new item for the old one.
+#eq-return | Returning equipment | setup | How and when to return your Hub, TV box and other items after leaving. | return router;freepost bag;equipment charge;send back box;send back my old router;post the hub back to you | I have cancelled and don't know how to send the box back ;; Avoiding a charge for unreturned equipment
+- Return deadline :: Return within 30 days of your service ending to avoid replacement charges.
+- How to return :: Use the prepaid label in your confirmation email at any Post Office or drop-off point.
+- Proof of return :: Keep your receipt until we confirm receipt, which takes five working days.
+- Charges :: Hub £60, TV box £80, mesh disc £30 if not returned.
+#eq-parental | Parental controls | controls | Block unsuitable websites and set limits for children's devices. | child safety; block websites; screen time; internet filter | Stopping my kids from seeing adult websites ;; Setting a time when the children's devices switch off
+- Network filters :: Turn on Lumenet Safe in My Lumenet to block categories such as adult content for the whole network.
+- Device profiles :: Create profiles for each child's device with age filters and daily time limits.
+- Bedtime :: Set schedules to pause the internet at night.
+- Limits :: Filters cannot block everything; talk to children about staying safe online.
+#eq-guest | Guest network | controls | Create a separate Wi-Fi network for visitors. | guest wifi; visitors; separate network | Letting visitors use my Wi-Fi without giving them my password ;; A second network for smart home gadgets
+- Turning it on :: Enable the guest network in Wi-Fi settings and share the name and password.
+- Isolation :: Guest devices cannot see devices on your main network.
+- Time limits :: Set the guest network to switch off after a number of hours.
+- Smart devices :: Put smart plugs and cameras on the guest network to keep them separate.
+#eq-security | Wi-Fi security and updates | controls | Keeping your Hub secure with updates, strong passwords and encryption. | hub update; wifi security; WPA3; firmware | Making sure my Wi-Fi can't be hacked ;; Updating the software on the router
+- Automatic updates :: The Hub updates its software overnight, so leave it switched on.
+- Strong passwords :: Use at least 12 characters, avoid your name and do not reuse passwords.
+- Encryption :: New Hubs use WPA3 where devices support it, falling back to WPA2.
+- Remote access :: Remote management is switched off by default; turn it on only if you need it.

@@ -1,0 +1,11 @@
+gate_node exit 0
+core exit 0
+explain exit 0
+g5 exit 0
+widget exit 0
+(rerun r63/r62/ui/browser with -r tests/pw_shadow_shim.js as in R7_GP)
+r63 exit 0
+r62 exit 0
+ui exit 0
+browser exit 0
+DONE

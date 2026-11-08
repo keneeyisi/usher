@@ -1,0 +1,31 @@
+PASS A1_passport_interpretation_before_move {"interp":"It sounds like you need a replacement identity document.","bridge":"You said “new passport”: on this site that’s called Document Replacement (in Identity & Records).","why":"WHY HERE\n\nClosest match to what you described: “Repla
+PASS A2_passport_bridge                 "You said “new passport”: on this site that’s called Document Replacement (in Identity & Records)."
+PASS A3_route_mid_walk                  {"active":"Certificates & Documents","done":["Home","Identity & Records"],"crumbLit":"rgb(240, 177, 59)","hash":"#group/identity-records/Certificates%20%26%20Documents"}
+PASS A4_passport_arrives                {"h1":"Document Replacement","trace":"FOUND: Identity & Records → Certificates & Documents → Document Replacement"}
+PASS B1_parking_interpretation          "It sounds like you've moved house and want to know what a residents' parking permit costs."
+PASS B2_parking_section_bridge          "You said “have to pay”: on this page that’s under Permit charges."
+PASS B3_why_here                        "Why hereClosest match to what you described: “A residents' parking permit so you can park your car on the street near your home”.“Permit charges” is the part of the page about costs and fees."
+PASS B4_situation_note                  "SOMETHING OF YOURS\n\nYou have a saved residents' parking permit application (ref CS-RP-20261008-0427). Continue from step 3 of 4, Permit?\n\nContinue application"
+PASS B5_coach_replay                    {"c1":{"text":"On the homepage, choose “Transport & Vehicles”.","target":"#domain/transport-vehicles","focused":"#domain/transport-vehicles"},"c2":"Choose “Parking & Road Access”.","c3":{"text":"That’s the route. Next time, follow the same 
+PASS B6_escape_closes_coach             {}
+PASS C1_resume_answer                   {"interp":"It sounds like you want to pick up the residents' parking permit application you saved.","why":"Why hereYou asked to carry on where you left off, and this is the application you saved.“Continue where you left off” is the part of 
+FAIL D1_situation_non_resume            {"decision":"navigate","dest":"saved-residential-parking-application","section":"continue-where-you-left-off","hashAfter":"#service/saved-residential-parking-application/section/2"}
+PASS E1_clarification_question          {"interp":"It sounds like you want to appeal, but there is more than one kind of appeal on this site.","q":"There are several ways to challenge, appeal or complain. Which one is about your situation?","n":3,"group":"group"}
+PASS F1_rejection                       {"eg":2,"hash":"#home"}
+PASS G1_stop_before_moving              {"nav":"cancelled","hash":"#home","walking":false}
+PASS H1_compare_mode_3_queries          [{"k":"passport","total":"15 results for “I need a new passport” · showing 6","results":["Collection Services","Support Reviews","Local Plans","Trading Registration","Change of Address","Business Premises"],"marks":7,"interp":"It sounds lik
+PASS H2_compare_take_me_there           {}
+PASS I1_reduced_motion                  {"trace":"none","app":"none","html":"auto"}
+PASS J1_debug_mode                      {}
+PASS K1_mobile                          {"closed":true,"scrollWidth":390}
+PASS L1_search_page_bm25                {"n":10,"first":"Visitor Parking"}
+axe desktop    panel: answer + why + situation (arrived)    no violations
+axe desktop    coach step 1 on homepage                     no violations
+axe desktop    panel: clarification question                no violations
+axe desktop    panel: rejection                             no violations
+axe desktop    compare view (parking)                       no violations
+axe desktop    debug panel with answer                      no violations
+axe mobile-390 mobile answer sheet                          no violations
+axe mobile-390 mobile compare view                          no violations
+axe desktop    search page (BM25)                           no violations
+SUMMARY features 20/21 | axe states 9 violations {} | console errors 0 | external requests 0

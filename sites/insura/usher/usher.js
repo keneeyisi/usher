@@ -424,21 +424,14 @@ const validateCatalogue = () => validateProfile(profile);
 /* ---- URLs (navigation.mode: hash | path | callback) ---- */
 const NAV = SITE.navigation || { mode: 'path' };
 const expand = (tpl, vars) => tpl.replace(/\{(\w+)\}/g, (m, k) => vars[k] == null ? '' : String(vars[k]));
-// Profile paths are site-root-relative. Resolve them against this demonstrator's
-// current directory so both localhost and the /usher/sites/<site>/ deployment work.
-const sitePath = value => {
-  if (!value) return value;
-  const target = new URL(String(value).replace(/^\/+/, ''), location.href);
-  return target.pathname + target.search + target.hash;
-};
 function urlFor(kind, id, sectionIndex) { // kind: home | area | group | page | section
   const T = NAV.urlTemplates || {};
-  if (kind === 'home') return sitePath(T.home || SITE.baseUrl || 'index.html');
-  if (kind === 'area') return sitePath(T.area ? expand(T.area, { area: id, id }) : ((AREAS.find(a => a.id === id) || {}).url || null));
-  if (kind === 'group') { const s = id; const vars = { area: s.domain, group: s.groupId, groupLabel: encodeURIComponent(s.group) }; return sitePath(T.group ? expand(T.group, vars) : null); }
+  if (kind === 'home') return T.home || SITE.baseUrl || '/';
+  if (kind === 'area') return T.area ? expand(T.area, { area: id, id }) : ((AREAS.find(a => a.id === id) || {}).url || null);
+  if (kind === 'group') { const s = id; const vars = { area: s.domain, group: s.groupId, groupLabel: encodeURIComponent(s.group) }; return T.group ? expand(T.group, vars) : null; }
   const s = byId(id); if (!s) return null;
-  if (kind === 'page') return sitePath(T.page ? expand(T.page, { id }) : s.url);
-  if (kind === 'section') { const x = s.sections[sectionIndex]; if (T.section) return sitePath(expand(T.section, { id, index: sectionIndex, anchor: x && x.anchor ? String(x.anchor).replace(/^#/, '') : '' })); return sitePath((s.url || '') + (x && x.anchor ? x.anchor : '')); }
+  if (kind === 'page') return T.page ? expand(T.page, { id }) : s.url;
+  if (kind === 'section') { const x = s.sections[sectionIndex]; if (T.section) return expand(T.section, { id, index: sectionIndex, anchor: x && x.anchor ? String(x.anchor).replace(/^#/, '') : '' }); return (s.url || '') + (x && x.anchor ? x.anchor : ''); }
   return null;
 }
 // Route steps shown to the visitor: Home > Area > Group > [parent] > Page > [Section], each with its URL (null when the site has no page for it).
@@ -1214,7 +1207,7 @@ function announce(t) { const a = $('announcer'); if (!a) return; a.textContent =
 function toast(t) { const e = $('toast'); if (!e) return; e.textContent = t; e.classList.add('show'); setTimeout(() => e.classList.remove('show'), 1800); }
 function setResult(html, attrs) { const out = $('nbresult'); out.innerHTML = html; out.dataset.state = attrs.state || 'done'; out.dataset.decision = attrs.decision || ''; out.dataset.destination = attrs.destination || ''; out.dataset.section = attrs.section != null ? String(attrs.section) : ''; out.dataset.navigation = ''; }
 const trace = (kicker, L, active, caption, plain) => { const el = $('trace'); el.innerHTML = walkCard(kicker, L, active, caption); el.classList.add('show'); G.trace.push(plain); };
-function statusText(s) { if (!s) return ['loading', 'Preparing…']; if (s.state === 'ready') return ['ready', 'Meaning model ready']; if (s.state === 'failed') return ['failed', 'Meaning model unavailable · using keyword matching']; return ['loading', `Preparing… ${s.progress}% · ${s.stage}`]; }
+function statusText(s) { if (!s) return ['loading', 'Preparing…']; if (s.state === 'ready') return ['ready', `Meaning model ready · ${(s.model && s.model.id ? s.model.id.replace(/^[^/]*\//, '') : 'model')}, runs offline in your browser · loaded in ${(s.loadMs / 1000).toFixed(1)} s`]; if (s.state === 'failed') return ['failed', 'Meaning model unavailable · using keyword matching']; return ['loading', `Preparing… ${s.progress}% · ${s.stage}`]; }
 function paintStatus() { const el = $('nbstatus'); if (!el) return; const [st, txt] = statusText(E); el.dataset.state = st; el.textContent = txt; el.title = E.error || ''; }
 function setPanel(open, focus) {
   const p = $('nbpanel'), pill = $('nbpill'), was = p.classList.contains('open');

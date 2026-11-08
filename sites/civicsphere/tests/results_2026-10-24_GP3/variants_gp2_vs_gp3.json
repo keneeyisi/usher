@@ -1,0 +1,146 @@
+{
+ "n": 2021,
+ "tally": {
+  "navigate -> navigate": 1,
+  "wrong -> right": 9,
+  "right -> wrong": 7
+ },
+ "changes": [
+  {
+   "q": "I started the form for my car on my street but didn't finish it",
+   "gold": null,
+   "gp2": "navigate:activity-in-progress:",
+   "gp3": "navigate:saved-residential-parking-application:",
+   "reason3": "saved state (resume intent): saved-residential-parking-application relevance 0.477 vs transport-vehicles-road-permits 0.381",
+   "t": "navigate -> navigate"
+  },
+  {
+   "q": "application, to you permit parking where saved Your stopped. pick up ready",
+   "gold": "saved-residential-parking-application",
+   "gp2": "navigate:activity-in-progress:",
+   "gp3": "navigate:saved-residential-parking-application:",
+   "reason3": "saved state (resume intent): saved-residential-parking-application relevance 0.814 vs visitor-parking 0.560",
+   "t": "wrong -> right"
+  },
+  {
+   "q": "Resume the saved application at the where stopped.",
+   "gold": "saved-residential-parking-application",
+   "gp2": "navigate:activity-in-progress:",
+   "gp3": "navigate:saved-residential-parking-application:",
+   "reason3": "saved state (resume intent): saved-residential-parking-application relevance 0.653 vs activity-submitted 0.378",
+   "t": "wrong -> right"
+  },
+  {
+   "q": "saved through reached. the you and you step Return an from to application",
+   "gold": "activity-in-progress",
+   "gp2": "navigate:activity-in-progress:",
+   "gp3": "navigate:saved-residential-parking-application:",
+   "reason3": "saved state (resume intent): saved-residential-parking-application relevance 0.363 vs activity-submitted 0.401",
+   "t": "right -> wrong"
+  },
+  {
+   "q": "saved where the application you step the stopped.",
+   "gold": "saved-residential-parking-application",
+   "gp2": "navigate:activity-in-progress:",
+   "gp3": "navigate:saved-residential-parking-application:",
+   "reason3": "saved state (resume intent): saved-residential-parking-application relevance 0.634 vs activity-submitted 0.364",
+   "t": "wrong -> right"
+  },
+  {
+   "q": "saved the of Summary application. parking",
+   "gold": "saved-residential-parking-application",
+   "gp2": "navigate:activity-in-progress:",
+   "gp3": "navigate:saved-residential-parking-application:",
+   "reason3": "saved state (resume intent): saved-residential-parking-application relevance 0.732 vs visitor-parking 0.479",
+   "t": "wrong -> right"
+  },
+  {
+   "q": "application the you step stopped. saved the at Resume where",
+   "gold": "saved-residential-parking-application",
+   "gp2": "navigate:activity-in-progress:",
+   "gp3": "navigate:saved-residential-parking-application:",
+   "reason3": "saved state (resume intent): saved-residential-parking-application relevance 0.568 vs activity-submitted 0.369",
+   "t": "wrong -> right"
+  },
+  {
+   "q": "Which the steps of saved complete. application are",
+   "gold": "saved-residential-parking-application",
+   "gp2": "navigate:activity-in-progress:",
+   "gp3": "navigate:saved-residential-parking-application:",
+   "reason3": "saved state (resume intent): saved-residential-parking-application relevance 0.458 vs activity-submitted 0.469",
+   "t": "wrong -> right"
+  },
+  {
+   "q": "applications you Saved can",
+   "gold": "activity-in-progress",
+   "gp2": "navigate:activity-in-progress:",
+   "gp3": "navigate:saved-residential-parking-application:",
+   "reason3": "saved state (resume intent): saved-residential-parking-application relevance 0.304 vs activity-submitted 0.415",
+   "t": "right -> wrong"
+  },
+  {
+   "q": "continue you have Applications submitted saved yet; or not finished a started",
+   "gold": "activity-in-progress",
+   "gp2": "navigate:activity-in-progress:",
+   "gp3": "navigate:saved-residential-parking-application:",
+   "reason3": "saved state (resume intent): saved-residential-parking-application relevance 0.517 vs activity-submitted 0.588",
+   "t": "right -> wrong"
+  },
+  {
+   "q": "Saved you continue.",
+   "gold": "activity-in-progress",
+   "gp2": "navigate:activity-in-progress:",
+   "gp3": "navigate:saved-residential-parking-application:",
+   "reason3": "saved state (resume intent): saved-residential-parking-application relevance 0.314 vs identity-records-personal-details 0.233",
+   "t": "right -> wrong"
+  },
+  {
+   "q": "applications saved",
+   "gold": "activity-in-progress",
+   "gp2": "navigate:activity-in-progress:",
+   "gp3": "navigate:saved-residential-parking-application:",
+   "reason3": "saved state (resume intent): saved-residential-parking-application relevance 0.382 vs activity-submitted 0.460",
+   "t": "right -> wrong"
+  },
+  {
+   "q": "Resume the application at the step where stopped.",
+   "gold": "saved-residential-parking-application",
+   "gp2": "navigate:activity-in-progress:",
+   "gp3": "navigate:saved-residential-parking-application:",
+   "reason3": "saved state (resume intent): saved-residential-parking-application relevance 0.638 vs benefits-support-support-applications 0.406",
+   "t": "wrong -> right"
+  },
+  {
+   "q": "application. saved of the",
+   "gold": "saved-residential-parking-application",
+   "gp2": "navigate:activity-in-progress:",
+   "gp3": "navigate:saved-residential-parking-application:",
+   "reason3": "saved state (resume intent): saved-residential-parking-application relevance 0.386 vs activity-submitted 0.469",
+   "t": "wrong -> right"
+  },
+  {
+   "q": "stopped. application at the you the where Resume step",
+   "gold": "saved-residential-parking-application",
+   "gp2": "navigate:activity-in-progress:",
+   "gp3": "navigate:saved-residential-parking-application:",
+   "reason3": "saved state (resume intent): saved-residential-parking-application relevance 0.599 vs activity-submitted 0.431",
+   "t": "wrong -> right"
+  },
+  {
+   "q": "the reached. saved to an you from part-way you step continue through Return application and",
+   "gold": "activity-in-progress",
+   "gp2": "navigate:activity-in-progress:",
+   "gp3": "navigate:saved-residential-parking-application:",
+   "reason3": "saved state (resume intent): saved-residential-parking-application relevance 0.441 vs activity-submitted 0.330",
+   "t": "right -> wrong"
+  },
+  {
+   "q": "part-way continue an from reached. to you through Return and step saved the you application",
+   "gold": "activity-in-progress",
+   "gp2": "navigate:activity-in-progress:",
+   "gp3": "navigate:saved-residential-parking-application:",
+   "reason3": "saved state (resume intent): saved-residential-parking-application relevance 0.456 vs activity-submitted 0.290",
+   "t": "right -> wrong"
+  }
+ ]
+}

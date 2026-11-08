@@ -1,0 +1,1093 @@
+{
+ "site": "civicsphere",
+ "base": "http://127.0.0.1:9121/",
+ "pass": 96,
+ "total": 96,
+ "results": [
+  {
+   "id": "desktop1280_empty_padding_24px",
+   "pass": true,
+   "detail": {
+    "pad": [
+     24,
+     24,
+     20,
+     24
+    ]
+   }
+  },
+  {
+   "id": "desktop1280_empty_input_inset_from_panel",
+   "pass": true,
+   "detail": {
+    "left": 26,
+    "right": 26
+   }
+  },
+  {
+   "id": "desktop1280_close_in_header_row_not_over_input",
+   "pass": true,
+   "detail": {
+    "close": {
+     "l": 956,
+     "t": 122,
+     "r": 1000,
+     "b": 166,
+     "w": 44,
+     "h": 44
+    },
+    "label": {
+     "l": 286,
+     "t": 132,
+     "r": 944,
+     "b": 157,
+     "w": 658,
+     "h": 25
+    },
+    "input": {
+     "l": 286,
+     "t": 206,
+     "r": 994,
+     "b": 271,
+     "w": 708,
+     "h": 65
+    }
+   }
+  },
+  {
+   "id": "desktop1280_close_not_over_subline",
+   "pass": true,
+   "detail": {
+    "close": {
+     "l": 956,
+     "t": 122,
+     "r": 1000,
+     "b": 166,
+     "w": 44,
+     "h": 44
+    },
+    "sub": {
+     "l": 286,
+     "t": 168,
+     "r": 994,
+     "b": 190,
+     "w": 708,
+     "h": 22
+    }
+   }
+  },
+  {
+   "id": "desktop1280_wording_pill_label_dialog",
+   "pass": true,
+   "detail": {
+    "pill": "I’m here because… /",
+    "label": "I’m here because…",
+    "dialog": "I’m here because…"
+   }
+  },
+  {
+   "id": "desktop1280_wording_subline",
+   "pass": true,
+   "detail": {
+    "sub": "Describe your situation. We’ll take you there.",
+    "describedby": "nbsub"
+   }
+  },
+  {
+   "id": "desktop1280_no_old_wording_in_widget",
+   "pass": true,
+   "detail": {
+    "aria": [
+     "Your route",
+     "Find it yourself guide",
+     "Close (Esc)",
+     "Voice input"
+    ]
+   }
+  },
+  {
+   "id": "desktop1280_placeholder_from_profile_list",
+   "pass": true,
+   "detail": {
+    "placeholder": "e.g. my bin wasn’t collected",
+    "idx": "0"
+   }
+  },
+  {
+   "id": "desktop1280_compare_link_present",
+   "pass": true,
+   "detail": {
+    "compare": true
+   }
+  },
+  {
+   "id": "desktop1280_empty_no_horizontal_overflow",
+   "pass": true,
+   "detail": {
+    "sw": 1280,
+    "panel": {
+     "l": 260,
+     "t": 96,
+     "r": 1020,
+     "b": 388,
+     "w": 760,
+     "h": 292
+    }
+   }
+  },
+  {
+   "id": "desktop1280_all_placeholders_fit_input",
+   "pass": true,
+   "detail": {
+    "boxW": 473,
+    "fontSize": "22px",
+    "widest": [
+     "e.g. I might need planning permission",
+     339
+    ],
+    "tooWide": []
+   }
+  },
+  {
+   "id": "desktop1280_mic_and_find_share_a_row",
+   "pass": true,
+   "detail": {
+    "micTop": 208,
+    "findTop": 208,
+    "micH": 61,
+    "findH": 61
+   }
+  },
+  {
+   "id": "desktop1280_axe_panel_empty",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "id": "desktop_placeholder_rotates_while_open",
+   "pass": true,
+   "detail": {
+    "p0": "e.g. my bin wasn’t collected",
+    "p1": "e.g. I’m moving house next month"
+   }
+  },
+  {
+   "id": "desktop_placeholder_stops_after_typing",
+   "pass": true,
+   "detail": {
+    "i1": "1",
+    "i2": "1"
+   }
+  },
+  {
+   "id": "desktop_placeholder_changes_on_reopen",
+   "pass": true,
+   "detail": {
+    "p1": "e.g. I’m moving house next month",
+    "p3": "e.g. I might need planning permission"
+   }
+  },
+  {
+   "id": "desktop1280_question_option_cards_padding",
+   "pass": true,
+   "detail": {
+    "optPad": [
+     12,
+     16,
+     12,
+     44
+    ],
+    "gap": 12,
+    "inside": true
+   }
+  },
+  {
+   "id": "desktop1280_question_text_site_name_only",
+   "pass": true,
+   "detail": {
+    "q": "There are several ways to challenge, appeal or complain. Which one is about your situation?"
+   }
+  },
+  {
+   "id": "desktop1280_question_no_overflow",
+   "pass": true,
+   "detail": {
+    "sw": 1280
+   }
+  },
+  {
+   "id": "desktop1280_axe_panel_question",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "id": "desktop1280_reject_no_overflow",
+   "pass": true,
+   "detail": {
+    "sw": 1280,
+    "d": "reject"
+   }
+  },
+  {
+   "id": "desktop1280_axe_panel_reject",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "id": "desktop1280_result_cards_breathing_room",
+   "pass": true,
+   "detail": {
+    "destPad": [
+     14,
+     16
+    ],
+    "interpPad": 12
+   }
+  },
+  {
+   "id": "desktop1280_result_no_overflow",
+   "pass": true,
+   "detail": {
+    "sw": 1280
+   }
+  },
+  {
+   "id": "desktop1280_strip_arrived",
+   "pass": true,
+   "detail": {
+    "state": "arrived",
+    "hidden": false,
+    "sw": 1280,
+    "how": {
+     "bg": "rgb(255, 255, 255)",
+     "border": "rgb(14, 79, 83)",
+     "color": "rgb(14, 79, 83)",
+     "visible": true
+    }
+   }
+  },
+  {
+   "id": "desktop1280_saved_state_note_in_strip",
+   "pass": true,
+   "detail": {
+    "text": "SOMETHING OF YOURS You have a saved residents' parking permit application (ref CS-RP-20261008-0427). Continue from step 3 of 4, Permit? Continue application",
+    "visible": true,
+    "btn": {
+     "bg": "rgb(255, 255, 255)",
+     "border": "rgb(14, 79, 83)",
+     "color": "rgb(14, 79, 83)"
+    },
+    "sw": 1280
+   }
+  },
+  {
+   "id": "desktop1280_howbtn_secondary_style_restored",
+   "pass": true,
+   "detail": {
+    "bg": "rgb(255, 255, 255)",
+    "border": "rgb(14, 79, 83)",
+    "color": "rgb(14, 79, 83)",
+    "visible": true
+   }
+  },
+  {
+   "id": "desktop1280_axe_strip_arrived",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "id": "desktop1280_coach_primary_button_style_restored",
+   "pass": true,
+   "detail": {
+    "open": true,
+    "next": {
+     "bg": "rgb(14, 79, 83)",
+     "color": "rgb(255, 255, 255)"
+    }
+   }
+  },
+  {
+   "id": "desktop1280_axe_coach",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "id": "mobile414_empty_padding_16px",
+   "pass": true,
+   "detail": {
+    "pad": [
+     16,
+     16,
+     14,
+     16
+    ]
+   }
+  },
+  {
+   "id": "mobile414_empty_input_inset_from_panel",
+   "pass": true,
+   "detail": {
+    "left": 18,
+    "right": 18
+   }
+  },
+  {
+   "id": "mobile414_close_in_header_row_not_over_input",
+   "pass": true,
+   "detail": {
+    "close": {
+     "l": 346,
+     "t": 67,
+     "r": 390,
+     "b": 111,
+     "w": 44,
+     "h": 44
+    },
+    "label": {
+     "l": 30,
+     "t": 78,
+     "r": 334,
+     "b": 100,
+     "w": 304,
+     "h": 23
+    },
+    "input": {
+     "l": 30,
+     "t": 146,
+     "r": 384,
+     "b": 250,
+     "w": 354,
+     "h": 104
+    }
+   }
+  },
+  {
+   "id": "mobile414_close_not_over_subline",
+   "pass": true,
+   "detail": {
+    "close": {
+     "l": 346,
+     "t": 67,
+     "r": 390,
+     "b": 111,
+     "w": 44,
+     "h": 44
+    },
+    "sub": {
+     "l": 30,
+     "t": 113,
+     "r": 384,
+     "b": 134,
+     "w": 354,
+     "h": 21
+    }
+   }
+  },
+  {
+   "id": "mobile414_wording_pill_label_dialog",
+   "pass": true,
+   "detail": {
+    "pill": "I’m here because… /",
+    "label": "I’m here because…",
+    "dialog": "I’m here because…"
+   }
+  },
+  {
+   "id": "mobile414_wording_subline",
+   "pass": true,
+   "detail": {
+    "sub": "Describe your situation. We’ll take you there.",
+    "describedby": "nbsub"
+   }
+  },
+  {
+   "id": "mobile414_no_old_wording_in_widget",
+   "pass": true,
+   "detail": {
+    "aria": [
+     "Your route",
+     "Find it yourself guide",
+     "Close (Esc)",
+     "Voice input"
+    ]
+   }
+  },
+  {
+   "id": "mobile414_placeholder_from_profile_list",
+   "pass": true,
+   "detail": {
+    "placeholder": "my bin wasn’t collected",
+    "idx": "0"
+   }
+  },
+  {
+   "id": "mobile414_compare_link_present",
+   "pass": true,
+   "detail": {
+    "compare": true
+   }
+  },
+  {
+   "id": "mobile414_empty_no_horizontal_overflow",
+   "pass": true,
+   "detail": {
+    "sw": 414,
+    "panel": {
+     "l": 12,
+     "t": 49,
+     "r": 402,
+     "b": 382,
+     "w": 390,
+     "h": 333
+    }
+   }
+  },
+  {
+   "id": "mobile414_all_placeholders_fit_input",
+   "pass": true,
+   "detail": {
+    "boxW": 322,
+    "fontSize": "18px",
+    "widest": [
+     "I might need planning permission",
+     254
+    ],
+    "tooWide": []
+   }
+  },
+  {
+   "id": "mobile414_mic_and_find_share_a_row",
+   "pass": true,
+   "detail": {
+    "micTop": 200,
+    "findTop": 200,
+    "micH": 48,
+    "findH": 48
+   }
+  },
+  {
+   "id": "mobile414_question_option_cards_padding",
+   "pass": true,
+   "detail": {
+    "optPad": [
+     12,
+     14,
+     12,
+     42
+    ],
+    "gap": 12,
+    "inside": true
+   }
+  },
+  {
+   "id": "mobile414_question_text_site_name_only",
+   "pass": true,
+   "detail": {
+    "q": "There are several ways to challenge, appeal or complain. Which one is about your situation?"
+   }
+  },
+  {
+   "id": "mobile414_question_no_overflow",
+   "pass": true,
+   "detail": {
+    "sw": 414
+   }
+  },
+  {
+   "id": "mobile414_reject_no_overflow",
+   "pass": true,
+   "detail": {
+    "sw": 414,
+    "d": "reject"
+   }
+  },
+  {
+   "id": "mobile414_result_cards_breathing_room",
+   "pass": true,
+   "detail": {
+    "destPad": [
+     12,
+     14
+    ],
+    "interpPad": 12
+   }
+  },
+  {
+   "id": "mobile414_result_no_overflow",
+   "pass": true,
+   "detail": {
+    "sw": 414
+   }
+  },
+  {
+   "id": "mobile414_strip_arrived",
+   "pass": true,
+   "detail": {
+    "state": "arrived",
+    "hidden": false,
+    "sw": 414,
+    "how": {
+     "bg": "rgb(255, 255, 255)",
+     "border": "rgb(14, 79, 83)",
+     "color": "rgb(14, 79, 83)",
+     "visible": true
+    }
+   }
+  },
+  {
+   "id": "mobile414_saved_state_note_in_strip",
+   "pass": true,
+   "detail": {
+    "text": "SOMETHING OF YOURS You have a saved residents' parking permit application (ref CS-RP-20261008-0427). Continue from step 3 of 4, Permit? Continue application",
+    "visible": true,
+    "btn": {
+     "bg": "rgb(255, 255, 255)",
+     "border": "rgb(14, 79, 83)",
+     "color": "rgb(14, 79, 83)"
+    },
+    "sw": 414
+   }
+  },
+  {
+   "id": "mobile375_empty_padding_16px",
+   "pass": true,
+   "detail": {
+    "pad": [
+     16,
+     16,
+     14,
+     16
+    ]
+   }
+  },
+  {
+   "id": "mobile375_empty_input_inset_from_panel",
+   "pass": true,
+   "detail": {
+    "left": 18,
+    "right": 18
+   }
+  },
+  {
+   "id": "mobile375_close_in_header_row_not_over_input",
+   "pass": true,
+   "detail": {
+    "close": {
+     "l": 307,
+     "t": 64,
+     "r": 351,
+     "b": 108,
+     "w": 44,
+     "h": 44
+    },
+    "label": {
+     "l": 30,
+     "t": 74,
+     "r": 295,
+     "b": 97,
+     "w": 265,
+     "h": 23
+    },
+    "input": {
+     "l": 30,
+     "t": 143,
+     "r": 345,
+     "b": 247,
+     "w": 315,
+     "h": 104
+    }
+   }
+  },
+  {
+   "id": "mobile375_close_not_over_subline",
+   "pass": true,
+   "detail": {
+    "close": {
+     "l": 307,
+     "t": 64,
+     "r": 351,
+     "b": 108,
+     "w": 44,
+     "h": 44
+    },
+    "sub": {
+     "l": 30,
+     "t": 110,
+     "r": 345,
+     "b": 131,
+     "w": 315,
+     "h": 21
+    }
+   }
+  },
+  {
+   "id": "mobile375_wording_pill_label_dialog",
+   "pass": true,
+   "detail": {
+    "pill": "I’m here because… /",
+    "label": "I’m here because…",
+    "dialog": "I’m here because…"
+   }
+  },
+  {
+   "id": "mobile375_wording_subline",
+   "pass": true,
+   "detail": {
+    "sub": "Describe your situation. We’ll take you there.",
+    "describedby": "nbsub"
+   }
+  },
+  {
+   "id": "mobile375_no_old_wording_in_widget",
+   "pass": true,
+   "detail": {
+    "aria": [
+     "Your route",
+     "Find it yourself guide",
+     "Close (Esc)",
+     "Voice input"
+    ]
+   }
+  },
+  {
+   "id": "mobile375_placeholder_from_profile_list",
+   "pass": true,
+   "detail": {
+    "placeholder": "my bin wasn’t collected",
+    "idx": "0"
+   }
+  },
+  {
+   "id": "mobile375_compare_link_present",
+   "pass": true,
+   "detail": {
+    "compare": true
+   }
+  },
+  {
+   "id": "mobile375_empty_no_horizontal_overflow",
+   "pass": true,
+   "detail": {
+    "sw": 375,
+    "panel": {
+     "l": 12,
+     "t": 46,
+     "r": 363,
+     "b": 411,
+     "w": 351,
+     "h": 366
+    }
+   }
+  },
+  {
+   "id": "mobile375_all_placeholders_fit_input",
+   "pass": true,
+   "detail": {
+    "boxW": 283,
+    "fontSize": "18px",
+    "widest": [
+     "I might need planning permission",
+     254
+    ],
+    "tooWide": []
+   }
+  },
+  {
+   "id": "mobile375_mic_and_find_share_a_row",
+   "pass": true,
+   "detail": {
+    "micTop": 197,
+    "findTop": 197,
+    "micH": 48,
+    "findH": 48
+   }
+  },
+  {
+   "id": "mobile375_question_option_cards_padding",
+   "pass": true,
+   "detail": {
+    "optPad": [
+     12,
+     14,
+     12,
+     42
+    ],
+    "gap": 12,
+    "inside": true
+   }
+  },
+  {
+   "id": "mobile375_question_text_site_name_only",
+   "pass": true,
+   "detail": {
+    "q": "There are several ways to challenge, appeal or complain. Which one is about your situation?"
+   }
+  },
+  {
+   "id": "mobile375_question_no_overflow",
+   "pass": true,
+   "detail": {
+    "sw": 375
+   }
+  },
+  {
+   "id": "mobile375_reject_no_overflow",
+   "pass": true,
+   "detail": {
+    "sw": 375,
+    "d": "reject"
+   }
+  },
+  {
+   "id": "mobile375_result_cards_breathing_room",
+   "pass": true,
+   "detail": {
+    "destPad": [
+     12,
+     14
+    ],
+    "interpPad": 12
+   }
+  },
+  {
+   "id": "mobile375_result_no_overflow",
+   "pass": true,
+   "detail": {
+    "sw": 375
+   }
+  },
+  {
+   "id": "mobile375_strip_arrived",
+   "pass": true,
+   "detail": {
+    "state": "arrived",
+    "hidden": false,
+    "sw": 375,
+    "how": {
+     "bg": "rgb(255, 255, 255)",
+     "border": "rgb(14, 79, 83)",
+     "color": "rgb(14, 79, 83)",
+     "visible": true
+    }
+   }
+  },
+  {
+   "id": "mobile375_saved_state_note_in_strip",
+   "pass": true,
+   "detail": {
+    "text": "SOMETHING OF YOURS You have a saved residents' parking permit application (ref CS-RP-20261008-0427). Continue from step 3 of 4, Permit? Continue application",
+    "visible": true,
+    "btn": {
+     "bg": "rgb(255, 255, 255)",
+     "border": "rgb(14, 79, 83)",
+     "color": "rgb(14, 79, 83)"
+    },
+    "sw": 375
+   }
+  },
+  {
+   "id": "mobile320_empty_padding_16px",
+   "pass": true,
+   "detail": {
+    "pad": [
+     16,
+     16,
+     14,
+     16
+    ]
+   }
+  },
+  {
+   "id": "mobile320_empty_input_inset_from_panel",
+   "pass": true,
+   "detail": {
+    "left": 18,
+    "right": 18
+   }
+  },
+  {
+   "id": "mobile320_close_in_header_row_not_over_input",
+   "pass": true,
+   "detail": {
+    "close": {
+     "l": 252,
+     "t": 56,
+     "r": 296,
+     "b": 100,
+     "w": 44,
+     "h": 44
+    },
+    "label": {
+     "l": 30,
+     "t": 67,
+     "r": 240,
+     "b": 90,
+     "w": 210,
+     "h": 23
+    },
+    "input": {
+     "l": 30,
+     "t": 156,
+     "r": 290,
+     "b": 257,
+     "w": 260,
+     "h": 101
+    }
+   }
+  },
+  {
+   "id": "mobile320_close_not_over_subline",
+   "pass": true,
+   "detail": {
+    "close": {
+     "l": 252,
+     "t": 56,
+     "r": 296,
+     "b": 100,
+     "w": 44,
+     "h": 44
+    },
+    "sub": {
+     "l": 30,
+     "t": 102,
+     "r": 290,
+     "b": 144,
+     "w": 260,
+     "h": 42
+    }
+   }
+  },
+  {
+   "id": "mobile320_wording_pill_label_dialog",
+   "pass": true,
+   "detail": {
+    "pill": "I’m here because… /",
+    "label": "I’m here because…",
+    "dialog": "I’m here because…"
+   }
+  },
+  {
+   "id": "mobile320_wording_subline",
+   "pass": true,
+   "detail": {
+    "sub": "Describe your situation. We’ll take you there.",
+    "describedby": "nbsub"
+   }
+  },
+  {
+   "id": "mobile320_no_old_wording_in_widget",
+   "pass": true,
+   "detail": {
+    "aria": [
+     "Your route",
+     "Find it yourself guide",
+     "Close (Esc)",
+     "Voice input"
+    ]
+   }
+  },
+  {
+   "id": "mobile320_placeholder_from_profile_list",
+   "pass": true,
+   "detail": {
+    "placeholder": "my bin wasn’t collected",
+    "idx": "0"
+   }
+  },
+  {
+   "id": "mobile320_compare_link_present",
+   "pass": true,
+   "detail": {
+    "compare": true
+   }
+  },
+  {
+   "id": "mobile320_empty_no_horizontal_overflow",
+   "pass": true,
+   "detail": {
+    "sw": 320,
+    "panel": {
+     "l": 12,
+     "t": 38,
+     "r": 308,
+     "b": 443,
+     "w": 296,
+     "h": 405
+    }
+   }
+  },
+  {
+   "id": "mobile320_all_placeholders_fit_input",
+   "pass": true,
+   "detail": {
+    "boxW": 236,
+    "fontSize": "16px",
+    "widest": [
+     "I might need planning permission",
+     225
+    ],
+    "tooWide": []
+   }
+  },
+  {
+   "id": "mobile320_mic_and_find_share_a_row",
+   "pass": true,
+   "detail": {
+    "micTop": 207,
+    "findTop": 207,
+    "micH": 48,
+    "findH": 48
+   }
+  },
+  {
+   "id": "mobile320_axe_panel_empty",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "id": "mobile320_question_option_cards_padding",
+   "pass": true,
+   "detail": {
+    "optPad": [
+     12,
+     14,
+     12,
+     42
+    ],
+    "gap": 12,
+    "inside": true
+   }
+  },
+  {
+   "id": "mobile320_question_text_site_name_only",
+   "pass": true,
+   "detail": {
+    "q": "There are several ways to challenge, appeal or complain. Which one is about your situation?"
+   }
+  },
+  {
+   "id": "mobile320_question_no_overflow",
+   "pass": true,
+   "detail": {
+    "sw": 320
+   }
+  },
+  {
+   "id": "mobile320_axe_panel_question",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "id": "mobile320_reject_no_overflow",
+   "pass": true,
+   "detail": {
+    "sw": 320,
+    "d": "reject"
+   }
+  },
+  {
+   "id": "mobile320_result_cards_breathing_room",
+   "pass": true,
+   "detail": {
+    "destPad": [
+     12,
+     14
+    ],
+    "interpPad": 12
+   }
+  },
+  {
+   "id": "mobile320_result_no_overflow",
+   "pass": true,
+   "detail": {
+    "sw": 320
+   }
+  },
+  {
+   "id": "mobile320_strip_arrived",
+   "pass": true,
+   "detail": {
+    "state": "arrived",
+    "hidden": false,
+    "sw": 320,
+    "how": {
+     "bg": "rgb(255, 255, 255)",
+     "border": "rgb(14, 79, 83)",
+     "color": "rgb(14, 79, 83)",
+     "visible": true
+    }
+   }
+  },
+  {
+   "id": "mobile320_saved_state_note_in_strip",
+   "pass": true,
+   "detail": {
+    "text": "SOMETHING OF YOURS You have a saved residents' parking permit application (ref CS-RP-20261008-0427). Continue from step 3 of 4, Permit? Continue application",
+    "visible": true,
+    "btn": {
+     "bg": "rgb(255, 255, 255)",
+     "border": "rgb(14, 79, 83)",
+     "color": "rgb(14, 79, 83)"
+    },
+    "sw": 320
+   }
+  },
+  {
+   "id": "mobile320_axe_strip_expanded_saved",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "id": "reduced_motion_no_timed_rotation",
+   "pass": true,
+   "detail": {
+    "a": "e.g. my bin wasn’t collected",
+    "c": "e.g. my bin wasn’t collected"
+   }
+  },
+  {
+   "id": "console_errors_0",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "id": "external_requests_0",
+   "pass": true,
+   "detail": []
+  }
+ ],
+ "screenshots": [
+  "out_cs/civicsphere_panel_empty_desktop1280.png",
+  "out_cs/civicsphere_panel_question_desktop1280.png",
+  "out_cs/civicsphere_panel_reject_desktop1280.png",
+  "out_cs/civicsphere_panel_result_desktop1280.png",
+  "out_cs/civicsphere_panel_result_savedquery_desktop1280.png",
+  "out_cs/civicsphere_strip_walking_desktop1280.png",
+  "out_cs/civicsphere_strip_arrived_desktop1280.png",
+  "out_cs/civicsphere_coach_desktop1280.png",
+  "out_cs/civicsphere_panel_empty_mobile414.png",
+  "out_cs/civicsphere_panel_question_mobile414.png",
+  "out_cs/civicsphere_panel_reject_mobile414.png",
+  "out_cs/civicsphere_panel_result_mobile414.png",
+  "out_cs/civicsphere_panel_result_savedquery_mobile414.png",
+  "out_cs/civicsphere_strip_walking_mobile414.png",
+  "out_cs/civicsphere_strip_arrived_mobile414.png",
+  "out_cs/civicsphere_strip_arrived_expanded_mobile414.png",
+  "out_cs/civicsphere_panel_empty_mobile375.png",
+  "out_cs/civicsphere_panel_question_mobile375.png",
+  "out_cs/civicsphere_panel_reject_mobile375.png",
+  "out_cs/civicsphere_panel_result_mobile375.png",
+  "out_cs/civicsphere_panel_result_savedquery_mobile375.png",
+  "out_cs/civicsphere_strip_walking_mobile375.png",
+  "out_cs/civicsphere_strip_arrived_mobile375.png",
+  "out_cs/civicsphere_strip_arrived_expanded_mobile375.png",
+  "out_cs/civicsphere_panel_empty_mobile320.png",
+  "out_cs/civicsphere_panel_question_mobile320.png",
+  "out_cs/civicsphere_panel_reject_mobile320.png",
+  "out_cs/civicsphere_panel_result_mobile320.png",
+  "out_cs/civicsphere_panel_result_savedquery_mobile320.png",
+  "out_cs/civicsphere_strip_walking_mobile320.png",
+  "out_cs/civicsphere_strip_arrived_mobile320.png",
+  "out_cs/civicsphere_strip_arrived_expanded_mobile320.png"
+ ]
+}

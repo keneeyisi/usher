@@ -1,0 +1,31 @@
+{
+  "name": "usher-civicspherenav-iui2027-resolver7-usher-tools",
+  "private": true,
+  "description": "Development tooling only (Node harnesses, profile validate/compile tools). The app itself needs no npm install: serve this folder with python3 -m http.server 8016.",
+  "scripts": {
+    "build-index": "node tools/build_embeddings.js",
+    "calibrate": "node tests/calibrate.js",
+    "test": "node tests/run_core_tests.js",
+    "test:lexical": "node tests/run_core_tests.js --lexical",
+    "test:browser": "node -r ./tests/pw_shadow_shim.js tests/run_browser_tests.js http://localhost:8016/",
+    "rank": "node tools/rank.js",
+    "echo-audit": "node tools/echo_audit.js",
+    "model-trial": "node tests/model_trial.js",
+    "ui-checks": "node -r ./tests/pw_shadow_shim.js tests/run_ui_checks.js http://localhost:8016/",
+    "features": "node -r ./tests/pw_shadow_shim.js tests/run_r62_features.js http://localhost:8016/",
+    "explain-tests": "node tests/run_explain_tests.js",
+    "gate": "node tests/gate_g1_g7.js --json tests/gate_node_results.json",
+    "gate-browser": "node tests/gate_g5_browser.js http://localhost:8016/",
+    "widget-tests": "node tests/gate_widget_browser.js http://localhost:8016/",
+    "validate": "node tools/usher-validate.js profiles/civicsphere.profile.json",
+    "compile": "node tools/usher-compile.js profiles/civicsphere.profile.json --out usher-index.civicsphere.json --models ./models",
+    "compile-check": "node tools/usher-compile.js profiles/civicsphere.profile.json --out usher-index.civicsphere.json --check",
+    "build": "node tools/usher-build.js",
+    "r63-entry": "node -r ./tests/pw_shadow_shim.js tests/run_r63_entry.js http://localhost:8016/"
+  },
+  "devDependencies": {
+    "@huggingface/transformers": "3.8.1",
+    "onnxruntime-web": "1.22.0-dev.20250409-89f8206ba4",
+    "playwright": "1.64.0"
+  }
+}

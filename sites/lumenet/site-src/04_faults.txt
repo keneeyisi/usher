@@ -1,0 +1,96 @@
+=AREA faults | Faults, speed and outages | Fix a slow, dropping or dead connection; outages and engineer visits; compensation; speed tests. | service
+=GROUP slow | Slow or dropping connection
+=GROUP noconn | No connection
+=GROUP outages | Outages and engineer visits
+=GROUP comp | Compensation
+=GROUP speedtests | Speed tests
+#fault-slow | Slow connection | slow | Steps to take when your broadband is slower than usual or slower than your plan. | slow broadband; slow internet; speed problems; poor speed | The internet is crawling and pages take ages to load ;; My download speed is much lower than I pay for
+- Quick checks :: Restart your Hub, test with a cable, and close other devices using the connection.
+- Speed test :: Run the Lumenet speed test and compare with your typical evening speed and minimum guarantee.
+- Causes in your home :: Old extension sockets, microfilters and devices such as cordless phones can slow your line.
+- Report a fault :: If speeds are still low after the checks, report a fault in My Lumenet and we will test your line.
+#fault-intermittent | Intermittent connection | slow | What to do if your broadband keeps dropping out and reconnecting. | broadband keeps dropping; connection drops; internet cutting out; disconnects | My internet drops every evening ;; The connection goes off and on several times a day
+- Check the pattern :: Note the times and how long drops last; evening drops can point to congestion or interference.
+- Check your equipment :: Test with a different cable, move the Hub away from other electronics and reinstall the microfilter.
+- Line testing :: We run a line test for noise and instability and may book an engineer visit.
+- Compensation :: If a fault is not fixed within two working days, you can claim automatic compensation.
+#fault-wifi-vs-broadband | Slow Wi-Fi or slow broadband? | slow | How to tell whether the problem is your Wi-Fi signal or the line. | wifi vs broadband; weak signal; only slow on phone | Everything is slow upstairs but fine next to the router ;; Is it my line or the Wi-Fi that is slow
+- Test wired and wireless :: Plug a laptop into the Hub with a cable; if it is fast, the problem is Wi-Fi.
+- Why Wi-Fi is slower :: Walls, distance and interference from neighbours' networks reduce Wi-Fi speeds.
+- Improving Wi-Fi :: Place the Hub centrally, use the 5GHz band near the router and add a Wi-Fi extender if needed.
+- If wired is slow too :: Report a line fault in My Lumenet.
+#fault-streaming | Buffering and streaming problems | slow | Fixing video that freezes, buffers or drops quality. | buffering; Netflix slow; video freezing; streaming lag | Films keep stopping and buffering in the evening ;; Why does Netflix look blurry on my TV
+- Check your plan speed :: HD video needs about 5Mbps per stream and 4K needs 25Mbps.
+- Reduce load :: Pause downloads and other streams; fewer devices on the network improve quality.
+- Other services :: If only one app is slow, the problem may be with that service rather than your broadband.
+- Try the wired option :: Connect your TV or streaming device with an Ethernet cable.
+#fault-no-connection | No connection | noconn | What to try if you have no internet at all. | internet down; no internet; broadband not working; offline | The internet is completely down and nothing connects ;; I cannot get online on any device
+- Check for an outage :: Check our status page and the Lumenet app for known problems in your area.
+- Restart the Hub :: Switch off for 30 seconds and back on; wait five minutes for the lights to settle.
+- Check cables :: Make sure all cables are firmly seated and the socket is not loose.
+- Report the fault :: If it is still down, report it in My Lumenet; we aim to fix faults within two working days.
+#fault-lights | Router lights explained | noconn | What each light on your Lumenet Hub means. | router red light; flashing light; orange light; hub status | My router has a red light and I don't know why ;; The light on the box keeps flashing
+- Power light :: Solid white means on; no light means no power, so check the plug and socket.
+- Internet light :: Solid white means connected; red means no connection to our network; flashing amber means searching.
+- Wi-Fi light :: White shows Wi-Fi is on; blue flashing means pairing.
+- Reset button :: Press and hold for 10 seconds to restore factory settings, which will remove your Wi-Fi name and password changes.
+#fault-line | Phone line and socket faults | noconn | Fixing problems caused by a faulty master socket, extension or line noise. | crackling on the line; faulty socket; microfilter; master socket | There is a crackling noise on my landline and the broadband is poor ;; Testing the socket on the wall
+- Test socket :: Plug the Hub into the master socket with the microfilter removed; this removes extensions from the test.
+- Replace the microfilter :: Faulty filters cause noise; replace with a new one from your starter pack.
+- Crackling on the line :: Noise suggests a line fault; report it so we can test the line to the exchange.
+- Charges :: A visit for a fault in your own wiring may be charged; we will tell you before booking.
+#fault-reset | Restart and factory reset | noconn | How to restart or reset your Hub and when to do it. | reset router; reboot; factory reset; hub reset | Turning it off and on again but nothing changed ;; Resetting my router back to how it came out of the box
+- Restart :: Switch off for 30 seconds, then on, and wait for lights to settle before testing.
+- Factory reset :: Press and hold the reset button for 10 seconds; this removes your Wi-Fi name, password and settings.
+- After a reset :: Use the details on the label on the back of the Hub to reconnect your devices.
+- When not to reset :: Do not reset if the Internet light is solid white and the problem is a single device.
+#fault-outage-check | Check for an outage | outages | How to see whether there is a known problem in your area. | service status; area outage; broadband down in my street | Is it just me or is the whole street down ;; Seeing if there is a fault with the network nearby
+- Check by postcode :: Enter your postcode on the status page to see any outages and expected fix times.
+- Sign up for alerts :: Receive texts when an outage affects your line and when it is fixed.
+- What causes outages :: Cable damage, power cuts at cabinets, severe weather and planned maintenance.
+- Planned work :: Planned maintenance is announced at least seven days ahead on the status page.
+#fault-engineer-visit | Engineer visits | outages | What to expect when an engineer is booked and how to prepare. | engineer appointment; technician visit; repair visit; fix visit | I am waiting for an engineer to come out ;; Whether someone needs to be home when they visit
+- Appointment windows :: Visits are offered in morning (8am to 1pm) or afternoon (1pm to 6pm) slots.
+- Getting ready :: Clear access to the socket and router and make sure someone aged 18 or over is at home.
+- On the day :: You will receive a text with the engineer's name and a one-hour arrival window.
+- Rearranging :: Change a visit free of charge until 6pm the working day before.
+#fault-missed-appt | Missed appointments and compensation | outages | What happens if an engineer does not arrive or you miss a visit. | engineer did not turn up; missed appointment; no show | The engineer never turned up ;; Waited all day and no one came
+- If we miss the appointment :: You will receive £30 compensation automatically for each missed or cancelled-at-the-door visit.
+- If you miss it :: A new visit is arranged and a £25 fee may apply for a missed appointment without 24 hours' notice.
+- Claiming :: Report a missed visit in My Lumenet within 30 days; compensation appears as a credit on your next bill.
+- Late engineers :: If an engineer is more than two hours late, contact us and we will rebook with priority.
+#fault-ticket | Track your fault ticket | outages | How to see progress and the next steps on a fault you have reported. | fault status;ticket update;where is my engineer;repair progress | Checking how my fault report is getting on ;; Finding out when the engineer is coming ;; Where is my engineer and when will they arrive ;; Engineer visit status for the problem I reported ;; My connection is still not fixed and I have a fault open
+- Where to see your ticket :: Open Faults in My Lumenet to see the status, test results and next steps.
+- Ticket stages :: Reported, line test, engineer booked, engineer visited and resolved.
+- Updates :: We text you at each stage; you can also message the faults team in the app.
+- Closing a ticket :: Tell us if the fault is fixed; if it returns within 30 days we reopen the same ticket.
+#comp-automatic | Automatic compensation for delays | comp | Payments when we are late to fix a loss of service, start a service or keep an appointment. | compensation scheme; automatic payment; delay compensation; Ofcom | Do I get money back if my internet is down for days ;; Compensation for being without a connection too long
+- Loss of service :: £9.76 for each full day after the second working day without service.
+- Late installation :: £5 for each day after the agreed start date if the installation is delayed.
+- Missed appointments :: £30 where we miss an engineer appointment.
+- When you get it :: Compensation is applied automatically to your next bill.
+#comp-claim | Claiming other compensation | comp | How to ask for compensation if the automatic scheme does not cover your loss. | claim compensation; goodwill payment; refund for a fault | I lost working time because of the outage ;; The automatic credit was not enough for what happened
+- What you can claim :: Reasonable costs that were caused directly by our failure, with receipts.
+- Evidence :: Provide dates of the fault, tickets and receipts for extra costs such as mobile data.
+- How to claim :: Use the compensation form in My Lumenet or contact us by message.
+- If we say no :: You can complain, and take it to the independent Alternative Dispute Resolution scheme.
+#comp-credit | Service credits and refunds | comp | How credits are shown on your bill and how to get a refund instead. | bill credit; money back; credit balance | Getting a credit applied after a long fault ;; Whether I can have the compensation paid to my bank
+- Where credits appear :: On your next bill as a line called Service credit.
+- Asking for a refund :: Ask for any credit balance to be paid back to your bank account after your final bill.
+- Credit and Direct Debit :: Credits reduce your next Direct Debit collection.
+- Time limits :: Credits for compensation expire after 12 months if not used.
+#speedtest-how | How to run an accurate speed test | speedtests | Step-by-step guide to testing your broadband so results are reliable. | speed test; test my speed; check broadband speed | I want to prove how slow my internet is ;; Testing the speed in the right way
+- Before you start :: Connect a computer to the Hub with an Ethernet cable and close all other programs.
+- Run three tests :: Run the Lumenet speed test at different times of day and note the results.
+- Wi-Fi tests :: Test close to the Hub with only one device connected to the Wi-Fi.
+- Saving evidence :: Take screenshots with the date and time to share with the faults team.
+#speedtest-results | Understanding your speed test results | speedtests | What download, upload, latency and jitter results tell you. | speed test results; ping; jitter; packet loss | The test shows lots of numbers and I don't know which matters ;; Whether my result is good for my plan
+- Download and upload :: Compare your download with your typical speed range and your upload with the plan's upload speed.
+- Latency and jitter :: High latency or jitter can cause lag in calls and games even when speeds are good.
+- Packet loss :: Any packet loss means data is being lost on the line; report it as a fault.
+- When to report :: Report a fault if speeds stay below your minimum guarantee after three tests.
+#speedtest-below-guarantee | Speed below your minimum guarantee | speedtests | What we do when tests show your speed is under the guaranteed minimum. | below minimum speed; guaranteed speed breach; right to exit | My speed test is lower than the guarantee in my contract ;; Leaving because the speed is too low
+- Submit your tests :: Send three wired speed test results from different times in My Lumenet.
+- Our investigation :: We test the line, check the equipment and may send an engineer.
+- 30 days to fix :: We have 30 days to bring speeds above your minimum guaranteed speed.
+- Your right to leave :: If we cannot fix it, you can leave without early termination charges.

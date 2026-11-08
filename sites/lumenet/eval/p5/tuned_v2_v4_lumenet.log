@@ -1,0 +1,143 @@
+{
+ "n": 51,
+ "nNavigate": 45,
+ "nClarify": 3,
+ "nReject": 3,
+ "a": {
+  "page": "48.9% [35-63] (22/45)",
+  "hit3": "64.4% [50-77] (29/45)",
+  "hit5": "75.6% [61-86] (34/45)",
+  "section": "n/a"
+ },
+ "a2": {
+  "page": "80.0% [66-89] (36/45)",
+  "hit3": "93.3% [82-98] (42/45)",
+  "hit5": "97.8% [88-100] (44/45)",
+  "section": "n/a"
+ },
+ "b": {
+  "page": "75.6% [61-86] (34/45)",
+  "hit3": "91.1% [79-96] (41/45)",
+  "hit5": "95.6% [85-99] (43/45)"
+ },
+ "c": {
+  "pageAccuracyNavItems": "68.9% [54-80] (31/45)",
+  "section": "n/a",
+  "wrongDestinationAllItems": "13.7% [7-26] (7/51)",
+  "wrongDestinationNavItems": "15.6% [8-29] (7/45)",
+  "clarificationRateAll": "19.6% [11-32] (10/51)",
+  "clarifiedOnNavItems": "15.6% [8-29] (7/45)",
+  "clarificationsOfferingGold": "90.0% [60-98] (9/10)",
+  "within1stepNavItems": "82.2% [69-91] (37/45)",
+  "rejectionAccuracy": "100.0% [44-100] (3/3)",
+  "falseRejectOnNavItems": "0.0% [0-8] (0/45)",
+  "clarifyItemsClarified": "100.0% [44-100] (3/3)",
+  "decisionCorrectAll": "72.5% [59-83] (37/51)",
+  "twinQuestionsAll": 0
+ },
+ "lenientTwinPages": {
+  "note": "twin cover/claim pages also accepted (item field twinDestinationIds); strict numbers above are the headline",
+  "a": "48.9% [35-63] (22/45)",
+  "a2": "80.0% [66-89] (36/45)",
+  "b": "75.6% [61-86] (34/45)",
+  "goalpostCorrectNav": "68.9% [54-80] (31/45)",
+  "goalpostWrongNav": "15.6% [8-29] (7/45)"
+ },
+ "mcnemar": {
+  "c_vs_a": {
+   "onlyA": 14,
+   "onlyB": 5,
+   "p": 0.063568115234375
+  },
+  "c_vs_a2": {
+   "onlyA": 8,
+   "onlyB": 13,
+   "p": 0.38331031799316406
+  },
+  "c_vs_b": {
+   "onlyA": 2,
+   "onlyB": 5,
+   "p": 0.453125
+  },
+  "b_vs_a2": {
+   "onlyA": 6,
+   "onlyB": 8,
+   "p": 0.79052734375
+  },
+  "a2_vs_a": {
+   "onlyA": 16,
+   "onlyB": 2,
+   "p": 0.001312255859375
+  }
+ },
+ "within1stepVsBaseline": {
+  "goalpostWithin1": "82.2%",
+  "baselineA_hit3": "64.4%",
+  "baselineA2_hit3": "93.3%",
+  "semantic_hit3": "91.1%"
+ },
+ "byLabelOverlap": {
+  "0": {
+   "n": 21,
+   "a": "23.8%",
+   "a2": "71.4%",
+   "b": "76.2%",
+   "goalpostCorrectNav": "71.4%",
+   "goalpostWrongNav": "19.0%"
+  },
+  "1": {
+   "n": 15,
+   "a": "53.3%",
+   "a2": "80.0%",
+   "b": "66.7%",
+   "goalpostCorrectNav": "60.0%",
+   "goalpostWrongNav": "13.3%"
+  },
+  "2+": {
+   "n": 9,
+   "a": "100.0%",
+   "a2": "100.0%",
+   "b": "88.9%",
+   "goalpostCorrectNav": "77.8%",
+   "goalpostWrongNav": "11.1%"
+  }
+ },
+ "savedState": {
+  "note": "positives: query plausibly about the user's saved item (savedStateTarget); negatives: same topic but not the user's item (savedStateNegative)",
+  "positives_n": 7,
+  "a_top1": "42.9% [16-75] (3/7)",
+  "a2_top1": "28.6% [8-64] (2/7)",
+  "b_top1": "28.6% [8-64] (2/7)",
+  "goalpostNavigated": "57.1% [25-84] (4/7)",
+  "goalpostNavigatedOrOffered": "71.4% [36-92] (5/7)",
+  "negatives_n": 2,
+  "a_top1Saved": "0.0% [0-66] (0/2)",
+  "a2_top1Saved": "0.0% [0-66] (0/2)",
+  "b_top1Saved": "0.0% [0-66] (0/2)",
+  "goalpostHijacked": "0.0% [0-66] (0/2)"
+ },
+ "twins": {
+  "note": "navigate items whose gold page has a near-duplicate twin (twinDestinationIds); wrong twin = committed/top-1 to the twin",
+  "n": 0,
+  "a_wrongTwinTop1": "n/a",
+  "a2_wrongTwinTop1": "n/a",
+  "b_wrongTwinTop1": "n/a",
+  "goalpostCorrect": "n/a",
+  "goalpostWrongTwin": "n/a",
+  "goalpostTwinQuestion": "n/a"
+ }
+}
+FAIL LUM_T04 "I want to leave but I'm still in my contract." | gold navigate etc-charges | got clarify etc-charges,con-end-date,etc-exemptions close_alternatives | a: rise-leave b: etc-charges
+FAIL LUM_T05 "The Wi-Fi doesn't reach my bedroom." | gold navigate eq-mesh | got navigate eq-dead-spots similarity 0.672, margin 0.036 over eq-mesh | a: eq-wifi-settings b: eq-dead-spots
+FAIL LUM_T11 "my wifi is rubbish upstairs" | gold navigate eq-dead-spots | got clarify eq-dead-spots,fault-wifi-vs-broadband close_alternatives | a: undefined b: eq-dead-spots
+FAIL LUM_T18 "I got a huge bill after using data abroad" | gold navigate roam-spend-cap | got navigate data-allowance similarity 0.562, margin 0.032 over roam-spend-cap | a: roam-europe b: data-allowance
+FAIL LUM_T21 "I'm struggling to pay my bill this month" | gold navigate pay-help | got navigate pay-ways similarity 0.658, margin 0.055 over bill-changed | a: pay-help b: pay-ways
+FAIL LUM_T22 "my payment bounced" | gold navigate dd-failed | got navigate pay-late similarity 0.591, margin 0.075 over dd-failed | a: pay-late b: pay-late
+FAIL LUM_T27 "how do I send back my old router" | gold navigate eq-return | got navigate fault-reset similarity 0.583, margin 0.065 over move-equipment | a: phone-upgrade b: fault-reset
+FAIL LUM_T32 "can I get the sports channels" | gold navigate tv-sports-films | got clarify tv-packages,tv-sports-films close_alternatives | a: tv-sports-films b: tv-packages
+FAIL LUM_T35 "you don't cover the address I'm moving to" | gold navigate move-no-service | got clarify acct-saved-move,move-no-service saved_state_offer | a: move-cancel-old b: move-no-service
+FAIL LUM_T37 "cancel my broadband" | gold navigate sw-cancel | got clarify move-cancel-old,tv-change-cancel,con-pause close_alternatives | a: sw-cancel b: move-cancel-old
+FAIL LUM_T45 "my internet is still down" | gold navigate acct-saved-fault | got navigate acct-faults resume intent: no saved item for fault-no-connection, showing My faults and tickets | a: fault-no-connection b: fault-no-connection
+FAIL LUM_T49 "what do the stages of a fault ticket mean" | gold navigate fault-ticket | got clarify fault-ticket,acct-faults close_alternatives | a: fault-ticket b: fault-ticket
+FAIL LUM_T50 "has the engineer been booked for my fault" | gold navigate acct-saved-fault | got navigate fault-ticket similarity 0.688, margin 0.089 over fault-missed-appt | a: fault-ticket b: fault-ticket
+FAIL LUM_T51 "change the date of my broadband move" | gold navigate acct-saved-move | got clarify acct-saved-move,move-choose-date,move-track saved_state_offer | a: move-choose-date b: move-choose-date

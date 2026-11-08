@@ -1,0 +1,76 @@
+=AREA home | Home insurance | Buildings and contents cover, what is covered, optional extras, and cover for landlords and renters. | service
+=GROUP buildings | Buildings
+=GROUP contents | Contents
+=GROUP covered | What's covered
+=GROUP extras | Optional extras
+=GROUP landlords | Landlords and renters
+#home-buildings | Buildings insurance | buildings | Cover for the structure of your home: walls, roof, floors, fixed fittings and outbuildings. | buildings cover; insure the house itself | Insurance for the bricks and roof of the house I own ;; Protecting the structure of my property against fire, storm and subsidence
+- What's covered :: Damage to walls, roof, floors, windows, fixed baths and kitchens, plus garages and fences, from insured causes such as fire and storm.
+- What's not covered :: Wear and tear, gradual deterioration, faulty workmanship and damage you cause by neglecting maintenance.
+- Rebuild cost and sum insured :: Your sum insured should equal the cost of rebuilding the property, not its market value.
+- Mortgage lender requirements :: Most lenders require buildings cover from completion; send them your schedule from My Insura.
+#home-contents | Contents insurance | contents | Cover for belongings inside your home such as furniture, electronics, clothes and carpets. | contents cover; insure my belongings | Insurance for my sofa, TV and clothes if they are stolen or ruined ;; Protecting the things I own in my flat or house
+- What's covered :: Furniture, appliances, clothing, jewellery up to single-item limits, and items stored in a locked garage or shed.
+- What's not covered :: Money above the cash limit, items left unattended in gardens, and loss without evidence of ownership.
+- Calculating your sum insured :: Add up replacement-as-new values room by room; underinsuring may reduce any claim payment.
+- Home contents away from home :: Items taken outside the home have limited cover unless you add personal possessions cover.
+#home-combined | Buildings and contents together | contents | A single policy covering both the building and what is inside it, often at a lower combined price. | combined home insurance; buildings and contents policy | One policy for both my house and everything in it ;; Insuring the property and my belongings together to save money
+- Benefits of combining :: One renewal date, one excess to pay in many cases, and a combined discount compared with buying separately.
+- When to choose separate policies :: Tenants only need contents; owners with a leasehold flat may find the freeholder already insures the structure.
+- Excess on a combined claim :: A single claim affecting both building and contents normally carries only one excess.
+- Switching to combined cover :: Add buildings or contents through My Insura; your new schedule shows the combined sums insured.
+#home-escape-of-water | Escape of water | covered | Cover for damage from water that escapes from pipes, tanks or appliances. | burst pipe; water damage; flood from inside; leak | A pipe burst and water came through the ceiling ;; Water from a washing machine or tank that has ruined the floor and walls
+- What's covered :: Sudden damage from escaping water from plumbing, heating systems, washing machines and dishwashers, including drying-out costs.
+- What's not covered :: The cost of repairing the burst pipe itself, gradual leaks, and flooding from rivers or the sea.
+- What to do straight away :: Turn off the water at the stopcock, switch off electricity if safe, photograph damage and call us.
+- Trace and access :: We pay reasonable costs to find the leak and make good the walls or floors opened up.
+#home-accidental-damage | Accidental damage | covered | Optional protection for sudden, unexpected damage to your home or belongings that is not covered elsewhere. | accidents at home; spilled paint; broken TV | I put my foot through a laptop or knocked over a vase and want it replaced ;; Cover for sudden mishaps such as a drill through a pipe or a cracked TV screen
+- What's covered :: Sudden physical damage to buildings or contents caused by an accident, such as breaking a window or damaging a television.
+- What's not covered :: Damage by pets, wear and tear, cosmetic scratches, and breakage while an item is being repaired or cleaned.
+- Buildings and contents versions :: Accidental damage can be added to buildings, contents or both, with separate excesses.
+- Claiming :: Describe how the damage happened; we may ask for photos and a repair quote.
+#home-theft | Theft and burglary | covered | Cover for items stolen from your home and damage caused by thieves breaking in. | burglary; break-in; stolen belongings | Someone broke in and took my laptop and jewellery ;; A thief damaged my door lock getting into the house
+- What's covered :: Stolen contents and damage to doors, windows and locks caused by forced entry or an attempt to break in.
+- Security conditions :: Approved locks on external doors and windows may be a condition; check your schedule for the requirements.
+- What's not covered :: Theft by someone you let in, or where no evidence of forced entry exists and your policy requires it.
+- What to do after a break-in :: Report to the police, get a crime reference number and ring our claims line promptly.
+#home-storm-flood | Storm, flood and weather | covered | Cover for damage to your home from storms, flooding, snow and heavy rainfall. | storm damage; flood damage; roof blown off; weather damage | A storm took tiles off my roof and rain came in ;; Heavy rain flooded my ground floor from the river
+- What's covered :: Damage caused by storm winds, rising water from rivers or rainfall, and the weight of snow, including fences and gates in some cases.
+- What's not covered :: Damage to gates, hedges and fences from storms unless your cover specifically includes them; gradual seepage.
+- Flood-risk areas :: We may apply a higher excess or exclusions in high-risk areas; Flood Re can help with cover for homes built before 2009.
+- Alternative accommodation :: If you cannot live at home after an insured loss, we pay reasonable rent and living costs.
+#home-subsidence | Subsidence, heave and landslip | covered | Cover for movement of the ground beneath your home that damages the building. | cracks in walls; sinking house; ground movement | Cracks have appeared in my walls and I think the ground is moving ;; My extension is sinking away from the main house
+- What's covered :: Damage to the building caused by the ground sinking, rising or sliding, usually under buildings insurance.
+- What's not covered :: Damage from poor construction, settling of new buildings and damage to boundary walls unless the main property is damaged.
+- Higher excess :: A subsidence excess usually applies, commonly £1,000, in addition to the standard compulsory excess.
+- Reporting cracks :: Tell us as soon as you see cracks; we may arrange monitoring and a structural survey.
+#home-frozen-pipes | Frozen pipes and heating | covered | Cover for damage caused when pipes freeze and burst, and conditions about keeping your home heated. | frozen pipe; burst pipe in winter; empty property in winter | The pipes froze while we were away and burst ;; Whether leaving the heating off could affect my claim
+- What's covered :: Damage from frozen pipes or tanks bursting, subject to the conditions around heating while the property is unoccupied.
+- Unoccupancy conditions :: If the home is empty for more than 30 days, cover for frozen pipes and some other perils may be restricted.
+- Preventing freezing :: Keep the heating on low, drain down the system if leaving for a long time and know where the stopcock is.
+- How to claim :: Contact us as soon as it is safe, with photographs and a plumber's report if available.
+#home-alt-accommodation | Alternative accommodation | covered | Help with living costs if you cannot stay in your home after an insured incident. | temporary accommodation; hotel after fire or flood; trace and access | The house is unlivable and we need somewhere to stay while it is repaired ;; Paying for a rental or hotel after a fire or flood
+- What's covered :: Reasonable rent, hotel costs and extra living expenses while your home is uninhabitable after an insured event.
+- Limits and time :: Cover is usually capped at a percentage of the buildings sum insured or a set number of months.
+- Receipts and evidence :: Keep receipts for accommodation and meals; we only pay costs above your normal living expenses.
+- Landlord's rent loss :: Landlord policies can pay lost rent while the property is being repaired, if rental income cover is included.
+#home-personal-possessions | Personal possessions outside the home | extras | Optional cover for valuables such as phones, cameras and bikes when you take them out. | gadget cover; bicycle cover; items away from home | My phone was taken from my bag in a cafe ;; Extra protection for my laptop and bike when I leave the house
+- What's covered :: Named items you carry away from home, such as mobile phones, cameras, laptops and cycles, for loss, theft or damage.
+- Items over the single-item limit :: Valuables above the limit must be listed individually with a description and value.
+- Cycling cover :: Cycles are covered when locked to an immovable object with an approved lock, or when kept indoors.
+- Making a claim :: Report theft to the police, give the serial number or IMEI and provide proof of purchase.
+#home-legal-emergency | Home emergency and legal cover | extras | Optional add-ons for emergency call-outs such as boiler failure and for legal disputes about your home. | boiler cover; emergency plumber; home legal expenses | Boiler stopped working in winter and I need an engineer ;; Help with a legal dispute with a neighbour or contractor
+- Home emergency cover :: Pays for emergency callouts for problems like no heating in winter, a blocked drain or a broken external door.
+- Legal expenses cover :: Helps pay legal costs for disputes with contractors, neighbours or tenants, subject to prospects of success.
+- What is not covered :: Planned maintenance, routine servicing, and pre-existing faults known before the cover started.
+- Using the helplines :: Call the 24-hour numbers on your policy documents with your policy number ready.
+#home-landlord | Landlord insurance | landlords | Cover for owners who let property, including buildings, contents and loss of rent. | buy to let; let property; rental property cover | Insurance for the flat I rent out to tenants ;; Cover if my tenants damage things or stop paying rent
+- What's covered :: Buildings, landlord's contents, public liability and optional loss of rent or alternative accommodation for tenants.
+- Tenants and unoccupied periods :: Cover is tailored to the type of tenant, and extended empty periods between lets may need to be declared.
+- Malicious damage by tenants :: Optional cover pays for damage caused deliberately by tenants, subject to conditions and evidence.
+- Telling us about changes :: Tell us if you change tenants, let to students or sublet, as this may affect cover.
+#home-renters | Renters' contents insurance | landlords | Cover for tenants for their own belongings and for accidental damage to a landlord's fixtures. | tenant insurance; renting a flat; contents for tenants | I rent a flat and want protection for my own things ;; Covering my belongings and accidental damage to the landlord's furniture
+- What's covered :: Your own belongings, and optionally accidental damage to the landlord's fixtures and fittings.
+- What's not covered :: The building itself, which the landlord must insure, and loss of items in shared areas.
+- Deciding how much cover :: Count the replacement value of everything you own that you would not want to lose.
+- Moving out :: Cancel or transfer the policy when you leave; tell us your new address in advance.

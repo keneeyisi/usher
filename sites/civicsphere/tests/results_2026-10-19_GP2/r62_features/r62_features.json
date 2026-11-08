@@ -1,0 +1,280 @@
+{
+  "base": "http://127.0.0.1:9121/",
+  "checks": [
+    {
+      "id": "A1_passport_interpretation_before_move",
+      "pass": true,
+      "detail": {
+        "interp": "It sounds like you need a replacement identity document.",
+        "bridge": "You said “new passport”: on this site that’s called Document Replacement (in Identity & Records).",
+        "why": "WHY HERE\n\nClosest match to what you described: “Replace an identity document that is lost, stolen, damaged or expired, such as a passport, ID card or driving licence”.\n\nIt was a clear match: the next closest page, Birth Certificates, scored well below it.",
+        "hash": "#home"
+      }
+    },
+    {
+      "id": "A2_passport_bridge",
+      "pass": true,
+      "detail": "You said “new passport”: on this site that’s called Document Replacement (in Identity & Records)."
+    },
+    {
+      "id": "A3_route_mid_walk",
+      "pass": true,
+      "detail": {
+        "active": "Certificates & Documents",
+        "done": [
+          "Home",
+          "Identity & Records"
+        ],
+        "crumbLit": "rgb(240, 177, 59)",
+        "hash": "#group/identity-records/Certificates%20%26%20Documents"
+      }
+    },
+    {
+      "id": "A4_passport_arrives",
+      "pass": true,
+      "detail": {
+        "h1": "Document Replacement",
+        "trace": "FOUND: Identity & Records → Certificates & Documents → Document Replacement"
+      }
+    },
+    {
+      "id": "B1_parking_interpretation",
+      "pass": true,
+      "detail": "It sounds like you've moved house and want to know what a residents' parking permit costs."
+    },
+    {
+      "id": "B2_parking_section_bridge",
+      "pass": true,
+      "detail": "You said “have to pay”: on this page that’s under Permit charges."
+    },
+    {
+      "id": "B3_why_here",
+      "pass": true,
+      "detail": "Why hereClosest match to what you described: “A residents' parking permit so you can park your car on the street near your home”.“Permit charges” is the part of the page about costs and fees."
+    },
+    {
+      "id": "B4_situation_note",
+      "pass": true,
+      "detail": "SOMETHING OF YOURS\n\nYou have a saved residents' parking permit application (ref CS-RP-20261008-0427). Continue from step 3 of 4, Permit?\n\nContinue application"
+    },
+    {
+      "id": "B5_coach_replay",
+      "pass": true,
+      "detail": {
+        "c1": {
+          "text": "On the homepage, choose “Transport & Vehicles”.",
+          "target": "#domain/transport-vehicles",
+          "focused": "#domain/transport-vehicles"
+        },
+        "c2": "Choose “Parking & Road Access”.",
+        "c3": {
+          "text": "That’s the route. Next time, follow the same menus: Home › Transport & Vehicles › Parking & Road Access › Residential Parking › Permit charges.",
+          "hash": "#service/residential-parking/section/2"
+        }
+      }
+    },
+    {
+      "id": "B6_escape_closes_coach",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "id": "C1_resume_answer",
+      "pass": true,
+      "detail": {
+        "interp": "It sounds like you want to pick up the residents' parking permit application you saved.",
+        "why": "Why hereYou asked to carry on where you left off, and this is the application you saved.“Continue where you left off” is the part of the page about continuing an application.",
+        "situ": 0,
+        "resumeBtns": 1
+      }
+    },
+    {
+      "id": "D1_situation_non_resume",
+      "pass": true,
+      "detail": {
+        "decision": "navigate",
+        "dest": "residential-parking",
+        "section": "how-to-apply",
+        "situ": "SOMETHING OF YOURS\n\nYou have a saved residents' parking permit application (ref CS-RP-20261008-0427). Continue from step 3 of 4, Permit?\n\nContinue application",
+        "hashAfter": "#task/parking/2/resumed"
+      }
+    },
+    {
+      "id": "E1_clarification_question",
+      "pass": true,
+      "detail": {
+        "interp": "It sounds like you want to appeal, but there is more than one kind of appeal on this site.",
+        "q": "There are several ways to challenge, appeal or complain. Which one is about your situation?",
+        "n": 3,
+        "group": "group"
+      }
+    },
+    {
+      "id": "F1_rejection",
+      "pass": true,
+      "detail": {
+        "eg": 2,
+        "hash": "#home"
+      }
+    },
+    {
+      "id": "G1_stop_before_moving",
+      "pass": true,
+      "detail": {
+        "nav": "cancelled",
+        "hash": "#home",
+        "walking": false
+      }
+    },
+    {
+      "id": "H1_compare_mode_3_queries",
+      "pass": true,
+      "detail": [
+        {
+          "k": "passport",
+          "total": "15 results for “I need a new passport” · showing 6",
+          "results": [
+            "Collection Services",
+            "Support Reviews",
+            "Local Plans",
+            "Trading Registration",
+            "Change of Address",
+            "Business Premises"
+          ],
+          "marks": 7,
+          "interp": "It sounds like you need a replacement identity document.",
+          "answer": "Document Replacement",
+          "routeDone": 4,
+          "routeLen": 4
+        },
+        {
+          "k": "parking",
+          "total": "65 results for “I've just moved into a new house and need to sort out parking. I want to know what I'll have to pay.” · showing 6",
+          "results": [
+            "School Place",
+            "Parking Charges",
+            "Collection Services",
+            "Change of Address",
+            "Residential Parking Application",
+            "Recycling Guidance"
+          ],
+          "marks": 11,
+          "interp": "It sounds like you've moved house and want to know what a residents' parking permit costs.",
+          "answer": "Residential Parking · Permit charges",
+          "routeDone": 5,
+          "routeLen": 5
+        },
+        {
+          "k": "situ-button",
+          "ok": true
+        },
+        {
+          "k": "damp",
+          "total": "5 results for “my landlord won’t fix the damp in my flat”",
+          "results": [
+            "Housing Repairs",
+            "Tenancy Support",
+            "Environmental Appeals",
+            "Housing Costs",
+            "Household Charge Payment"
+          ],
+          "marks": 6,
+          "interp": "It sounds like you rent your home and need help with repairs to your home.",
+          "answer": "Housing Repairs · What your landlord must fix",
+          "routeDone": 5,
+          "routeLen": 5
+        }
+      ]
+    },
+    {
+      "id": "H2_compare_take_me_there",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "id": "I1_reduced_motion",
+      "pass": true,
+      "detail": {
+        "trace": "none",
+        "app": "none",
+        "html": "auto"
+      }
+    },
+    {
+      "id": "J1_debug_mode",
+      "pass": true,
+      "detail": {}
+    },
+    {
+      "id": "K1_mobile",
+      "pass": true,
+      "detail": {
+        "closed": true,
+        "scrollWidth": 390
+      }
+    },
+    {
+      "id": "L1_search_page_bm25",
+      "pass": true,
+      "detail": {
+        "n": 10,
+        "first": "Visitor Parking"
+      }
+    }
+  ],
+  "passed": 21,
+  "total": 21,
+  "axe": {
+    "states": 9,
+    "impactNodeTotals": {},
+    "results": [
+      {
+        "state": "panel: answer + why + situation (arrived)",
+        "viewport": "desktop",
+        "violations": []
+      },
+      {
+        "state": "coach step 1 on homepage",
+        "viewport": "desktop",
+        "violations": []
+      },
+      {
+        "state": "panel: clarification question",
+        "viewport": "desktop",
+        "violations": []
+      },
+      {
+        "state": "panel: rejection",
+        "viewport": "desktop",
+        "violations": []
+      },
+      {
+        "state": "compare view (parking)",
+        "viewport": "desktop",
+        "violations": []
+      },
+      {
+        "state": "debug panel with answer",
+        "viewport": "desktop",
+        "violations": []
+      },
+      {
+        "state": "mobile answer sheet",
+        "viewport": "mobile-390",
+        "violations": []
+      },
+      {
+        "state": "mobile compare view",
+        "viewport": "mobile-390",
+        "violations": []
+      },
+      {
+        "state": "search page (BM25)",
+        "viewport": "desktop",
+        "violations": []
+      }
+    ]
+  },
+  "consoleErrors": [],
+  "externalRequests": []
+}

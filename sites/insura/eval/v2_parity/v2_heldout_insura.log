@@ -1,0 +1,104 @@
+{
+ "n": 60,
+ "nNavigate": 50,
+ "nClarify": 5,
+ "nReject": 5,
+ "a": {
+  "page": "34.0% [22-48] (17/50)",
+  "hit3": "54.0% [40-67] (27/50)",
+  "hit5": "58.0% [44-71] (29/50)",
+  "section": "30.0% [11-60] (3/10)"
+ },
+ "a2": {
+  "page": "50.0% [37-63] (25/50)",
+  "hit3": "68.0% [54-79] (34/50)",
+  "hit5": "72.0% [58-83] (36/50)",
+  "section": "30.0% [11-60] (3/10)"
+ },
+ "b": {
+  "page": "60.0% [46-72] (30/50)",
+  "hit3": "82.0% [69-90] (41/50)",
+  "hit5": "90.0% [79-96] (45/50)"
+ },
+ "c": {
+  "pageAccuracyNavItems": "48.0% [35-61] (24/50)",
+  "section": "30.0% [11-60] (3/10)",
+  "wrongDestinationAllItems": "23.3% [14-35] (14/60)",
+  "wrongDestinationNavItems": "24.0% [14-37] (12/50)",
+  "clarificationRateAll": "31.7% [21-44] (19/60)",
+  "clarifiedOnNavItems": "28.0% [17-42] (14/50)",
+  "clarificationsOfferingGold": "57.9% [36-77] (11/19)",
+  "within1stepNavItems": "60.0% [46-72] (30/50)",
+  "rejectionAccuracy": "60.0% [23-88] (3/5)",
+  "falseRejectOnNavItems": "0.0% [0-7] (0/50)",
+  "clarifyItemsClarified": "100.0% [57-100] (5/5)",
+  "decisionCorrectAll": "53.3% [41-65] (32/60)"
+ },
+ "lenientTwinPages": {
+  "note": "twin cover/claim pages also accepted (item field twinDestinationIds); strict numbers above are the headline",
+  "a": "34.0% [22-48] (17/50)",
+  "a2": "50.0% [37-63] (25/50)",
+  "b": "62.0% [48-74] (31/50)",
+  "goalpostCorrectNav": "50.0% [37-63] (25/50)",
+  "goalpostWrongNav": "22.0% [13-35] (11/50)"
+ },
+ "mcnemar": {
+  "c_vs_a": {
+   "onlyA": 11,
+   "onlyB": 4,
+   "p": 0.11846923828125
+  },
+  "c_vs_a2": {
+   "onlyA": 6,
+   "onlyB": 7,
+   "p": 1
+  },
+  "c_vs_b": {
+   "onlyA": 1,
+   "onlyB": 7,
+   "p": 0.0703125
+  },
+  "b_vs_a2": {
+   "onlyA": 9,
+   "onlyB": 4,
+   "p": 0.266845703125
+  },
+  "a2_vs_a": {
+   "onlyA": 8,
+   "onlyB": 0,
+   "p": 0.0078125
+  }
+ },
+ "within1stepVsBaseline": {
+  "goalpostWithin1": "60.0%",
+  "baselineA_hit3": "54.0%",
+  "baselineA2_hit3": "68.0%",
+  "semantic_hit3": "82.0%"
+ },
+ "byLabelOverlap": {
+  "0": {
+   "n": 25,
+   "a": "20.0%",
+   "a2": "36.0%",
+   "b": "44.0%",
+   "goalpostCorrectNav": "36.0%",
+   "goalpostWrongNav": "24.0%"
+  },
+  "1": {
+   "n": 21,
+   "a": "42.9%",
+   "a2": "61.9%",
+   "b": "71.4%",
+   "goalpostCorrectNav": "57.1%",
+   "goalpostWrongNav": "23.8%"
+  },
+  "2+": {
+   "n": 4,
+   "a": "75.0%",
+   "a2": "75.0%",
+   "b": "100.0%",
+   "goalpostCorrectNav": "75.0%",
+   "goalpostWrongNav": "25.0%"
+  }
+ }
+}

@@ -1,0 +1,45 @@
+=AREA moving | Moving home | Moving your service, choosing your move date, checking a new address and closing an old one. | service
+=GROUP moveservice | Moving your service
+=GROUP movedates | Moving dates
+=GROUP addresscheck | New address checks
+=GROUP oldaddress | Cancelling at an old address
+#move-service | Move your service | moveservice | How to transfer your broadband, TV and mobile bundle to a new address. | moving house; transfer service; change address; relocation | I'm moving house in three weeks and want my internet to come with me ;; Taking my broadband to my new home
+- Tell us your new address :: Enter your new postcode in My Lumenet or call us; we show what is available at the new property.
+- What happens to your contract :: Your contract moves with you; you pay nothing to leave when moving within our coverage.
+- Timeline :: Give us at least ten working days' notice for a smooth transfer; full fibre installs can take longer.
+- Costs :: A move fee of £15 applies, or £50 if a new engineer visit is needed.
+#move-choose-date | Choose your move date | movedates | How to pick a day that your broadband is switched on at the new address. | move date; transfer date; connection date at new home | I need the internet working the day I move in ;; Picking a date for the switch to the new house
+- Choosing a date :: Pick the day you get the keys or a day or two after; dates are offered from ten working days away.
+- Same-day moves :: Standard moves switch your line on the chosen date by midnight.
+- Changing your date :: Change the date for free until two working days before.
+- If your move is delayed :: Tell us as soon as you know; we hold your order and rebook without a charge.
+#move-two-homes | Paying for two homes | movedates | How we bill when you overlap between your old and new address. | overlap; paying twice; moving costs | I am moving out gradually and need both homes to have internet ;; Whether I get charged for the old house after I leave
+- Overlap period :: We charge only one monthly fee while moving; the old service ends on your move date.
+- Keeping both :: To keep the old line, set up a second account; charges apply to each.
+- Final bill at the old address :: Your last bill is pro rata, with any equipment not returned charged at the replacement rate.
+- Payment :: Your Direct Debit stays in place unless you cancel it.
+#move-address-check | Check your new address | addresscheck | How to find out which speeds and services you can get at the address you are moving to. | new address availability; what can I get at the new house; postcode check for moving | Whether I can get fibre at my new place ;; Checking the internet speeds possible in the new flat
+- Use the checker :: Enter your new postcode and select the address to see speeds and services available.
+- Existing lines :: If the new home has an active line, we can usually switch it on without an engineer.
+- New builds :: New-build homes may need a new line installed; we confirm the lead time at the order stage.
+- Landlord permission :: Renters may need the landlord to agree to a new socket or ONT box.
+#move-no-service | No service at your new address | addresscheck | Your options if we cannot supply your new address. | not available at new home; cannot move my broadband; exit my contract moving | We checked and you cannot supply internet where I'm going ;; The new house is in an area you do not cover
+- If we cannot serve the address :: You can leave your contract without early termination charges because we cannot move your service.
+- Notice :: Give us 30 days' notice of the move date and your forwarding address.
+- Alternatives :: We can tell you if fixed wireless or 4G home broadband is available in the area.
+- Register interest :: Register your new address and we will tell you when full fibre arrives.
+#move-cancel-old | Cancelling service at an old address | oldaddress | How to close an account at a property you are leaving without moving it. | close account moving out; end service at old address; leaving country | I am moving to a care home and no longer need broadband ;; Ending the service at the house I sold
+- Closing your account :: Give 30 days' notice in My Lumenet or by phone, with the date you want service to end.
+- Early termination :: If the minimum term has not ended, early termination charges may be due unless an exemption applies.
+- Special circumstances :: Bereavement, moving abroad for more than six months or entering care can reduce or remove charges.
+- Final bill :: You get a final bill within 30 days, with any refund of overpayments.
+#move-equipment | Equipment when you move | oldaddress | What to do with your Hub, TV box and cables when moving. | take my router with me; return equipment; leaving router for tenant | Do I take my router to the new house ;; Sending back the box I no longer need
+- Take it with you :: Keep the Hub and TV box; they work at your new address if you are staying with us.
+- Return it if you cancel :: Return all equipment within 30 days using the freepost bag we send you.
+- Equipment you leave :: Do not leave our equipment for the new occupant; unreturned items are charged at £60.
+- Reset before you go :: Factory reset the Hub so your Wi-Fi details are not left behind.
+#move-track | Track your move | movedates | How to see progress and status for a move you have booked. | move status; where is my move; pending move; installation date new home | Checking whether my move is booked and confirmed ;; Seeing the date my new connection will be switched on
+- Where to look :: Open Moving home in My Lumenet to see the status and next step.
+- Move stages :: Request received, new address checked, date confirmed, engineer booked and live.
+- Changes :: Reply to our messages with any changes to your date or access arrangements.
+- If something is wrong :: Contact the moves team; we aim to respond within one working day.

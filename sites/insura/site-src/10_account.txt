@@ -1,0 +1,47 @@
+=AREA account | My Insura | Your account (synthetic demonstration): policies, documents, open claims, saved quotes, payment methods and messages. | account
+=GROUP mypolicies | My policies
+=GROUP mydocs | Documents
+=GROUP myclaims | Open claims
+=GROUP myquotes | Saved quotes
+=GROUP mypay | Payment methods
+=GROUP mymsgs | Messages
+#acc-policies | My policies | mypolicies | The policies you hold with us, their cover, renewal dates and what to do next. | my policies; policy list; my cover | See which policies I currently have and when they end ;; Looking up the details of my insurance cover
+- Your policies :: A list of your active car, home, travel, life and pet policies and their renewal dates.
+- Policy summary :: The cover, excesses and extras on each policy in plain language.
+- Renew, change or cancel :: Links to change your policy, add extras or ask us to cancel.
+- Sharing access :: Add a trusted person to view your policies without giving them your password.
+#acc-documents | Documents | mydocs | Your policy schedules, certificates, no-claims proof and other documents. | download documents; insurance certificate; policy schedule; no claims letter | Downloading a copy of my certificate of insurance ;; Finding the document my lender asked for
+- Certificates and schedules :: Download your current certificate of motor insurance and schedule for any policy.
+- No-claims discount proof :: Download proof of no-claims discount for each car policy.
+- Letters and statements :: Past renewal letters, payment statements and claim correspondence.
+- Paperless preferences :: Choose to receive documents only in your account and by email.
+#acc-open-claims | Open claims | myclaims | All claims you have started and not yet settled, with status and next steps. | my claims; claims in progress; claim status | See all the claims I have open and what stage they are at ;; Where to continue a claim I did not finish
+- Claims in progress :: Each open claim with its reference, status and the date of the last update.
+- Documents to upload :: Photos, invoices and forms we still need to progress your claim.
+- Messages from your handler :: Read and reply to your claims handler securely.
+- Start a new claim :: Choose the policy and type of incident to start a fresh claim.
+#acc-saved-claim-water | Water damage claim | myclaims | Your saved, unsubmitted water damage claim, ref CLM-HM-20261012-0388 (synthetic test state). | continue my water damage claim; saved home claim | Pick up the water damage claim I started and did not finish ;; Send the photos for my claim at the step I reached
+- Claim summary :: Reference CLM-HM-20261012-0388, home policy, escape of water, reported 12 October 2026.
+- Progress so far :: Step 2 of 5: Upload photos. Report is complete; photos and receipts are still needed.
+- Continue where you left off :: Upload your photographs and continue to the next step.
+- Next steps :: After photos, an assessor visit is arranged and a settlement figure agreed.
+#acc-saved-quote-car | Saved car renewal quote | myquotes | Your saved car renewal quote, step 3 of 4 (synthetic test state). | continue car quote; saved renewal quote | Finish the renewal quote for my car that I stopped part-way ;; Come back to my unfinished price check
+- Quote summary :: Comprehensive cover for one car, renewal date 3 December 2026.
+- Progress so far :: Step 3 of 4: Add-ons. Your details and drivers are complete.
+- Continue where you left off :: Choose add-ons and move on to review and payment.
+- Quote validity :: Your price is held for 30 days from the day you saved it.
+#acc-saved-quotes | Saved quotes | myquotes | Quotes you have saved but not bought. | my quotes; retrieve a quote; saved prices | Getting back to a price I looked at last week ;; Retrieving a quote with my reference number
+- Your saved quotes :: A list of quotes with the policy type, price and date to buy by.
+- Retrieve with a reference :: Enter your quote reference and date of birth to reopen a quote.
+- Price validity :: Quotes are held for 30 days, after which prices may change.
+- Delete a quote :: Remove old quotes to keep your account tidy.
+#acc-payment-methods | Payment methods | mypay | The cards and bank accounts used to pay for your policies. | change my card; update bank details; payment card | My card expires next month and needs updating ;; Choosing which bank account my premiums come from
+- Cards on file :: View, add and remove payment cards, with the last four digits shown.
+- Bank accounts :: The account used for Direct Debit instructions for monthly payments.
+- Change payment date :: Pick the day of the month your instalments are taken.
+- Payment history :: See each payment, the amount and the date it was collected.
+#acc-messages | Messages | mymsgs | Secure messages between you and Insura, including claims updates. | secure message; inbox; contact us online | Sending a question to the claims team without phoning ;; Reading the reply to my earlier message
+- Inbox :: Messages from us about your policies, renewals and claims.
+- Send a message :: Start a secure message; choose the topic and attach files up to 10MB.
+- Reply times :: We aim to reply within two working days, and one working day for claims.
+- Notifications :: Choose email or text alerts when you have a new message.

@@ -1,0 +1,55 @@
+=AREA changes | Changes and cancellations | Change your details, car or home; cancel or sell; and the cooling-off period. | service
+=GROUP details | Change your details
+=GROUP changeitem | Change your car or home
+=GROUP cancelsell | Cancel or sell
+=GROUP cooling | Cooling-off
+#chg-address | Change your address | details | How to tell us you have moved and what happens to your cover and price. | moved house; new address; update address | I moved last month and need to update my insurance ;; Telling you my new home address so my policies are right
+- How to update :: Use Change my details in My Insura, or call us; policies at the old address may need changing or cancelling.
+- Effect on price :: Your premium is recalculated for the new area, property or parking arrangements, and may go up or down.
+- Insuring both properties :: If you own both homes during the move, tell us so that cover can overlap for a short period.
+- Moving abroad :: Tell us before you leave the UK; most of our policies only cover UK residents.
+#chg-personal-details | Change personal details | details | How to update your name, phone number, email, job or marital status. | change name; update job; change phone number | I got married and changed my surname ;; Updating my occupation after starting a new job
+- Name and contact details :: Update through My Insura; changes of name need a marriage certificate or deed poll.
+- Job or occupation :: A new occupation can affect price; tell us about any change in how you earn your living.
+- Marital status :: This is rarely used for rating but we need it to be correct.
+- Why accuracy matters :: Incorrect details can lead to a claim being reduced or declined.
+#chg-vehicle | Change your car | changeitem | Replacing, modifying or changing details of the vehicle insured. | new car; swap vehicle; add modifications | I bought a different car and want it covered instead ;; Telling you I have fitted alloy wheels to my car
+- Replacing your vehicle :: Tell us the registration and details of the new car; cover for the old one ends on the date of change.
+- Modifications :: Report any changes that affect value, performance or appearance, such as alloy wheels or engine tuning.
+- Temporary cover for a new car :: Policies include limited cover for a replacement vehicle for seven days while you update us.
+- Price effect :: Your premium is adjusted for the new vehicle and any difference in value is calculated pro rata.
+#chg-vehicle-sell | Selling or transferring your vehicle | cancelsell | What to do with your policy when you sell, scrap or give away your car. | sold my car; scrapped car; transfer car policy; gift car | I sold my car last week ;; The car has been scrapped and I no longer need cover
+- Tell us when it is sold :: Contact us on the day you sell or scrap the car to end or move your cover; do not just stop paying.
+- Transferring cover :: We can transfer the policy to a replacement vehicle, and your no-claims discount stays with you.
+- Refund :: A pro rata refund is paid for any unused cover, less admin fee, if there are no claims in the year.
+- Statutory off-road notification :: If you keep a car off the road, tell the DVLA, and ask us about cover for storage.
+#chg-cancel-policy | Cancel your policy | cancelsell | How to cancel any policy, what you will get back and the fees that may apply. | cancel insurance; end my policy; stop my cover | I want to stop paying for my insurance ;; Ending my home policy halfway through the year
+- How to cancel :: Cancel in My Insura or by phone; we need the date you want cover to end and a reason.
+- What you will receive :: A pro rata refund, less any administrative fee and any claim already paid.
+- Cancelling a policy with a loan or finance :: If a lender has an interest in your policy, they may need to agree; you should tell them first.
+- Cover you need by law :: A car must be insured or declared off the road, so arrange another policy before ending the last.
+#chg-cooling-off | Cooling-off period | cooling | Your right to cancel within 14 days of buying or renewing and get a refund. | 14 day cancellation;change of mind;cancel new policy;change my mind after buying;get my money back after I bought | I bought it yesterday and have changed my mind ;; Getting my money back for a policy I do not want
+- Your 14 days :: You have 14 calendar days from the day you receive your documents, or the start date if later, to cancel.
+- Refund during cooling-off :: A refund of the premium for the unused period, less a charge for any time you were covered.
+- How to cancel :: Contact us by phone, in My Insura or in writing; keep a note of when you cancelled.
+- Claims in the cooling-off period :: If you make a claim, you may not get a full refund and the rest of the premium may be due.
+#chg-add-driver | Add or change cover levels | changeitem | How to add extras or switch cover level midway through a policy. | upgrade cover; add breakdown cover; change excess | I want to add breakdown cover to my car policy ;; Changing from third party to comprehensive in the middle of the year
+- Adding extras :: Add breakdown, courtesy car or legal expenses in My Insura; cover starts from the date you choose.
+- Changing cover level :: Moving from third party to comprehensive may require a new quote and an administration fee.
+- Changing excess :: A new voluntary excess will change your premium for the rest of the period.
+- Removing cover :: Remove an extra and receive a pro rata refund, subject to the conditions of the add-on.
+#chg-property | Change your home | changeitem | Telling us about renovations, extensions, new occupants or a change in how the property is used. | extension; loft conversion; lodger; working from home | I am building an extension at the back of the house ;; Having someone move in and rent a room
+- Building work :: Tell us before you start major works; some policies require notification of extensions or conversions.
+- Lodgers and sub-letting :: Taking in lodgers or letting through short-term rental platforms needs to be declared.
+- Working from home :: Using part of the home for business can affect contents cover and liability.
+- Unoccupied property :: A home left empty for more than 30 days may need to be declared and conditions may apply.
+#chg-ownership | Transfer or change ownership | cancelsell | Changing the policyholder after a sale, divorce or inheritance. | change policyholder; transfer of ownership; divorce policy | The house is being transferred to me after my divorce ;; I inherited a property and need it insured in my name
+- Changing the policyholder :: We can transfer a policy to another person with their details and agreement; the new policyholder is rated afresh.
+- Selling a property :: Cancel buildings and contents on completion; we cannot cover a property you no longer own.
+- Probate and inheritance :: Cover continues for a limited time after death while an estate is settled; tell us as soon as you can.
+- Documents :: We may ask for the sale contract, grant of probate or decree absolute.
+#chg-mid-term-adjust | Mid-term adjustments and fees | details | How we work out the cost or refund when you change your policy part-way through. | adjustment; mid-term change; additional premium | Why my price changed when I changed my car ;; How much I will have to pay when adding a driver
+- How adjustments work :: The premium is recalculated for the remaining period and any additional or returned premium is shown before you confirm.
+- Admin fee :: A fee applies to each mid-term change, shown in your documents.
+- Confirmation of changes :: You will receive an updated schedule within 24 hours of the change.
+- Reversing a change :: Contact us within 14 days if you change your mind, though a fee may apply.

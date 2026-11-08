@@ -1,0 +1,104 @@
+{
+ "n": 47,
+ "nNavigate": 41,
+ "nClarify": 3,
+ "nReject": 3,
+ "a": {
+  "page": "41.5% [28-57] (17/41)",
+  "hit3": "56.1% [41-70] (23/41)",
+  "hit5": "68.3% [53-80] (28/41)",
+  "section": "n/a"
+ },
+ "a2": {
+  "page": "82.9% [69-91] (34/41)",
+  "hit3": "92.7% [81-97] (38/41)",
+  "hit5": "97.6% [87-100] (40/41)",
+  "section": "n/a"
+ },
+ "b": {
+  "page": "75.6% [61-86] (31/41)",
+  "hit3": "90.2% [77-96] (37/41)",
+  "hit5": "95.1% [84-99] (39/41)"
+ },
+ "c": {
+  "pageAccuracyNavItems": "70.7% [56-82] (29/41)",
+  "section": "n/a",
+  "wrongDestinationAllItems": "17.0% [9-30] (8/47)",
+  "wrongDestinationNavItems": "19.5% [10-34] (8/41)",
+  "clarificationRateAll": "14.9% [7-28] (7/47)",
+  "clarifiedOnNavItems": "9.8% [4-23] (4/41)",
+  "clarificationsOfferingGold": "85.7% [49-97] (6/7)",
+  "within1stepNavItems": "78.0% [63-88] (32/41)",
+  "rejectionAccuracy": "100.0% [44-100] (3/3)",
+  "falseRejectOnNavItems": "0.0% [0-9] (0/41)",
+  "clarifyItemsClarified": "100.0% [44-100] (3/3)",
+  "decisionCorrectAll": "74.5% [60-85] (35/47)"
+ },
+ "lenientTwinPages": {
+  "note": "twin cover/claim pages also accepted (item field twinDestinationIds); strict numbers above are the headline",
+  "a": "41.5% [28-57] (17/41)",
+  "a2": "82.9% [69-91] (34/41)",
+  "b": "75.6% [61-86] (31/41)",
+  "goalpostCorrectNav": "70.7% [56-82] (29/41)",
+  "goalpostWrongNav": "19.5% [10-34] (8/41)"
+ },
+ "mcnemar": {
+  "c_vs_a": {
+   "onlyA": 16,
+   "onlyB": 4,
+   "p": 0.01181793212890625
+  },
+  "c_vs_a2": {
+   "onlyA": 5,
+   "onlyB": 10,
+   "p": 0.3017578125
+  },
+  "c_vs_b": {
+   "onlyA": 1,
+   "onlyB": 3,
+   "p": 0.625
+  },
+  "b_vs_a2": {
+   "onlyA": 5,
+   "onlyB": 8,
+   "p": 0.5810546875
+  },
+  "a2_vs_a": {
+   "onlyA": 17,
+   "onlyB": 0,
+   "p": 0.0000152587890625
+  }
+ },
+ "within1stepVsBaseline": {
+  "goalpostWithin1": "78.0%",
+  "baselineA_hit3": "56.1%",
+  "baselineA2_hit3": "92.7%",
+  "semantic_hit3": "90.2%"
+ },
+ "byLabelOverlap": {
+  "0": {
+   "n": 23,
+   "a": "21.7%",
+   "a2": "73.9%",
+   "b": "73.9%",
+   "goalpostCorrectNav": "69.6%",
+   "goalpostWrongNav": "21.7%"
+  },
+  "1": {
+   "n": 11,
+   "a": "45.5%",
+   "a2": "90.9%",
+   "b": "72.7%",
+   "goalpostCorrectNav": "72.7%",
+   "goalpostWrongNav": "9.1%"
+  },
+  "2+": {
+   "n": 7,
+   "a": "100.0%",
+   "a2": "100.0%",
+   "b": "85.7%",
+   "goalpostCorrectNav": "71.4%",
+   "goalpostWrongNav": "28.6%"
+  }
+ }
+}

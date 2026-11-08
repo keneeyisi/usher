@@ -1,0 +1,76 @@
+=AREA plans | Broadband plans and offers | Fibre plans, speeds explained, offers and deals, new customers and business broadband. | service
+=GROUP fibre | Fibre plans
+=GROUP speeds | Speeds explained
+=GROUP offers | Offers and deals
+=GROUP newcust | New customers
+=GROUP business | Business broadband
+#plan-fttc | Fibre to the cabinet (FTTC) broadband | fibre | Part-fibre broadband where the last stretch from the street cabinet uses copper phone line. | FTTC; superfast broadband; part fibre | Broadband that comes over the old phone line from the green box in my street ;; A lower-cost fibre plan for homes without full fibre
+- Speeds :: Download speeds up to 66Mbps and upload up to 18Mbps, depending on how far your home is from the cabinet.
+- What's included :: Unlimited data, a Lumenet Hub router, and a landline-ready phone socket without a line rental charge.
+- Availability :: Available to most UK homes with a working phone line; enter your postcode in the checker to confirm.
+- Costs :: Monthly price is fixed for the minimum term; a one-off activation fee applies unless you buy online.
+#plan-ftth | Full fibre (FTTP) broadband | fibre | Fibre all the way into your home for faster, more reliable speeds. | FTTP; full fibre; fibre to the premises; ONT | Broadband with a fibre cable straight to my front wall ;; The most reliable internet connection for working from home
+- Speeds :: Plans from 150Mbps up to 900Mbps download, with upload speeds matched to the plan.
+- Equipment :: An engineer fits an ONT box on your wall and connects it to your Lumenet Hub 2 router.
+- Installation :: Installation takes up to three hours and may need a drill hole in an outside wall.
+- Costs :: Monthly price depends on speed; a free installation applies to online orders on 24-month contracts.
+#plan-gigabit | Gigabit and ultrafast plans | fibre | Our fastest plans for large households and heavy users, up to 1Gbps. | 1Gbps; gigabit broadband; ultrafast | The fastest internet for a big house full of gadgets ;; A top speed plan for streaming and gaming on lots of devices
+- Speeds :: Up to 1,000Mbps download and 1,000Mbps upload, with the typical evening speed shown on the plan page.
+- Who it suits :: Homes with many devices, 4K streaming, large downloads and people who work with big files.
+- Equipment needed :: A Lumenet Hub 3 with 2.5Gbps ports and a Cat6 cable for the best speeds on wired devices.
+- Costs :: Premium price per month; first three months at a discount for new customers.
+#plan-choose | Choosing the right plan | fibre | A simple guide to matching a plan to the number of people and devices in your home. | which broadband plan; what speed do I need; plan advice | I don't know what speed I need for my family ;; Working out which package is right for how we use the internet
+- How many people use it :: One or two people can use 50Mbps; a household of four should look at 150Mbps or more.
+- What you do online :: Streaming in HD needs about 5Mbps per stream; video calls and gaming add to the load.
+- Comparing plans :: View all plans side by side by speed, price, minimum term and included extras.
+- Changing plan later :: You can upgrade at any time; downgrading before the end of your term may attract a fee.
+#speed-typical | Typical speeds and the evening range | speeds | What speeds you can expect at different times of day and how we measure them. | peak time speed; advertised speed; average speed | The advertised speed never matches what I actually get in the evening ;; Why my speed drops when everyone is online
+- Typical evening speed :: The speed delivered to at least half of customers between 8pm and 10pm is shown for every plan.
+- Why speeds vary :: Distance from the cabinet, wiring in your home, Wi-Fi interference and the number of devices all matter.
+- Measuring your speed :: Use the Lumenet speed test on a wired device with no other use for the most accurate result.
+- Range of speeds :: Your address-specific range appears in your order confirmation.
+#speed-guarantee | Minimum speed guarantee | speeds | The lowest speed we guarantee at your address and what happens if you are below it. | guaranteed speed; speed promise; broadband speed code | I am getting much less than the speed I was promised ;; My connection is under what the guarantee says
+- Your guaranteed minimum :: Your guaranteed minimum download speed is shown in your order confirmation and in My Lumenet.
+- If your speed is below the guarantee :: Run three wired speed tests and contact us; we investigate and fix the fault within 30 days.
+- If we cannot fix it :: You can leave without paying early termination charges within the first 90 days or after the fix window.
+- Exceptions :: The guarantee excludes Wi-Fi speeds and problems caused by your own equipment.
+#speed-mbps | What Mbps means | speeds | A plain explanation of megabits, download, upload and latency. | megabits per second; download vs upload; broadband jargon; ping | I don't understand what the numbers on the adverts mean ;; What download, upload and ping mean for everyday use
+- Download speed :: How quickly data comes to you, which affects streaming, browsing and downloading files.
+- Upload speed :: How fast data leaves your home, important for video calls, backups and posting videos.
+- Latency :: The delay in milliseconds before a request gets a reply; lower is better for gaming and calls.
+- Megabits and megabytes :: 8 megabits make a megabyte, so 100Mbps downloads about 12MB each second.
+#offer-current | Current deals and offers | offers | Our latest promotions on plans, mobile and TV, including cashback and free months. | broadband deals; promotions; discounts; free months | Is there a cheaper price if I sign up this month ;; The best offers currently available for new customers
+- Broadband deals :: Selected plans have a monthly discount for the first six or twelve months, shown at checkout.
+- Cashback and vouchers :: Reward cards are sent within 60 days of your service going live and are valid for 12 months.
+- Offer rules :: Offers may change without notice and cannot be combined unless stated.
+- How to claim :: Use the link on the offer page and enter the code at checkout before ordering.
+#offer-student-senior | Student and over-65 discounts | offers | Reduced prices for students and customers over 65. | student broadband; senior discount; pensioner deal | A cheaper broadband because I am a student ;; A lower-cost plan for pensioners
+- Student deal :: Reduced monthly price with a nine-month contract matched to the academic year, for full-time students.
+- Over-65 plan :: A lower monthly rate on selected plans for customers aged 65 or over, with priority support.
+- Proof you need :: A student ID or university letter, or proof of age, which you can upload in My Lumenet.
+- Social tariff :: A discounted plan is available if you receive Universal Credit or another qualifying benefit.
+#offer-loyalty | Loyalty and upgrade offers | offers | Rewards for existing customers who stay or upgrade. | loyalty offer; upgrade offer; retention deal | I have been with you for years and should get a better price ;; An offer when my contract is nearly over
+- Loyalty price :: Existing customers can receive a rolling discount that applies if you renew early.
+- Upgrade offers :: Move to a faster plan or full fibre and receive a free router upgrade.
+- When to ask :: Contact us 30 to 60 days before your contract ends to see what is available.
+- Price protection :: Some loyalty offers include a fixed price for the next 24 months.
+#new-availability | Check availability at your address | newcust | How to find out which services you can order at your address. | postcode checker; is fibre available; service availability | Whether I can get fibre where I live ;; Entering my postcode to see what plans are possible
+- Using the checker :: Enter your postcode and select your address; we show every plan you can order and the expected speed range.
+- If fibre is not available :: We offer the best available alternative and can register your interest for full fibre in your area.
+- Planned upgrades :: The build programme page lists streets and dates where full fibre will arrive.
+- Shared buildings :: Flats and managed buildings may need landlord permission before we can install.
+#new-install | Installation and activation day | newcust | What happens before, during and after we connect your service. | engineer install; connection day; setting up broadband | Waiting for my new internet to be connected ;; What to expect when the engineer comes to set up my line
+- Before the day :: We confirm a four-hour appointment window and tell you if an engineer visit is needed.
+- During the visit :: The engineer tests the line, fits any socket or box and helps you connect your router.
+- Self-install :: If you only need a plug-in, we send a router with a start date and instructions.
+- If you are not home :: Someone over 18 must be present; rearrange for free at least 24 hours before.
+#new-switching | Switching to Lumenet | newcust | How to move your broadband from another provider without losing service. | switch broadband; leaving another provider; Openreach migration | I want to move my broadband over to you ;; Changing provider without being without internet
+- What to do :: Order your new plan and give your current provider's name; we arrange the switch for you.
+- Notice and charges :: Check your current contract for early leaving charges before the switch date.
+- Switching date :: Your service moves on the activation date; keep the old equipment until it works.
+- If something goes wrong :: Contact us within seven days and we will resolve the problem or return you to your old provider.
+#biz-broadband | Business broadband | business | Plans, static IP and support for small businesses and the self-employed. | small business internet; static IP; business plan | Broadband for my small shop with extra support ;; Internet for a home office that needs a fixed IP address
+- Plans :: Business plans have speed boosts, a four-hour fix target and optional 4G backup.
+- Static IP and extras :: Optional static IP address, hosted email and a business phone line.
+- Business contract terms :: Minimum 24 months; VAT is added to prices on business plans.
+- Moving or changing a business :: Contact business support to move premises or change company details.
