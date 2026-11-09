@@ -1,6 +1,0 @@
-{"eq-dead-spots":{"descs":["Wifi is weak in some rooms or on another floor"]},
-"pay-help":{"aliases":["struggling to pay","cannot afford my bill"]},
-"dd-failed":{"aliases":["my payment bounced","payment rejected by the bank"]},
-"eq-return":{"aliases":["send back my old router","post the hub back to you"]},
-"sw-cancel":{"aliases":["cancel my broadband","stop my broadband service","close my account and leave"]},
-"fault-ticket":{"descs":["Where is my engineer and when will they arrive","Engineer visit status for the problem I reported","My connection is still not fixed and I have a fault open"]}}

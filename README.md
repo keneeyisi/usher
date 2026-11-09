@@ -92,10 +92,12 @@ The public project site is intended to be served from:
 
 The repository must have GitHub Pages configured for the project's deployment setup. After a change is committed and pushed to the `main` branch, check the repository's **Actions** tab for the deployment result and confirm that the published site loads correctly.
 
-The uploaded project archive used for this README review did not contain a `.github/workflows/` file. For that reason, this README does not name a specific workflow file or claim that a particular GitHub Actions configuration is present. Check the live repository's workflow configuration before changing deployment settings.
-
 ## Research context
 
 Usher is being developed as part of research on natural-language navigation for complex websites. The demonstrators provide practical environments for presenting and exploring the concept.
 
 For the research framing, study questions, method and findings, refer to the associated research paper or submission. This repository documents the demonstrator and its implementation files; it does not, on its own, establish evaluation results or research findings.
+
+## Copyright
+
+© 2026 Kene Eyisi. All rights reserved. This is a research demonstration. Permission is not granted to copy, modify or redistribute the contents.
