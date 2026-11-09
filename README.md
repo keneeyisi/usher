@@ -100,4 +100,4 @@ For the research framing, study questions, method and findings, refer to the ass
 
 ## Copyright
 
-© 2026 Kene Eyisi. All rights reserved. This is a research demonstration. Permission is not granted to copy, modify or redistribute the contents.
+© 2026 Kenechukwu Eyisi. All rights reserved. This is a research demonstration. Permission is not granted to copy, modify or redistribute the contents.
